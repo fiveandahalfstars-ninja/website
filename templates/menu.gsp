@@ -13,9 +13,16 @@
           <ul class="nav navbar-nav">
             <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>index.html">Home</a></li>
 <!--li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>ralfdmueller.html">About</a></li -->
-            <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>johannesdienst.html">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Über <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>johannesdienst.html">Johannes Dienst</a></li>
+              </ul>
+            </li>
+            <li><a href="">About</a></li>
 <!-- li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>talks.html">Talks</a></li -->
             <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>${config.feed_file}">RSS</a></li>
+            <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>impressum.html"">Impressum</a></li>
             <!-- li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">

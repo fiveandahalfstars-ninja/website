@@ -1,0 +1,37 @@
+title=Johannes Dienst
+date=2020-07-10
+type=page
+status=published
+~~~~~~
+
+Ich bin Johannes und ich bin DevOps-Engineer bei der DB Systel GmbH in Frankfurt am Main.
+
+Folgt mir doch auf Twitter link:https://twitter.com/johannesdienst[@JohannesDienst]
+
+Seit 5 Jahren bin ich auch als Sprecher aktiv. Bei Interesse schreibt mich einfach an. Meine Lieblingsthemen sind:
+
+* Mutationstesten
+* Softwarequalität
+* Softwarearchitektur (arc42, Architecture Decision Records)
+
+Hier schreibe ich über alle Dinge, die ich in der Softwareentwicklung interessant finde.
+
+Viel Spaß!
+
+
+== Veröffentlichungen (nur online verfügbare)
+* link:https://www.heise.de/developer/artikel/Mutationstests-mit-PIT-in-Java-3888683.html[Mutationstests mit PIT in Java]
+* link:https://www.sigs-datacom.de/uploads/tx_dmjournals/dienst_JS_04_15.pdf[Getyptes JavaScript – JavaSpektrum]
+* link:https://jaxenter.de/author/johannesdienst[JAXEnter Profil:]
+
+* Multilingual: Scala-Code in Java-Applikationen
+* Scala Tutorial
+
+== Kurzvita
+Johannes Dienst ist Softwarecrafter aus Leidenschaft bei der DB Systel GmbH. Sein Tätigkeitsschwerpunkt liegt im Bereich Content Management, DevOps und Softwarequalität.
+
+== Langversion
+Johannes Dienst ist Diplom Informatiker und Softwarecrafter mit 8 Jahren Berufserfahrung in der Entwicklung von komplexen IT-Systemen im Umfeld von Java, JavaScript und allen möglichen anderen Sprachen. Seine sonstigen Interessen sind breit gestreut mit Fokus auf Softwarequalität und Softwarearchitektur. Sein Wissen teilt und erweitert er gerne als Sprecher auf Konferenzen und mit Fachartikeln. In seiner Freizeit gehört sein Herz der Familie für die er sich mit Kraftsport fit hält.
+
+== Twitter
+Softwarecrafter, Clean Coder, Trainer, Speaker, Writer, Weightlifter
