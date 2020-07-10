@@ -1,0 +1,25 @@
+title=Talks Johannes Dienst
+date=2020-07-10
+type=page
+status=published
+~~~~~~
+
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/rm2N17yEQ_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
+
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/qvM3lXpbSiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
+
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/jbdESdUjP5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
+
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/EXwZelgvAco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
+
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/Qz-0wQT3_wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
