@@ -1,10 +1,13 @@
 <%include "header.gsp"%>
 
-	<%include "menu.gsp"%>
+   <body onload="prettyPrint()">
+     <div id="wrap">
+	   <%include "menu.gsp"%>
+	   <div class="container">
 	
-	<div class="page-header">
-		<h1>Tag: ${tag}</h1>
-	</div>
+	     <div class="page-header">
+		   <h1>Tag: ${tag}</h1>
+	     </div>
 	
 	<!--<ul>-->
 		<%def last_month=null;%>
@@ -24,5 +27,7 @@
 		<% last_month = new java.text.SimpleDateFormat("MMMM yyyy", Locale.ENGLISH).format(post.date)%>
 		<%}%>
 	</ul>
-	
+	   </div>
+	   <div id="push"></div>
+    </div>
 <%include "footer.gsp"%>
