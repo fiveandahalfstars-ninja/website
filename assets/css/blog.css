@@ -12,3 +12,7 @@ a:hover, a:focus {
 a {
     color: #0355a3;
 }
+
+.navbar-default .navbar-nav>li>a {
+    color: #333;
+}
