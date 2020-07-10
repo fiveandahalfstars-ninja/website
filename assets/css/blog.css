@@ -3,3 +3,12 @@ body {
     line-height: 1.628571;
     color: #292929;
 }
+
+a:hover, a:focus {
+    color: #144666;
+    text-decoration: none;
+}
+
+a {
+    color: #0355a3;
+}
