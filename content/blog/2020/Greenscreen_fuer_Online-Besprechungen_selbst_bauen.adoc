@@ -1,0 +1,80 @@
+= Greenscreen für Online-Besprechungen selbst bauen
+03.07.2020
+:jbake-author: JohannesDienst
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: buchreview
+:jbake
+
+:idprefix:
+
+Wer sich mit dem Thema Video-Streaming beschäftigt kennt sie unweigerlich: Greenscreens. Aber auch in der Zeit der Online-Meetings
+und Zuhausearbeit kann mit ein klein wenig Aufwand ein Online-Meeting aufgepeppt werden.
+
+In diesem Beitrag zeige ich, wie ich es unter ungünstigen Bedingungen geschafft habe das folgende Ergebnis in Microsoft Teams zu erreichen.
+
+[caption id="attachment_1096" align="aligncenter" width="960"]<a href="http://johannesdienst.net/wp-content/uploads/2020/07/Virtual_cam_teams.png"><img src="http://johannesdienst.net/wp-content/uploads/2020/07/Virtual_cam_teams-1024x780.png" alt="Microsoft Teams Screenshot mit virtueller Kamera OBS Studio" width="960" height="731" class="size-large wp-image-1096" /></a> Endergebnis in Microsoft Teams mit virtueller Kamera aus OBS Studio[/caption]
+
+== Voraussetzungen
+Wie auf dem unteren Bild zu sehen, ist mein Platzangebot sehr gering. Da ich direkt unter dem Dach mein Arbeitszimmer habe,
+fällt die Möglichkeit weg, den Greenscreen weit von mir weg zu platzieren. Das hat die folgenden Nachteile:
+
+* Die Wahrscheinlichkeit des sogenannten Greenspills, also dem Zurückwerfen der grünen Farbe auf mich, ist sehr hoch. Ich werde also einen grünen Rand von wenigen Pixeln um mich herum haben.
+* Der Greenscreen kann bei entsprechender Höhe nicht breit genug werden
+
+[caption id="attachment_1093" align="aligncenter" width="960"]<a href="http://johannesdienst.net/wp-content/uploads/2020/07/Camera_under_roof.jpg"><img src="http://johannesdienst.net/wp-content/uploads/2020/07/Camera_under_roof-1024x683.jpg" alt="Bild von mir an meinem Schreibtisch unter dem Dach" width="960" height="640" class="size-large wp-image-1093" /></a> Nicht viel Platz unterm Dach[/caption]
+
+## Was wird gebraucht
+Für mich persönlich fällt in diesem Szenario ein gekaufter Greenscreen flach. Selbstmachen und hoffen war angesagt :)
+
+Dafür habe ich mich umgesehen und bin bei IKEA fündig geworden. Hier die Einkaufsliste (Keine Affiliate Links):
+
+* <a href="https://www.ikea.com/de/de/p/rigga-garderobenstaender-weiss-50231630/" rel="noopener noreferrer" target="_blank">Garderobenständer RIGGA</a>
+* <a href="https://www.ikea.com/de/de/p/oddhild-plaid-leuchtend-gruen-10465089/" rel="noopener noreferrer" target="_blank">Zweimal Decke Oddhild in leuchtend grün</a>
+* <a href="https://www.ikea.com/de/de/p/torkis-waescheklammern-blau-70458670/" rel="noopener noreferrer" target="_blank">Wäscheklammern (falls nicht vorhanden)</a>
+
+Gesamtkosten: ca. 21 €
+
+Zur Erklärung: Der Garderobenständer Rigga passte von der Breite perfekt in mein Dachgeschoss und ist zusätzlich höhenverstellbar.
+Die Breite ist jedoch ein Problem, auf das ich später noch näher eingehen werde. Bei der Decke war klar, dass sie sehr lichtdurchlässig ist.
+Deswegen bin ich auf Nummer sicher gegangen und habe zwei Exemplare bestellt. Das hat sich als gute Idee herausgestellt!
+
+== Zusammenbau
+Den Garderobenständer zusammenzuschrauben ist mit handwerklichen Geschick möglich. Die Deckenbefestigung an ihm ein klein wenig hakelig
+da beides sehr glatt ist. Es empfiehlt sich zuerst eine Decke zu befestigen und dann die zweite. Ich habe das pragmatisch gelöst - nicht
+unbedingt hübsch (siehe Bild)
+
+[caption id="attachment_1099" align="aligncenter" width="768"]<a href="http://johannesdienst.net/wp-content/uploads/2020/07/Befestigung_Decke_Waescheklammern-scaled.jpg"><img src="http://johannesdienst.net/wp-content/uploads/2020/07/Befestigung_Decke_Waescheklammern-768x1024.jpg" alt="Befestigung der Decken mit Wäscheklammern am Garderobenständer" width="768" height="1024" class="size-large wp-image-1099" /></a> Befestigung der Decken mit Wäscheklammern am Garderobenständer[/caption]
+
+== Das Setup
+Der Greenscreen ist jetzt schon bereit, um ihn hinter mir zu platzieren. Aufgrund der Gegebenheiten steht er so nah bei mir, dass er am Stuhl anliegt.
+
+[caption id="attachment_1098" align="aligncenter" width="960"]<a href="http://johannesdienst.net/wp-content/uploads/2020/07/Greenscreen_Setup_raw.png"><img src="http://johannesdienst.net/wp-content/uploads/2020/07/Greenscreen_Setup_raw-1024x711.png" alt="Greenscreensetup direkt hinter Stuhl" width="960" height="667" class="size-large wp-image-1098" /></a> Greenscreensetup direkt hinter Stuhl[/caption]
+
+== Verwendung in Videokonferenzsoftware (Mit virtueller Kamera aus OBS Studio)
+Viele Videokonferenzprogramme bieten die Möglichkeit, Hintergrundbilder einzublenden. Meistens wird der Sprecher anhand eines Algorithmus erkannt.
+Das ist dann je nach Bildhintergrund, den die Kamera aufnimmt, nicht perfekt. Arme verschwinden, Artefakte entstehen um den Kopf und um Gliedmaßen
+und Durchscheinen des Zimmers sind hier Standard.
+
+Am Beispiel von Microsoft Teams zeige ich das Ergebnis, wenn stattdessen ein Greenscreen verwendet wird und mit <a href="https://obsproject.com/de" rel="noopener noreferrer" target="_blank">OBS Studio</a> eine virtuelle Kamera in Teams eingebunden wird. Mit ihr, habe ich auch die Breite so zugeschnitten, dass keine Ränder zu sehen sind. (Teaser: Wie das eingerichtet wird, schreibe ich in einem weiteren Beitrag). 
+
+[caption id="attachment_1096" align="aligncenter" width="960"]<a href="http://johannesdienst.net/wp-content/uploads/2020/07/Virtual_cam_teams.png"><img src="http://johannesdienst.net/wp-content/uploads/2020/07/Virtual_cam_teams-1024x780.png" alt="Microsoft Teams Screenshot mit virtueller Kamera OBS Studio" width="960" height="731" class="size-large wp-image-1096" /></a> Endergebnis in Microsoft Teams mit virtueller Kamera aus OBS Studio[/caption]
+
+== Streulicht und Beleuchtung
+Für das oben erreichte Ergebnis wurden noch ein paar Vorkehrungen getroffen, um den Greenscreen gleichmäßiger auszuleuchten.
+Je gleichmäßiger er ausgeleuchtet ist, desto besser!
+
+* Alle Türen schließen
+* Alle Rolläden herunter
+* Vorhänge schließen
+* Optional: Softboxen (hier reichen billige; Meine haben 50 € gekostet)
+
+== Greenspill
+Leider lässt sich mit meinem Setup der Greenspill nicht vermeiden. Der Greenscreen ist einfach zu nahe an mir dran.
+
+[caption id="attachment_1097" align="aligncenter" width="791"]<a href="http://johannesdienst.net/wp-content/uploads/2020/07/Greenspill.png"><img src="http://johannesdienst.net/wp-content/uploads/2020/07/Greenspill.png" alt="An der Hand ist der Greenspill deutlich zu erkennen" width="791" height="570" class="size-full wp-image-1097" /></a> An der Hand ist der Greenspill deutlich zu erkennen[/caption]
+
+== Was geht noch?
+In einem weiteren Beitrag werde ich das Tool <a href="https://obsproject.com/de" rel="noopener noreferrer" target="_blank">OBS Studio</a> vorstellen und zeigen, dass der Greenscreen wunderbar für Livecoding, Konferenzen und Workshops eingesetzt werden kann.
+
+Bis bald! 

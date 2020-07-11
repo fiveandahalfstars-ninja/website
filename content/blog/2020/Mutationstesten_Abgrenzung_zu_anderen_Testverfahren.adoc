@@ -1,0 +1,49 @@
+= Mutationstesten: Abgrenzung zu anderen Testverfahren
+date
+:jbake-author: JohannesDienst
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: mutationstesten
+:jbake
+
+:idprefix:
+
+<a href="https://en.wikipedia.org/wiki/Mutation_testing" target="_blank" rel="nofollow">Mutationstesten</a> ist ein Verfahren, um Tests
+aussagekräftiger zu machen. Es ist quasi der Goldstandard unter den Testabdeckungsmetriken. Warum? Es prüft nicht nur, ob eine Zeile
+Code abgedeckt wurde, sondern auch, ob der/die dazugehörige(n) Test(s) tatsächlich Fehler in dieser Zeile finden können. Dazu werden
+kleine absichtlich kleine Fehler in den Code eingebaut (Mutationen), die von der Testsuite gefunden werden sollten. Wie das alles genau
+aussieht, werde ich demnächst beschreiben.
+
+Heute geht es mehr um die Platzierung von Mutationstesten im Vergleich zu anderen Testverfahren, wie zum Beispiel Unit-Tests.
+
+== Was Mutationstests nicht sind
+Mutationstesten testet **nicht** den eigenen Sourcecode, sondern die dazugehörige **Testsuite**. In meinen beiden Vorträgen über
+Mutationstesten habe ich das nicht genau genug herausgearbeitet. Das hat Gründe, auf die ich in den nächsten Abschnitten eingehen werde.
+
+== Die Tests testen?
+Um die Tests zu testen braucht es eine Grundvoraussetzung: <a href="https://de.wikipedia.org/wiki/Testabdeckung#Testabdeckung_in_der_Softwaretechnik" target="_blank" rel="nofollow">Testabdeckung bzw. Testüberdeckung</a>. Im Falle von Mutationstesten reicht hier die sehr einfache Metrik der <a href="https://stackoverflow.com/questions/8229236/differences-between-line-and-branch-coverage" target="_blank" rel="nofollow">Zeilenüberdeckung</a> aus, die besagt, dass die Tests dazu geführt haben, dass eine Zeile ausgeführt wurde. Erst wenn eine Zeile von mindestens einem Test ausgeführt wurde, wird sie für Mutationen in Betracht gezogen. Ansonsten würden die Mutationen mit Sicherheit nicht von der Testsuite entdeckt werden. Dementsprechend ist die Zeilenüberdeckung mit Mutationstesten quasi *verheiratet*, damit sie effektiv durchgeführt werden kann. Ansonsten würde man viele nicht auffindbare Mutationen erzeugen.
+
+Man kann Mutationstesten also als eine Art <a href="https://de.wikipedia.org/wiki/Regressionstest" target="_blank"  rel="nofollow">Regressionstest</a> beschreiben, das sicherstellt, dass eingebrachte Fehler in den Code von der Testsuite gefunden werden können. Es ersetzt also nicht den klassischen Unit-Test oder macht andere Testverfahren überflüssig. Viel eher ist es eine praktikable Hilfestellung, um die Qualität der Testsuite hochzuhalten.
+
+== False Positives
+Ich spreche in meinem Vortrag gerne von **False Positives**. Technisch ist dieser Begriff bestimmt nicht 100 % korrekt (<a href="http://www.statisticshowto.com/false-positive-definition-and-examples/" target="_blank" rel="nofollow">Siehe hier für eine sinnvolle Erklärung</a>). Aber er beschreibt für mich den Fall, dass mein Tool ein Problem meldet, wo eigentlich keines ist. Darunter fallen:
+
+  * Redundanter Code, der nichts zu Funktionalität beiträgt
+  * Mutationen die nicht von der Testsuite gefunden werden, aber die Funktionalität nicht einschränken
+
+Durch die Einführung von Mutationen fallen solche Codestellen auf (durch nicht getötete Mutationen). Bei genauerer Inspektion stellt
+sich dann aber heraus, dass man die entsprechenden Codezeilen entweder löschen oder eben ignorieren kann.
+
+== Was man nebenbei so findet...
+Sehr oft werden auch Mutationen nicht getötet, wenn sie auf von mir sogenannte *subtile Bugs* hinweisen. Der Aufruf von einer Methode
+ohne Rückgabewert (void) aber mit Seiteneffekt ist so ein Fall. Meine Testsuite muss in diesem Fall erheblichen Zusatzaufwand betreiben
+(zum Beispiel mit Mocks/zusätzlichen Datenbankzugriffen), um diesen Seiteneffekt sinnvoll zu testen. Das weist für mich auf einen möglichen Designfehler hin.
+
+Ein weiteres Beispiel dafür sind *if-Abfragen*, deren Rumpf einen Seiteneffekt erzeugt. Hier kann durch Unachtsamkeit leicht ein Bug
+eingebaut werden. Mit Mutationstesten findet man diese Stellen zielsicher und sie sollten dann nicht einfach mit einem zusätzlichen
+Test vor dem Unglück bewahrt werden. Besser ist es ein Refactoring zu machen. Entweder durch explizites Ausschreiben der Bedingung 
+oder zum Beispiel durch die Auslagerung in eine eigene Methode.
+
+== Fazit
+Mutationstesten härtet die eigene Testsuite auf effektive Weise. Nebenbei findet sich dabei auch noch die ein oder andere Stelle
+im getesteten Code, der ein Refactoring gut tun würde.

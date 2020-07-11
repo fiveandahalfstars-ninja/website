@@ -1,0 +1,58 @@
+= Das Ziel von Mutationstesten
+date
+:jbake-author: JohannesDienst
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: Mutationstesten
+:jbake
+
+:idprefix:
+
+Mit das Interessanteste an einem Vortrag sind die anschließenden Fragen. Beim letzten Mal hatte ich das Gefühl die Fragen zum
+d<a href="http://www.elektronikpraxis.vogel.de/themen/embeddedsoftwareengineering/testinstallation/articles/365764/" target="_blank" rel="nofollow">Mutationstesten</a> nicht zufriedenstellend beantwortet zu haben. Deswegen versuche ich das, in den nächsten Blogs nachzuholen.
+
+Die ersten beiden Fragen waren:
+
+  - Kann durch eine Mutation nicht etwas Gutes entstehen?
+  - Was passiert, wenn sich zwei Mutationen gegenseitig ausschalten?
+
+== Gutes durch Mutationen?
+Mutationstesten führt Änderungen in den Sourcecode ein, die syntaktisch korrekt sind. Diese Änderungen verändern jedoch die
+Semantik der Codebasis auf jeweils kleine Weise. Danach wird für jede einzelne Mutante überprüft, ob ein Test die Änderung bemerkt.
+Die Tests dienen praktisch als Spezifikation, wie sich die Codebasis verhalten soll. Eine Abweichung davon ist meiner Meinung
+nach immer eine Regression und damit als Fehler einzustufen.
+
+Im besten Fall kann eine Mutante also nur dazu führen, dass kein Test fehlschlägt. Ob das gut oder schlecht ist, lässt sich
+nur durch eine genaue Betrachtung herausfinden. Es gibt dabei zwei Möglichkeiten. Die Mutante ist tatsächlich gutmütig und
+führt nicht zu falschem Programmverhalten. Das tritt tatsächlich auf, was ich in der Livedemo meines Vortrages immer zeige.
+(<a href="https://github.com/JohannesDienst/BOBKonf2017/tree/master/pit_demo_workspace/mutation" target="_blank" rel="nofollow">Workspace dazu gibt es auf github</a>)
+
+Schlägt kein Test fehl, dann kann das auch heißen, dass meine Testsuite für diese Mutation blind ist. Das ist aus meiner Sicht
+der Normalfall und sollte deshalb behoben werden.
+
+Ansonsten schlägt ein Test fehl und der Sourcecode verhält sich an dieser Stelle nicht wie von den Tests gefordert.
+Das würde ich als definitiven Fehler einstufen.
+
+*Durch Mutationen kann nichts Gutes entstehen! Sie können nur gutmütig, also nicht Semantik verändernd sein!*
+
+== Gegenseitiges Ausschalten
+Können sich zwei Mutationen gegenseitig ausschalten? So wie zwei Fehler sich gegenseitig aufheben können?
+
+An dieser Stelle kommt ein *Nein*. Die Frage kam auf, da ich im Pecha Kucha Vortrag nicht genug Zeit und Präzision hatte, den
+genauen Ablauf eines Mutationstests zu verdeutlichen. Ich hole das hiermit nach:
+
+* Zuerst werden Mutanten aus dem Sourcecode erstellt
+* Jede Mutante enthält *eine einzige* Veränderung, der restliche Sourcecode wird nicht verändert
+* Jede einzelne Mutante enthält den gesamten Sourcecode (Es handelt sich also um eine Kopie mit der einen Änderung)
+* Alle Tests werden auf jeder einzelnen Mutante ausgeführt
+* Schlägt mindestens ein Test fehl bei einer Mutante, dann gilt sie als getötet
+
+Rein vom Ablauf her ist es also nicht möglich, dass sich Mutanten gegenseitig aufheben.
+
+== Fazit
+Mutationstesten so zu erklären, dass das Vorgehen verständlich ist, ist schwierig. Durch diesen Beitrag habe ich gezeigt,
+dass aus Mutationen im besten Fall nichts Schlechtes entstehen kann. Außerdem wurde erklärt, dass sich Mutanten, aufgrund
+des Ablaufs des Mutationstestens, nicht gegenseitig aufheben können.
+
+In den nächsten Beiträgen mache ich zuerst einen Ausflug in Überdeckungsmaße. Die Frage die ich abschließend klären will
+lautet: Führt eine hohe Abdeckung bei diesen Maßen bereits zu einer deutlich besseren Mutationsabdeckung.

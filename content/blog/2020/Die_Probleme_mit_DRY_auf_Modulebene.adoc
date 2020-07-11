@@ -1,0 +1,74 @@
+= Die Probleme mit DRY auf Modulebene
+date
+:jbake-author: JohannesDienst
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: buchreview
+:jbake
+
+:idprefix:
+
+Das <a href="https://de.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself" target="_blank" rel="nofollow">DRY – Don't Repeat Yourself – Prinzip</a> haben die meisten
+Entwickler*innen als wichtiges Prinzip verinnerlicht.
+
+Um das nüchtern festzustellen: Das Kopieren von Code an sich ist im ersten Moment schmerzlos und geht schnell.
+Entwickler*innen müssen sich keine Gedanken über eine sinnvolle Abstraktion oder den Ort des Codes machen, sondern kopieren ihn sich einfach an die benötigte Stelle.
+
+Problematisch ist das erst im Fehlerfall. Tritt ein Fehler in einem Codestück auf, das x-Mal dupliziert wurde, dann ist er in allen Duplikaten ebenfalls
+zu beheben. Meistens wird dann eines davon vergessen und schon fängt man sich den gleichen Fehler an einer anderen Stelle erneut ein. Das ist für alle
+Beteiligten frustrierend.
+
+== Die pragmatische Lösung: Ein gemeinsames Modul
+Als Lösung bietet sich ein gemeinsames Modul an: Nennen wir es der Einfachheit halber *base*. Dort kommt die sogenannte Basisfunktionalität hinein,
+die jede Applikation braucht. Problem gelöst, wir können effizient arbeiten.
+
+== An der Umsetzung hapert es
+Die Idee eines Basismoduls *base* klingt in der Theorie einleuchtend und für mich ist sie auch eine adäquate Lösung. Wäre da nicht das Problem der
+Umsetzung. Hier gibt es mehrere Punkte, die **base** zum Scheitern verurteilen.
+
+=== Was ist Basisfunktionalität
+Bei einer steigenden Anzahl von Basisfunktionalitäten wird es für den einzelnen Entwickler immer schwieriger zu entscheiden, welche Funktionaliät
+denn eigentlich in **base** untergebracht werden soll. Gepaart mit Zeitdruck wird *base* immer weiter aufgebläht. Zwangsläufig importiert damit
+jede davon abhängige Applikation Funktionalität die sie nicht braucht!
+
+Nehmen wir als Beispiel an in *base* befindet sich eine Utility-Klasse, die für String-Manipulationen zuständig ist. Als weitere Funktionalität
+gibt es ein ganzes Package, dass das Einlesen von CSV-Dateien ermöglicht und ein Package, dass verschiedene Formate exportieren kann.
+
+Braucht jede Applikation die Exportfunktionalität oder das Einlesen von CSV-Dateien? Sicherlich nicht! Aber wenn die Fähigkeiten zur
+String-Manipulation in *base* liegen und das Modul deswegen importiert, kriegt man das im Schlepptau mit. Hier besteht eine unnötige Kopplung.
+
+=== Abhängigkeit führt zu Nicht-Evolvierbarkeit
+Spinnen wir das Gedankenspiel noch etwas weiter und fügen noch einige Applikationen hinzu, am besten noch mit unterschiedlichen Java-Versionen.
+So bekommt man einen schönen Baum mit *base* als Wurzel.
+
+Benötigt man neue Funktionalität in *base*, da irgendwer meint sie ist eine Basisfunktionalität, dann muss sich **base** ändern. Idealerweise
+erledigt man das auf einem Feature Branch und macht anschließend einen Merge. In der Realität entfällt dieser Merge manchmal und der Branch
+entwickelt sich autonom weiter. Vielleicht sind auch schon neue Features aus einer höheren Sprachversion ausversehen verwendet worden. Das
+Ergebnis sind zwei ähnliche *base*-Varianten, die man nicht mehr Mergen kann.
+
+Ich höre gerade die Zweifler: Das kann doch nicht passieren, wenn man sich an das richtige Vorgehen hält!
+
+Denen gebe ich absolut recht. Zum Beispiel kann man die Java-Version mit Maven festsetzen oder vor der Auslieferung einen Merge auf *master*
+fordern, keine Frage. Aber wie oft steht man unter Zeitdruck, oder die Tools versagen und dann ist es doch passiert?
+Und ist es in Produktion, dann muss man plötzlich doch eine Kopie pflegen, inklusive aller Bugs, die sich darin verstecken :( .
+
+== Mehrere Utility-Module
+Die Lösung der oben beschriebenen Probleme liegt in der Zerlegung von *base* in spezialisierte Module. So kann jede Applikation
+selbst entscheiden, welche Basisfunktionalität sie wirklich braucht.
+
+Ob man das so weit treiben will, wie bei <a href="https://comlounge.net/npm-left-pad-javascript-markenstreit/" target="_blank" rel="nofollow">node.js und left-pad</a> lasse ich mal dahingestellt. Ich bin aber durchaus für die Linux-Philosophie <a href="https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well" target="_blank" rel="nofollow">Do one thing and do it well</a>.
+
+Es gibt einfach keinen Grund in seinem Modul unnötigen Code mitzuschleppen. Dieser trägt im besten Fall dazu bei, dass das API des Moduls
+schwieriger zu verstehen ist, da es zu viele Belange abdeckt. Im schlechtesten Fall führt es dazu, dass man Applikationen neu ausliefern muss,
+da genau dieser Code einen kritischen Bug (Sicherheitslücken!) aufweist und deswegen gepatcht werden muss.
+
+Hier kann man schön einen Kreis zum <a href="http://clean-code-developer.de/weitere-infos/solid/" target="_blank" rel="nofollow">Single Responsibility Prinzip (SRP)</a> ziehen. Nach diesem soll es nur einen Grund geben dürfen, damit sich eine Klasse ändert. Überträgt man dieses Prinzip auf die Modulebene, dann landet man zwangsläufig bei kleinen spezialisierten Modulen.
+
+== Fazit
+Ein gemeinsames *base*-Modul ist in der Theorie eine pragmatische Lösung, um Basisfunktionalität an einem zentralen Ort zu pflegen.
+In der Praxis führt es aber eher zu einem aufgeblähtem Modul, dass als Sammelbecken für alles Mögliche herhalten muss. Durch ungewolltes
+Kopieren der Codebase, zum Beispiel mit einem nicht gemergten Feature Branch, holt man sich viele Probleme ins Boot. Vor allem
+Codeduplikation inklusive aller Bugs und Updatezwang aller Applikationen bei kritischen Bugs.
+
+Wesentlich sinnvoller ist eine Aufteilung der Basisfunktionalität in spezialisiertere Module. Applikationen können sich gezielt
+davon bedienen und die Module wachsen nicht unkontrolliert an. Die Wahrscheinlichkeit für Codeduplikation sinkt.

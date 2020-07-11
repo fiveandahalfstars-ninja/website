@@ -1,0 +1,108 @@
+= Code Coverage am Beispiel: Pfadüberdeckung (Path Coverage)
+date
+:jbake-author: JohannesDienst
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: codemetriken, pfadüberdeckung
+:jbake
+
+:idprefix:
+
+In den letzten beiden Blogposts ging es um die Überdeckungsmaße <a href="http://johannesdienst.net/code-coverage-am-beispiel-zweigueberdeckungs-branch-coverage/" target="_blank">Zweigüberdeckung </a> und <a href="http://johannesdienst.net/code-coverage-am-beispiel-zeilenueberdeckung-line-coverage/" target="_blank">Zeilenüberdeckung</a>. Die Zweigüberdeckung ist ein stärkeres Maß für die Qualität der Abdeckung, da sie die Zeilenüberdeckung enthält. Sie ist also eine echte Obermenge.
+
+Die Pfadüberdeckung ist wiederum eine echte Obermenge der Zweigüberdeckung und ist damit als das härteste Maß der Überdeckungsmessung zu betrachten.
+In diesem Post wird zuerst wieder an einem Beispiel die Pfadüberdeckung vorgestellt. Ziel ist es, eine vollständige Pfadüberdeckung durch die
+vorhandene Testsuite zu erreichen.
+
+Auf los geht's los :)
+
+== Pfadüberdeckung die Theorie: Vollständig
+Die Pfadüberdeckung kommt in mehreren Varianten vor. Zuerst soll jedoch die vollständige Pfadüberdeckung erläutert werden. Nehmen
+wir uns dazu eine einfache Methode als Beispiel (Achtung: *kein* sinnvolles Beispiel!):
+
+====
+public int doSomething(int max) {
+  int temp = max;
+
+  if (max &lt; 0) {
+    return -1;
+  }
+  
+  if (max == 0) {
+    temp = Integer.MAX_VALUE;
+  } else {
+    return temp;
+  }
+
+  return temp;
+}
+====
+
+Um alle Pfade zu entdecken, lohnt es sich einen sogenannten <a href="https://de.wikipedia.org/wiki/Kontrollflussgraph" target="_blank" rel="nofollow">Kontrollflussgraphen</a> zu erstellen:
+
+<a href="http://johannesdienst.net/wp-content/uploads/2017/08/Path_Coverage_Simple_Example.png"><img src="http://johannesdienst.net/wp-content/uploads/2017/08/Path_Coverage_Simple_Example.png" alt="Path_Coverage_Simple_Example" width="442" height="549" class="aligncenter size-full wp-image-901" /></a>
+
+Wie man sieht, gibt es selbst in dieser einfachen Methode drei Pfade, die durch separate Tests abgedeckt werden müssen.
+Überträgt man das auf eine größere Codebasis, dann gibt es eine unendliche Anzahl von Pfaden.
+Eine vollständige Pfadabdeckung ist also nicht praktisch umsetzbar!
+
+== Pfadüberdeckung die Theorie: C2b und C2c -> Schleifen begrenzen
+Eine Sache, die in der vorherigen Methode bewusst ausgespart wurde, sind Schleifen. Diese führen zu potenziell
+unendlich vielen Pfaden, da jeder Schleifendurchlauf jeweils als eigener Pfad gezählt werden muss. Kombiniert mit
+weiteren Anweisungen in der Methode explodiert die Pfadanzahl buchstäblich.
+
+Dafür gibt es die eingeschränkten Methoden der Pfadüberdeckungsmessung C2b und C2c. Bei C2b wird die Anzahl der
+Schleifendurchläufe auf zwei reduziert. Bei C2c auf eine natürliche Zahl *n*. Damit bekommt man die ausufernde Anzahl der Pfade in den Griff!
+
+== Methode vollständig abdecken
+Für die Methode *isAliveInNextGeneration()* soll nun eine C2b-Abdeckung hergestellt werden. Hier noch einmal die Methode:
+
+----
+public boolean isAliveInNextGeneration() {
+  int livingNeighbors = 0;
+  for (Cell cell : neighbors) {
+    if (cell.isAlive()) {
+      livingNeighbors++;
+    }
+  }
+
+  if (!isAlive &amp;&amp; livingNeighbors == 3) {
+    return true;
+  }
+  else if (isAlive &amp;&amp; livingNeighbors &lt;= 3) {
+    return true;
+  }
+
+  return false;
+}
+----
+
+Der Kontrollflussgraph ist ziemlich komplex:
+
+<a href="http://johannesdienst.net/wp-content/uploads/2017/08/Path_Coverage_Complex_Example.png"><img src="http://johannesdienst.net/wp-content/uploads/2017/08/Path_Coverage_Complex_Example.png" alt="Path_Coverage_Complex_Example" width="384" height="763" class="aligncenter size-full wp-image-902" /></a>
+
+Bei meiner Zählung bekomme ich folgende Pfadanzahl, wenn ich für die For-Schleife drei Pfade annehme:
+
+* Erstes IF Then: 3
+* Zweites IF Then: 3
+* Zweites IF Else: 3
+
+Das wären dann *neun* Testfälle für diese Methode. Meiner Meinung nach ist das noch zu schaffen. Außerdem ist dann
+wirklich jeder Pfad abgedeckt, den der Programmablauf nehmen kann.
+
+Dieses reale Beispiel zeigt, dass die Pfadüberdeckung sinnvoll ist. Praktikabel ist sie deswegen aber noch lange
+nicht. Die Explosion der Testfälle ist wahrscheinlich in keinem Projekt akzeptabel.
+
+Noch interessanter ist, dass bei meinen Recherchen zu einem Tool für die Messung der Pfadüberdeckung keines zu
+finden war. Anscheinend hat dieses Maß keine Praxisrelevanz ;) .
+
+== Fazit
+Die vollständige Pfadüberdeckung ist bei einfachen Methoden leicht zu erreichen. Bei komplexeren Methoden
+artet es schnell in viel Arbeit aus. Als Abhilfe können eingeschränkte Versionen der Pfadüberdeckung genutzt
+werden (C2b oder C2c), die aber ebenfalls viele Testfälle erfordern.
+
+Ein weiteres Problem sind nicht beschreitbare Pfade, da sich die Vorbedingungen nicht in der benötigten
+Kombination herstellen lassen.
+
+Trotzdem ist es ein nützliches Werkzeug, besonders bei kritischen Pfaden, da eine vollständige Abdeckung
+aller Programmabläufe sichergestellt ist!

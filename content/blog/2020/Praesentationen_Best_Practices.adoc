@@ -1,0 +1,82 @@
+= Präsentationen Best Practices
+date
+:jbake-author: JohannesDienst
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: buchreview
+:jbake
+
+:idprefix:
+
+Manchen Sprechern hört man einfach gerne zu und bei anderen möchte man trotz eines interessanten Themas einfach nur
+den Raum verlassen. Viele Dinge beim Vortragen kommen mit der Zeit. Darunter fällt für mich die nötige Gelassenheit,
+eine klarere Ausdrucksweise und ein gewisser Witz. Diese Dinge können aus meiner Erfahrung die wenigstens Sprecher,
+die noch nicht lange vor Publikum sprechen. Das sieht man eher bei erfahrenen Sprechern mit mehreren Jahren Erfahrung.
+
+In den letzten beiden Jahren war ich auf vielen Konferenzen und habe sehr viele gute Vorträge angehört. Mit der Zeit
+kristallisiert sich ein Muster heraus, welche Eigenschaften ein guter Vortrag haben muss. Dabei nehme ich den Sprecher
+erst einmal aus der Gleichung und fokussiere mich auf das Foliendesign, Dinge die Sprecher unbedingt tun sollten
+unabhängig vom persönlichen Stil und die Struktur eines einprägsamen Vortrags. 
+
+== Foliendesign
+Die Folien sind *nicht* der Mittelpunkt der Präsentation. Dieser Punkt kann nicht oft genug wiederholt werden.
+Die Folien sind *nicht* der Mittelpunkt der Präsentation.
+
+Nachdem das aus der Welt geschafft ist: Folien **sind wichtig**. Sie sollten den Sprecher aber nur unterstützen
+und dem Publikum einen Anhaltspunkt darüber geben, über was gerade gesprochen wird. Der größte Teil der Informationen
+sollte der Sprecher liefern. Sonst wäre er überflüssig.
+
+Ein sehr gutes Beispiel für minimalistische Folien gibt es von <a href="https://twitter.com/drietmueller" target="_blank" rel="nofollow">Daniel Rietmüller</a>: <a href="https://www.slideshare.net/drietmueller/clean-code-erfolgreich-einfhren-54875903" target="_blank" rel="nofollow">Clean code erfolgreich einführen</a>
+   
+Wem das Design des obigen Vortrags etwas zu minimalistisch ist, der kann sich auch ein anderes Farbschema aussuchen.
+Bei codeaffinen Sprechern ist <a href="http://lab.hakim.se/reveal-js/#/" target="_blank" rel="nofollow">reveal.js</a> gerade sehr beliebt.
+Jedes einzelne Farbschema ist auf maximale Lesbarkeit ausgelegt und kann durch HTML/CSS/JavaScript eigenhändig erweitert werden.
+
+Zum Abschluss dieses Punktes noch ein gutes Video, in dem die Wirkung von schlechten Folien humorvoll demonstriert wird:
+<a href="https://www.youtube.com/watch?v=MjcO2ExtHso" rel="noopener" target="_blank">Video auf YouTube</a>
+
+== Vortrag
+Zum Vortrag selbst gibt es ein paar sinnvolle Tricks, die helfen eine Verbindung zum Publikum aufzubauen. Denn die
+eigentliche Aufgabe eines Sprechers, ist es ein persönliches Gespräch mit seinem Publikum zu führen und dadurch eine
+Idee oder Wissen zu vermitteln.
+
+Die Besten schaffen es tatsächlich, dass ich mich direkt angesprochen fühle. Dadurch kommt die Botschaft besser an.
+Aus meiner Erfahrung als Vortragender waren die Situationen in denen ich am meisten positives Feedback bekommen habe,
+die in denen ich mich eins mit dem Publikum gefühlt habe (obwohl der Vortrag inhaltliche Mängel hatte ;) ).
+
+Es gibt aus meiner Sicht zwei Kernpunkte, die berücksichtigt werden sollten. Erstens spricht ein guter Sprecher mit
+jedem einzelnen des Publikums. Dazu ist es wichtig, Augenkontakt aufzubauen und diesen für mindestens einen Gedankengang
+zu behalten. Dann bekommt der Zuhörer das Gefühl, dass er direkt angesprochen wurde. Eine Mikrokonversation also. Wer es
+als Sprecher einmal bewusst probiert hat, wird erstaunt sein, wie gut das funktioniert.
+
+Es gibt nur ein Problem. Wie geht man bei großen Räumen vor? Das ist relativ einfach zu bewerkstelligen: Der Raum wird
+in Sektoren eingeteilt und nacheinander mit der oben beschriebenen Technik abgearbeitet.
+
+Natürlich ist so ein Vorgehen nur möglich, wenn der Vortrag sitzt, was mich zum zweiten Kernpunkt bringt. Ein guter
+Vortragender weiß, was er vermitteln will. Er kann seinen Vortrag durch mindestens fünfmaliges Üben so gut, dass er
+dem roten Faden folgen kann ohne nachzudenken. Das verschafft die Freiheit, die gebraucht wird, um die persönliche
+Verbindung zum Publikum herzustellen!
+
+== Der rote Faden
+Es gibt viele Möglichkeiten eine Vortrag aufzubauen, über die ich in einem späteren Blog noch schreiben werde. Wichtig
+bei allen ist ein erkannbarer roter Faden, um den es sich drehen sollte. Das heißt, dass der Bezug zum Grundthema für
+den Zuhörer erkennbar bleiben sollte. Dabei ist das Abtauchen in etwas weiter entfernte Gedankengänge vollkommen in
+Ordnung. Es sollte nur vorher gesagt werden, warum das passiert oder in einem AHA-Moment enden, der dem fragenden Publikum
+eine überraschende Einsicht präsentiert. Letzteres habe ich bis jetzt selten erlebt. <a href="https://twitter.com/ufried" target="_blank" rel="nofollow">Uwe Friedrichsen</a> schafft das öfters in seinen Vorträgen.
+
+Sehr heikel sind in diesem Zusammenhang auch Live-Demos, bei denen mehrere Programme gleichzeitig geöffnet werden.
+Das Springen zwischen den Fenstern verwirrt oft. IDEs sind meistens an sich schon komplex. Auf der Leinwand alles so schnell zu erfassen,
+ist als Zuschauer fast unmöglich. Hier ist eine genaue Erläuterung des Vorgehens und aller relevanten Bestandteile wichtig.
+Hier hilft es ungemein besonders langsam vorzugehen und die Reaktionen des Publikums zu beobachten!
+
+== Fazit
+Mit einfachen Mitteln, die nichts mit dem persönlichen Stil zu tun haben lässt sich bei Vorträgen viel erreichen.
+Achtet man bei der Erstellung der Folien auf ein klares minimalistisches Design und stellt den Sprecher in den
+Vordergrund ist der Grundstein gelegt. Wird dann noch eine persönliche Verbindung mit dem Publikum hergestellt
+kann die gut eingeübte und mit einem roten Faden durchzogene Präsentation nur gelingen!
+
+Die Präsentation von Kevin Goldsmith ist ein Beispiel für alle Punkte, die ich aufgeführt habe:
+<a href="https://www.youtube.com/watch?v=oU3G6xAAIoo" rel="noopener" target="_blank">Präsentation auf YouTube</a>
+
+Quellen:
+http://amzn.to/2xPUpBF

@@ -1,0 +1,123 @@
+= Code Coverage am Beispiel Zweigueberdeckungs Branch Coverage
+date
+:jbake-author: JohannesDienst
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: codemetriken, branch coverage
+:jbake
+
+:idprefix:
+
+Im letzten <a href="http://johannesdienst.net/code-coverage-am-beispiel-zeilenueberdeckung-line-coverage/" target="_blank">Blog</a> ging es um Zeilenüberdeckung. Ich habe gezeigt, wie man sie am Beispiel des <a href="https://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens" target="_blank" rel="nofollow">Game of Life von Conway</a> einsetzt, um bessere Tests zu schreiben, die jede Anweisung mindestens einmal ausführen.
+
+In diesem Teil möchte ich zuerst zeigen, warum die Zeilenüberdeckung zwar eine sinnvolle Metrik ist, aber doch nicht ausreicht,
+um die Qualität der Testsuite abzusichern. Das lässt sich sehr leicht an einem Fehler zeigen, den die bisherigen Tests nicht gefunden haben.
+
+Als Zweites möchte ich auf die Zweigüberdeckung eingehen. Diese ist eine echte Obermenge der Zeilenüberdeckung und umfasst die
+Zeilenüberdeckung damit vollständig. Darüber hinaus wird mit einer vollständigen Zweigüberdeckung erreicht, dass jeder mögliche Zweig
+bei der Ausführung einer Codebasis von den Tests mindestens einmal durchlaufen wird.
+
+== Zeilenüberdeckung unzureichend
+Die bis jetzt implementierte Testsuite aus dem letzten Blog hat eine Zeilenüberdekcung von 100% erreicht. Dieser Wert täuscht darüber hinweg,
+dass die Testsuite nicht ausreichend ist.
+
+Betrachten wir den Konstruktor genauer:
+
+----
+public Cell(int neighborCount) {
+  neighbors = new Cell[neighborCount];
+}
+----
+
+Hier versteckt sich eine *java.lang.NegativeArraySizeException*. Sie tritt auf, wenn ein negativer Integer übergeben wird.
+
+Das ein solcher Fehler nicht von der Testsuite abgedeckt wird, ist nicht verwunderlich. Aus eigener Erfahrung weiß ich,
+dass man Tests gerne für den positiven Fall schreibt. Der negative Fall wird aus Unachtsamkeit oder Faulheit weggelassen.
+
+== Zweigüberdeckung: Verschärfte Zeilenüberdeckung
+Die Zweigüberdeckung fordert, dass ein Zweig der Codebasis mindestens einmal durchlaufen wird. Damit subsumiert sie die
+Zeilenüberdeckung und ist ein leistungsfähigeres Maß. Eine Testsuite mit vollständiger Zweigüberdeckung stellt sicher,
+dass jeder Zweig der Codebasis einmal durchlaufen wurde. Gibt es keine Bedingungen oder Schleifen, dann entspricht sie praktisch der Zeilenüberdeckung.
+
+Bei Bedingungen müssen die Tests sicherstellen, dass der Wert der Bedingung einmal *true* und einmal *false* wird.
+Ebenso bei Schleifen. Was zur Folge hat, dass die Schleife nicht mehr als zweimal durchlaufen werden muss, um die Zweigüberdeckung zu garantieren.
+
+Gibt es jedoch komplexere Abhängigkeiten im Programmablauf, dann können Sie ungetestet bleiben. Wie das genau aussieht,
+zeige ich an der Methode *isAliveInNextGeneration()* der Klasse *Cell*. Hier ist sie noch einmal:
+
+----
+public boolean isAliveInNextGeneration() {
+  int livingNeighbors = 0;
+  for (Cell cell : neighbors) {
+    if (cell.isAlive()) {
+      livingNeighbors++;
+    }
+  }
+
+  if (!isAlive &amp;&amp; livingNeighbors == 3) {
+    return true;
+  }
+  else if (isAlive &amp;&amp; livingNeighbors &lt;= 3) {
+    return true;
+  }
+
+  return false;
+}
+----
+
+Unsere Testsuite erreicht für die Zweigüberdeckung folgendes Ergebnis:
+
+<a href="http://johannesdienst.net/wp-content/uploads/2017/08/BranchCoverage_isAliveNextGeneration_initial.png"><img src="http://johannesdienst.net/wp-content/uploads/2017/08/BranchCoverage_isAliveNextGeneration_initial.png" alt="BranchCoverage_isAliveNextGeneration_initial" width="1051" height="704" class="aligncenter size-full wp-image-887" /></a>
+
+In Zeile 27 und 28 wurden jeweils beide Branches durchlaufen. Da liegt daran, dass wir in den Tests ein Cell-Array mit lebenden und nicht lebenden Cell-Objekten übergeben haben.
+
+Interessanter wird es da in Zeile 33. Nur einer von vier Branches wurde abgedeckt. Selbiges in Zeile 36. Reduzieren wir **!isAlive** und **livingNeighbors == 3** der ersten Bedingung auf zwei Booleans, dann ergibt sich eine Wahrheitstabelle:
+
+|===
+| !isAlive   | livingNeighbors == 3 
+| ---------- | --------------------
+| true       | true
+| true       | false
+| false      | false
+| false      | true
+
+|===
+
+Die Fälle 1, 3 und 4 sind bereits durch die Testsuite abgedeckt. Für den zweiten Fall soll die Testsuite um einen Test erweitert werden. Eine tote Zelle mit sieben lebenden Nachbarn ist in der nächsten Generation immer noch tot:
+
+----
+@Test
+public void setSevenLivingNeighbors_IsDead_IsDeadInNextGeneration() {
+  Cell cell = getCell(false, 8);
+  Cell[] neighbors = new Cell[8];
+  for (int i = 0; i &lt; 8; i++) {
+    if (i &lt; 7) {
+      neighbors[i] = getCell(true, 8);
+    }
+    else {
+      neighbors[i] = getCell(false, 8);
+    }
+  }
+  cell.setNeighbors(neighbors);
+  assertFalse("Cell should be dead with seven living neighbors", cell.isAliveInNextGeneration());
+}
+---- 
+
+Mit diesem Test ergibt die Zweigabdeckung:
+
+<a href="http://johannesdienst.net/wp-content/uploads/2017/08/BranchCoverage_isAliveNextGeneration_complete.png"><img src="http://johannesdienst.net/wp-content/uploads/2017/08/BranchCoverage_isAliveNextGeneration_complete.png" alt="BranchCoverage_isAliveNextGeneration_complete" width="1041" height="705" class="aligncenter size-full wp-image-890" /></a>
+
+Interessanterweise führt dieser eine Test dazu, dass auch in Zeile 36 die Zweigüberdeckung vollständig ist. Das liegt an den Bedingungen selbst. Die Wahrheitstabellen bestätigen dies. Das Aufstellen überlasse ich aber dem geneigten Leser :-) 
+
+Der ergänzte Test ist meiner Meinung nach wichtig, da er einen negativen Fall abdeckt, der in der ursprünglichen Testsuite gefehlt hat.  
+
+== Fazit
+Die Zeilenüberdeckung findet nicht unbedingt Fehler. Sind die Tests nicht sinnvoll geschrieben oder decken nur den Positivfall ab, dann läuft man Gefahr sich in falscher Sicherheit zu wiegen.
+
+Auch eine vollständige Zweigüberdeckung hilft an dieser Stelle nicht weiter. Auch wenn sie als Obermenge der Zeilenüberdeckung noch umfangreichere Tests fordert. Sie fordert aber, dass Bedingungen sowohl mit dem Wert *true* als auch *false* durchlaufen werden. Durch sie konnte ein fehlender Test ergänzt werden, der ansonsten nicht getestet worden wäre.
+
+Da sie nur Zweige betrachtet ist sie aber nicht so leistungsfähig wie die Pfadüberdeckung, die alle möglichen Pfade in der Codebasis abdeckt. Um dieses Thema geht es im nächsten Blogpost.
+
+Links:
+<a href="http://johannesdienst.net/code-coverage-am-beispiel-zeilenueberdeckung-line-coverage/" target="_blank">Teil 1 Pfadüberdeckung</a>
+<a href="https://de.wikipedia.org/wiki/Kontrollflussorientierte_Testverfahren#Pfad.C3.BCberdeckungstest" target="_blank" rel="nofollow">Kontrollflussorientierte Testverfahren bei Wikipedia</a>

@@ -1,0 +1,38 @@
+= Buchrezension Basiswissen für Softwarearchitekten 3 Auflage
+date
+:jbake-author: JohannesDienst
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: buchreview
+:jbake
+
+:idprefix:
+
+Das Buch soll als Vorbereitung für die Prüfung zum iSAQB Certified Professional for Software Architecture Foundation Level dienen.
+Dazu soll es auf dem aufbauend auf dem Lehrplan alles notwendige Wissen enthalten, das zum Bestehen der Prüfung notwendig ist. 
+
+== Aufbau
+Die Kapitel sind in sich abgeschlossen und beinhalten zu Anfang immer Lernziele, die direkt aus dem Lehrplan entnommen sind.
+Zum Ende eines jeden Kapitels befindet sich eine Lernkontrolle, die die Punkte aus dem Lehrplan aufgreifen, die in dem jeweiligen
+Kapitel vermittelt worden sind. Für die Prüfung relevant sind die Kapitel 2-5: Grundlagen von Softwarearchitekturen, Entwurf von
+Softwarearchitekturen, Beschreibung und Kommunikation von Softwarearchitekturen und Softwarearchitekturen und Qualität.
+Abgerundet wird das Buch von einem umfangreichen Anhang, der acht Beispielfragen, ein Abkürzungsverzeichnis, ein Glossar und
+ein umfangreiches Literaturverzeichnis enthält.
+
+== Inhalt
+Der Inhalt des Buches ist leider nicht aufeinander aufgebaut. Jedes Kapitel steht für sich. Die Darstellung der einzelnen Lehrinhalte
+wirkt an vielen Stellen sehr knapp, sodass man unbedingt weiter in der verwiesenen Literatur recherchieren sollte. Studiert man
+den Lehrplan für die Zertifizierung, dann fällt auf, dass teilweise die Lerninhalte aus der Lernkontrolle nur angerissen wurden,
+oder gar nicht behandelt wurden.
+
+== Bewertung
+Ich habe zusätzlich zum Buch eine 4-tägige Schulung besucht. Diese war um einiges umfangreicher, obwohl sie sich ebenfalls direkt
+am Lehrplan orientiert. Von einem Buch zur Prüfungsvorbereitung hatte ich mir ehrlich gesagt das gleiche gewünscht. Dass man die
+Beispielfragen aus dem Anhang nicht mithilfe des Buches (oder nur sehr schwer, da im Inhaltsverzeichnis nicht ausgewiesen) beantworten
+kann, hinterlässt einen fahlen Beigeschmack. Das Buch wirkt an vielen Stellen zu knapp. Die besprochenen Dinge sind aber gut
+aufbereitet und graphisch anschaulich dargestellt. Zu loben sind die zahlreichen Literaturverweise, die unbedingt zum Selbststudium
+herangezogen werden sollten.
+
+== Fazit
+Ich kann dieses Buch bedingt weiterempfehlen. Wenn der Schreibstil etwas flüssiger wäre, dann könnte es als guter Einstieg dienen.
+Leider habe ich keinen wirklichen Zugang zu diesem Buch gefunden.
