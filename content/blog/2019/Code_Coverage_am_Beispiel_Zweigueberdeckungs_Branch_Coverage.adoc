@@ -1,10 +1,9 @@
 = Code Coverage am Beispiel Zweigueberdeckungs Branch Coverage
-date
+:jbake-date: 2019-07-27
 :jbake-author: JohannesDienst
 :jbake-type: post
 :jbake-status: published
 :jbake-tags: codemetriken, branch coverage
-:jbake
 
 :idprefix:
 
