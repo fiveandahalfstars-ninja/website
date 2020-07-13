@@ -1,2 +1,3 @@
 = blog-jbake
+
 Blog based on jBake - Available at https://johannesdienst.net[johannesdienst.net]
