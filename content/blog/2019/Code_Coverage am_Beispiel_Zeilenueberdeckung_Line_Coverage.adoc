@@ -5,8 +5,6 @@
 :jbake-status: published
 :jbake-tags: codemetrik
 
-:idprefix:
-
 Wie letzte Woche angekündigt, werde ich diese Woche beginnen, die verschiedenen Überdeckungsmaße für Code vorzustellen.
 Als Beispielprojekt habe ich mir das <a href="https://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens" target="_blank" rel="nofollow">Game of Life von Conway</a> ausgesucht, was als interessante Übungsaufgabe Einiges an Logik hergibt.
 

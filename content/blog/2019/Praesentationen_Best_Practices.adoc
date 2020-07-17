@@ -5,8 +5,6 @@
 :jbake-status: published
 :jbake-tags: buchreview
 
-:idprefix:
-
 Manchen Sprechern hört man einfach gerne zu und bei anderen möchte man trotz eines interessanten Themas einfach nur
 den Raum verlassen. Viele Dinge beim Vortragen kommen mit der Zeit. Darunter fällt für mich die nötige Gelassenheit,
 eine klarere Ausdrucksweise und ein gewisser Witz. Diese Dinge können aus meiner Erfahrung die wenigstens Sprecher,

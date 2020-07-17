@@ -5,8 +5,6 @@
 :jbake-status: published
 :jbake-tags: codemetriken, branch coverage
 
-:idprefix:
-
 Im letzten <a href="http://johannesdienst.net/code-coverage-am-beispiel-zeilenueberdeckung-line-coverage/" target="_blank">Blog</a> ging es um Zeilenüberdeckung. Ich habe gezeigt, wie man sie am Beispiel des <a href="https://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens" target="_blank" rel="nofollow">Game of Life von Conway</a> einsetzt, um bessere Tests zu schreiben, die jede Anweisung mindestens einmal ausführen.
 
 In diesem Teil möchte ich zuerst zeigen, warum die Zeilenüberdeckung zwar eine sinnvolle Metrik ist, aber doch nicht ausreicht,

@@ -5,8 +5,6 @@
 :jbake-status: published
 :jbake-tags: codemetriken, pfadüberdeckung
 
-:idprefix:
-
 In den letzten beiden Blogposts ging es um die Überdeckungsmaße <a href="http://johannesdienst.net/code-coverage-am-beispiel-zweigueberdeckungs-branch-coverage/" target="_blank">Zweigüberdeckung </a> und <a href="http://johannesdienst.net/code-coverage-am-beispiel-zeilenueberdeckung-line-coverage/" target="_blank">Zeilenüberdeckung</a>. Die Zweigüberdeckung ist ein stärkeres Maß für die Qualität der Abdeckung, da sie die Zeilenüberdeckung enthält. Sie ist also eine echte Obermenge.
 
 Die Pfadüberdeckung ist wiederum eine echte Obermenge der Zweigüberdeckung und ist damit als das härteste Maß der Überdeckungsmessung zu betrachten.

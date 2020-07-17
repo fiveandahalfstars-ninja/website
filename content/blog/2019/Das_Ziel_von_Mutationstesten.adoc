@@ -5,8 +5,6 @@
 :jbake-status: published
 :jbake-tags: Mutationstesten
 
-:idprefix:
-
 Mit das Interessanteste an einem Vortrag sind die anschließenden Fragen. Beim letzten Mal hatte ich das Gefühl die Fragen zum
 d<a href="http://www.elektronikpraxis.vogel.de/themen/embeddedsoftwareengineering/testinstallation/articles/365764/" target="_blank" rel="nofollow">Mutationstesten</a> nicht zufriedenstellend beantwortet zu haben. Deswegen versuche ich das, in den nächsten Blogs nachzuholen.
 

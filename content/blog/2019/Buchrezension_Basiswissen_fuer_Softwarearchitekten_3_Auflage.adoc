@@ -5,8 +5,6 @@
 :jbake-status: published
 :jbake-tags: buchreview
 
-:idprefix:
-
 Das Buch soll als Vorbereitung für die Prüfung zum iSAQB Certified Professional for Software Architecture Foundation Level dienen.
 Dazu soll es auf dem aufbauend auf dem Lehrplan alles notwendige Wissen enthalten, das zum Bestehen der Prüfung notwendig ist. 
 

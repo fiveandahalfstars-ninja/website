@@ -5,8 +5,6 @@
 :jbake-status: published
 :jbake-tags: mutationstesten
 
-:idprefix:
-
 <a href="https://en.wikipedia.org/wiki/Mutation_testing" target="_blank" rel="nofollow">Mutationstesten</a> ist ein Verfahren, um Tests
 aussagekräftiger zu machen. Es ist quasi der Goldstandard unter den Testabdeckungsmetriken. Warum? Es prüft nicht nur, ob eine Zeile
 Code abgedeckt wurde, sondern auch, ob der/die dazugehörige(n) Test(s) tatsächlich Fehler in dieser Zeile finden können. Dazu werden
