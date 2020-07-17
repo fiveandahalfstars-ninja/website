@@ -23,14 +23,17 @@ Nachdem das aus der Welt geschafft ist: Folien **sind wichtig**. Sie sollten den
 und dem Publikum einen Anhaltspunkt darüber geben, über was gerade gesprochen wird. Der größte Teil der Informationen
 sollte der Sprecher liefern. Sonst wäre er überflüssig.
 
-Ein sehr gutes Beispiel für minimalistische Folien gibt es von <a href="https://twitter.com/drietmueller" target="_blank" rel="nofollow">Daniel Rietmüller</a>: <a href="https://www.slideshare.net/drietmueller/clean-code-erfolgreich-einfhren-54875903" target="_blank" rel="nofollow">Clean code erfolgreich einführen</a>
+Ein sehr gutes Beispiel für minimalistische Folien gibt es von link:https://twitter.com/drietmueller[Daniel Rietmüller]: link:https://www.slideshare.net/drietmueller/clean-code-erfolgreich-einfhren-54875903[Clean Code erfolgreich einführen]
    
 Wem das Design des obigen Vortrags etwas zu minimalistisch ist, der kann sich auch ein anderes Farbschema aussuchen.
-Bei codeaffinen Sprechern ist <a href="http://lab.hakim.se/reveal-js/#/" target="_blank" rel="nofollow">reveal.js</a> gerade sehr beliebt.
+Bei codeaffinen Sprechern ist link:http://lab.hakim.se/reveal-js/#/[reveal.js] gerade sehr beliebt.
 Jedes einzelne Farbschema ist auf maximale Lesbarkeit ausgelegt und kann durch HTML/CSS/JavaScript eigenhändig erweitert werden.
 
 Zum Abschluss dieses Punktes noch ein gutes Video, in dem die Wirkung von schlechten Folien humorvoll demonstriert wird:
-<a href="https://www.youtube.com/watch?v=MjcO2ExtHso" rel="noopener" target="_blank">Video auf YouTube</a>
+
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/MjcO2ExtHso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
 
 == Vortrag
 Zum Vortrag selbst gibt es ein paar sinnvolle Tricks, die helfen eine Verbindung zum Publikum aufzubauen. Denn die
@@ -59,7 +62,7 @@ Es gibt viele Möglichkeiten eine Vortrag aufzubauen, über die ich in einem sp�
 bei allen ist ein erkannbarer roter Faden, um den es sich drehen sollte. Das heißt, dass der Bezug zum Grundthema für
 den Zuhörer erkennbar bleiben sollte. Dabei ist das Abtauchen in etwas weiter entfernte Gedankengänge vollkommen in
 Ordnung. Es sollte nur vorher gesagt werden, warum das passiert oder in einem AHA-Moment enden, der dem fragenden Publikum
-eine überraschende Einsicht präsentiert. Letzteres habe ich bis jetzt selten erlebt. <a href="https://twitter.com/ufried" target="_blank" rel="nofollow">Uwe Friedrichsen</a> schafft das öfters in seinen Vorträgen.
+eine überraschende Einsicht präsentiert. Letzteres habe ich bis jetzt selten erlebt. link:https://twitter.com/ufried[Uwe Friedrichsen]
 
 Sehr heikel sind in diesem Zusammenhang auch Live-Demos, bei denen mehrere Programme gleichzeitig geöffnet werden.
 Das Springen zwischen den Fenstern verwirrt oft. IDEs sind meistens an sich schon komplex. Auf der Leinwand alles so schnell zu erfassen,
@@ -73,7 +76,10 @@ Vordergrund ist der Grundstein gelegt. Wird dann noch eine persönliche Verbindu
 kann die gut eingeübte und mit einem roten Faden durchzogene Präsentation nur gelingen!
 
 Die Präsentation von Kevin Goldsmith ist ein Beispiel für alle Punkte, die ich aufgeführt habe:
-<a href="https://www.youtube.com/watch?v=oU3G6xAAIoo" rel="noopener" target="_blank">Präsentation auf YouTube</a>
+
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/oU3G6xAAIoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
 
 Quellen:
 http://amzn.to/2xPUpBF
