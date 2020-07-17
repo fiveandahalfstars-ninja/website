@@ -6,7 +6,7 @@
 :jbake-tags: Mutationstesten
 
 Mit das Interessanteste an einem Vortrag sind die anschließenden Fragen. Beim letzten Mal hatte ich das Gefühl die Fragen zum
-d<a href="http://www.elektronikpraxis.vogel.de/themen/embeddedsoftwareengineering/testinstallation/articles/365764/" target="_blank" rel="nofollow">Mutationstesten</a> nicht zufriedenstellend beantwortet zu haben. Deswegen versuche ich das, in den nächsten Blogs nachzuholen.
+link:http://www.elektronikpraxis.vogel.de/themen/embeddedsoftwareengineering/testinstallation/articles/365764/[Mutationstesten] nicht zufriedenstellend beantwortet zu haben. Deswegen versuche ich das, in den nächsten Blogs nachzuholen.
 
 Die ersten beiden Fragen waren:
 
@@ -22,7 +22,7 @@ nach immer eine Regression und damit als Fehler einzustufen.
 Im besten Fall kann eine Mutante also nur dazu führen, dass kein Test fehlschlägt. Ob das gut oder schlecht ist, lässt sich
 nur durch eine genaue Betrachtung herausfinden. Es gibt dabei zwei Möglichkeiten. Die Mutante ist tatsächlich gutmütig und
 führt nicht zu falschem Programmverhalten. Das tritt tatsächlich auf, was ich in der Livedemo meines Vortrages immer zeige.
-(<a href="https://github.com/JohannesDienst/BOBKonf2017/tree/master/pit_demo_workspace/mutation" target="_blank" rel="nofollow">Workspace dazu gibt es auf github</a>)
+(link:https://github.com/JohannesDienst/BOBKonf2017/tree/master/pit_demo_workspace/mutation[Workspace dazu gibt es auf github])
 
 Schlägt kein Test fehl, dann kann das auch heißen, dass meine Testsuite für diese Mutation blind ist. Das ist aus meiner Sicht
 der Normalfall und sollte deshalb behoben werden.

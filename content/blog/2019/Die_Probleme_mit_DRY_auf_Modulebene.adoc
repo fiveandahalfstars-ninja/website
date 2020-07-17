@@ -5,7 +5,7 @@
 :jbake-status: published
 :jbake-tags: buchreview
 
-Das <a href="https://de.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself" target="_blank" rel="nofollow">DRY – Don't Repeat Yourself – Prinzip</a> haben die meisten
+Das link:https://de.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself[DRY – Don't Repeat Yourself – Prinzip] haben die meisten
 Entwickler*innen als wichtiges Prinzip verinnerlicht.
 
 Um das nüchtern festzustellen: Das Kopieren von Code an sich ist im ersten Moment schmerzlos und geht schnell.
@@ -53,13 +53,13 @@ Und ist es in Produktion, dann muss man plötzlich doch eine Kopie pflegen, inkl
 Die Lösung der oben beschriebenen Probleme liegt in der Zerlegung von *base* in spezialisierte Module. So kann jede Applikation
 selbst entscheiden, welche Basisfunktionalität sie wirklich braucht.
 
-Ob man das so weit treiben will, wie bei <a href="https://comlounge.net/npm-left-pad-javascript-markenstreit/" target="_blank" rel="nofollow">node.js und left-pad</a> lasse ich mal dahingestellt. Ich bin aber durchaus für die Linux-Philosophie <a href="https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well" target="_blank" rel="nofollow">Do one thing and do it well</a>.
+Ob man das so weit treiben will, wie bei link:https://comlounge.net/npm-left-pad-javascript-markenstreit/[node.js und left-pad] lasse ich mal dahingestellt. Ich bin aber durchaus für die Linux-Philosophie link:https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well[Do one thing and do it well].
 
 Es gibt einfach keinen Grund in seinem Modul unnötigen Code mitzuschleppen. Dieser trägt im besten Fall dazu bei, dass das API des Moduls
 schwieriger zu verstehen ist, da es zu viele Belange abdeckt. Im schlechtesten Fall führt es dazu, dass man Applikationen neu ausliefern muss,
 da genau dieser Code einen kritischen Bug (Sicherheitslücken!) aufweist und deswegen gepatcht werden muss.
 
-Hier kann man schön einen Kreis zum <a href="http://clean-code-developer.de/weitere-infos/solid/" target="_blank" rel="nofollow">Single Responsibility Prinzip (SRP)</a> ziehen. Nach diesem soll es nur einen Grund geben dürfen, damit sich eine Klasse ändert. Überträgt man dieses Prinzip auf die Modulebene, dann landet man zwangsläufig bei kleinen spezialisierten Modulen.
+Hier kann man schön einen Kreis zum link:http://clean-code-developer.de/weitere-infos/solid/[Single Responsibility Prinzip (SRP)] ziehen. Nach diesem soll es nur einen Grund geben dürfen, damit sich eine Klasse ändert. Überträgt man dieses Prinzip auf die Modulebene, dann landet man zwangsläufig bei kleinen spezialisierten Modulen.
 
 == Fazit
 Ein gemeinsames *base*-Modul ist in der Theorie eine pragmatische Lösung, um Basisfunktionalität an einem zentralen Ort zu pflegen.

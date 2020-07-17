@@ -1,11 +1,14 @@
-= Code Coverage am Beispiel Zweigueberdeckungs Branch Coverage
+= Code Coverage am Beispiel Zweigüberdeckungs Branch Coverage
 :jbake-date: 2019-07-27
 :jbake-author: JohannesDienst
 :jbake-type: post
 :jbake-status: published
 :jbake-tags: codemetriken, branch coverage
 
-Im letzten <a href="http://johannesdienst.net/code-coverage-am-beispiel-zeilenueberdeckung-line-coverage/" target="_blank">Blog</a> ging es um Zeilenüberdeckung. Ich habe gezeigt, wie man sie am Beispiel des <a href="https://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens" target="_blank" rel="nofollow">Game of Life von Conway</a> einsetzt, um bessere Tests zu schreiben, die jede Anweisung mindestens einmal ausführen.
+Im letzten link:/blog/2019/Code_Coverage+am_Beispiel_Zeilenueberdeckung_Line_Coverage.html[Blog] ging es um Zeilenüberdeckung.
+
+Ich habe gezeigt, wie man sie am Beispiel des link:https://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens[Game of Life von Conway] einsetzt,
+um bessere Tests zu schreiben, die jede Anweisung mindestens einmal ausführen.
 
 In diesem Teil möchte ich zuerst zeigen, warum die Zeilenüberdeckung zwar eine sinnvolle Metrik ist, aber doch nicht ausreicht,
 um die Qualität der Testsuite abzusichern. Das lässt sich sehr leicht an einem Fehler zeigen, den die bisherigen Tests nicht gefunden haben.
@@ -64,7 +67,7 @@ public boolean isAliveInNextGeneration() {
 
 Unsere Testsuite erreicht für die Zweigüberdeckung folgendes Ergebnis:
 
-<a href="http://johannesdienst.net/wp-content/uploads/2017/08/BranchCoverage_isAliveNextGeneration_initial.png"><img src="http://johannesdienst.net/wp-content/uploads/2017/08/BranchCoverage_isAliveNextGeneration_initial.png" alt="BranchCoverage_isAliveNextGeneration_initial" width="1051" height="704" class="aligncenter size-full wp-image-887" /></a>
+link:http://johannesdienst.net/wp-content/uploads/2017/08/BranchCoverage_isAliveNextGeneration_initial.png"><img src="http://johannesdienst.net/wp-content/uploads/2017/08/BranchCoverage_isAliveNextGeneration_initial.png" alt="BranchCoverage_isAliveNextGeneration_initial" width="1051" height="704" class="aligncenter size-full wp-image-887" />]
 
 In Zeile 27 und 28 wurden jeweils beide Branches durchlaufen. Da liegt daran, dass wir in den Tests ein Cell-Array mit lebenden und nicht lebenden Cell-Objekten übergeben haben.
 
@@ -102,7 +105,7 @@ public void setSevenLivingNeighbors_IsDead_IsDeadInNextGeneration() {
 
 Mit diesem Test ergibt die Zweigabdeckung:
 
-<a href="http://johannesdienst.net/wp-content/uploads/2017/08/BranchCoverage_isAliveNextGeneration_complete.png"><img src="http://johannesdienst.net/wp-content/uploads/2017/08/BranchCoverage_isAliveNextGeneration_complete.png" alt="BranchCoverage_isAliveNextGeneration_complete" width="1041" height="705" class="aligncenter size-full wp-image-890" /></a>
+image::../../images/content/2019/BranchCoverage_isAliveNextGeneration_complete.png[BranchCoverage der isAliveNextGeneration_complete]
 
 Interessanterweise führt dieser eine Test dazu, dass auch in Zeile 36 die Zweigüberdeckung vollständig ist. Das liegt an den Bedingungen selbst. Die Wahrheitstabellen bestätigen dies. Das Aufstellen überlasse ich aber dem geneigten Leser :-) 
 
@@ -116,5 +119,5 @@ Auch eine vollständige Zweigüberdeckung hilft an dieser Stelle nicht weiter. A
 Da sie nur Zweige betrachtet ist sie aber nicht so leistungsfähig wie die Pfadüberdeckung, die alle möglichen Pfade in der Codebasis abdeckt. Um dieses Thema geht es im nächsten Blogpost.
 
 Links:
-<a href="http://johannesdienst.net/code-coverage-am-beispiel-zeilenueberdeckung-line-coverage/" target="_blank">Teil 1 Pfadüberdeckung</a>
-<a href="https://de.wikipedia.org/wiki/Kontrollflussorientierte_Testverfahren#Pfad.C3.BCberdeckungstest" target="_blank" rel="nofollow">Kontrollflussorientierte Testverfahren bei Wikipedia</a>
+link:/blog/2019/Code_Coverage+am_Beispiel_Zeilenueberdeckung_Line_Coverage.html[Teil 1 Zeilenüberdeckung]
+link:https://de.wikipedia.org/wiki/Kontrollflussorientierte_Testverfahren#Pfad.C3.BCberdeckungstest[Kontrollflussorientierte Testverfahren bei Wikipedia]
