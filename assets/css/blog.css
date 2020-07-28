@@ -4,6 +4,20 @@ body {
     color: #292929;
 }
 
+.page-header {
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.post-separator {
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.header-icons {
+    color: #021d38;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
 a:hover, a:focus {
     color: #144666;
     text-decoration: none;
