@@ -1,0 +1,33 @@
+title=Talks Ralf D. Müller
+date=2020-07-10
+type=page
+status=published
+~~~~~~
+
+:toc: left
+
+== Ideen
+
+Dieser Anschnitt enthält Ideen für Talks, die noch ausgearbeitet werden müssen.
+
+=== Documentation Driven Development
+
+Was passiert, wenn ein Entwickler sich intensiv mit dem Docs-as-Code Ansatz beschäftigt und ihn auf die Spitze treibt? Richtig - Dokumentation etnwickelt sich von der Nebensache, die man erledigt, wenn das Projekt läuft (also nie) zur zentralen Komponente, die zuerst erstellt wird und nach der das Projekt umsetzt wird.
+
+Durch Docs-as-Code besteht die Dokumentation nicht mehr aus verschiedensten Fragmenten wie Anforderungen, Stories und Architektur, die alle in unterschiedlichen Systemen verwaltet werden und somit Medienbrüche unumgängig machen.
+
+Die Anforderungen können nun in _einem_ System mit Stories angereichert und diese durch Akzeptanzkriterien untermauert werden. Durch Transformationen wird aus den Akzeptanzkriterien ein Test-Gerüst, welches vom Entwickler durch Testimplementierungen belebt wird. An dieser Stelle geht der Ansatz dann von Documentation-Driven auf Test-Driven über.
+
+Die Ergebnisse ausführbaren Akzeptanztests werden möglichst anscheilich wieder in die Stories und somit Anforderungen zurückgespielt und das Projekt erhält somit eine ausführbare Spezifikation.
+
+=== 5 Jahre Docs-as-Code mit docToolchain
+
+In dieser Session nehme ich alle Teilnehmer mit auf einen kurzen Ausflug durch 5 Jahre docToolchain. Auf dieser Reise werden wir zwei Zeitstränge betrachten.
+
+Zum Einen die Entwicklung des Docs-as-Code Ansatzes vom einfachen "Markdown im Repository" bis zu neueren Entwicklungen wie z.B. komfortablen Text-Editor-Plugins in der IDE oder Documentation-Driven-Development.
+
+Zum Anderen werde ich über meine Reise mit dem Open-Source-Projekt docToolchain, vom Script zum Tool berichten. Erfahrungsbericht pur :-)
+
+== Ausgearbeitet und gehalten
+
+siehe https://speakerdeck.com/rdmueller
