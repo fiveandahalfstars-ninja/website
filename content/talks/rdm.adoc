@@ -10,15 +10,19 @@ status=published
 
 === 01.09.20: German Testing Day
 
-https://www.germantestingday.info/german-testing-day-2020/programm/konferenzprogramm.html[Spock und AsciiDoc - vom Test zur Spezifikation und zurück]
+https://www.germantestingday.info/german-testing-day-2020/programm/konferenzprogramm.html[Spock und AsciiDoc - vom Test zur Spezifikation und zurück] mit https://agiledojo.de/[Christian Fischer]
 
-zusammen mit https://agiledojo.de/[Christian Fischer]
+=== 27.10.20: JCON
+
+https://jcon.one/de/ zusammen mit Johannes Dienst
+
+=== 25.11.20: JVM-CON
+
+https://www.jvm-con.de/programm%202020/#/talk/moderne-softwarearchitekturdokumentation[Workshop: Moderne Softwarearchitekturdokumentation] mit https://www.embarc.de/falk-sippach/[Falk Sippach]
 
 === 10.12.20: IT-Tage 2020
 
 https://www.ittage.informatik-aktuell.de/programm/2020/spock-und-asciidoc-vom-test-zur-spezifikation-und-zurueck.html[Spock und AsciiDoc – Vom Test zur Spezifikation und zurück]
-
-=== JCON 2020
 
 == Vergangen
 
