@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+jbake-2.6.5-bin/bin/jbake -b
