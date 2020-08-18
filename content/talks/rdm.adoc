@@ -26,7 +26,7 @@ siehe https://speakerdeck.com/rdmueller
 
 == Ideen
 
-Dieser Anschnitt enthält Ideen für Talks, die noch ausgearbeitet werden müssen.
+Dieser Abschnitt enthält Ideen für Talks, die noch ausgearbeitet werden müssen.
 
 === Documentation Driven Development
 
