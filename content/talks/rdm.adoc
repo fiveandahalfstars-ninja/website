@@ -6,6 +6,24 @@ status=published
 
 :toc: left
 
+== Termine
+
+=== 01.09.20: German Testing Day
+
+https://www.germantestingday.info/german-testing-day-2020/programm/konferenzprogramm.html[Spock und AsciiDoc - vom Test zur Spezifikation und zurück]
+
+zusammen mit https://agiledojo.de/[Christian Fischer]
+
+=== 10.12.20: IT-Tage 2020
+
+https://www.ittage.informatik-aktuell.de/programm/2020/spock-und-asciidoc-vom-test-zur-spezifikation-und-zurueck.html[Spock und AsciiDoc – Vom Test zur Spezifikation und zurück]
+
+=== JCON 2020
+
+== Vergangen
+
+siehe https://speakerdeck.com/rdmueller
+
 == Ideen
 
 Dieser Anschnitt enthält Ideen für Talks, die noch ausgearbeitet werden müssen.
@@ -28,6 +46,3 @@ Zum Einen die Entwicklung des Docs-as-Code Ansatzes vom einfachen "Markdown im R
 
 Zum Anderen werde ich über meine Reise mit dem Open-Source-Projekt docToolchain, vom Script zum Tool berichten. Erfahrungsbericht pur :-)
 
-== Ausgearbeitet und gehalten
-
-siehe https://speakerdeck.com/rdmueller
