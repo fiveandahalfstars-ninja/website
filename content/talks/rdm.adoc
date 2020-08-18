@@ -26,7 +26,13 @@ https://www.ittage.informatik-aktuell.de/programm/2020/spock-und-asciidoc-vom-te
 
 == Vergangen
 
+include::rdm-past-list.adoc[leveloffset=+2]
+
 siehe https://speakerdeck.com/rdmueller
+
+== Details
+
+include::rdm-details.adoc[leveloffset=+2]
 
 == Ideen
 

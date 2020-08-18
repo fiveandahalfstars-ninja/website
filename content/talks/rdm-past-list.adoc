@@ -1,0 +1,27 @@
+include::rdm-urls.adoc[]
+
+= 2020
+
+= 2019
+
+= 2018
+
+= 2017
+
+* Dokumentation am (Riesen-)Beispiel – arc42, AsciiDoc und Co. in Aktion +
+Frankfurt, 27.06.2020, Ralf D. Müller
+* Spock & Geb: Clear and comprehensible tests! +
+Frankfurt, 27.06.2020, Ralf D. Müller
+
+* Dokumentation am (Riesen-)Beispiel – arc42, AsciiDoc und Co. in Aktion +
+{uri-jax2017}[JAX 2017, Mainz, 10.5.2017]
+
+= 2016
+
+* Spock und Geb: Übersichtlich und nachvollziehbar Testen für alle! +
+Javaland, Brühl, 08.3.2016
+
+= 2015
+
+* Spock und Geb: Übersichtlich und nachvollziehbar Testen für alle! +
+Entwicklertag Karlsruhe, Karlsruhe, 23.5.2015

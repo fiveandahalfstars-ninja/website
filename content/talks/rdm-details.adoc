@@ -1,0 +1,36 @@
+= Spock und Geb: Übersichtlich und nachvollziehbar Testen für alle!
+
+* 23.5.2015, Karlsruher Entwicklertag, Karlsruhe, Ralf D. Müller, Tobias Kraft
+* 08.3.2016, Javaland, Brühl, Ralf D. Müller, Tobias Kraft
+
+Bei automatisierten Tests ist es oftmals nicht einfach nachzuvollziehen was getestet wurde. Des Weiteren laufen Tests meist durch und geben nur im Fehlerfall etwas aus. Wie soll man mit dem Fachbereich kommunizieren, was getestet wurde?
+
+Die beiden auf Groovy basierenden Frameworks Spock und Geb sorgen seit einiger Zeit für Aufsehen in der Java-Welt. Über Spock werden die Tests schon um einiges lesbarer. Durch die zusätzliche Nutzung von Geb lassen sich funktionale Tests aus der Sicht des Nutzers erstellen - so zu sagen die automatisierte Testfahrt der Applikation. Was noch fehlt sind gute Reports, die das Testvorgehen für alle Beteiligten nachvollziehbar machen.
+
+++++
+<script async class="speakerdeck-embed" data-id="a5e3259364ba4c1dafc4a89890209bf2" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
+++++
+
+= Spock & Geb: Clear and comprehensible tests!
+
+* 27.06.2020, Frankfurt, Ralf D. Müller, Tobias Kraft
+
+++++
+<script async class="speakerdeck-embed" data-id="2d2e6ba43fb54ab296e64ce52168aa75" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+++++
+
+= Dokumentation am (Riesen-)Beispiel – arc42, AsciiDoc und Co. in Aktion
+
+* {uri-jax2017}[20.5.2017, JAX 2017, Mainz], Dr. Gernot Starke, Ralf. D. Müller
+
+Anhand eines großen Systems zeigen Gernot und Ralf, wie Sie mit ziemlich wenig Aufwand angemessene und vernünftige Dokumentation für unterschiedliche Stakeholder produzieren – sodass Entwicklungsteams dabei auch noch Spaß haben.
+
+Unser Rezept: AsciiDoc mit arc42 mischen, Automatisierung mit Gradle und Maven hinzufügen und mit Diagramm- oder Modellierungstools Ihrer Wahl kombinieren. Schon sind schicke HTML- und reviewfähige PDF-Dokumente fertig. Auf Wunsch gibts DOCX und Confluence als Zugabe.
+
+Wir zeigen, wie Sie Doku genau wie Quellcode verwalten können, stakeholderspezifische Dokumente erzeugen und Diagramme automatisiert integrieren können. Einige Teile dieser Doku können Sie sogar automatisiert testen.
+
+Zwischendurch bekommen Sie zahlreiche Tipps, wie und wo Sie systematisch den Aufwand für Dokumentation reduzieren können und trotzdem lesbare, verständliche und praxistaugliche Ergebnisse produzieren.
+
+++++
+<script async class="speakerdeck-embed" data-id="b7e969e4205d4373a099f9b22c264213" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+++++
