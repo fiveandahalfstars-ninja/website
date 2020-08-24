@@ -25,7 +25,7 @@ function prepEnv()
  params2 += ', top='+0+', left='+leftwidth;
 
  tutorialwin=window.open("https://rdmueller.netlify.app/installDocToolchain.html",'tutorial', params1);
- gitpodwin=window.open("https://gitpod.io/#https://github.com/docToolchain/docToolchain",'gitpod', params2);
+ gitpodwin=window.open("https://gitpod.io/#https://github.com/docToolchain/tutorials",'gitpod', params2);
  gitpodwin.focus()
  return false;
 }
