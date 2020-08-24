@@ -6,6 +6,7 @@
 ++++
 <style>
 .step {
+padding-top: 60px;
 display: block;
 height: 130vh;
 }
