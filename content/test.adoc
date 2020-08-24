@@ -29,9 +29,9 @@ function prepEnv()
 
  gitpodwin=window.open("https://gitpod.io/#https://github.com/docToolchain/tutorials",'gitpod'+id, params2);
  tutorialwin=window.open("https://rdmueller.netlify.app/installDocToolchain.html",'tutorial'+id, params1);
- if (gitpodwin == null) {
+ if (gitpodwin == null || tutorialwin == null) {
     console.log("argh"+id)
-    alert("please allow popups and retry")
+    alert("please allow popups in your browser and retry")
  }
  if (window.focus) {gitpodwin.focus();}
  return false;
@@ -46,4 +46,8 @@ To start the virtual training, please click on the following link which opens tw
 <button type="button" class="btn btn-primary" href="#" onclick="prepEnv();">open environment</button>
 ++++
 
+If you want to arrange these windows manually or have trouble with your popup-blocker, you can also use these links to open boths windows manually:
+
+* https://gitpod.io/#https://github.com/docToolchain/tutorials[GitPod Environment]
+* https://rdmueller.netlify.app/installDocToolchain.html[Tutorial]
 
