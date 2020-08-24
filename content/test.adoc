@@ -24,15 +24,15 @@ function prepEnv()
  var params2 = params + ', width='+rightwidth+', height='+screen.height;
  params2 += ', top='+0+', left='+leftwidth;
 
- tutorialwin=window.open("https://rdmueller.netlify.app/test.html",'tutorial', params1);
+ tutorialwin=window.open("https://rdmueller.netlify.app/installDocToolchain.html",'tutorial', params1);
  gitpodwin=window.open("https://gitpod.io/#https://github.com/docToolchain/docToolchain",'gitpod', params2);
  gitpodwin.focus()
  return false;
 }
-popup ("https://gitpod.io/#https://github.com/docToolchain/docToolchain");
 // -->
 </script>
 ++++
+
 
 ++++
 <a href="#" onclick="prepEnv();">open environment</a>
