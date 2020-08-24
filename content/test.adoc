@@ -1,4 +1,4 @@
-:jbake-title: Tutorial-Test
+:jbake-title: docToolchain Tutorial
 :jbake-date: 2020-07-10
 :jbake-type: page
 :jbake-status: published
@@ -33,16 +33,10 @@ function prepEnv()
 </script>
 ++++
 
+To start the virtual training, please click on the following link which opens two windows.
 
 ++++
 <a href="#" onclick="prepEnv();">open environment</a>
 ++++
-
-
-This is a Test
-
-Imagine that this text tells you what to do on the right. +
-step by step. +
-awesome.
 
 
