@@ -8,8 +8,8 @@
 <!--
 function prepEnv()
 {
- var leftwidth   = screen.width*0.2;
- var rightwidth   = screen.width*0.8;
+ var leftwidth   = screen.width*0.3;
+ var rightwidth   = screen.width*0.7;
  var params = '';
  params += 'directories=no';
  params += ', location=no';
@@ -24,7 +24,7 @@ function prepEnv()
  var params2 = params + ', width='+rightwidth+', height='+screen.height;
  params2 += ', top='+0+', left='+leftwidth;
 
- gitpodwin=window.open("https://rdmueller.netlify.app/test.html",'tutorial', params1);
+ tutorialwin=window.open("https://rdmueller.netlify.app/test.html",'tutorial', params1);
  gitpodwin=window.open("https://gitpod.io/#https://github.com/docToolchain/docToolchain",'gitpod', params2);
  gitpodwin.focus()
  return false;
@@ -38,12 +38,11 @@ popup ("https://gitpod.io/#https://github.com/docToolchain/docToolchain");
 <a href="#" onclick="prepEnv();">open environment</a>
 ++++
 
-[cols="1,5"]
-|===
-| This is a Test
+
+This is a Test
 
 Imagine that this text tells you what to do on the right. +
 step by step. +
 awesome.
-a|
-|===
+
+
