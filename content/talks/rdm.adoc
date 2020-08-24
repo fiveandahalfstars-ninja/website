@@ -1,16 +1,17 @@
-title=Talks Ralf D. Müller
-date=2020-07-10
-type=page
-status=published
-~~~~~~
+:jbake-title: Talks Ralf D. Müller
+:jbake-date: 2020-07-10
+:jbake-type: page
+:jbake-status: published
 
-:toc: left
+ifndef::imagesdir[:imagesdir: ../images]
 
 == Termine
 
 === 01.09.20: German Testing Day
 
-https://www.germantestingday.info/german-testing-day-2020/programm/konferenzprogramm.html[Spock und AsciiDoc - vom Test zur Spezifikation und zurück] mit https://agiledojo.de/[Christian Fischer]
+https://www.germantestingday.info/german-testing-day-2020/programm/konferenzprogramm/sprecher-des-gtd-2020/sprecherdetails/saction/detail/sspeaker/ralf-mueller.html[Spock und AsciiDoc - vom Test zur Spezifikation und zurück] mit https://agiledojo.de/[Christian Fischer]
+
+image::germantesting.jpg[]
 
 === 27.10.20: JCON
 
