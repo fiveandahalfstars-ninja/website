@@ -6,9 +6,11 @@
 ++++
 <style>
 .step {
-padding-top: 60px;
-display: block;
+display:g block;
 height: 130vh;
+}
+.step h3 {
+padding-top: 60px;
 }
 </style>
 ++++
