@@ -24,9 +24,16 @@ function prepEnv()
  var params2 = params + ', width='+rightwidth+', height='+screen.height;
  params2 += ', top='+0+', left='+leftwidth;
 
- tutorialwin=window.open("https://rdmueller.netlify.app/installDocToolchain.html",'tutorial', params1);
- gitpodwin=window.open("https://gitpod.io/#https://github.com/docToolchain/tutorials",'gitpod', params2);
- gitpodwin.focus()
+ var day = new Date();
+ var id=day.getTime();
+
+ gitpodwin=window.open("https://gitpod.io/#https://github.com/docToolchain/tutorials",'gitpod'+id, params2);
+ tutorialwin=window.open("https://rdmueller.netlify.app/installDocToolchain.html",'tutorial'+id, params1);
+ if (gitpodwin == null) {
+    console.log("argh"+id)
+    alert("please allow popups and retry")
+ }
+ if (window.focus) {gitpodwin.focus();}
  return false;
 }
 // -->
