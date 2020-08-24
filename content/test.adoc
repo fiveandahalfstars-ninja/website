@@ -36,7 +36,7 @@ function prepEnv()
 To start the virtual training, please click on the following link which opens two windows.
 
 ++++
-<a href="#" onclick="prepEnv();">open environment</a>
+<button type="button" class="btn btn-primary" href="#" onclick="prepEnv();">open environment</button>
 ++++
 
 
