@@ -64,7 +64,7 @@ Let's get started with the first step.
 
 [cols="2"]
 |===
-<|<<intro,back>>
+<|
 >|<<step1>>
 |===
 
@@ -92,8 +92,8 @@ When you start a new terminal, it will be already initialized.
 
 [cols="2"]
 |===
-<|<<step1,back>>
->|<<step2>>
+<|<<into,back>>
+>a|<<step2>>
 |===
 
 [.step]
@@ -102,7 +102,11 @@ When you start a new terminal, it will be already initialized.
 
 some text
 
-<<step3>>
+[cols="2"]
+|===
+<|<<step1,back>>
+>a|<<step3>>
+|===
 
 [.step]
 [[step3]]
