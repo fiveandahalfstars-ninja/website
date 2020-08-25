@@ -10,20 +10,14 @@ function prepEnv(win = 3)
 {
  var leftwidth   = screen.width*0.3;
  var rightwidth   = screen.width*0.7;
- var params = '';
- params += 'directories=no';
- params += ', location=no';
- params += ', menubar=no';
- params += ', resizable=no';
- params += ', scrollbars=yes';
- params += ', status=no';
- params += ', toolbar=no';
- var scr
+
+ var params = 'location=yes, menubar=no, scrollbars=yes, status=no, toolbar=no';
+
  var params1 = params + ', width='+leftwidth+', height='+screen.height;
  params1 += ', top='+0+', left='+0;
  var params2 = params + ', width='+rightwidth+', height='+screen.height;
  params2 += ', top='+0+', left='+leftwidth;
-
+console.log(params1);
 // gitpodwin=window.open("https://gitpod.io/#https://github.com/docToolchain/tutorials",'gitpod'+id, params2);
  tutorialwin=window.open("https://rdmueller.netlify.app/installDocToolchain.html",'tutorial', params1);
  if (tutorialwin == null) {
