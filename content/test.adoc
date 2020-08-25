@@ -36,13 +36,13 @@ function prepEnv(win = 3)
 </script>
 ++++
 
-To start the virtual training, please click on the following link which opens two windows.
+To start the virtual training, please click on the following button which opens the tutorial.
 
 ++++
 <button type="button" class="btn btn-primary" href="#" onclick="prepEnv();">Open Tutorial</button>
 ++++
 
-If you want to arrange these windows manually or have trouble with your popup-blocker, you can also use these links to open boths windows manually:
+If you want to arrange the needed windows manually or have trouble with your popup-blocker, you can also use these links to open boths windows manually:
 
 * https://gitpod.io/#https://github.com/docToolchain/tutorials[GitPod Environment]
 * https://rdmueller.netlify.app/installDocToolchain.html[Tutorial]
