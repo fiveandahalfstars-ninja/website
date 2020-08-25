@@ -34,13 +34,9 @@ function prepEnv()
  var params2 = params + ', width='+rightwidth+', height='+screen.height;
  params2 += ', top='+0+', left='+leftwidth;
 
- var day = new Date();
- var id=day.getTime();
-
- gitpodwin=window.open("https://gitpod.io/#https://github.com/docToolchain/tutorials",'gitpod'+id, params2);
+ gitpodwin=window.open("https://gitpod.io/#https://github.com/docToolchain/tutorials",'gitpod', params2);
  //tutorialwin=window.open("https://rdmueller.netlify.app/installDocToolchain.html",'tutorial'+id, params1);
  if (gitpodwin == null) {
-    console.log("argh"+id)
     alert("please allow popups in your browser and retry")
  }
  if (window.focus) {gitpodwin.focus();}
