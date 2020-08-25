@@ -48,6 +48,7 @@ function prepEnv()
 ++++
 
 [.step]
+[[intro]]
 === Intro
 
 There are several ways to install and use docToolchain.
@@ -61,7 +62,11 @@ This tutorial will take aprox. 10 minutes of your time.
 
 Let's get started with the first step.
 
-<<step1>>
+[cols="2"]
+|===
+<|<<intro,back>>
+>|<<step1>>
+|===
 
 [.step]
 [[step1]]
@@ -85,7 +90,11 @@ In order to stay in the same terminal, you still need to execute
 in order to initialize it in this terminal.
 When you start a new terminal, it will be already initialized.
 
-<<step2>>
+[cols="2"]
+|===
+<|<<step1,back>>
+>|<<step2>>
+|===
 
 [.step]
 [[step2]]
