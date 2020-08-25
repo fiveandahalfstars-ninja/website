@@ -92,7 +92,7 @@ When you start a new terminal, it will be already initialized.
 
 [cols="2"]
 |===
-<|<<into,back>>
+<|<<intro,back>>
 >a|<<step2>>
 |===
 
