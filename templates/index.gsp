@@ -5,7 +5,7 @@
         <div class="container">
 
 	      <div class="page-header">
-		      <h1>⭐⭐⭐⭐⭐<span style="width: 0.5em">⭐</span> Ninja</h1>
+		      <h1>⭐⭐⭐⭐⭐<span style="display: inline-block; width: 0.5em">⭐</span> Ninja</h1>
 		      
 	      </div>
 
