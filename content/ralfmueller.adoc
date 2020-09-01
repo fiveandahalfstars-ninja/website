@@ -1,0 +1,7 @@
+title=Ralf D. Müller
+date=2020-09-01
+type=page
+status=published
+~~~~~~
+
+include::rdmueller.adoc[]
