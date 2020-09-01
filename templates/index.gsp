@@ -5,10 +5,8 @@
         <div class="container">
 
 	      <div class="page-header">
-		    <h1>Softwarecrafter Johannes Dienst</h1>
-			  <a href="mailto:info@johannesdienst.net"><i class="fa fa-envelope header-icons" aria-hidden="true"></i></a>
-			  <a href="https://github.com/JohannesDienst"><i class="fa fa-github-square header-icons"></i></a>
-			  <a href="http://twitter.com/JohannesDienst"><i class="fa fa-twitter header-icons" aria-hidden="true"></i></a>
+		      <h1>⭐⭐⭐⭐⭐<span style="width: 0.5em">⭐</span> Ninja</h1>
+		      
 	      </div>
 
 	      <%published_posts.each {post ->%>
