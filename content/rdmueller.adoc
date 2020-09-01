@@ -1,0 +1,17 @@
+title=Ralf D. Müller
+date=2020-09-01
+type=page
+status=published
+~~~~~~
+
+Ralf ist tagüber Software Engineering Advocat bei der DB Systel und nach Sonnenuntergang zu allem zu begeistern, was mit IT zu tun hat.
+Die letzten Jahre seiner Karriere hat er sich auf die Dokumentation von Software Systemen mit https://arc42.org[arc42] und dem https://docs-as-co.de[Docs-as-Code] Ansatz fokussiert.
+
+Er twittert unter https://twitter.com/RalfDMueller[@RalfDMueller].
+
+
+
+Ralf is a Software Engineering Advocat at DB Systel during the day and after sunset he loves everything whit bits and bytes.
+The last few years of his career, he focused on the documentation of software systems with https://arc42.org[arc42] and the https://docs-as-co.de[Docs-as-Code] approach.
+
+You can follow him on twitter https://twitter.com/RalfDMueller [@RalfDMueller].
