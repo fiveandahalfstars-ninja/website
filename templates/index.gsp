@@ -5,7 +5,7 @@
         <div class="container">
 
 	      <div class="page-header">
-		      <h1><span style="border: 2px solid black; background: lightgray;>⭐⭐⭐⭐⭐</span><span style="display: inline-grid;width: 0.7em;overflow: hidden;">⭐</span> &nbsp;Ninja</h1>
+		      <h1><span style="border: 2px solid black; background: lightgray;padding: 2px 4px;">⭐⭐⭐⭐⭐</span><span style="padding: 2px 4px; display: inline-grid;width: 0.7em;overflow: hidden;">⭐</span><span style="padding: 2px 4px;"> &nbsp;Ninja</span></h1>
 		      
 	      </div>
 
