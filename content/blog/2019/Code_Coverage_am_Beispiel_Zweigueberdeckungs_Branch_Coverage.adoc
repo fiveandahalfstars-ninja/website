@@ -105,7 +105,7 @@ public void setSevenLivingNeighbors_IsDead_IsDeadInNextGeneration() {
 
 Mit diesem Test ergibt die Zweigabdeckung:
 
-image::../../images/content/2019/BranchCoverage_isAliveNextGeneration_complete.png[BranchCoverage der isAliveNextGeneration_complete]
+image::blog/2019/BranchCoverage_isAliveNextGeneration_complete.png[BranchCoverage der isAliveNextGeneration_complete]
 
 Interessanterweise führt dieser eine Test dazu, dass auch in Zeile 36 die Zweigüberdeckung vollständig ist. Das liegt an den Bedingungen selbst. Die Wahrheitstabellen bestätigen dies. Das Aufstellen überlasse ich aber dem geneigten Leser :-) 
 

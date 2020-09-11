@@ -11,7 +11,7 @@ und Zuhausearbeit kann mit ein klein wenig Aufwand ein Online-Meeting aufgepeppt
 In diesem Beitrag zeige ich, wie ich es unter ungünstigen Bedingungen geschafft habe das folgende Ergebnis in Microsoft Teams zu erreichen.
 
 .Endergebnis in Microsoft Teams mit virtueller Kamera aus OBS Studio
-image::../../images/content/2020/Virtual_cam_teams.png[Microsoft Teams Screenshot mit virtueller Kamera OBS Studio]
+image::blog/2020/Virtual_cam_teams.png[Microsoft Teams Screenshot mit virtueller Kamera OBS Studio]
 
 == Voraussetzungen
 Wie auf dem unteren Bild zu sehen, ist mein Platzangebot sehr gering. Da ich direkt unter dem Dach mein Arbeitszimmer habe,
@@ -21,7 +21,7 @@ fällt die Möglichkeit weg, den Greenscreen weit von mir weg zu platzieren. Das
 * Der Greenscreen kann bei entsprechender Höhe nicht breit genug werden
 
 .Nicht viel Platz unterm Dach
-image::../../images/content/2020/Camera_under_roof.jpg[Bild von mir an meinem Schreibtisch unter dem Dach]
+image::blog/2020/Camera_under_roof.jpg[Bild von mir an meinem Schreibtisch unter dem Dach]
 
 ## Was wird gebraucht
 Für mich persönlich fällt in diesem Szenario ein gekaufter Greenscreen flach. Selbstmachen und hoffen war angesagt :)
@@ -44,13 +44,13 @@ da beides sehr glatt ist. Es empfiehlt sich zuerst eine Decke zu befestigen und 
 unbedingt hübsch (siehe Bild)
 
 .Befestigung der Decken mit Wäscheklammern am Garderobenständer
-image::../../images/content/2020/Befestigung_Decke_Waescheklammern.jpg[Befestigung der Decken mit Wäscheklammern am Garderobenständer]
+image::blog/2020/Befestigung_Decke_Waescheklammern.jpg[Befestigung der Decken mit Wäscheklammern am Garderobenständer]
 
 == Das Setup
 Der Greenscreen ist jetzt schon bereit, um ihn hinter mir zu platzieren. Aufgrund der Gegebenheiten steht er so nah bei mir, dass er am Stuhl anliegt.
 
 .Greenscreensetup direkt hinter Stuhl
-image::../../images/content/2020/Greenscreen_Setup_raw.png[Greenscreensetup direkt hinter Stuhl]
+image::blog/2020/Greenscreen_Setup_raw.png[Greenscreensetup direkt hinter Stuhl]
 
 == Verwendung in Videokonferenzsoftware (Mit virtueller Kamera aus OBS Studio)
 Viele Videokonferenzprogramme bieten die Möglichkeit, Hintergrundbilder einzublenden. Meistens wird der Sprecher anhand eines Algorithmus erkannt.
@@ -76,7 +76,7 @@ Je gleichmäßiger er ausgeleuchtet ist, desto besser!
 Leider lässt sich mit meinem Setup der Greenspill nicht vermeiden. Der Greenscreen ist einfach zu nahe an mir dran.
 
 .An der Hand ist der Greenspill deutlich zu erkennen
-image::../../images/content/2020/Greenspill.png[An der Hand ist der Greenspill deutlich zu erkennen]
+image::blog/2020/Greenspill.png[An der Hand ist der Greenspill deutlich zu erkennen]
 
 == Was geht noch?
 In einem weiteren Beitrag werde ich das Tool link:https://obsproject.com/de[OBS Studio] vorstellen und zeigen, dass der Greenscreen wunderbar für Livecoding, Konferenzen und Workshops eingesetzt werden kann.

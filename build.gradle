@@ -1,0 +1,23 @@
+buildscript {
+    dependencies {
+        classpath 'org.asciidoctor:asciidoctorj-diagram:2.0.2'
+    }
+}
+plugins {
+    id 'org.jbake.site' version '5.0.0'
+}
+
+jbake {
+    version = '2.6.4'
+    srcDirName = ''
+    configuration['asciidoctor.option.requires'] = 'asciidoctor-diagram'
+    configuration['asciidoctor.attributes'] = [
+            'source-highlighter=prettify',
+            'imagesDir=/images',
+            "imagesoutDir=${buildDir}/jbake/images"
+    ]
+}
+bakePreview {
+    port = '8044'
+}
+defaultTasks 'bake', 'bakePreview'

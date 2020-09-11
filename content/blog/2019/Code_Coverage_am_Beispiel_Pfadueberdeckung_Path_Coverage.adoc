@@ -41,7 +41,7 @@ public int doSomething(int max) {
 
 Um alle Pfade zu entdecken, lohnt es sich einen sogenannten link:https://de.wikipedia.org/wiki/Kontrollflussgraph[Kontrollflussgraphen] zu erstellen:
 
-image::../../images/content/2019/Path_Coverage_Simple_Example.png[Path_Coverage_Simple_Example]
+image::blog/2019/Path_Coverage_Simple_Example.png[Path_Coverage_Simple_Example]
 
 Wie man sieht, gibt es selbst in dieser einfachen Methode drei Pfade, die durch separate Tests abgedeckt werden müssen.
 Überträgt man das auf eine größere Codebasis, dann gibt es eine unendliche Anzahl von Pfaden.
@@ -80,7 +80,7 @@ public boolean isAliveInNextGeneration() {
 
 Der Kontrollflussgraph ist ziemlich komplex:
 
-image::../../images/content/2019/Path_Coverage_Complex_Example.png[Path_Coverage_Complex_Example]
+image::blog/2019/Path_Coverage_Complex_Example.png[Path_Coverage_Complex_Example]
 
 Bei meiner Zählung bekomme ich folgende Pfadanzahl, wenn ich für die For-Schleife drei Pfade annehme:
 

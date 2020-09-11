@@ -111,12 +111,12 @@ public void setEightLivingNeighbors_IsAlive_IsDeadNextGeneration() { /* ... */ }
 
 Wie man sieht, reichen die Tests aus, um sicherzustellen, dass jede Zeile Code mindestens einmal von den Tests ausgeführt wird.
 
-image::../../images/content/2019/LinecoverageCell.png[Line Coverage der Zelle Überblick]
+image::blog/2019/LinecoverageCell.png[Line Coverage der Zelle Überblick]
 
 Ein genauerer Blick verrät uns jedoch, dass das Tool noch Verbesserungsvorschläge in der Verzweigungsüberdeckung (Branch Coverage) hat.
 Die Detailansicht gibt Aufschluss darüber, an welchen Stellen es hakt. Darum kümmern wir uns nächste Woche.
 
-image::../../images/content/2019/LineCoverageCell2.png[Line Coverage der Zelle im Detail]
+image::blog/2019/LineCoverageCell2.png[Line Coverage der Zelle im Detail]
 
 == Fazit
 Die Zeilenüberdeckung/-abdeckung ist das einfachste Überdeckungsmaß. Mit diesem kann festgestellt werden, an welcher Stelle die

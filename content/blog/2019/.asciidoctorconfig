@@ -1,2 +1,0 @@
-// this fixes the imagesdir when you use intellij for preview
-:imagesdir: ../../../assets/images/content
