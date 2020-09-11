@@ -1,6 +1,6 @@
 = Code Coverage am Beispiel: Zeilenüberdeckung (Line Coverage)
 :jbake-date: 2019-07-27
-:jbake-author: JohannesDienst
+:jbake-author: jdienst
 :jbake-type: post
 :jbake-status: published
 :jbake-tags: codemetrik

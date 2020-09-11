@@ -1,6 +1,6 @@
 = Greenscreen für Online-Besprechungen selbst bauen
 :jbake-date: 2020-07-03
-:jbake-author: JohannesDienst
+:jbake-author: jdienst
 :jbake-type: post
 :jbake-status: published
 :jbake-tags: recording

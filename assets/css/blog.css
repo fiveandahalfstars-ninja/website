@@ -41,3 +41,11 @@ a {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.author-thumbnail {
+    padding-top: 15px;
+}
+
+.author-thumbnail img {
+    max-width: 75%;
+}

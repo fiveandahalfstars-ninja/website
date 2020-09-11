@@ -13,9 +13,20 @@
 		    <div class="row article-preview-row">
 			  <div class="col-md-12">
 			    <div class="article-preview-box">
-				  <a href="${post.uri}"><h1>${post.title}</h1></a>
-		          <p>${new java.text.SimpleDateFormat("dd MMMM yyyy", Locale.ENGLISH).format(post.date)}</p>
-		          ${post.body.replaceAll('<[^>]*>','').trim().replaceAll("[\r]",'').replaceAll("\n","|").split("[|][|]")[0].replaceAll("[|]","")}
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-10">
+				  			<a href="${post.uri}"><h1>${post.title}</h1></a>
+						</div>
+						<div class="hidden-xs hidden-sm col-md-2 author-thumbnail">
+							<img src="/images/profiles/${post.author}.jpg" alt="${post.author}">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p>${new java.text.SimpleDateFormat("dd MMMM yyyy", Locale.ENGLISH).format(post.date)}</p>
+							${post.body.replaceAll('<[^>]*>','').trim().replaceAll("[\r]",'').replaceAll("\n","|").split("[|][|]")[0].replaceAll("[|]","")}
+						</div>
+					</div>
 				</div>
 			  </div>
 		    </div>
