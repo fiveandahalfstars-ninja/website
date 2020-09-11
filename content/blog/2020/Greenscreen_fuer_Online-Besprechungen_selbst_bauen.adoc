@@ -3,7 +3,7 @@
 :jbake-author: JohannesDienst
 :jbake-type: post
 :jbake-status: published
-:jbake-tags: buchreview
+:jbake-tags: recording
 
 Wer sich mit dem Thema Video-Streaming beschäftigt kennt sie unweigerlich: Greenscreens. Aber auch in der Zeit der Online-Meetings
 und Zuhausearbeit kann mit ein klein wenig Aufwand ein Online-Meeting aufgepeppt werden.

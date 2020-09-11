@@ -10,10 +10,15 @@
 	      </div>
 
 	      <%published_posts.each {post ->%>
-		    <a href="${post.uri}"><h1>${post.title}</h1></a>
-		    <p>${new java.text.SimpleDateFormat("dd MMMM yyyy", Locale.ENGLISH).format(post.date)}</p>
-		    ${post.body}
-			<hr class="post-separator">
+		    <div class="row article-preview-row">
+			  <div class="col-md-12">
+			    <div class="article-preview-box">
+				  <a href="${post.uri}"><h1>${post.title}</h1></a>
+		          <p>${new java.text.SimpleDateFormat("dd MMMM yyyy", Locale.ENGLISH).format(post.date)}</p>
+		          ${post.body.replaceAll('<[^>]*>','').trim().replaceAll("[\r]",'').replaceAll("\n","|").split("[|][|]")[0].replaceAll("[|]","")}
+				</div>
+			  </div>
+		    </div>
   	      <%}%>
 
 		  <p>Older posts are available in the <a href="${content.rootpath}${config.archive_file}">archive</a>.</p>
