@@ -43,9 +43,12 @@ a {
 }
 
 .author-thumbnail {
-    padding-top: 15px;
+    position: relative;
 }
 
 .author-thumbnail img {
-    max-width: 75%;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    max-width: 60%;
 }
