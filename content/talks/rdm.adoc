@@ -7,19 +7,9 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 == Termine
 
-=== 01.09.20: German Testing Day
-
-https://www.germantestingday.info/german-testing-day-2020/programm/konferenzprogramm/sprecher-des-gtd-2020/sprecherdetails/saction/detail/sspeaker/ralf-mueller.html[Spock und AsciiDoc - vom Test zur Spezifikation und zurück] mit https://agiledojo.de/[Christian Fischer]
-
-image::germantesting.jpg[]
-
 === 27.10.20: JCON
 
 https://jcon.one/de/ zusammen mit Johannes Dienst
-
-=== 25.11.20: JVM-CON
-
-https://www.jvm-con.de/programm%202020/#/talk/moderne-softwarearchitekturdokumentation[Workshop: Moderne Softwarearchitekturdokumentation] mit https://www.embarc.de/falk-sippach/[Falk Sippach]
 
 === 10.12.20: IT-Tage 2020
 
