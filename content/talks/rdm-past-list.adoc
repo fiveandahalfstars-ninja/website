@@ -1,8 +1,8 @@
 include::rdm-urls.adoc[]
 
-= 2020
+image::germantesting.jpg[width:200px]
 
-=== 01.09.20: German Testing Day
+= 2020
 
 * https://www.germantestingday.info/german-testing-day-2020/programm/konferenzprogramm/sprecher-des-gtd-2020/sprecherdetails/saction/detail/sspeaker/ralf-mueller.html[Spock und AsciiDoc - vom Test zur Spezifikation und zurück] +
 Online, 02.09.20, Ralf D. Müller mit https://agiledojo.de/[Christian Fischer]
