@@ -1,0 +1,51 @@
+= 2020
+
+== OOP und Code Days
+
+* Kill Legacy Code – wie man alten Code wieder wartbar bekommt (Workshop) Mit Christian Fischer, Carsten Thurau, Cornelia Franke
+
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+* Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller)
+
+== BOB
+* Effizient Arbeiten mit Architecture Decision Records (ADR)
+
+== DevOps Thüringen - Joint Meetup JUG Thüringen
+* The Dev, the Ops & the Team
+
+== Frankfurter Entwicklertag
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Cyberland
+* Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller)
+
+== THM Gießen Gastvortrag
+* Everything as Code: Pipeline, Infrastructure, Configuration, Documentation
+
+== SAEC Days
+* Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller)
+* Effizient arbeiten mit Architecture Decision Records (ADRs)
+
+= 2019
+== Clean Code Days
+* Pride & Prejudice: Teambildung & Motivation im agilen Umfeld
+
+= 2018
+== Clean Code Days
+* Clean Code ist doch einfach... Qualität ist schwierig!
+
+= 2017
+== Clean Code Days
+* Und wer testet die Tests? - Mutationstesten mit PIT
+
+== BOB
+* Und wer testet die Tests? - Mutationstesten mit PIT
+
+= 2016
+== Clean Code Days
+* Clean Communication - No Space for Ambiguities
+
+= 2015
+== Clean Code Days
+* Liebst du Typen? JavaScript in großem Stil mit TypeScript
