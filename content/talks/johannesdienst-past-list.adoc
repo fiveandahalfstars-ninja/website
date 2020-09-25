@@ -28,23 +28,72 @@
 * Effizient arbeiten mit Architecture Decision Records (ADRs)
 
 = 2019
+
+== Code Days
+* Clean Code ist einfach... Qualität ist schwierig!
+
 == Clean Code Days
 * Pride & Prejudice: Teambildung & Motivation im agilen Umfeld
+
+== JAX
+* DevOps im Konzern – Autonomie von DevOps-Teams vs. Betriebssicherheit (Mit Thomas Kappatsch)
+
+== Karlsruher Entwicklertag
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Java Forum Stuttgart
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Berlin Expert Days (BEDcon)
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Software Architecture Gathering:
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== JCON
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== BASTA!
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Continuous Lifecycle
+* DevOps im Konzern – Autonomie von DevOps-Teams vs. Betriebssicherheit (Mit Thomas Kappatsch)
+
+== Better Software
+* DevOps im Konzern – Autonomie von DevOps-Teams vs. Betriebssicherheit (Mit Thomas Kappatsch)
 
 = 2018
 == Clean Code Days
 * Clean Code ist doch einfach... Qualität ist schwierig!
 
+== Java Forum Stuttgart
+* Ist das Softwarearchitektur oder kann das weg? (Pecha Kucha)
+
+== IT-Tage
+* CIO-aRT! Die Kunst, agil zu arbeiten
+
 = 2017
+== Frankfurter Entwicklertag
+* Livecoding: TypeScript in der Praxis
+
+== BOB
+* Und wer testet die Tests? - Mutationstesten mit PIT
+
 == Clean Code Days
 * Und wer testet die Tests? - Mutationstesten mit PIT
 
-== BOB
+== Karlsruher Entwicklertag
 * Und wer testet die Tests? - Mutationstesten mit PIT
 
 = 2016
 == Clean Code Days
 * Clean Communication - No Space for Ambiguities
+
+== Karlsruher Entwicklertag
+* Typen nach JavaScript tragen - TypeScript
+
+== Berlin Expert Days (BEDcon)
+* Herr Ober: Eine getypte Obermenge von JavaScript bitte
 
 = 2015
 == Clean Code Days
