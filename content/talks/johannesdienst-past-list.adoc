@@ -32,11 +32,17 @@
 == Code Days
 * Clean Code ist einfach... Qualität ist schwierig!
 
+== c't webdev
+* Clean Code ist einfach … Qualität ist schwierig
+
 == Clean Code Days
 * Pride & Prejudice: Teambildung & Motivation im agilen Umfeld
 
 == JAX
 * DevOps im Konzern – Autonomie von DevOps-Teams vs. Betriebssicherheit (Mit Thomas Kappatsch)
+
+== DevDay Dresden
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
 
 == Karlsruher Entwicklertag
 * Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
@@ -76,6 +82,9 @@
 == Frankfurter Entwicklertag
 * Livecoding: TypeScript in der Praxis
 
+== Software QS-Tag
+* BDD in Multimandantensystemen - Ist doch ganz einfach, oder? (mit Thomas Handwerker)
+
 == BOB
 * Und wer testet die Tests? - Mutationstesten mit PIT
 
@@ -94,6 +103,9 @@
 
 == Berlin Expert Days (BEDcon)
 * Herr Ober: Eine getypte Obermenge von JavaScript bitte
+
+== Software QS Tag
+Code-Metriken lügen!? Praxisbeispiele und Gegenmaßnahmen
 
 = 2015
 == Clean Code Days
