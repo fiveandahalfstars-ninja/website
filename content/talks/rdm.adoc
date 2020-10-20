@@ -36,11 +36,11 @@ GitHub, GitLab und Bitbucket zeigen die Dokumente schon gleich im Repository als
 
 Doch wie bekomme ich aus diesen Dokumenten jetzt eine schicke Website hin, die nicht nur das Projekt dokumentiert, sondern auch das Projekt über eine nette Landingpage vorstellt, die Architektur bereitstellt und einen Newsfeed anbietet? 
 
-In diesem Vortrag zeige ich, warum sich jBake gerade für Java-Projekte ausgezeichnet eignet um für jedes Projekte mit wenig Aufwand eine schicke Microsite zu erstellen. 
+In diesem Vortrag zeige ich, warum sich jBake gerade für Java-Projekte ausgezeichnet eignet, um für jedes Projekt mit wenig Aufwand eine schicke Microsite zu erstellen.
 Vom Plain-Text-Dokument bis zur veröffentlichten Website mit TLS. 
 
-Dabei werde ich viele Tricks und Kniffe aus dem Projektalltag einfliessen lassen. 
-Landingpage, Architekturdokumentation mit arc42, Anwenderdoku mit AsciiDoc, Blog mit RSS-Feed und eine Suche werden kombiniert und einfach in das bestehende Projekt-Repository entsprechend dem Docs-as-Code-Ansatz integriert. 
+Dabei werde ich viele Tricks und Kniffe aus dem Projektalltag einfließen lassen.
+Landingpage, Architekturdokumentation mit arc42, Anwender-Doku mit AsciiDoc, Blog mit RSS-Feed und eine Suche werden kombiniert und einfach in das bestehende Projekt-Repository entsprechend dem Docs-as-Code-Ansatz integriert.
 Über ein Open Source Template wird er Einstieg in die Erstellung einer eigenen Microsite nach dem Vortrag erleichtert.
 
 === Documentation Driven Development
