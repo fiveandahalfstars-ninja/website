@@ -1,25 +1,32 @@
-title=Talks Johannes Dienst
-date=2020-07-10
-type=page
-status=published
-~~~~~~
+:jbake-title: Talks Johannes Dienst
+:jbake-date: 2020-07-10
+:jbake-type: page
+:jbake-status: published
 
-++++
-<iframe width="880" height="540" src="https://www.youtube.com/embed/rm2N17yEQ_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-++++
+ifndef::imagesdir[:imagesdir: ../images]
 
-++++
-<iframe width="880" height="540" src="https://www.youtube.com/embed/qvM3lXpbSiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-++++
+== Termine
 
-++++
-<iframe width="880" height="540" src="https://www.youtube.com/embed/jbdESdUjP5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-++++
+=== 27.10.20: JCON
 
-++++
-<iframe width="880" height="540" src="https://www.youtube.com/embed/EXwZelgvAco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-++++
+Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller)
 
-++++
-<iframe width="880" height="540" src="https://www.youtube.com/embed/Qz-0wQT3_wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-++++
+Effizient Arbeiten mit Architecture Decsion Records (ADRs)
+https://jcon.one/de/
+
+=== 07.10.2020 We Are Developers
+Work efficiently with Architecture Decision Records (ADRs) um 6:30 pm – 7:30 pm (CEST)
+https://www.wearedevelopers.com/live/live-week
+
+=== 05.11.2020 Iterate Ruhr
+Effizient Arbeiten mit Architecture Decsion Records (ADRs)
+https://iterate.ruhr/
+
+== Vergangen
+https://de.slideshare.net/JohannesDienst1[Folien siehe Foliendecks]
+
+include::johannesdienst-past-list.adoc[leveloffset=+2]
+
+== Details und Videos
+
+include::johannesdienst-details.adoc[leveloffset=+2]

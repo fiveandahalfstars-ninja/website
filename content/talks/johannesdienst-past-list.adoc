@@ -1,0 +1,112 @@
+= 2020
+
+== OOP und Code Days
+
+* Kill Legacy Code – wie man alten Code wieder wartbar bekommt (Workshop) Mit Christian Fischer, Carsten Thurau, Cornelia Franke
+
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+* Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller)
+
+== BOB
+* Effizient Arbeiten mit Architecture Decision Records (ADR)
+
+== DevOps Thüringen - Joint Meetup JUG Thüringen
+* The Dev, the Ops & the Team
+
+== Frankfurter Entwicklertag
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Cyberland
+* Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller)
+
+== THM Gießen Gastvortrag
+* Everything as Code: Pipeline, Infrastructure, Configuration, Documentation
+
+== SAEC Days
+* Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller)
+* Effizient arbeiten mit Architecture Decision Records (ADRs)
+
+= 2019
+
+== Code Days
+* Clean Code ist einfach... Qualität ist schwierig!
+
+== c't webdev
+* Clean Code ist einfach … Qualität ist schwierig
+
+== Clean Code Days
+* Pride & Prejudice: Teambildung & Motivation im agilen Umfeld
+
+== JAX
+* DevOps im Konzern – Autonomie von DevOps-Teams vs. Betriebssicherheit (Mit Thomas Kappatsch)
+
+== DevDay Dresden
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Karlsruher Entwicklertag
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Java Forum Stuttgart
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Berlin Expert Days (BEDcon)
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Software Architecture Gathering:
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== JCON
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== BASTA!
+* Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien
+
+== Continuous Lifecycle
+* DevOps im Konzern – Autonomie von DevOps-Teams vs. Betriebssicherheit (Mit Thomas Kappatsch)
+
+== Better Software
+* DevOps im Konzern – Autonomie von DevOps-Teams vs. Betriebssicherheit (Mit Thomas Kappatsch)
+
+= 2018
+== Clean Code Days
+* Clean Code ist doch einfach... Qualität ist schwierig!
+
+== Java Forum Stuttgart
+* Ist das Softwarearchitektur oder kann das weg? (Pecha Kucha)
+
+== IT-Tage
+* CIO-aRT! Die Kunst, agil zu arbeiten
+
+= 2017
+== Frankfurter Entwicklertag
+* Livecoding: TypeScript in der Praxis
+
+== Software QS-Tag
+* BDD in Multimandantensystemen - Ist doch ganz einfach, oder? (mit Thomas Handwerker)
+
+== BOB
+* Und wer testet die Tests? - Mutationstesten mit PIT
+
+== Clean Code Days
+* Und wer testet die Tests? - Mutationstesten mit PIT
+
+== Karlsruher Entwicklertag
+* Und wer testet die Tests? - Mutationstesten mit PIT
+
+= 2016
+== Clean Code Days
+* Clean Communication - No Space for Ambiguities
+
+== Karlsruher Entwicklertag
+* Typen nach JavaScript tragen - TypeScript
+
+== Berlin Expert Days (BEDcon)
+* Herr Ober: Eine getypte Obermenge von JavaScript bitte
+
+== Software QS Tag
+Code-Metriken lügen!? Praxisbeispiele und Gegenmaßnahmen
+
+= 2015
+== Clean Code Days
+* Liebst du Typen? JavaScript in großem Stil mit TypeScript

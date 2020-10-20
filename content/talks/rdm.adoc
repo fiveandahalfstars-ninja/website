@@ -7,19 +7,9 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 == Termine
 
-=== 01.09.20: German Testing Day
-
-https://www.germantestingday.info/german-testing-day-2020/programm/konferenzprogramm/sprecher-des-gtd-2020/sprecherdetails/saction/detail/sspeaker/ralf-mueller.html[Spock und AsciiDoc - vom Test zur Spezifikation und zurück] mit https://agiledojo.de/[Christian Fischer]
-
-image::germantesting.jpg[]
-
 === 27.10.20: JCON
 
 https://jcon.one/de/ zusammen mit Johannes Dienst
-
-=== 25.11.20: JVM-CON
-
-https://www.jvm-con.de/programm%202020/#/talk/moderne-softwarearchitekturdokumentation[Workshop: Moderne Softwarearchitekturdokumentation] mit https://www.embarc.de/falk-sippach/[Falk Sippach]
 
 === 10.12.20: IT-Tage 2020
 
@@ -38,6 +28,20 @@ include::rdm-details.adoc[leveloffset=+2]
 == Ideen
 
 Dieser Abschnitt enthält Ideen für Talks, die noch ausgearbeitet werden müssen.
+
+=== Doku-Microsites mit jBake
+
+Dokumentation in Markdown oder AsciiDoc zu erstellen ist einfach. 
+GitHub, GitLab und Bitbucket zeigen die Dokumente schon gleich im Repository als HTML-Seite an. 
+
+Doch wie bekomme ich aus diesen Dokumenten jetzt eine schicke Website hin, die nicht nur das Projekt dokumentiert, sondern auch das Projekt über eine nette Landingpage vorstellt, die Architektur bereitstellt und einen Newsfeed anbietet? 
+
+In diesem Vortrag zeige ich, warum sich jBake gerade für Java-Projekte ausgezeichnet eignet um für jedes Projekte mit wenig Aufwand eine schicke Microsite zu erstellen. 
+Vom Plain-Text-Dokument bis zur veröffentlichten Website mit TLS. 
+
+Dabei werde ich viele Tricks und Kniffe aus dem Projektalltag einfliessen lassen. 
+Landingpage, Architekturdokumentation mit arc42, Anwenderdoku mit AsciiDoc, Blog mit RSS-Feed und eine Suche werden kombiniert und einfach in das bestehende Projekt-Repository entsprechend dem Docs-as-Code-Ansatz integriert. 
+Über ein Open Source Template wird er Einstieg in die Erstellung einer eigenen Microsite nach dem Vortrag erleichtert.
 
 === Documentation Driven Development
 
