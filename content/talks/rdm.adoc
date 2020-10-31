@@ -7,9 +7,6 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 == Termine
 
-=== 27.10.20: JCON
-
-https://jcon.one/de/ zusammen mit Johannes Dienst
 
 === 10.12.20: IT-Tage 2020
 

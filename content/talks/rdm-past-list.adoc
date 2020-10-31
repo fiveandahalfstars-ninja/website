@@ -4,10 +4,29 @@ image::germantesting.jpg[width:200px]
 
 = 2020
 
+* Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten +
+JCON 2020, Online, 27.10.20, Ralf D. Müller mit https://twitter.com/johannesdienst[Johannes Dienst]
+
 * https://www.germantestingday.info/german-testing-day-2020/programm/konferenzprogramm/sprecher-des-gtd-2020/sprecherdetails/saction/detail/sspeaker/ralf-mueller.html[Spock und AsciiDoc - vom Test zur Spezifikation und zurück] +
-Online, 02.09.20, Ralf D. Müller mit https://agiledojo.de/[Christian Fischer]
+German Testing Day 2020, Online, 02.09.20, Ralf D. Müller mit https://agiledojo.de/[Christian Fischer]
+
+* https://www.saec-days.de/agenda/vortraege/articles/do33-spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten.html[Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten] +
+SAEC Days 2020, online, 23.7.20, Ralf D. Müller mit https://twitter.com/johannesdienst[Johannes Dienst]
+
+* http://cyberland.ijug.eu/sessions/session-9.html[Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten] +
+CyberLand 2020, online, 17.3.20, Ralf D. Müller mit https://twitter.com/johannesdienst[Johannes Dienst], https://www.youtube.com/watch?v=VUpPAE5aM0I[video]
+
+* https://entwicklertag.de/frankfurt/2020/spock-und-asciidoc-%E2%80%93-vom-test-zur-spezifikation-und-zur%C3%BCck-level-advanced[Spock und AsciiDoc – Vom Test zur Spezifikation und zurück] +
+Frankfurter Entwicklertag 2020, Frankfurt, 20.2.20, Ralf D. Müller
+
+* https://www.meetup.com/de-DE/devopsthde/events/268055746/[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+Java User Group Erfurt, Erfurt, 18.2.20, Ralf D. Müller
+
+* https://www.code-days.de/programm/programm-details/411/spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten/[] +
+OOP / Code Days, München, 4.2.20, Ralf D. Müller mit https://twitter.com/johannesdienst[Johannes Dienst]
 
 = 2019
+
 
 = 2018
 
