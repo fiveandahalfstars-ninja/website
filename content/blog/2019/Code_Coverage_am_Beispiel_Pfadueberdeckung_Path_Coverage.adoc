@@ -5,9 +5,7 @@
 :jbake-status: published
 :jbake-tags: codemetriken, pfadüberdeckung
 
-In den letzten beiden Blogposts ging es um die Überdeckungsmaße
- link:/blog/2019/Code_Coverage_am_Beispiel_Zweigueberdeckungs_Branch_Coverage.html[Zweigüberdeckung]
-link:/blog/2019/Code_Coverage+am_Beispiel_Zeilenueberdeckung_Line_Coverage.html[Zeilenüberdeckung].
+In den letzten beiden Blogposts ging es um die Überdeckungsmaße link:/blog/2019/Code_Coverage_am_Beispiel_Zweigueberdeckungs_Branch_Coverage.html[Zweigüberdeckung] link:/blog/2019/Code_Coverage+am_Beispiel_Zeilenueberdeckung_Line_Coverage.html[Zeilenüberdeckung].
 Die Zweigüberdeckung ist ein stärkeres Maß für die Qualität der Abdeckung, da sie die Zeilenüberdeckung enthält.
 Sie ist also eine echte Obermenge.
 
