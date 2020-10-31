@@ -6,7 +6,7 @@ Die beiden auf Groovy basierenden Frameworks Spock und Geb sorgen seit einiger Z
 
 ++++
 <div class="row">
-    <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 .col-sm-offset-3 .col-md-offset-3 .col-lg-offset-3">
+    <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
         <script async
             class="speakerdeck-embed"
             data-id="a5e3259364ba4c1dafc4a89890209bf2"
@@ -22,7 +22,7 @@ Die beiden auf Groovy basierenden Frameworks Spock und Geb sorgen seit einiger Z
 
 ++++
 <div class="row">
-    <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 .col-sm-offset-3 .col-md-offset-3 .col-lg-offset-3">
+    <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
 <script async class="speakerdeck-embed" data-id="2d2e6ba43fb54ab296e64ce52168aa75" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 </div>
@@ -41,8 +41,8 @@ Zwischendurch bekommen Sie zahlreiche Tipps, wie und wo Sie systematisch den Auf
 
 ++++
 <div class="row">
-    <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 .col-sm-offset-3 .col-md-offset-3 .col-lg-offset-3">
-<script async class="speakerdeck-embed" data-id="b7e969e4205d4373a099f9b22c264213" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+    <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+g<script async class="speakerdeck-embed" data-id="b7e969e4205d4373a099f9b22c264213" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 </div>
 ++++
