@@ -1,7 +1,5 @@
 include::rdm-urls.adoc[]
 
-image::germantesting.jpg[width:200px]
-
 = 2020
 
 * Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten +
@@ -62,22 +60,50 @@ OOP 2019, München, 22.01.19, Ralf D. Müller mit https://twitter.com/gernotstar
 * https://entwicklertag.de/frankfurt/2018/docs-code-arc42-asciidoc-gradle-co-im-einsatz[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
 Entwicklertag Frankfurt, Frankfurt, 21.02.18, Ralf D. Müller
 
-//TODO: add more
+* https://jax.de/software-architecture/docs-as-code-anatomie-einer-realen-systemdokumentation/[Docs-as-Code: Anatomie einer realen Systemdokumentation] +
+W-Jax 2018, München, 6.11.18, Ralf D. Müller mit https://twitter.com/gernotstarke[Gernot Starke]
+
+* https://sites.google.com/site/jugffm/home/29-08-2018-docs-as-code-arc42-asciidoc-gradle-co-im-einsatz[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+Java User Group Frankfurt, Deutsche Nationalbibliothek Frankfurt, 28.8.18, Ralf D. Müller
+
+* http://2018.greachconf.com/sessions/docs-as-code-arc42-asciidoc-gradle-co-combined/[Docs-as code: arc42, AsciiDoc, Gradle & Co. combined] +
+Gr8conf-Conf, Copenhagen, Denmark, 31.3.18, Ralf D. Müller
+
+* https://jax.de/software-architecture/the-hitchhikers-guide-to-docs-as-code/[Docs-as-Code - Architekturdokumentation leicht gemacht] +
+JAX 2018, Mainz, 26.4.18 Ralf D. Müller mit https://twitter.com/sippsack[Falk Sippach]
+
+* Docs-as code: arc42, AsciiDoc, Gradle & Co. combined +
+Greach-Conf, Madrid, Spain, 17.5.18, Ralf D. Müller
+
+* https://entwicklertag.de/frankfurt/2018/docs-code-arc42-asciidoc-gradle-co-im-einsatz[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+Entwicklertag Frankfurt, Frankfurt, 21.2.18 Ralf D. Müller
 
 = 2017
 
-* Dokumentation am (Riesen-)Beispiel – arc42, AsciiDoc und Co. in Aktion +
-Frankfurt, 27.06.2020, Ralf D. Müller
-* Spock & Geb: Clear and comprehensible tests! +
-Frankfurt, 27.06.2020, Ralf D. Müller
+* Docs-as-Code +
+JUG Darmstadt, Darmstadt, 7.12.17, Ralf D. Müller mit https://twitter.com/sippsack[Falk Sippach]
 
-* Dokumentation am (Riesen-)Beispiel – arc42, AsciiDoc und Co. in Aktion +
-{uri-jax2017}[JAX 2017, Mainz, 10.5.2017]
+* Hitchhikers Guide to Architecture Documentation +
+Software Architecture Summit 2017, Berlin, 18.9.17, Ralf D. Müller mit https://twitter.com/gernotstarke[Gernot Starke]
+
+* The Hitchhikers Guide to painless Documentation +
+DB, Frankfurt, 27.6.17, Ralf Müller
+
+* Spock & Geb: Clear and comprehensible tests! +
+DB, Frankfurt, 27.6.17, Ralf Müller
+
+* {uri-jax2017}[Dokumentation am (Riesen-)Beispiel – arc42, AsciiDoc und Co. in Aktion] +
+JAX 2017, Mainz, 10.5.17 Ralf. D. Müller mit https://twitter.com/gernotstarke[Gernot Starke]
+
 
 = 2016
 
+* Spock und Geb: Übersichtlich und nachvollzierbar Testen für alle! +
+DevOps Würzburg Mainfranken, 10.10.16, Ralf D. Müller mit https://twitter.com/tokraft[Tobias Kraft]
+
 * Spock und Geb: Übersichtlich und nachvollziehbar Testen für alle! +
 Javaland, Brühl, 08.3.2016
+
 
 = 2015
 
