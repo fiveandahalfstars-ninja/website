@@ -1,8 +1,5 @@
 = Spock und Geb: Übersichtlich und nachvollziehbar Testen für alle!
 
-* 23.5.2015, Karlsruher Entwicklertag, Karlsruhe, Ralf D. Müller, Tobias Kraft
-* 08.3.2016, Javaland, Brühl, Ralf D. Müller, Tobias Kraft
-
 Bei automatisierten Tests ist es oftmals nicht einfach nachzuvollziehen was getestet wurde. Des Weiteren laufen Tests meist durch und geben nur im Fehlerfall etwas aus. Wie soll man mit dem Fachbereich kommunizieren, was getestet wurde?
 
 Die beiden auf Groovy basierenden Frameworks Spock und Geb sorgen seit einiger Zeit für Aufsehen in der Java-Welt. Über Spock werden die Tests schon um einiges lesbarer. Durch die zusätzliche Nutzung von Geb lassen sich funktionale Tests aus der Sicht des Nutzers erstellen - so zu sagen die automatisierte Testfahrt der Applikation. Was noch fehlt sind gute Reports, die das Testvorgehen für alle Beteiligten nachvollziehbar machen.
@@ -15,7 +12,6 @@ Die beiden auf Groovy basierenden Frameworks Spock und Geb sorgen seit einiger Z
 
 = Spock & Geb: Clear and comprehensible tests!
 
-* 27.06.2020, Frankfurt, Ralf D. Müller, Tobias Kraft
 
 ++++
 <div style="width:50%">
@@ -25,7 +21,6 @@ Die beiden auf Groovy basierenden Frameworks Spock und Geb sorgen seit einiger Z
 
 = Dokumentation am (Riesen-)Beispiel – arc42, AsciiDoc und Co. in Aktion
 
-* {uri-jax2017}[20.5.2017, JAX 2017, Mainz], Dr. Gernot Starke, Ralf. D. Müller
 
 Anhand eines großen Systems zeigen Gernot und Ralf, wie Sie mit ziemlich wenig Aufwand angemessene und vernünftige Dokumentation für unterschiedliche Stakeholder produzieren – sodass Entwicklungsteams dabei auch noch Spaß haben.
 
