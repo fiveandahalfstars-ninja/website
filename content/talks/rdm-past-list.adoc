@@ -22,13 +22,47 @@ Frankfurter Entwicklertag 2020, Frankfurt, 20.2.20, Ralf D. Müller
 * https://www.meetup.com/de-DE/devopsthde/events/268055746/[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
 Java User Group Erfurt, Erfurt, 18.2.20, Ralf D. Müller
 
-* https://www.code-days.de/programm/programm-details/411/spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten/[] +
+* https://www.code-days.de/programm/programm-details/411/spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten/[Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten] +
 OOP / Code Days, München, 4.2.20, Ralf D. Müller mit https://twitter.com/johannesdienst[Johannes Dienst]
 
 = 2019
 
+* https://www.ittage.informatik-aktuell.de/programm/2019/docs-as-code-anatomie-einer-smarten-systemdokumentation/[Docs-as-Code: Anatomie einer smarten Systemdokumentation] +
+IT-Tage, Frankfurt, 10.12.2019, Ralf D. Müller mit https://twitter.com/gernotstarke[Gernot Starke]
+
+* Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz +
+JUG Saxony Day, Radebeul, 13.09.19, Ralf D. Müller
+
+* Spock and AsciiDoc - ein perfektes Paar +
+JUG Saxony Day, Radebeul, 13.09.19, Ralf D. Müller, https://www.youtube.com/watch?v=ebc6Xa-HC48&list=PLwB3cLpOQJbAhqI2nLaE_J78QTm7LxsFZ&index=2[video]
+
+* https://www.meetup.com/de-DE/Write-the-Docs-Karlsruhe/events/261826329/[Spock and AsciiDoc - a perfect match] +
+Write the Docs, Karlsruhe, 19.06.19, Ralf D. Müller
+
+* https://www.germantestingday.info/german-testing-day-2019/programm/konferenzprogramm/sessiondetails/action/detail/session/gtd-13-2/title/bdd-mit-spock-und-geb-uebersichtlich-und-nachvollziehbar-testen-fuer-alle.html[BDD mit Spock und Geb] +
+German Testing Day, Frankfurt, 7.6.19, Ralf D. Müller
+
+* http://jug-karlsruhe.de/content/docs-as-code/[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+Java User Group Karlsruhe, Karlsruhe, 05.06.19, Ralf D. Müller
+
+* https://jax.de/software-architecture/docs-as-code-arc42-asciidoc-gradle-und-antora-im-einsatz/[Docs as Code, arc42, AsciiDoc, Gradle und Antora im Einsatz] +
+JAX 2019, Mainz, 08.05.19, Ralf D. Müller
+
+* https://www.meetup.com/de-DE/JUG-Dortmund/events/259356764/[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+JUG Dortmund, Dortmund, 08.04.19, Ralf D. Müller
+
+* https://programm.javaland.eu/2019/#/scheduledEvent/569976[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+JavaLand 2019, Brühl, 19.3.19, Ralf D. Müller
+
+* https://www.oop-konferenz.de/oop2019/programm/konferenzprogramm/sessiondetails/action/detail/session/di-61-4/title/docs-as-code-anatomie-einer-smarten-systemdokumentation.html[Docs-as-Code: Anatomie einer smarten Systemdokumentation] +
+OOP 2019, München, 22.01.19, Ralf D. Müller mit https://twitter.com/gernotstarke[Gernot Starke]
 
 = 2018
+
+* https://entwicklertag.de/frankfurt/2018/docs-code-arc42-asciidoc-gradle-co-im-einsatz[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+Entwicklertag Frankfurt, Frankfurt, 21.02.18, Ralf D. Müller
+
+//TODO: add more
 
 = 2017
 
