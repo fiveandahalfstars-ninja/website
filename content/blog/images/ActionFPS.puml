@@ -1,0 +1,131 @@
+@startuml
+skinparam DefaultTextAlignment center
+skinparam arrowColor #000000
+skinparam rectangleBackgroundColor #CFE2F3
+skinparam fileBackgroundColor #CFE2F3
+skinparam databaseBackgroundColor #CFE2F3
+skinparam defaultFontSize 18
+
+title ActionFPS portal architecture
+
+package "log collection" as p1 {
+    rectangle "syslog\nmultiple servers" <<"<&layers>">> as syslog
+    rectangle "Log lines\n(Syslog server)" <<"<&layers>">> as loglines
+    file "flat file" as flatfile1
+
+        syslog -> loglines
+        loglines -> flatfile1
+}
+package "Games, Clanwars, Achivements, Ranks" as p2 {
+
+    file "flat file" as flatFile2
+    rectangle "Log\nlines" <<"<&layers>">> as logLines2
+    rectangle "Game\nparser" <<"<&layers>">> as gameParser
+    rectangle "Add countries" as addCountries
+    rectangle "join with\nusers" as joinWithUsers
+    rectangle "Determine\nachievement" as determineAchievement
+    rectangle "join with\nclans" as joinWithClans
+    rectangle "Determine\nclanwar" as determineClanwar
+    database "Rich game\nrepository" as richGameRepository
+
+
+        flatFile2 -> logLines2
+        logLines2 -> gameParser
+        gameParser -> addCountries
+        addCountries -> joinWithUsers
+        joinWithUsers -> determineAchievement
+        determineAchievement -> joinWithClans
+        joinWithClans -> determineClanwar
+        determineClanwar -> richGameRepository
+
+    rectangle "GeoIP" as geoIp
+
+    loglines -[hidden]-> geoIp
+
+        geoIp --> addCountries
+
+    database "User\nrepository" as userRepository
+    file "users csv" as users.csv
+    file "Nicknames csv" as nicknames.csv
+
+        joinWithUsers --> userRepository
+        userRepository <-- users.csv
+        userRepository <-- nicknames.csv
+
+    rectangle "User\nachievements" <<"<&layers>">> as userAchievements #D9D2E9
+    rectangle "Hall of fame" as hallOfFame
+
+    determineAchievement --> userAchievements
+    userAchievements --> hallOfFame
+
+    rectangle "Generate\nclanwars" <<"<&layers>">> as generateClanwars
+    database "Clanwar\nrepository" as clanwarRepository
+    rectangle "Clan ranks" as clanRanks
+    rectangle "Challange Publish" as challangePublish #D9EAD3
+    rectangle "Player ranks" as playerRanks
+    rectangle "User statistics" <<"<&layers>">> as userStatistics #D9D2E9
+    rectangle "Challange Publish" as challangePublish2 #D9EAD3
+    rectangle "EventSource\nendpoint for new\ngames" as eventSourceEndpoint #D9EAD3
+
+
+        joinWithClans --> generateClanwars
+        determineClanwar --> generateClanwars
+        generateClanwars --> clanwarRepository
+        clanwarRepository -> clanRanks
+        clanwarRepository --> challangePublish
+        richGameRepository --> clanRanks
+        richGameRepository --> playerRanks
+        richGameRepository --> userStatistics
+        richGameRepository -> challangePublish2
+        eventSourceEndpoint <-- richGameRepository
+}
+
+@enduml
+
+@startuml
+skinparam DefaultTextAlignment center
+skinparam arrowColor #000000
+skinparam rectangleBackgroundColor #CFE2F3
+skinparam fileBackgroundColor #CFE2F3
+skinparam databaseBackgroundColor #CFE2F3
+skinparam defaultFontSize 18
+
+package "Pinger (Live games)" as p3 {
+    rectangle "Game\nservers" <<"<&layers>">> as gameServers
+    rectangle "UDP server\nstatus updates" <<"<&layers>">> as udpServer
+    rectangle "Status parser" <<"<&layers>">> as statusParser
+    rectangle "EventSource\nendpoint for\nstatus updates" as eventSourceEndpoint2 #D9EAD3
+
+        gameServers -> udpServer
+        udpServer -> statusParser
+        statusParser -> eventSourceEndpoint2
+}
+
+package "Ladder" as p4 {
+    file "SSH log file" as sshLogFile
+    rectangle "Log lines" <<"<&layers>">> as logLines3
+    rectangle "join with users" as joinWithUsers2
+    rectangle "User ladder\nstatistics" <<"<&layers>">> as userLadderStatistics #D9D2E9
+    database "User\nrepository"  as userRepository2
+
+        sshLogFile -> logLines3
+        logLines3 -> joinWithUsers2
+        joinWithUsers2 -> userLadderStatistics
+        joinWithUsers2 <-- userRepository2
+}
+p3 -[hidden]-> p4
+
+package "Inters" as p5 {
+    database "User\nrepository" as userRepository3
+    file "flat file" as flatFile3
+    rectangle "Log\nlines" <<"<&layers>">> as logLines4
+    rectangle "join with users" as joinWithUsers3
+    rectangle "EventSource\nendpoint" as eventSourceEndpoint3 #D9EAD3
+
+        userRepository3 --> joinWithUsers3
+        flatFile3 -> logLines4
+        logLines4 -> joinWithUsers3
+        joinWithUsers3 -> eventSourceEndpoint3
+}
+p4 -[hidden]> p5
+@enduml

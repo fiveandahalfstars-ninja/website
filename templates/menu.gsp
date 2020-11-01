@@ -2,15 +2,19 @@
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
+
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="navbar-brand" href="#">
+            <span style="border: 2px solid black; background: lightgray;padding: 4px 4px; border-radius: 6px;">⭐⭐⭐⭐⭐</span><span style="padding: 4px 4px; display: inline-grid;width: 0.85em;overflow: hidden;">⭐</span><span style="padding: 4px 4px;"> &nbsp;- Ninja</span>
+          </a>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>index.html">Home</a></li>
 <!--li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>ralfdmueller.html">About</a></li -->
             <li class="dropdown">

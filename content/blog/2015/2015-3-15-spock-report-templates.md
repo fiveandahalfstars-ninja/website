@@ -1,0 +1,194 @@
+title=Spock-Reports with Templates
+date=2015-3-15
+type=post
+tags=spock, asciidoc
+status=published
+author=rdmueller
+~~~~~~
+
+
+The new template engine for the Spock-Reports-Plugin is out. Let's build an asciidoc template with it.
+
+### Step 1: configure the plugin
+
+Renato describes this step in detail on the [Plugin Homepage](https://github.com/renatoathaydes/spock-reports). I've placed the properties file in `src/test/resources/main/META-INF/services/` and so I place my templates also in `src/test/resources/spockreporttemplate/`
+
+```groovy
+com.athaydes.spockframework.report.template.TemplateReportCreator.specTemplateFile=/spockreporttemplate/spec-template.ad
+com.athaydes.spockframework.report.template.TemplateReportCreator.reportFileExtension=ad
+com.athaydes.spockframework.report.template.TemplateReportCreator.summaryTemplateFile=/spockreporttemplate/summary-template.ad
+com.athaydes.spockframework.report.template.TemplateReportCreator.summaryFileName=summary.ad
+```
+
+Just to get started, I placed two emtpy files `spec-template.ad` and `summary-template.ad` at the right location and ran my tests just to see that those empty templates are picked up.
+
+### Step 2: create a summary template
+
+I'll start with the summary report. It seems to be the easier one. Renato already provided a [markdown sample](https://raw.githubusercontent.com/renatoathaydes/spock-reports/master/src/main/resources/templateReportCreator/summary-template.md), so let's take a look at it to see the data which is available to the template.
+
+So it seems that we have a convinience function (`aggregateStats`) which creates some statistical data about our test runs and the `data` object itself.
+
+Let's modify the empty template in order to output both data structures:
+
+```groovy
+<% def stats = com.athaydes.spockframework.report.util.Utils.aggregateStats( data ) %>
+${stats.inspect()}
+>>>>>>>>>>
+${data.inspect()}
+```
+
+which leads to the following output: (a little bit reformatted for better readability)
+
+```groovy
+['total':13, 'passed':13, 'failed':0, 'fFails':0, 'fErrors':0, 'time':258.0, 'successRate':1.0]
+>>>>>>>>>>
+['DatabaseDrivenSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':1, 'successRate':1.0, 'time':67], 
+	'DataDrivenSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':3, 'successRate':1.0, 'time':19], 
+	'DerivedSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':2, 'successRate':1.0, 'time':16], 
+	'EmptyStackSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':4, 'successRate':1.0, 'time':20], 
+	'HamcrestMatchersSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':1, 'successRate':1.0, 'time':21], 
+	'HelloSpockSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':1, 'successRate':1.0, 'time':3], 
+	'IncludeExcludeExtensionSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':3, 'successRate':1.0, 'time':3], 
+	'OrderedInteractionsSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':1, 'successRate':1.0, 'time':49], 
+	'PublisherSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':2, 'successRate':1.0, 'time':24], 
+	'StackWithOneElementSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':4, 'successRate':1.0, 'time':4], 
+	'StackWithThreeElementsSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':4, 'successRate':1.0, 'time':7], 
+	'StepwiseExtensionSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':3, 'successRate':1.0, 'time':4], 
+	'UsingJUnitRulesSpec':['failures':0, 'errors':0, 'skipped':0, 'totalRuns':1, 'successRate':1.0, 'time':21]
+]
+```
+
+That's great! We get hashmaps which can be easily inspected. That will make it even easier to write a template.
+
+Now let's come up with the real template:
+
+#### summary-template.ad:
+```groovy
+<% def stats = com.athaydes.spockframework.report.util.Utils.aggregateStats( data )
+ %>= Specification run results
+
+== Specifications summary
+
+[small>#created on ${new Date()} by ${System.properties['user.name']}#
+
+.summary
+[options="header"]
+|==================================================================================================================================
+| Total          | Passed          | Failed          | Feature failures | Feature errors   | Success rate        | Total time (ms) 
+| ${stats.total} | ${stats.passed} | ${stats.failed} | ${stats.fFails}  | ${stats.fErrors} | ${stats.successRate}| ${stats.time}   
+|==================================================================================================================================
+
+== Specifications
+
+[options="header"]
+|===================================================================
+|Name  | Features | Failed | Errors | Skipped | Success rate | Time 
+<% data.each { name, map ->
+ %>| $name | ${map.totalRuns} | ${map.failures} | ${map.errors} | ${map.skipped} | ${map.successRate} | ${map.time} 
+<% } %>
+|===================================================================
+
+[small]#generated by ${com.athaydes.spockframework.report.SpockReportExtension.PROJECT_URL}[Athaydes Spock Reports]#
+```
+
+Since MarkDown and AsciiDoc do not differ too much for this template, this was easy! Details regarding the formatting can be solved later... 
+
+To check the correct asciidoc syntax, you can simply copy and paste the result to the asciidoc live editor https://asciidoclive.com/
+
+### Step 3: create a spec template
+
+Now let's do the same with the spec template. First try to figure out what data we will have available. 
+
+```groovy
+${data.dump()}
+```
+
+but this time, the dump does not give us such a good result: (reformatted for readability)
+
+```groovy
+<com.athaydes.spockframework.report.internal.SpecData@5de17399 
+info=org.spockframework.runtime.model.SpecInfo@7c6c71f5
+featureRuns=[
+	com.athaydes.spockframework.report.internal.FeatureRun@33adcba4,
+	com.athaydes.spockframework.report.internal.FeatureRun@5714967d,
+	com.athaydes.spockframework.report.internal.FeatureRun@8a41535
+	] 
+totalTime=10>
+```
+
+We can only see the different java object within the dump and not the full data structure. Since I don't like to go to the source of those structure and analyze it, I now take the MarkDown sample template and start to transform it right away. This should lead to a solution which will fit for the moment:
+
+#### spec-template.ad:
+```groovy
+<%  def fmt = new com.athaydes.spockframework.report.internal.StringFormatHelper()
+    def stats = com.athaydes.spockframework.report.util.Utils.stats( data )
+ %>== Report for ${data.info.description.className}
+
+=== Summary
+
+[cols="asciidoc,asciidoc"]
+|====
+|* Total Runs: ${stats.totalRuns}
+ * Success Rate: ${fmt.toPercentage(stats.successRate)}
+ * Total time: ${fmt.toTimeDuration(stats.time)}
+|* Failures: ${stats.failures}
+ * Errors:   ${stats.errors}
+ * Skipped:  ${stats.skipped}
+|====
+
+=== Features
+<%
+    features.forEach { name, result, blocks, iterations, params ->
+%>
+==== $name
+
+Result: **$result**
+<%
+        for ( block in blocks ) {
+ %>
+* ${block.kind} ${block.text}
+<%
+        }
+        def executedIterations = iterations.findAll { it.dataValues || it.errors }
+        if ( params && executedIterations ) {
+ %>
+[options="header"]
+|====
+| ${params.join( ' | ' )} |
+<%
+            for ( iteration in executedIterations ) {
+%>| ${iteration.dataValues.join( ' | ' )} | ${iteration.errors ? '(FAIL)' : '(PASS)'}
+<%          } 
+%>|====
+<%      }
+        def problems = executedIterations.findAll { it.errors }
+        if ( problems ) {
+            out << "\nThe following problems occurred:\n\n"
+            for ( badIteration in problems ) {
+                if ( badIteration.dataValues ) {
+                    out << '* ' << badIteration.dataValues << '\n'
+                }
+                for ( error in badIteration.errors ) {
+                    out << '----\n' << error << '\n----\n'
+                }
+            }
+        }
+    }
+ %>
+
+[small]#generated by ${com.athaydes.spockframework.report.SpockReportExtension.PROJECT_URL}[Athaydes Spock Reports]#
+```
+
+The result looks good :-) Now that we have the summary report and all spec reports, we can add a small section to the summary template which includes all spec reports or order to create one big report file:
+
+```groovy
+<% data.each { name, map ->
+ %>
+<<<<
+
+include::${name}.ad[]
+<% } %>
+```
+
+Now we only need to create a gradle task which renders it.
+
