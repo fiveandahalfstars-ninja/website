@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <span style="border: 2px solid black; background: lightgray;padding: 4px 4px; border-radius: 6px;">⭐⭐⭐⭐⭐</span><span style="padding: 4px 4px; display: inline-grid;width: 0.85em;overflow: hidden;">⭐</span><span style="padding: 4px 4px;"> &nbsp;- Ninja</span>
           </a>
         </div>
