@@ -50,6 +50,19 @@ Die Anforderungen können nun in _einem_ System mit Stories angereichert und die
 
 Die Ergebnisse ausführbaren Akzeptanztests werden möglichst anscheilich wieder in die Stories und somit Anforderungen zurückgespielt und das Projekt erhält somit eine ausführbare Spezifikation.
 
+//Feedback zum Abstract
+// - Sätze zu lang
+// - kein roter Faden
+// - Gedanekn "nicht geordnet"
+// - man merkt, dass der Talk noch nicht ausgearbeitet ist
+// - => erst Talk zumindest in einer Grobgliederung erstellen,
+//      dann den Abstract
+// - Rechtschreibfehler!
+// - Abstract probelesen lassen
+// - "zu viel drin"
+// - Problem, Lösung (angeteasert), Inhalt
+// - erster Absatz ist besser, als der Restg
+
 === 5 Jahre Docs-as-Code mit docToolchain
 
 In dieser Session nehme ich alle Teilnehmer mit auf einen kurzen Ausflug durch 5 Jahre docToolchain. Auf dieser Reise werden wir zwei Zeitstränge betrachten.
