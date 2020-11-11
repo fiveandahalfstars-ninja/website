@@ -1,117 +1,137 @@
-= Three different Recording Scenarios
-:jbake-date: 2020-09-07
+= Dynamic AsciiDoc with Groovy and jBake
+:jbake-date: 2020-11-11
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-status: draft
-:jbake-tags: recording
+:jbake-tags: asciidoc, docs-as-code
 :jbake-lang: en
 
-To reach a bigger audience, I like to record my talks.
-It started out with noticing that Bernd Rücker recorded one of his talks at the Entwicklertag Frankfurt.
-Immediately after his talk, he started to post-process and upload his video in the hallway.
-I used this chance to talk to him and got my first tips & tricks to start with.
+Did you have wished to be able to create more "dynamic" documents with AsciiDoc?
 
-Meanwhile, I have recorded several talks of my own and noticed that I have three different, very distinct scenarios.
+== Attributes
 
-== Scenario One: Live, on site
+Attributes are already quite nice.
+They let you create parameterized docs which you can easily update.
+One example on how to use attributes are URIs for links in your document.
 
-These where my typical talks before corona.
+For example, if you have a reference like
 
-- You are on site in front of your audience.
-- You do not have much influence on the setting, the environment.
-- You need to record your screen, audio and speaker video.
-
-Since you have no influence on the environment, you can't use a greenscreen.
-And since it is a live performance, you only have one take.
-As it turn out, this is good, because recording will only take as long as your talk.
-
-With OBS Studio, you can record the second screen with your presentation and video of an external webcam together with a connected microphone.
-Both videos will be side by side, and you can mix them together in the post-production.
-
-The performance of OBS in such a situation is quite good, even on an intel i5 processor.
-
-[plantuml, "firstscenario", png]
+[source, asciidoc]
 ----
-component Micro
-component Webcam
-cloud "internet" {
-    component youtube
-}
-node notebook {
-    database hdd
-    component "OBS-Studio" as obs
-    file ".mp4" as mp4
-
-    obs -> hdd : record
-    hdd -> [camtasia]
-    camtasia -> mp4 : postprocessing
-}
-Micro -down-> obs
-Webcam -down-> obs
-mp4 -> youtube : upload
-
+https://fiveandahalfstars.ninja/blog/2020/greenscreen_fuer_online-besprechungen_selbst_bauen[latest post by Johannes]
 ----
 
-The result will look something like this
+you can replace this with the following, more readable version
 
-image::blog/2020/scenario_one.jpg[]
-
-This seems to be an easy scenario, but as it turns out, it is the hardest.
-I have not one single recording of myself where it worked out flawless.
-There are too many things which could fail:
-
-- you miss to hit the recording button.
-Even if you only miss to record the slides, it is too hard to fix this in the post-processing.
-- microphone might not work.
-We once had the situation that by mistake we used the build in microphone.
-The resulting quality was unusable.
-- you might walk out of sight for the camara or there is another reason why the camera view is trash.
-Next time, I will use two cameras, one of them with a fish-eye.
-- performance problems.
-Even tho your machine "only" has to record the video, it might run into performance problems.
-This will result in dropped frames and this overall poor video quality.
-- audio and video out of sync.
-I first tried to record with an external camera and external microphone.
-Both where not only out of sync, but there was a constant drift.
-To fix the video, I would have re-sync both every 4 minutes.
-That's why I now only record from sources which are directly attached to the recording machine.
-
-== Scenario Two: Live, but at home
-
-Things changed with the pandemic.
-All talks where canceled or turned into online ones where you present your ideas just infront of your screen without seeing your audience.
-
-[plantuml, "secondscenario", png]
+[source, asciidoc]
 ----
-component Micro
-component Webcam
-cloud "internet" {
-    component youtube
-component "vc provider" as vc
-}
-node notebook {
-    component "OBS-Studio" as obs
-    component Browser as browser
-    database hdd
-    file ".mp4" as mp4
-    component camtasia
-}
-obs -down-> browser : virtual webcam
-hdd -> [camtasia]
-camtasia -right-> mp4 : post-\nprocessing
-browser -down-> vc : WebRTC
-vc -> vc : record
-vc -up-> hdd : download\nrecording
-Micro -down-> obs
-Webcam -down-> obs
-mp4 -> youtube : upload
+:uri1: https://fiveandahalfstars.ninja/blog/2020/greenscreen_fuer_online-besprechungen_selbst_bauen
 
+{uri1}[latest post by Johannes]
 ----
 
-== Scenario Three: Pre-Record
+And whenever the link has to be updated (because Johannes published something new), you just have to update the attribute and the link will change wherever it was used.
 
-== Scenario Four: Beeing Recorded
+== jBake Meta-Data
 
-Bonus :-) One of the best situations is when someone else records your talk.
-In this case, it is the responsible of some one else to synchronize audio and video and to capture your display video.
-Perfect :-)
+In additon to the AsciiDoc attributes, jBake comes with a https://jbake.org/docs/2.6.4/#metadata_header[Metadata-Header].
+We use this for instance to tag a post with an author.
+These meta-data snippets are also AsciiDoc attributes.
+In addtion, you can access them in the page templates.
+Here is a snippet from our `postpreview.gsp` template:
+
+[source,html]
+----
+<img src="/images/profiles/${post.author}.jpg" alt="${post.author}">
+----
+
+Another concept ot jBake is to first parse and store all content in a local database and only then apply the templates.
+
+This turns every blog post into one line of a data table.
+
+== Chunks of Data
+
+Now, what happens if you have more data?
+Or maybe you don't want to create an extra file for each data entry?
+
+Maybe you want to display the latest measurements of your IoT device or you have a list of talks (like we have) and you want to render them?
+
+In case of the talks, we started out to maintain them as pure AsciiDoc files.
+That is ok for a start.
+The list might grow quite quickly and ss soon as you want to display such a (long) list in another way, you need to reformat _all_ entries.
+
+In case of the measurements of your IoT device, it is even more obvious - you just want to type the measuremts by hand into an AsciiDoc table.
+
+== Two Solutions
+
+To automate things, there are two solutions.
+
+=== One: a Generator
+
+You already _build_ your docs, so why not convert some json formatted data into AsciiDoc?
+In fact, this is a pretty easy approach, depending on the language you use.
+And for both use cases, it is easier to maintain your data as json file than as AsciiDoc (which is in fact not a data-format 😁).
+
+Code for this could look somthing like this:
+
+.generate.groovy
+[source, groovy]
+----
+//read data file
+def json = new File(content.datafile).text
+def data = new groovy.json.JsonSlurper().parseText(json)
+//itarate over data and output list of talks
+def asciidoc = ""
+data.talks.each { talk ->
+    asciidoc += """\
+== ${talk.date} ${talk.title}
+
+${talk.abstract}
+
+"""
+}
+new File("talks.adoc").write(asciidoc)
+----
+
+You can then include the resulting file in any doc.
+As you can see, it is now easy to (for instance) add the location where the talk will happen or any other detail.
+
+=== Two: Dynamic AsciiDoc
+
+Do you know PHP, JSP or GSP?
+With those server-side template languages, you have a syntax which lets you add dynamic elements to an otherwise static template.
+The generator code seen above could look like
+
+.talks.adoc
+[source, asciidoc]
+----
+:jbake-type: gsp
+:jbake-dataFile: ./data/talks.json
+
+<% talks.each { talk -> %>
+
+== ${talk.date} ${talk.title}
+
+${talk.abstract}
+
+<% } %>
+----
+
+The main difference is now that we inject code within <% ... %> into our document instead the other way around.
+The code shown could be embedded in a larger document and since this is part of the document, you don't have to start an additinal build step before your build your docs.
+
+The `:jbake-dataFile:` specifies where our data comes from.
+
+jBake already implements GSP-Templates.
+Groovy Server Pages.
+These allow us to use Groovy code within our templates.
+And this allows us to use also the body of a document as GSP-Template.
+
+Such a template looks like this:
+
+[source, gsp]
+----
+include::../../../templates/gsp.gsp[]
+----
+
+et voilà! Dynamic AsciiDoc!
