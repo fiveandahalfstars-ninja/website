@@ -1,0 +1,117 @@
+= Three different Recording Scenarios
+:jbake-date: 2020-09-07
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-status: draft
+:jbake-tags: recording
+:jbake-lang: en
+
+To reach a bigger audience, I like to record my talks.
+It started out with noticing that Bernd Rücker recorded one of his talks at the Entwicklertag Frankfurt.
+Immediately after his talk, he started to post-process and upload his video in the hallway.
+I used this chance to talk to him and got my first tips & tricks to start with.
+
+Meanwhile, I have recorded several talks of my own and noticed that I have three different, very distinct scenarios.
+
+== Scenario One: Live, on site
+
+These where my typical talks before corona.
+
+- You are on site in front of your audience.
+- You do not have much influence on the setting, the environment.
+- You need to record your screen, audio and speaker video.
+
+Since you have no influence on the environment, you can't use a greenscreen.
+And since it is a live performance, you only have one take.
+As it turn out, this is good, because recording will only take as long as your talk.
+
+With OBS Studio, you can record the second screen with your presentation and video of an external webcam together with a connected microphone.
+Both videos will be side by side, and you can mix them together in the post-production.
+
+The performance of OBS in such a situation is quite good, even on an intel i5 processor.
+
+[plantuml, "firstscenario", png]
+----
+component Micro
+component Webcam
+cloud "internet" {
+    component youtube
+}
+node notebook {
+    database hdd
+    component "OBS-Studio" as obs
+    file ".mp4" as mp4
+
+    obs -> hdd : record
+    hdd -> [camtasia]
+    camtasia -> mp4 : postprocessing
+}
+Micro -down-> obs
+Webcam -down-> obs
+mp4 -> youtube : upload
+
+----
+
+The result will look something like this
+
+image::blog/2020/scenario_one.jpg[]
+
+This seems to be an easy scenario, but as it turns out, it is the hardest.
+I have not one single recording of myself where it worked out flawless.
+There are too many things which could fail:
+
+- you miss to hit the recording button.
+Even if you only miss to record the slides, it is too hard to fix this in the post-processing.
+- microphone might not work.
+We once had the situation that by mistake we used the build in microphone.
+The resulting quality was unusable.
+- you might walk out of sight for the camara or there is another reason why the camera view is trash.
+Next time, I will use two cameras, one of them with a fish-eye.
+- performance problems.
+Even tho your machine "only" has to record the video, it might run into performance problems.
+This will result in dropped frames and this overall poor video quality.
+- audio and video out of sync.
+I first tried to record with an external camera and external microphone.
+Both where not only out of sync, but there was a constant drift.
+To fix the video, I would have re-sync both every 4 minutes.
+That's why I now only record from sources which are directly attached to the recording machine.
+
+== Scenario Two: Live, but at home
+
+Things changed with the pandemic.
+All talks where canceled or turned into online ones where you present your ideas just infront of your screen without seeing your audience.
+
+[plantuml, "secondscenario", png]
+----
+component Micro
+component Webcam
+cloud "internet" {
+    component youtube
+component "vc provider" as vc
+}
+node notebook {
+    component "OBS-Studio" as obs
+    component Browser as browser
+    database hdd
+    file ".mp4" as mp4
+    component camtasia
+}
+obs -down-> browser : virtual webcam
+hdd -> [camtasia]
+camtasia -right-> mp4 : post-\nprocessing
+browser -down-> vc : WebRTC
+vc -> vc : record
+vc -up-> hdd : download\nrecording
+Micro -down-> obs
+Webcam -down-> obs
+mp4 -> youtube : upload
+
+----
+
+== Scenario Three: Pre-Record
+
+== Scenario Four: Beeing Recorded
+
+Bonus :-) One of the best situations is when someone else records your talk.
+In this case, it is the responsible of some one else to synchronize audio and video and to capture your display video.
+Perfect :-)
