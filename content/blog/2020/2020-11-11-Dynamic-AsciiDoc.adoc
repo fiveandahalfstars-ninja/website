@@ -2,11 +2,11 @@
 :jbake-date: 2020-11-11
 :jbake-author: rdmueller
 :jbake-type: post
-:jbake-status: draft
+:jbake-status: published
 :jbake-tags: asciidoc, docs-as-code
 :jbake-lang: en
 
-Did you have wished to be able to create more "dynamic" documents with AsciiDoc?
+Did you ever wish to be able to create more "dynamic" documents with AsciiDoc?
 
 == Attributes
 
@@ -45,7 +45,9 @@ Here is a snippet from our `postpreview.gsp` template:
 <img src="/images/profiles/${post.author}.jpg" alt="${post.author}">
 ----
 
-Another concept ot jBake is to first parse and store all content in a local database and only then apply the templates.
+== jBake Data-Model
+
+Another concept of jBake is to first parse and store all content in a local database and only then apply the templates.
 
 This turns every blog post into one line of a data table.
 
@@ -58,9 +60,9 @@ Maybe you want to display the latest measurements of your IoT device or you have
 
 In case of the talks, we started out to maintain them as pure AsciiDoc files.
 That is ok for a start.
-The list might grow quite quickly and ss soon as you want to display such a (long) list in another way, you need to reformat _all_ entries.
+The list might grow quite quickly and as soon as you want to display such a (long) list in another way, you need to reformat _all_ entries.
 
-In case of the measurements of your IoT device, it is even more obvious - you just want to type the measuremts by hand into an AsciiDoc table.
+In case of the measurements of your IoT device, it is even more obvious - you just don't want to type the measuremts by hand into an AsciiDoc table.
 
 == Two Solutions
 
@@ -68,7 +70,7 @@ To automate things, there are two solutions.
 
 === One: a Generator
 
-You already _build_ your docs, so why not convert some json formatted data into AsciiDoc?
+You already _build_ your docs, so why not convert some json formatted data into AsciiDoc _before_ you hand it over to jBake?
 In fact, this is a pretty easy approach, depending on the language you use.
 And for both use cases, it is easier to maintain your data as json file than as AsciiDoc (which is in fact not a data-format 😁).
 
@@ -93,7 +95,7 @@ ${talk.abstract}
 new File("talks.adoc").write(asciidoc)
 ----
 
-You can then include the resulting file in any doc.
+You can then include the result in any `.adoc`-file.
 As you can see, it is now easy to (for instance) add the location where the talk will happen or any other detail.
 
 === Two: Dynamic AsciiDoc
@@ -117,8 +119,8 @@ ${talk.abstract}
 <% } %>
 ----
 
-The main difference is now that we inject code within <% ... %> into our document instead the other way around.
-The code shown could be embedded in a larger document and since this is part of the document, you don't have to start an additinal build step before your build your docs.
+The main difference is now, we inject code within <% ... %> into our document instead the other way around.
+The code shown could be embedded in a larger document and since this is part of the document, you don't have to start an additional build step before your build your docs.
 
 The `:jbake-dataFile:` specifies where our data comes from.
 
@@ -135,3 +137,11 @@ include::../../../templates/gsp.gsp[]
 ----
 
 et voilà! Dynamic AsciiDoc!
+
+:icons: font
+
+IMPORTANT: The solution shown is a good solution for some use cases, like the ones mentioned above.
+Please keep in mind that the resulting AsciiDoc is not standard conform anymore and will only work with your jBake system.
+The generator approach might be a better solution in certain situations.
+
+image::blog/2020/2020-11-teaser.png[width=0]

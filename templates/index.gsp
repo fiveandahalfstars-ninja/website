@@ -23,8 +23,7 @@
 								  images = (post.body =~ /<img [^>]*>/)
 								  if (images.size()>0) {
 									  out << '<div class="hidden-xs col-md-2 col-sm-2" style="padding: 30px 15px 15px 15px;">'
-									  out << images[0]
-									  System.out.println images[0]
+									  out << images[0].replace("width","xwidth")
 									  out << '</div><div class="col-md-8 col-xs-12 col-sm-10">'
 
 								  } else {

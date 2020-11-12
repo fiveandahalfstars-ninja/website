@@ -1,0 +1,12 @@
+:jbake-title: just a test
+:jbake-date: 2020-07-10
+:jbake-type: gsp
+:jbake-dataFile: ./data/talks.json
+:jbake-status: published
+
+
+<% talks.each { talk ->  %>
+
+== ${talk.title}
+
+<% } %>
