@@ -82,7 +82,7 @@ Code for this could look somthing like this:
 //read data file
 def json = new File(content.datafile).text
 def data = new groovy.json.JsonSlurper().parseText(json)
-//itarate over data and output list of talks
+//iterate over data and output list of talks
 def asciidoc = ""
 data.talks.each { talk ->
     asciidoc += """\
