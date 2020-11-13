@@ -2,9 +2,12 @@
 :jbake-date: 2020-11-11
 :jbake-author: rdmueller
 :jbake-type: post
+:jbake-toc: true
 :jbake-status: published
 :jbake-tags: asciidoc, docs-as-code
 :jbake-lang: en
+:doctype: article
+:toc: macro
 
 Did you ever wish to be able to create more "dynamic" documents with AsciiDoc?
 
@@ -145,3 +148,5 @@ Please keep in mind that the resulting AsciiDoc is not standard conform anymore 
 The generator approach might be a better solution in certain situations.
 
 image::blog/2020/2020-11-teaser.png[width=0]
+
+toc::[]
