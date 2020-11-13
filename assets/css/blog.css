@@ -54,5 +54,20 @@ a {
 }
 
 h1 {
-    font-size: 150%;
+    font-size: 2.3125em
+}
+
+h2 {
+    font-size: 1.6875em
+}
+h3 {
+    font-size: 1.4em
+}
+#toc .sectlevel1 {
+    margin-left: 1em;
+    padding-left: 1em;
+}
+#toc .sectlevel2,#toc .sectlevel3,#toc .sectlevel4 {
+    margin-left: 1em;
+    padding-left: 1em;
 }

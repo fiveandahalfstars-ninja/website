@@ -39,7 +39,7 @@
     <link href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>css/base.css" rel="stylesheet">
     <link href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>css/prettify.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>css/blog.css" rel="stylesheet">
+    <link href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>css/blog.css?v=1.1" rel="stylesheet">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
