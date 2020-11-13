@@ -1,7 +1,9 @@
 :jbake-title: Talks Ralf D. Müller
 :jbake-date: 2020-07-10
-:jbake-type: page
+:jbake-type: gsp
 :jbake-status: published
+:jbake-dataFile: ./data/talks.json
+
 
 ifndef::imagesdir[:imagesdir: ../images]
 
@@ -14,7 +16,12 @@ https://www.ittage.informatik-aktuell.de/programm/2020/spock-und-asciidoc-vom-te
 
 == Vergangen
 
-include::rdm-past-list.adoc[leveloffset=+2]
+<% talks.sort{it.date}.each { talk -> %>
+
+* ${talk.title} +
+${talk.event}, ${talk.location}, ${talk.date}, ${talk.speaker}
+
+<% } %>
 
 siehe https://speakerdeck.com/rdmueller
 
