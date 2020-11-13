@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <meta>
     <meta charset="utf-8"/>
     <title><%if (content.title) {%>${content.title}<% } else { %>Five and a Half Stars Ninja<% }%></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="author" content="${content.author}">
+    <meta name="keywords" content="${content.tags}">
     <meta name="generator" content="JBake">
 
+    <% if (content.type=="post") { %>
+    <%
+      //get first paragraph as teaser
+      teaser = content.body.split("</p>")[0]
+      if (teaser.size()<100) {
+        teaser = content.body.split("</p>")[0]+"</p>"+content.body.split("</p>")[1]
+      }
+      //remove all tags
+      teaser = teaser.replaceAll('<[^>]*>','').trim()
+      //do we have an image?
+      images = (content.body =~ /<img [^>]*>/)
+      image = ""
+      if (images.size()>0) {
+        image = images[0].replace("width","xwidth")
+
+      }
+    %>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@${content.author.replaceAll("rdmueller","ralfdmueller").replaceAll("jdienst","johannesdienst")}" />
+    <meta property="og:url" content="${config.site_host+"/"+content.uri}" />
+    <meta property="og:title" content="${content.title.replaceAll('"','&quot;')}" />
+    <meta property="og:description" content="${teaser.replaceAll('"','&quot;')}" />
+    <meta property="og:image" content="${config.site_host+image.replaceAll('.*src="([^"]*)".*','$1')}" />
+  <% } %>
     <!-- Le styles -->
     <link href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>css/bootstrap.min.css" rel="stylesheet">
     <link href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>css/asciidoctor.css" rel="stylesheet">
