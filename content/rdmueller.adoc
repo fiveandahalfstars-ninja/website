@@ -1,0 +1,57 @@
+:jbake-title: Ralf D. Müller
+:jbake-date: 2020-11-19
+:jbake-type: page
+:jbake-status: published
+
+ifndef::imagesdir[:imagesdir: ./images/]
+
+[.row]
+====
+
+[.col-md-2]
+--
+image::profiles/rdmueller.jpg[]
+--
+
+[.col-md-5]
+--
+
+image::https://github-readme-stats.vercel.app/api?username=rdmueller&show_icons=true[]
+
+--
+
+[.col-md-5]
+--
+
+Ralf is a Software Engineering Advocat at DB Systel during the day and after sunset he loves everything whit bits and bytes.
+The last few years of his career, he focused on the documentation of software systems with https://arc42.org[arc42] and the https://docs-as-co.de[Docs-as-Code] approach.
+
+You can follow him on twitter https://twitter.com/RalfDMueller[@RalfDMueller].
+
+++++
+        <a href="mailto:ralf.d.mueller@gmail.com"><i class="svg-icon email"></i></a>
+        <a href="http://github.com/rdmueller"><i class="svg-icon github"></i></a>
+        <a href="/feed.xml"><i class="svg-icon rss"></i></a>
+        <a href="http://twitter.com/RalfDMueller"><i class="svg-icon twitter"></i></a>
+        <a href="https://stackexchange.com/users/70694">
+
+<br />
+
+            <img src="https://stackexchange.com/users/flair/70694.png" width="208" height="58" alt="profile for Ralf on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Ralf on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+++++
+
+--
+
+====
+
+//Ralf ist tagsüber Software Engineering Advocat bei der DB Systel und nach Sonnenuntergang zu allem zu begeistern, was mit IT zu tun hat.
+//Die letzten Jahre seiner Karriere hat er sich auf die Dokumentation von Software Systemen mit https://arc42.org[arc42] und dem https://docs-as-co.de[Docs-as-Code] Ansatz fokussiert.
+
+
+
+
+//Tweet integration
+//3 Github Side-projects
+//DB Systel
+//http://rdmueller.github.io/
+// https://calendly.com/
