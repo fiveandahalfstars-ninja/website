@@ -1,0 +1,20 @@
+= Draw.io and AsciiDoc
+:jbake-date: 2020-11-xx
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: draft
+:jbake-tags: asciidoc, docs-as-code
+:jbake-lang: en
+:doctype: article
+:toc: macro
+
+:imagesdir: .
+
+image::demo.drawio.png[]
+
+image::demo.drawio.svg[]
+
+image::blog/2020/2020-11-teaser.png[width=0]
+
+toc::[]
