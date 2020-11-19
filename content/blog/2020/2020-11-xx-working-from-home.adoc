@@ -1,20 +1,117 @@
-= Draw.io and AsciiDoc
-:jbake-date: 2020-11-xx
+= Working from Home - my Setup
+:jbake-date: 2020-11-15
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
 :jbake-status: draft
-:jbake-tags: asciidoc, docs-as-code
+:jbake-tags: wfh, pubspeaking
 :jbake-lang: en
 :doctype: article
 :toc: macro
 
-:imagesdir: .
+It is quite a while now that most of us switched to working from home.
+Some of us have not seen their office space since the start of the pandemic.
+I've already tweetet a photo of my last conference setup from the view of my camera.
+But how does my desk look like at the moment?
 
-image::demo.drawio.png[]
+image::blog/2020/desk_rdmueller/speaker.jpg[width=100%]
 
-image::demo.drawio.svg[]
+Since I was forced to tidy up my work space, I thought it could be a good idea to take a photo.
+I love to see the working desk of others to get some fresh ideas on how I could improve mine.
+So, today I decided to show you my desk and I will go a bit into detail about everything you see.
 
-image::blog/2020/2020-11-teaser.png[width=0]
+image::blog/2020/desk_rdmueller/desk.jpg[width=100%]
+
+When Corona started, I had a simple desk with a second monitor which I rarely used (the notebook screen is often enough for me).
+
+But when I noticed that the situation will last for a longer period (and I guess we will never return to what we where used to), I started to invest in my new work place.
+
+== Webcam
+
+[.text-center]
+image::blog/2020/desk_rdmueller/webcam.jpg[]
+
+When one of our local Tech-Stores re-opend after the first lock-down, the tried to get some customers with some bargains.
+One of those was a Canon EOS 2000D for less than 300€.
+And since canon had jsut announced the release of a webcam driver for their cameras, I wanted to give it a try.
+
+I also had to by a dummy battery to keep it powerd through a USB charger and a tripod to mount it above my monitor.
+It works quite nice and I got used to it by now that every time it is activated, it takes some time to initialize itself.
+The main drawback is the missing autofocus.
+
+== Illumination
+
+As you can see, the desk is located right in front of a window.
+Most of the time, I get good sunlight.
+At other times, I have too much light or not enough light at all.
+This depends on the time of day and can vary during a meeting.
+
+[.text-center]
+image::blog/2020/desk_rdmueller/ringlight.jpg[]
+
+So I installed a cheap ringlight (29€) and an IKEA lamp which I alread had.
+Both together result in good illumination when the sun is away, but you can still see the difference.
+
+[.text-center]
+image::blog/2020/desk_rdmueller/ikea-lamp.jpg[]
+
+== CO2-Meter
+
+[.text-center]
+image::blog/2020/desk_rdmueller/co2-meter.jpg[]
+
+From people like Simon Harrer and Gernot Starke, I learned that a CO2-Meter is quite helpful to check the air quality.
+It reminds be every now and then to let some fresh air in and to take a break.
+
+== "Whiteboard"
+
+Do you remember those discussions over some quick drawings on the whiteboard?
+I missed them so much that I came up with this design.
+
+[.text-center]
+image::blog/2020/desk_rdmueller/whiteboard.jpg[]
+
+The old logitec C920 web-cam is mounted above a small pile of papers.
+This lets me easily share my thoughts with colleagues.
+
+== Green Screen
+
+Underneath the table, there is enough room to store my foldable green screen.
+
+[.text-center]
+image::blog/2020/desk_rdmueller/greenscreen.jpg[]
+
+I use it mainly when I give a talk to replace my background with one provided by my employer.
+
+== Alexa and Headphones
+
+[.text-center]
+image::blog/2020/desk_rdmueller/alexa.jpg[]
+
+These two help me to enter the flow and to have a pomodoro timer always at hand.
+
+
+== (hidden) USB Charger
+
+All my devices are wireless, but they need a place to recharge.
+All the cables needed for the charger where such a mess, that I needed a solution.
+
+[.text-center]
+image::blog/2020/desk_rdmueller/monitorstand.jpg[]
+
+Hindden in these two drawers are six USB charging cables (two USB-c and 4 USB-micro) which are powered by one charger mounted behind the monitor stand.
+
+As you can easily see, I came up with this solution before I noticed that I need so many other cable on which I then simply gave up 🤣.
+But I still love this solution - all my charging devices are "sleeping" in those two drawers...
+
+== X-Box and Super NES
+
+[.text-center]
+image::blog/2020/desk_rdmueller/xbox.jpg[]
+
+When it is time for a break, I like to use the X-Box or Super NES to play a quick and relaxing game.
+But most of the time, these to boxes help me to finish my day in time, because my kids want to play :-)
+
+=== .
 
 toc::[]

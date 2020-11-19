@@ -3,17 +3,12 @@
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
-:jbake-status: published
+:jbake-status: draft
 :jbake-tags: wfh, pubspeaking
 :jbake-lang: en
 :doctype: article
 :toc: macro
 
-:imagesdir: .
-
-image::desk.drawio.svg[width=100%,opts=inline]
-
-toc::[]
 
 [[headphones]]
 == Headphones
@@ -32,3 +27,5 @@ toc::[]
 var panZoomTiger = svgPanZoom('#demo-tiger');
 </script>
 ++++
+
+toc::[]
