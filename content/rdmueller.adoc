@@ -3,20 +3,36 @@
 :jbake-type: page
 :jbake-status: published
 
+++++
+<style>
+.exampleblock > .content {
+    border: 0px;
+}
+</style>
+++++
+
 ifndef::imagesdir[:imagesdir: ./images/]
 
 [.row]
 ====
 
+[.text-center]
 [.col-md-2]
 --
 image::profiles/rdmueller.jpg[]
---
 
-[.col-md-5]
---
+++++
+        <a href="mailto:ralf.d.mueller@gmail.com"><i class="svg-icon email"></i></a>
+        <a href="http://github.com/rdmueller"><i class="svg-icon github"></i></a>
+        <a href="/feed.xml"><i class="svg-icon rss"></i></a>
+        <a href="http://twitter.com/RalfDMueller"><i class="svg-icon twitter"></i></a>
 
-image::https://github-readme-stats.vercel.app/api?username=rdmueller&show_icons=true[]
+
+<br />
+<a href="https://stackexchange.com/users/70694">
+<img src="https://stackexchange.com/users/flair/70694.png" width="208" height="58" alt="profile for Ralf on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Ralf on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+</a>
+++++
 
 --
 
@@ -28,17 +44,19 @@ The last few years of his career, he focused on the documentation of software sy
 
 You can follow him on twitter https://twitter.com/RalfDMueller[@RalfDMueller].
 
-++++
-        <a href="mailto:ralf.d.mueller@gmail.com"><i class="svg-icon email"></i></a>
-        <a href="http://github.com/rdmueller"><i class="svg-icon github"></i></a>
-        <a href="/feed.xml"><i class="svg-icon rss"></i></a>
-        <a href="http://twitter.com/RalfDMueller"><i class="svg-icon twitter"></i></a>
-        <a href="https://stackexchange.com/users/70694">
+image::https://github-readme-stats.vercel.app/api?username=rdmueller&show_icons=true[]
 
-<br />
+--
 
-            <img src="https://stackexchange.com/users/flair/70694.png" width="208" height="58" alt="profile for Ralf on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Ralf on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-++++
+[.col-md-5]
+--
+
+[discrete]
+==== Blog Posts
+
+<% published_posts.findAll{it.author=="rdmueller"}[0..10].each { post -> %>
+link:/${post.uri}[${post.title}] +
+<% } %>
 
 --
 
