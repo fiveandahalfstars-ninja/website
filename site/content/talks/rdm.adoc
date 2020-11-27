@@ -2,24 +2,27 @@
 :jbake-date: 2020-07-10
 :jbake-type: gsp
 :jbake-status: published
-:jbake-dataFile: ./data/talks.json
-
+:jbake-dataFile: ./site/data/talks.json
 
 ifndef::imagesdir[:imagesdir: ../images]
 
-== Termine
-
+== Upcoming Talks
 
 === 10.12.20: IT-Tage 2020
 
 https://www.ittage.informatik-aktuell.de/programm/2020/spock-und-asciidoc-vom-test-zur-spezifikation-und-zurueck.html[Spock und AsciiDoc – Vom Test zur Spezifikation und zurück]
 
-== Vergangen
+== Past Talks
 
-<% talks.sort{it.date}.each { talk -> %>
+<% talks.sort{it.date}.each { talk ->
+def date = Date.parse("yyyy-MM-dd", talk.date)
+%>
 
 * ${talk.title} +
-${talk.event}, ${talk.location}, ${talk.date}, ${talk.speaker}
+${talk.event}, ${talk.location}, ${new java.text.SimpleDateFormat("dd MMM yyyy", Locale.ENGLISH).format(date)}, <% talk.speaker.each { %>
+https://twitter.com/$it[$it]
+<% } %>
+
 
 <% } %>
 

@@ -1,0 +1,111 @@
+include::rdm-urls.adoc[]
+
+= 2020
+
+* Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten +
+JCON 2020, Online, 27.10.20, Ralf D. Müller mit https://twitter.com/johannesdienst[Johannes Dienst]
+
+* https://www.germantestingday.info/german-testing-day-2020/programm/konferenzprogramm/sprecher-des-gtd-2020/sprecherdetails/saction/detail/sspeaker/ralf-mueller.html[Spock und AsciiDoc - vom Test zur Spezifikation und zurück] +
+German Testing Day 2020, Online, 02.09.20, Ralf D. Müller mit https://agiledojo.de/[Christian Fischer]
+
+* https://www.saec-days.de/agenda/vortraege/articles/do33-spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten.html[Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten] +
+SAEC Days 2020, online, 23.7.20, Ralf D. Müller mit https://twitter.com/johannesdienst[Johannes Dienst]
+
+* http://cyberland.ijug.eu/sessions/session-9.html[Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten] +
+CyberLand 2020, online, 17.3.20, Ralf D. Müller mit https://twitter.com/johannesdienst[Johannes Dienst], https://www.youtube.com/watch?v=VUpPAE5aM0I[video]
+
+* https://entwicklertag.de/frankfurt/2020/spock-und-asciidoc-%E2%80%93-vom-test-zur-spezifikation-und-zur%C3%BCck-level-advanced[Spock und AsciiDoc – Vom Test zur Spezifikation und zurück] +
+Frankfurter Entwicklertag 2020, Frankfurt, 20.2.20, Ralf D. Müller
+
+* https://www.meetup.com/de-DE/devopsthde/events/268055746/[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+Java User Group Erfurt, Erfurt, 18.2.20, Ralf D. Müller
+
+* https://www.code-days.de/programm/programm-details/411/spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten/[Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten] +
+OOP / Code Days, München, 4.2.20, Ralf D. Müller mit https://twitter.com/johannesdienst[Johannes Dienst]
+
+= 2019
+
+* https://www.ittage.informatik-aktuell.de/programm/2019/docs-as-code-anatomie-einer-smarten-systemdokumentation/[Docs-as-Code: Anatomie einer smarten Systemdokumentation] +
+IT-Tage, Frankfurt, 10.12.2019, Ralf D. Müller mit https://twitter.com/gernotstarke[Gernot Starke]
+
+* Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz +
+JUG Saxony Day, Radebeul, 13.09.19, Ralf D. Müller
+
+* Spock and AsciiDoc - ein perfektes Paar +
+JUG Saxony Day, Radebeul, 13.09.19, Ralf D. Müller, https://www.youtube.com/watch?v=ebc6Xa-HC48&list=PLwB3cLpOQJbAhqI2nLaE_J78QTm7LxsFZ&index=2[video]
+
+* https://www.meetup.com/de-DE/Write-the-Docs-Karlsruhe/events/261826329/[Spock and AsciiDoc - a perfect match] +
+Write the Docs, Karlsruhe, 19.06.19, Ralf D. Müller
+
+* https://www.germantestingday.info/german-testing-day-2019/programm/konferenzprogramm/sessiondetails/action/detail/session/gtd-13-2/title/bdd-mit-spock-und-geb-uebersichtlich-und-nachvollziehbar-testen-fuer-alle.html[BDD mit Spock und Geb] +
+German Testing Day, Frankfurt, 7.6.19, Ralf D. Müller
+
+* http://jug-karlsruhe.de/content/docs-as-code/[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+Java User Group Karlsruhe, Karlsruhe, 05.06.19, Ralf D. Müller
+
+* https://jax.de/software-architecture/docs-as-code-arc42-asciidoc-gradle-und-antora-im-einsatz/[Docs as Code, arc42, AsciiDoc, Gradle und Antora im Einsatz] +
+JAX 2019, Mainz, 08.05.19, Ralf D. Müller
+
+* https://www.meetup.com/de-DE/JUG-Dortmund/events/259356764/[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+JUG Dortmund, Dortmund, 08.04.19, Ralf D. Müller
+
+* https://programm.javaland.eu/2019/#/scheduledEvent/569976[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+JavaLand 2019, Brühl, 19.3.19, Ralf D. Müller
+
+* https://www.oop-konferenz.de/oop2019/programm/konferenzprogramm/sessiondetails/action/detail/session/di-61-4/title/docs-as-code-anatomie-einer-smarten-systemdokumentation.html[Docs-as-Code: Anatomie einer smarten Systemdokumentation] +
+OOP 2019, München, 22.01.19, Ralf D. Müller mit https://twitter.com/gernotstarke[Gernot Starke]
+
+= 2018
+
+* https://entwicklertag.de/frankfurt/2018/docs-code-arc42-asciidoc-gradle-co-im-einsatz[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+Entwicklertag Frankfurt, Frankfurt, 21.02.18, Ralf D. Müller
+
+* https://jax.de/software-architecture/docs-as-code-anatomie-einer-realen-systemdokumentation/[Docs-as-Code: Anatomie einer realen Systemdokumentation] +
+W-Jax 2018, München, 6.11.18, Ralf D. Müller mit https://twitter.com/gernotstarke[Gernot Starke]
+
+* https://sites.google.com/site/jugffm/home/29-08-2018-docs-as-code-arc42-asciidoc-gradle-co-im-einsatz[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+Java User Group Frankfurt, Deutsche Nationalbibliothek Frankfurt, 28.8.18, Ralf D. Müller
+
+* http://2018.greachconf.com/sessions/docs-as-code-arc42-asciidoc-gradle-co-combined/[Docs-as code: arc42, AsciiDoc, Gradle & Co. combined] +
+Gr8conf-Conf, Copenhagen, Denmark, 31.3.18, Ralf D. Müller
+
+* https://jax.de/software-architecture/the-hitchhikers-guide-to-docs-as-code/[Docs-as-Code - Architekturdokumentation leicht gemacht] +
+JAX 2018, Mainz, 26.4.18 Ralf D. Müller mit https://twitter.com/sippsack[Falk Sippach]
+
+* Docs-as code: arc42, AsciiDoc, Gradle & Co. combined +
+Greach-Conf, Madrid, Spain, 17.5.18, Ralf D. Müller
+
+* https://entwicklertag.de/frankfurt/2018/docs-code-arc42-asciidoc-gradle-co-im-einsatz[Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz] +
+Entwicklertag Frankfurt, Frankfurt, 21.2.18 Ralf D. Müller
+
+= 2017
+
+* Docs-as-Code +
+JUG Darmstadt, Darmstadt, 7.12.17, Ralf D. Müller mit https://twitter.com/sippsack[Falk Sippach]
+
+* Hitchhikers Guide to Architecture Documentation +
+Software Architecture Summit 2017, Berlin, 18.9.17, Ralf D. Müller mit https://twitter.com/gernotstarke[Gernot Starke]
+
+* The Hitchhikers Guide to painless Documentation +
+DB, Frankfurt, 27.6.17, Ralf Müller
+
+* Spock & Geb: Clear and comprehensible tests! +
+DB, Frankfurt, 27.6.17, Ralf Müller
+
+* {uri-jax2017}[Dokumentation am (Riesen-)Beispiel – arc42, AsciiDoc und Co. in Aktion] +
+JAX 2017, Mainz, 10.5.17 Ralf. D. Müller mit https://twitter.com/gernotstarke[Gernot Starke]
+
+
+= 2016
+
+* Spock und Geb: Übersichtlich und nachvollzierbar Testen für alle! +
+DevOps Würzburg Mainfranken, 10.10.16, Ralf D. Müller mit https://twitter.com/tokraft[Tobias Kraft]
+
+* Spock und Geb: Übersichtlich und nachvollziehbar Testen für alle! +
+Javaland, Brühl, 08.3.2016
+
+
+= 2015
+
+* Spock und Geb: Übersichtlich und nachvollziehbar Testen für alle! +
+Entwicklertag Karlsruhe, Karlsruhe, 23.5.2015

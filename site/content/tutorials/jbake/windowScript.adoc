@@ -1,0 +1,42 @@
+++++
+<style>
+.step {
+display:g block;
+height: 130vh;
+}
+.step h3 {
+padding-top: 60px;
+}
+span.btn-primary a {
+    color: white;
+}
+</style>
+
+<script type="text/javascript">
+<!--
+function prepEnv(win = 0, url, name)
+{
+    var leftwidth   = screen.width*0.3;
+    var rightwidth   = screen.width*0.7;
+    var params = 'location=yes, menubar=no, scrollbars=yes, status=no, toolbar=no';
+    yOff = 0
+    if (win===0) {
+        xOff = 0
+        width = leftwidth
+    } else {
+        xOff = leftwidth;
+        width = rightwidth
+    }
+    var x = (window.screenX || window.screenLeft || 0) + (xOff || 0);
+    var y = (window.screenY || window.screenTop || 0) + (yOff || 0);
+    var win =  window.open(url, name, params+', height='+screen.height+', width='+width+', top=' +y+ ',left=' +x)
+    if (win == null) {
+        alert("please allow popups in your browser and retry")
+    }
+    if (window.focus) {win.focus();}
+    return win;
+}
+
+// -->
+</script>
+++++
