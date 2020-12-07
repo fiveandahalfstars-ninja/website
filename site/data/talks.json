@@ -1,5 +1,29 @@
 {
   "talks": [
+
+    {
+      "title": "Architekturdokumentation mit Microsites",
+      "event": "embarc Architekturpunsch",
+      "location": "Online",
+      "date": "2020-12-17",
+      "url": "https://blog.embarc.de/architektur-punsch-2020/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "talkid": 11
+    },
+    {
+      "title": "Spock und AsciiDoc – Vom Test zur Spezifikation und zurück",
+      "event": "IT-Tage",
+      "location": "Online",
+      "date": "2020-12-09",
+      "url": "https://www.ittage.informatik-aktuell.de/programm/2020/spock-und-asciidoc-vom-test-zur-spezifikation-und-zurueck.html",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "talkid": 8
+    },
     {
       "title": "Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten",
       "event": "JCON 2020",
@@ -13,7 +37,7 @@
       "talkid": 10
     },
     {
-      "title": "Spock und AsciiDoc - vom Test zur Spezifikation und zur\u00fcck",
+      "title": "Spock und AsciiDoc - vom Test zur Spezifikation und zurück",
       "event": "German Testing Day 2020",
       "location": " Online",
       "date": "2020-09-02",
