@@ -15,7 +15,10 @@
 	    <div class="container">
 		  <div class="row article-preview-row">
 			  <% if (toc=="") { %>
-			  <div class="col-md-12">
+			  <div class="col-md-1">
+				  <a href="/${content.author}.html"><img src="/images/profiles/${content.author}.jpg" alt="${content.author}" /></a>
+			  </div>
+			  <div class="col-md-11">
 
 			  <div class="page-header">
 				<h1>${content.title}</h1>
@@ -27,7 +30,10 @@
 
 			  </div>
 			  <% } else { %>
-			  <div class="col-md-12">
+			  <div class="col-md-1">
+			  <a href="/${content.author}.html"><img src="/images/profiles/${content.author}.jpg" alt="${content.author}" /></a>
+		      </div>
+			  <div class="col-md-11">
 					  <h1>${content.title}</h1>
 
 			  </div>

@@ -5,14 +5,12 @@
     <div class="container">
 
         <%
-            //read data file
-            def json = new File(content.datafile).text
-            def data = new groovy.json.JsonSlurper().parseText(json)
-        %>
-        <%
-            //combine data and template
             def template
             try {
+                //read data file
+                def json = new File(content.datafile).text
+                def data = new groovy.json.JsonSlurper().parseText(json)
+                //combine data and template
                 def engine = new groovy.text.SimpleTemplateEngine()
                 // clean up the body
                 // (Asciidoctor replaces a bit too much)

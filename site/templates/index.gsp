@@ -30,7 +30,7 @@
 									  out << '<div class="col-md-10 col-xs-12 col-sm-12">'
 								  }
 								  out << '<h1><a href="' + post.uri +'">'+post.title+'</a></h1>'
-								  out << '<p>'+new java.text.SimpleDateFormat("dd MMMM yyyy", Locale.ENGLISH).format(post.date)+'</p>'
+								  out << '<p>'+new java.text.SimpleDateFormat("dd MMM yyyy", Locale.ENGLISH).format(post.date)+'</p>'
 								  out << '<p>'+teaser+'</p>'
 								  out << '</div>'
 						  %>

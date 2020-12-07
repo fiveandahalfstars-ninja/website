@@ -1,0 +1,88 @@
+:jbake-title: Install docToolchain
+:jbake-date: 2020-07-10
+:jbake-type: page
+:jbake-status: published
+
+include::windowScript.adoc[]
+
+
+== Setup
+
+++++
+<button type="button" class="btn btn-primary" href="#" onclick="prepEnv(1,'https://gitpod.io/#https://github.com/docToolchain/tutorials', 'gitpod');">Open GitPod Environment</button>
+++++
+
+[.step]
+[[intro]]
+=== Intro
+
+There are several ways to install and use docToolchain.
+In this tutorial, I will show you the preferred way through SDKMAN!.
+
+https://sdkman.io[SDKMAN!] is a software development kit manager which lets you install several tools and switch between versions of the same tool in a convenient way.
+
+When you are finished with this scenario, you will have docToolchain installed as command line tool.
+
+This tutorial will take aprox. 10 minutes of your time.
+
+Let's get started with the first step.
+
+[cols="2"]
+|===
+<|
+>|[btn btn-primary]#<<step1>>#
+|===
+
+[.step]
+[[step1]]
+=== Step 1: Install SDKMAN!
+
+First you have to install SDKMAN!.
+If you work on your own environment and already have it installed, you can skip this step.
+
+This step assumes that you have `curl` and `unzip` installed on your machine.
+
+The following command will install SDKMAN!
+Please copy it over to the terminal and execute it.
+
+    curl -s "https://get.sdkman.io" | bash
+
+After a short moment, you will see that is has been installed.
+In order to stay in the same terminal, you still need to execute
+
+    source "/root/.sdkman/bin/sdkman-init.sh"
+
+in order to initialize it in this terminal.
+When you start a new terminal, it will be already initialized.
+
+[cols="2"]
+|===
+<|[btn btn-primary]#<<intro,back>>#
+>a|[btn btn-primary]#<<step2>>#
+|===
+
+[.step]
+[[step2]]
+=== Step 2: sdfds
+
+some text
+
+++++
+<style>
+table {
+    width: 100%;
+}
+</style>
+++++
+
+[cols="2",]
+|===
+<|[btn btn-primary]#<<step1,back>>#
+>a|[btn btn-primary]#<<step3>>#
+|===
+
+[.step]
+[[step3]]
+=== Step 3: Lorem Ipsum
+
+even more text
