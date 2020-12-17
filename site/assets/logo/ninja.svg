@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="195.31833mm"
+   height="166.97977mm"
+   viewBox="0 0 195.31833 166.97977"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1476306"
-     inkscape:cx="653.12296"
-     inkscape:cy="405.64898"
+     inkscape:zoom="0.50383782"
+     inkscape:cx="347.67498"
+     inkscape:cy="285.79749"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -35,10 +35,17 @@
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     showguides="true">
+     showguides="true"
+     units="mm"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1">
     <inkscape:grid
        type="xygrid"
-       id="grid983" />
+       id="grid983"
+       originx="-11.075831"
+       originy="-22.48881" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -48,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,7 +63,8 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(-11.07583,-22.488809)">
     <g
        id="g899"
        transform="matrix(-1,0,0,1,228.95357,33.630469)"
@@ -378,27 +386,35 @@
        cx="-69.946228"
        cy="155.47694"
        r="1.9139504"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <circle
        style="fill:#cccccc;fill-opacity:1;stroke-width:0.191395"
        id="path868-8"
        cx="-75.214676"
        cy="156.84296"
        r="1.9139504"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <circle
        style="fill:#cccccc;fill-opacity:1;stroke-width:0.191395"
        id="path868-8-2-0-1"
        cx="-91.281036"
        cy="161.37794"
        r="1.9139504"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        id="path931"
        style="fill:#333333;fill-opacity:1;stroke-width:0.107644"
        inkscape:transform-center-x="-0.60530764"
        inkscape:transform-center-y="-0.50113061"
        d="m 97.236986,164.56938 10.485614,0.97459 -10.383614,-3.7115 c -0.19059,1.68314 -0.11982,0.69148 -0.102,2.73691 z"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>
