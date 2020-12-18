@@ -6,6 +6,7 @@
 
         <%
             def template
+            def body = ""
             try {
                 //read data file
                 def json = new File(content.datafile).text
@@ -16,11 +17,16 @@
                 // (Asciidoctor replaces a bit too much)
                 body = content.body
                         .replaceAll("&#8594;", "->")
-                        .replaceAll("&lt;%", "<%")
-                        .replaceAll("%&gt;", "%"+">")
+                        .replaceAll("&lt;", "<")
+                        .replaceAll("&gt;", ">")
+                        .replaceAll("&amp;", "&")
                 template = engine.createTemplate(body).make(data)
             } catch (Exception e) {
+                out << "<pre>"
                 out << e.message
+                out << body
+                out << e.getStackTrace().join("\n")
+                out << "</pre>"
             }
         %>
 

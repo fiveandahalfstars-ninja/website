@@ -1,8 +1,38 @@
 {
   "details": [
     {
+      "1": {
+        "link": "/talks/details/Spock_Geb.html"
+      },
+      "2": {
+        "link": "/talks/details/.html"
+      },
+      "3": {
+        "link": "/talks/details/.html"
+      },
+      "4": {
+        "link": "/talks/details/.html"
+      },
+      "5": {
+        "link": "/talks/details/Docs-as-Code.html"
+      },
+      "6": {
+        "link": "/talks/details/.html"
+      },
+      "7": {
+        "link": "/talks/details/Spoc_AsciiDoc.html"
+      },
+      "8": {
+        "link": "/talks/details/.html"
+      },
+      "9": {
+        "link": "/talks/details/.html"
+      },
+      "10": {
+        "link": "/talks/details/Spock_Supermutanten.html"
+      },
       "11":  {
-        "link": "/talks/details/Architekturdocumentation-with-Microsites.adoc"
+        "link": "/talks/details/ArcDocs-with-Microsites.html"
       }
     }
   ],
@@ -78,7 +108,7 @@
       "talkid": 10
     },
     {
-      "title": "Spock und AsciiDoc \u2013 Vom Test zur Spezifikation und zur\u00fcck",
+      "title": "Spock und AsciiDoc - Vom Test zur Spezifikation und zurück",
       "event": "Frankfurter Entwicklertag 2020",
       "location": " Frankfurt",
       "date": "2020-02-20",
@@ -102,7 +132,7 @@
     {
       "title": "Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten",
       "event": "OOP / Code Days",
-      "location": " M\u00fcnchen",
+      "location": " München",
       "date": "2020-02-04",
       "url": "https://www.code-days.de/programm/programm-details/411/spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten/",
       "speaker": [
@@ -203,7 +233,7 @@
     {
       "title": "Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz",
       "event": "JavaLand 2019",
-      "location": " Br\u00fchl",
+      "location": " Brühl",
       "date": "2019-03-19",
       "url": "https://programm.javaland.eu/2019/#/scheduledEvent/569976",
       "speaker": [
@@ -214,7 +244,7 @@
     {
       "title": "Docs-as-Code: Anatomie einer smarten Systemdokumentation",
       "event": "OOP 2019",
-      "location": " M\u00fcnchen",
+      "location": " München",
       "date": "2019-01-22",
       "url": "https://www.oop-konferenz.de/oop2019/programm/konferenzprogramm/sessiondetails/action/detail/session/di-61-4/title/docs-as-code-anatomie-einer-smarten-systemdokumentation.html",
       "speaker": [
@@ -237,7 +267,7 @@
     {
       "title": "Docs-as-Code: Anatomie einer realen Systemdokumentation",
       "event": "W-Jax 2018",
-      "location": " M\u00fcnchen",
+      "location": " München",
       "date": "2018-11-06",
       "url": "https://jax.de/software-architecture/docs-as-code-anatomie-einer-realen-systemdokumentation/",
       "speaker": [
@@ -258,7 +288,7 @@
       "talkid": 5
     },
     {
-      "title": "Docs-as code: arc42, AsciiDoc, Gradle & Co. combined",
+      "title": "Docs-as-Code: arc42, AsciiDoc, Gradle & Co. combined",
       "event": "Gr8conf-Conf",
       "location": " Copenhagen/Denmark",
       "date": "2018-03-31",
@@ -349,7 +379,7 @@
       "talkid": 1
     },
     {
-      "title": "Dokumentation am (Riesen-)Beispiel \u2013 arc42, AsciiDoc und Co. in Aktion",
+      "title": "Dokumentation am (Riesen-)Beispiel - arc42, AsciiDoc und Co. in Aktion",
       "event": "JAX 2017",
       "location": " Mainz",
       "date": "2017-05-10",
@@ -361,9 +391,9 @@
       "talkid": 2
     },
     {
-      "title": "Spock und Geb: \u00dcbersichtlich und nachvollzierbar Testen f\u00fcr alle!",
-      "event": "DevOps W\u00fcrzburg Mainfranken",
-      "location": " W\u00fcrzburg",
+      "title": "Spock und Geb: Übersichtlich und nachvollzierbar Testen für alle!",
+      "event": "DevOps Würzburg Mainfranken",
+      "location": " Würzburg",
       "date": "2016-10-10",
       "url": "",
       "speaker": [
@@ -373,9 +403,9 @@
       "talkid": 1
     },
     {
-      "title": "Spock und Geb: \u00dcbersichtlich und nachvollziehbar Testen f\u00fcr alle!",
+      "title": "Spock und Geb: Übersichtlich und nachvollziehbar Testen für alle!",
       "event": "Javaland",
-      "location": " Br\u00fchl",
+      "location": " Brühl",
       "date": "2016-03-08",
       "url": "",
       "speaker": [
@@ -384,7 +414,7 @@
       "talkid": 1
     },
     {
-      "title": "Spock und Geb: \u00dcbersichtlich und nachvollziehbar Testen f\u00fcr alle!",
+      "title": "Spock und Geb: übersichtlich und nachvollziehbar Testen für alle!",
       "event": "Entwicklertag Karlsruhe 2015",
       "location": " Karlsruhe",
       "date": "2015-05-23",

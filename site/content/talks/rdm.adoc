@@ -8,23 +8,38 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 == Upcoming Talks
 
-=== 10.12.20: IT-Tage 2020
-
-https://www.ittage.informatik-aktuell.de/programm/2020/spock-und-asciidoc-vom-test-zur-spezifikation-und-zurueck.html[Spock und AsciiDoc – Vom Test zur Spezifikation und zurück]
+<%
+def now = new Date()
+def past = false
+def last_year = null
+talks.sort{it.date}.reverse().each { talk ->
+    def date = Date.parse("yyyy-MM-dd", talk.date)
+    def dateString = new java.text.SimpleDateFormat("dd. MM.", Locale.ENGLISH).format(date);
+    if (!past && (date<now)) { %>
 
 == Past Talks
 
-<% talks.sort{it.date}.each { talk ->
-def date = Date.parse("yyyy-MM-dd", talk.date)
-%>
+<%
+        past = true
+    }
+    cur_year = new java.text.SimpleDateFormat("yyyy", Locale.ENGLISH).format(date)
+    if (last_year != cur_year) { %>
 
-* ${talk.title} +
-${talk.event}, ${talk.location}, ${new java.text.SimpleDateFormat("dd MMM yyyy", Locale.ENGLISH).format(date)}, <% talk.speaker.each { %>
+=== ${cur_year}
+
+<%
+    }
+    %>
+
+==== ${dateString}: ${talk.title}
+
+${talk.event}, ${talk.location}, ${dateString}, <% talk.speaker.each { %>
 https://twitter.com/$it[$it]
 <% } %>
 
-
-<% } %>
+<%
+last_year = cur_year
+} %>
 
 siehe https://speakerdeck.com/rdmueller
 
