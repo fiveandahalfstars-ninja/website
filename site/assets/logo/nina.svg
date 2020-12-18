@@ -10,7 +10,7 @@
    onload="Start(evt)"
    width="195.31833mm"
    height="166.97977mm"
-   viewBox="0 0 195.31833 166.97977"
+   viewBox="0 0 230 166.97977"
    version="1.1"
    id="svg8"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
@@ -19,9 +19,9 @@
      id="script2"
      type="text/ecmascript"><![CDATA[
 
-    var time = 100;
-    var delta_time = -0.5;
-    var max_time = 100;
+    var time = 0;
+    var delta_time = 0.5;
+    var end_time = 150;
     var dir = 1;
     console.log("test");
     var sword;
@@ -30,33 +30,42 @@
     function Start(evt) {
 
       sword = evt.target.ownerDocument.getElementById("layer3");
+      ninja = evt.target.ownerDocument.getElementById("layer1");
       hand = evt.target.ownerDocument.getElementById("layer2");
       star = evt.target.ownerDocument.getElementById("layer5");
       star.setAttribute("transform","rotate(-32,100,100) translate(15,9)");
-      Oscillate();
+      Animate();
     }
 
-    function Oscillate() {
+    function Animate() {
 
       time = time + dir * delta_time;
-      if (time >  max_time)  dir = 0;
-      if (time < 0)  dir =  0;
-      state = time/100.0;
-      starstate = 1.0
-      if (time<70) {starstate=time/70.0;}
-      console.log (time);
+      if (time <= 100) {
+        state = (100-time)/100.0;
+        starstate = 1.0
+        if (time>30) {
+          starstate=(70-(time-30))/70.0;
+        }
+      }
+      alpha=1.0
+      if (time>80) {
+        alpha =1.0-((time-80)/70.0);
+      }
+      console.log (alpha);
       // Calculate x position
       sword.setAttribute("transform", "rotate("+(-90*state)+","+(30*state)+","+(160*state)+") scale ("+(1.0+0.4*state)+")");
       hand.setAttribute("transform", "rotate("+(-90*state)+","+(30*state)+","+(160*state)+") scale ("+(1.0+0.4*state)+")");
       star.setAttribute("transform", "rotate("+(-32*starstate)+","+(100*starstate)+","+(100*starstate)+") translate ("+(15*starstate)+","+(9*starstate)+")");
-
+      ninja.setAttribute("opacity", alpha);
+      hand.setAttribute("opacity", alpha);
+      sword.setAttribute("opacity", alpha);
       // Repeat
-      if (dir!=0) {
-        setTimeout("Oscillate()", delta_time)
+      if (time<end_time) {
+        setTimeout("Animate()", delta_time)
       }
     }
 
-    window.Oscillate = Oscillate
+    window.Animate = Animate
 
    ]]></script>
   <defs
