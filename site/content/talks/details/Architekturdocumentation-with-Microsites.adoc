@@ -1,0 +1,7 @@
+:jbake-title: Architecture-Documentation with Microsites
+:jbake-type: page
+:jbake-status: published
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+image::sketchnotes/microsites.jpg[]

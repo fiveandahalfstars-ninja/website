@@ -10,7 +10,13 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">
-            <span style="border: 2px solid black; background: lightgray;padding: 4px 4px; border-radius: 6px;">⭐⭐⭐⭐⭐</span><span style="padding: 4px 4px; display: inline-grid;width: 0.88em;overflow: hidden;">⭐</span><span style="padding: 4px 4px;"> &nbsp;- Ninja</span>
+            <span style="width: 200px; margin-top: -7px;border: 2px solid black;background: lightgray;padding: 4px 4px;border-radius: 6px;display: inline-block;height: 3.8rem;">
+              <div style="width: 350px;height: 250px;margin-top: -22px;position: relative;margin-left: -40px;">
+                <object data="/logo/nina.svg" type="image/svg+xml" style="
+                position: absolute;
+                top: 0;
+                "></object>
+              </div></span>
           </a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
