@@ -11,7 +11,7 @@
           </button>
           <a class="navbar-brand" href="/">
             <span style="width: 200px; margin-top: -7px;border: 2px solid black;background: lightgray;padding: 4px 4px;border-radius: 6px;display: inline-block;height: 3.8rem;">
-              <img src="/logo/ninja.svg"></span>
+              <img src="/logo/nina.svg"></span>
           </a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
