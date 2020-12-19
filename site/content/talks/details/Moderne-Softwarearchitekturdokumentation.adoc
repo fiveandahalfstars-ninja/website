@@ -1,0 +1,24 @@
+:jbake-title: Moderne Softwarearchitekturdokumentation
+:jbake-type: page
+:jbake-status: published
+:jbake-dataFile: ./site/data/talks.json
+
+== Moderne Softwarearchitekturdokumentation
+
+Architekturdokumentation wird sehr oft stiefmütterlich behandelt.
+Dabei unterstützt das Dokumentieren bei der Entwurfsarbeit, schafft Transparenz bzw.
+Leitplanken für die Umsetzung und Wartung der Softwarearchitektur.
+Einerseits ist es aber nicht einfach, die wichtigen Informationen aus dem Entwurf der Softwarearchitektur strukturiert und leicht verständlich festzuhalten.
+Andererseits enden die meisten Versuche auf der Suche nach einer praktikablen Handhabung zur Erstellung und Pflege in der WYSIWYG-Hölle einer Textverarbeitung oder im tiefen Schlund eines Wikis.
+Dieses Seminar zeigt aufbauend auf leichtgewichtigen Tools und Textformaten die Erstellung einer möglichst redundanzfreien Dokumentation, die für verschiedene Zielgruppen optimiert in ansprechenden Formaten ausgeliefert werden kann.
+
+Anhand von vielen praktischen Übungen geht es um Begriffe wie Continuous Documentation und Documentation as Code.
+Das Ziel ist die moderne, effektive und pragmatische Dokumentation der Softwarearchitektur.
+Wir bauen auf bewährte Methoden, Formate und Tools wie AsciiDoc/Markdown, PlantUML, docToolchain, Maven/Gradle, jqAssistant und viele weitere.
+Im Detail kümmern wir uns um die Automatisierung des Dokumenations-Build-Prozesses, das Generieren von Inhalten aus dem Modell, Datenbankschema oder Sourcecode, die strukturierte Ablage inklusive Versionier- und Historisierbarkeit und die Verwendung bzw.
+Erstellung von aussagekräftigen und einfach wartbaren Grafiken.
+
+Agile Entwicklungsteams können so die Dokumentationsarbeit in ihre täglichen Aufgaben integrieren und jederzeit aktuelle, umfassende und gut strukturierte Ergebnisse ausliefern.
+Zudem lässt sich die Erstellung der Dokumentation in den Reviewprozess integrieren und so stetig verbessern und weiterentwickeln.
+
+siehe auch link:ArcDocs-with-Microsites.html[Architekturdokumentation mit Microsites]
