@@ -6,6 +6,23 @@
 
 ifndef::imagesdir[:imagesdir: ../images]
 
+++++
+<style>
+h4 + .paragraph {
+    padding-left: 40px;
+}
+h2 {
+    padding-left: 10px;
+}
+h3 {
+    padding-left: 20px;
+}
+h4 {
+    padding-left: 30px;
+}
+</style>
+++++
+
 == Upcoming Talks
 
 <%
@@ -14,7 +31,7 @@ def past = false
 def last_year = null
 talks.sort{it.date}.reverse().each { talk ->
     def date = Date.parse("yyyy-MM-dd", talk.date)
-    def dateString = new java.text.SimpleDateFormat("dd. MM.", Locale.ENGLISH).format(date);
+    def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
     if (!past && (date<now)) { %>
 
 == Past Talks
@@ -31,11 +48,11 @@ talks.sort{it.date}.reverse().each { talk ->
     }
     %>
 
-==== ${dateString}: ${talk.title}
+==== ${dateString}: <a href="${details[""+talk.talkid]?.link}">${talk.title}</a>
 
-${talk.event}, ${talk.location}, ${dateString}, <% talk.speaker.each { %>
+<a href="${talk.url}">${talk.event}</a>, ${talk.location}, ${dateString}, <% talk.speaker.sort().each { %>
 https://twitter.com/$it[$it]
-<% } %>
+<% }.join(" / ") %>
 
 <%
 last_year = cur_year

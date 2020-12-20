@@ -76,7 +76,9 @@
         "ralfdmueller",
         "sippsack"
       ],
-      "talkid": 11
+      "talkid": 11,
+      "slides": "https://speakerdeck.com/rdmueller/architekturdokumentation-mit-microsites"
+
     },
     {
       "title": "Spock und AsciiDoc – Vom Test zur Spezifikation und zurück",
@@ -87,7 +89,8 @@
       "speaker": [
         "ralfdmueller"
       ],
-      "talkid": 8
+      "talkid": 8,
+      "slides": "https://speakerdeck.com/rdmueller/spock-und-asciidoc-vom-test-zur-spezifikation-und-zuruck-eb532905-8b2e-4e79-831f-026d504e559c"
     },
     {
       "title": "Spock vs Supermutanten: Spezifikationstesten trifft Mutationstesten",
@@ -99,7 +102,9 @@
         "ralfdmueller",
         "johannesdienst"
       ],
-      "talkid": 10
+      "talkid": 10,
+      "slides": "https://speakerdeck.com/rdmueller/spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten-7460f9c1-2a60-4ba4-a356-523647950a9d",
+      "video": "https://www.youtube.com/watch?v=XsixHXPR8Vc"
     },
     {
       "title": "Spock und AsciiDoc - vom Test zur Spezifikation und zurück",
@@ -131,9 +136,11 @@
       "date": "2020-03-17",
       "url": "http://cyberland.ijug.eu/sessions/session-9.html",
       "speaker": [
-        "ralfdmueller"
+        "ralfdmueller",
+        "johannesdienst"
       ],
-      "talkid": 10
+      "talkid": 10,
+      "video": "https://www.youtube.com/watch?v=VUpPAE5aM0I"
     },
     {
       "title": "Spock und AsciiDoc - Vom Test zur Spezifikation und zurück",
@@ -201,7 +208,8 @@
       "speaker": [
         "ralfdmueller"
       ],
-      "talkid": 8
+      "talkid": 8,
+      "video": "https://www.youtube.com/watch?v=ebc6Xa-HC48"
     },
     {
       "title": "Spock and AsciiDoc - a perfect match",
@@ -228,13 +236,14 @@
     {
       "title": "Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz",
       "event": "Java User Group Karlsruhe",
-      "location": " Karlsruhe",
+      "location": "Karlsruhe",
       "date": "2019-06-05",
       "url": "http://jug-karlsruhe.de/content/docs-as-code/",
       "speaker": [
         "ralfdmueller"
       ],
-      "talkid": 5
+      "talkid": 5,
+      "video": "https://www.youtube.com/watch?v=SZMkWAFtrz0"
     },
     {
       "title": "Docs as Code, arc42, AsciiDoc, Gradle und Antora im Einsatz",
@@ -324,7 +333,8 @@
       "speaker": [
         "ralfdmueller"
       ],
-      "talkid": 5
+      "talkid": 5,
+      "video": "https://www.youtube.com/watch?v=qr3NJzeKiCI"
     },
     {
       "title": "Docs-as-Code - Architekturdokumentation leicht gemacht",
@@ -347,7 +357,8 @@
       "speaker": [
         "ralfdmueller"
       ],
-      "talkid": 5
+      "talkid": 5,
+      "video": "https://www.youtube.com/watch?v=GkXpe-tZtNg"
     },
     {
       "title": "Docs-as-Code, arc42, AsciiDoc, Gradle & Co. im Einsatz",
@@ -450,7 +461,8 @@
       "speaker": [
         "ralfdmueller"
       ],
-      "talkid": 1
+      "talkid": 1,
+      "video": "https://www.youtube.com/watch?v=L75DdPon5Gk"
     }
   ]
 }
