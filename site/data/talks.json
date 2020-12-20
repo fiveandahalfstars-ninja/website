@@ -2,7 +2,7 @@
   "details": [
     {
       "1": {
-        "link": "/talks/details/Spock_Geb.html"
+        "link": "/talks/details/Spock_und_Geb.html"
       },
       "2": {
         "link": "/talks/details/.html"
@@ -229,7 +229,8 @@
       "date": "2019-06-07",
       "url": "https://www.germantestingday.info/german-testing-day-2019/programm/konferenzprogramm/sessiondetails/action/detail/session/gtd-13-2/title/bdd-mit-spock-und-geb-uebersichtlich-und-nachvollziehbar-testen-fuer-alle.html",
       "speaker": [
-        "ralfdmueller"
+        "ralfdmueller",
+        "tokraft"
       ],
       "talkid": 1
     },
@@ -448,7 +449,8 @@
       "date": "2016-03-08",
       "url": "",
       "speaker": [
-        "ralfdmueller"
+        "ralfdmueller",
+        "tokraft"
       ],
       "talkid": 1
     },
@@ -459,7 +461,8 @@
       "date": "2015-05-23",
       "url": "",
       "speaker": [
-        "ralfdmueller"
+        "ralfdmueller",
+        "tokraft"
       ],
       "talkid": 1,
       "video": "https://www.youtube.com/watch?v=L75DdPon5Gk"

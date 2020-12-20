@@ -47,9 +47,15 @@ talks.sort{it.date}.reverse().each { talk ->
 <%
     }
     %>
+<% if (details[""+talk.talkid]?.link!=null && details[""+talk.talkid]?.link[0]!= "/talks/details/.html") { %>
 
-==== ${dateString}: <a href="${details[""+talk.talkid]?.link}">${talk.title}</a>
+==== ${dateString}: <a href="${details[""+talk.talkid]?.link[0]}">${talk.title}</a>
 
+<% } else { %>
+
+==== ${dateString}: ${talk.title}
+
+<% } %>
 <a href="${talk.url}">${talk.event}</a>, ${talk.location}, ${dateString}, <% talk.speaker.sort().each { %>
 https://twitter.com/$it[$it]
 <% }.join(" / ") %>
