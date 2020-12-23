@@ -67,6 +67,17 @@
       "talkid": 12
     },
     {
+      "title": "Docs-as-Code with AsciiDoc & docToolchain",
+      "event": "FOSDEM",
+      "location": "Online",
+      "date": "2021-02-07",
+      "url": "https://fosdem.org/2021/schedule/track/tool_the_docs/",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "talkid": 5
+    },
+    {
       "title": "Architekturdokumentation mit Microsites",
       "event": "embarc Architekturpunsch",
       "location": "Online",
