@@ -55,6 +55,17 @@
       "talkid": 13
     },
     {
+      "title": "Docs-as-Code",
+      "event": "JUG CH",
+      "location": "Online",g
+      "date": "2021-03-09",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "talkid": 5
+    },
+    {
       "title": "Tutorial: Moderne Softwarearchitekturdokumentation",
       "event": "Frankfurter Entwicklertag",
       "location": "Online",
