@@ -24,19 +24,19 @@ Cyberland
 * Everything as Code: Pipeline, Infrastructure, Configuration, Documentation +
 THM Gießen Gastvortrag
 
-* Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller)
+* Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller) +
 SAEC Days
 
-* Effizient arbeiten mit Architecture Decision Records (ADRs)
+* Effizient arbeiten mit Architecture Decision Records (ADRs) +
 SAEC Days
 
-* Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller)
+* Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller) +
 JCON
 
-* Effizient Arbeiten mit Architecture Decsion Records (ADRs)
+* Effizient Arbeiten mit Architecture Decsion Records (ADRs) +
 JCON
 
-* Work efficiently with Architecture Decision Records (ADRs) um 6:30 pm – 7:30 pm (CEST)
+* Work efficiently with Architecture Decision Records (ADRs) um 6:30 pm – 7:30 pm (CEST) +
 WeAreDevelopers - LiveWeek
 
 = 2019
