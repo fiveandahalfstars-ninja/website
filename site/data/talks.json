@@ -44,6 +44,17 @@
   ],
   "talks": [
     {
+      "title": "???",
+      "event": "JUG Hessen",
+      "location": "Online",
+      "date": "2021-03-25",
+      "url": "https://www.meetup.com/de-DE/Java-User-Group-Hessen-JUGH/",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "talkid": 0
+    },
+    {
       "title": "Doku-Microsites mit jBake",
       "event": "JavaLand",
       "location": "Brühl/Online",
