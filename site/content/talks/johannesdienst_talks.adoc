@@ -7,20 +7,22 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 == Termine
 
-=== 27.10.20: JCON
+=== 18 - 20.02.2021: DevConf.CZ
 
-Spock vs Supermutanten - Spezifikationstesten trifft auf Mutationstesten (Mit Ralf D. Müller)
+Lessons Learned: arc42 in a Real Devops Team
 
-Effizient Arbeiten mit Architecture Decsion Records (ADRs)
-https://jcon.one/de/
+Journey Of Devops Teams in a Corporate Environment
 
-=== 07.10.2020 We Are Developers
-Work efficiently with Architecture Decision Records (ADRs) um 6:30 pm – 7:30 pm (CEST)
-https://www.wearedevelopers.com/live/live-week
+https://www.devconf.cz/
 
-=== 05.11.2020 Iterate Ruhr
-Effizient Arbeiten mit Architecture Decsion Records (ADRs)
-https://iterate.ruhr/
+=== 03. - 04.03 2021: Frankfurter Entwicklertag
+
+
+=== 16.03.2021: Javaland 
+
+Lessons Learned: arc42 in einem DevOps Team
+
+https://programm.javaland.eu/2021/#/schedule
 
 == Vergangen
 https://de.slideshare.net/JohannesDienst1[Folien siehe Foliendecks]
