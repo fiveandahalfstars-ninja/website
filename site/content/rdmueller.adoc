@@ -109,17 +109,10 @@ Hinweis: In diesem Buch geht es nicht primär darum den Umgang mit bestimmten To
 
 [.col-md-5]
 --
-++++
-<a class="twitter-timeline" href="https://twitter.com/RalfDMueller?ref_src=twsrc%5Etfw" data-height="700" data-chrome="nofooter">Tweets by RalfDMueller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-++++
---
-
-[.col-md-5]
---
 [discrete]
 ==== Things I like and use
 
-* Openrating System
+* Operating System
 ** Windows 10 with WSL2
 ** Linux
 * Programming
@@ -137,7 +130,19 @@ Hinweis: In diesem Buch geht es nicht primär darum den Umgang mit bestimmten To
 ** OBS
 ** OBS.ninja
 ** Camtasia (video cut)
+* Spare time
+** Ender 3 3D Printer with Octoprint
+** Raspberry Pi
+** Arduino
+** Retro Gaming (Atari)
+** Halfbike
+--
 
+[.col-md-5]
+--
+++++
+<a class="twitter-timeline" href="https://twitter.com/RalfDMueller?ref_src=twsrc%5Etfw" data-height="700" data-chrome="nofooter">Tweets by RalfDMueller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+++++
 --
 
 
