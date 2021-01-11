@@ -19,8 +19,9 @@
                 // (Asciidoctor replaces a bit too much)
                 body = content.body
                         .replaceAll("&#8594;", "->")
-                        .replaceAll("&lt;%", "<%")
-                        .replaceAll("%&gt;", "%"+">")
+                        .replaceAll("&lt;", "<")
+                        .replaceAll("&gt;", ">")
+                        .replaceAll("&amp;", "&")
                 template = engine.createTemplate(body).make([content:content, published_posts:published_posts])
             } catch (Exception e) {
                 out << e.message

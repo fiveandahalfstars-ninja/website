@@ -3,6 +3,7 @@
 :jbake-type: page
 :jbake-status: published
 
+
 ++++
 <style>
 .exampleblock > .content {
@@ -44,7 +45,57 @@ The last few years of his career, he focused on the documentation of software sy
 
 You can follow him on twitter https://twitter.com/RalfDMueller[@RalfDMueller].
 
+--
+
+[.col-md-5]
+--
 image::https://github-readme-stats.vercel.app/api?username=rdmueller&show_icons=true[]
+--
+
+====
+
+[.row]
+====
+
+[.col-md-2]
+--
+-
+--
+
+[.col-md-5]
+--
+[discrete]
+==== Upcoming Talks
+
+<%
+def json = new File("./site/data/talks.json").text
+def data = new groovy.json.JsonSlurper().parseText(json)
+def now = new Date()
+def past = false
+def last_year = null
+data.talks.sort{it.date}.reverse().each { talk ->
+    def date = Date.parse("yyyy-MM-dd", talk.date)
+    def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
+    if (date>now) {
+    if (data.details[""+talk.talkid]?.link!=null && data.details[""+talk.talkid]?.link[0]!= "/talks/details/.html") {
+%>
+
+[discrete]
+==== ${dateString}: <a href="${data.details[""+talk.talkid]?.link[0]}">${talk.title}</a>
+
+<% } else { %>
+
+==== ${dateString}: ${talk.title}
+
+<% } %>
+
+<a href="${talk.url}">${talk.event}</a>, ${talk.location}, ${dateString}, <% talk.speaker.sort().each { %>
+https://twitter.com/$it[$it]
+<% }.join(" / ") %>
+
+<% }
+} %>
+
 
 --
 
