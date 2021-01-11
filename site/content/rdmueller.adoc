@@ -100,6 +100,49 @@ Hinweis: In diesem Buch geht es nicht primär darum den Umgang mit bestimmten To
 
 ====
 
+[.row]
+====
+
+[.col-md-2]
+--
+--
+
+[.col-md-5]
+--
+++++
+<a class="twitter-timeline" href="https://twitter.com/RalfDMueller?ref_src=twsrc%5Etfw" data-height="700" data-chrome="nofooter">Tweets by RalfDMueller</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+++++
+--
+
+[.col-md-5]
+--
+[discrete]
+==== Things I like and use
+
+* Openrating System
+** Windows 10 with WSL2
+** Linux
+* Programming
+** Groovy
+** IntelliJ
+* Documentation
+** docToolchain
+** AsciiDoc / AsciiDoctor
+** PlantUML
+** Diagrams.net
+** Sparx Enterprise Architect
+* Security
+** oAuth2
+* Video
+** OBS
+** OBS.ninja
+** Camtasia (video cut)
+
+--
+
+
+====
+
 //Ralf ist tagsüber Software Engineering Advocat bei der DB Systel und nach Sonnenuntergang zu allem zu begeistern, was mit IT zu tun hat.
 //Die letzten Jahre seiner Karriere hat er sich auf die Dokumentation von Software Systemen mit https://arc42.org[arc42] und dem https://docs-as-co.de[Docs-as-Code] Ansatz fokussiert.
 
