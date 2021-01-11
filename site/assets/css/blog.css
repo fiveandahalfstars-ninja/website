@@ -71,3 +71,9 @@ h3 {
     margin-left: 1em;
     padding-left: 1em;
 }
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: none;
+    padding-left: 1em;
+}

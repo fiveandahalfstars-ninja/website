@@ -81,14 +81,11 @@ data.talks.sort{it.date}.reverse().each { talk ->
 %>
 
 [discrete]
-==== ${dateString}: <a href="${data.details[""+talk.talkid]?.link[0]}">${talk.title}</a>
-
+${dateString}: <a href="${data.details[""+talk.talkid]?.link[0]}">${talk.title}</a> +
 <% } else { %>
 
-==== ${dateString}: ${talk.title}
-
+${dateString}: ${talk.title} +
 <% } %>
-
 <a href="${talk.url}">${talk.event}</a>, ${talk.location}, ${dateString}, <% talk.speaker.sort().each { %>
 https://twitter.com/$it[$it]
 <% }.join(" / ") %>
