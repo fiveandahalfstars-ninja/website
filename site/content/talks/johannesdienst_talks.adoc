@@ -1,33 +1,74 @@
 :jbake-title: Talks Johannes Dienst
 :jbake-date: 2020-07-10
-:jbake-type: page
+:jbake-type: gsp
 :jbake-status: published
+:jbake-dataFile: ./site/data/talks.json
 
 ifndef::imagesdir[:imagesdir: ../images]
 
-== Termine
+++++
+<style>
+h4 + .paragraph {
+    padding-left: 40px;
+}
+h2 {
+    padding-left: 10px;
+}
+h3 {
+    padding-left: 20px;
+}
+h4 {
+    padding-left: 30px;
+}
+</style>
+++++
 
-=== 18 - 20.02.2021: DevConf.CZ
+== Upcoming Talks
 
-Lessons Learned: arc42 in a Real Devops Team
+<%
+def now = new Date()
+def past = false
+def last_year = null
+talks.sort{it.date}.reverse().each { talk ->
+    def date = Date.parse("yyyy-MM-dd", talk.date)
+    def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
+	if (talk.speaker.contains("johannesdienst")) {
+    if (!past && (date<now)) { %>
 
-Journey Of Devops Teams in a Corporate Environment
+== Past Talks
 
-https://www.devconf.cz/
+<%
+        past = true
+    }
+    cur_year = new java.text.SimpleDateFormat("yyyy", Locale.ENGLISH).format(date)
+    if (last_year != cur_year) { %>
 
-=== 03. - 04.03 2021: Frankfurter Entwicklertag
+=== ${cur_year}
+
+<%
+    }
+    %>
+<% if (details[""+talk.talkid]?.link!=null && details[""+talk.talkid]?.link[0]!= "/talks/details/.html") { %>
+
+==== ${dateString}: <a href="${details[""+talk.talkid]?.link[0]}">${talk.title}</a>
+
+<% } else { %>
+
+==== ${dateString}: ${talk.title}
+
+<% } %>
+<a href="${talk.url}">${talk.event}</a>, ${talk.location}, ${dateString}, <% talk.speaker.sort().each { %>
+https://twitter.com/$it[$it]
+<% }.join(" / ") %>
+
+<%
+  last_year = cur_year
+  }
+} %>
 
 
-=== 16.03.2021: Javaland 
-
-Lessons Learned: arc42 in einem DevOps Team
-
-https://programm.javaland.eu/2021/#/schedule
-
-== Vergangen
+== Slides
 https://de.slideshare.net/JohannesDienst1[Folien siehe Foliendecks]
-
-include::johannesdienst-past-list.adoc[leveloffset=+2]
 
 == Details und Videos
 
