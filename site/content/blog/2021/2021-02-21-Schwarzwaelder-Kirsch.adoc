@@ -1,31 +1,137 @@
-= Working from Home - my Setup
-:jbake-date: 2020-11-15
+= Schwarzwälder Kirschtorte
+:jbake-date: 2021-02-21
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
-:jbake-status: draft
-:jbake-tags: wfh, pubspeaking
-:jbake-lang: en
+:jbake-status: published
+:jbake-tags: off-topic, recipe
+:jbake-lang: de
 :doctype: article
 :toc: macro
 
-
-[[headphones]]
-== Headphones
-
-[[greenscreen]]
-== Green Screen
-
-[[usb-charger]]
-== USB Charger
-
-[[xbox{sp}snes]]
-== XBox and Super NES
-
-++++
-<script>
-var panZoomTiger = svgPanZoom('#demo-tiger');
-</script>
-++++
-
 toc::[]
+
+:uri-garnierspritze: https://www.amazon.de/Dr-Oetker-Einhand-Garnierspritze-T%C3%BCllen-K%C3%BCchenhelfer/dp/B07CBZDB48/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=garnierspritze&qid=1613941035&sr=8-9
+
+Jedesmal, wenn ich zu Besuch bei meiner Großmutter war, konnte ich wählen, welche Torte es Sonntags geben sollte.
+Zur Auswahl standen Schwarzwälder Kirsch und Prinzregenten.
+Meist wurde es die Schwarzwälder Kirsch.
+Das Originalrezept ist leider nicht überliefert, es war aber natürlich bei weitem Besser als alles, was ich an Schwarzwälder Kirsch sonst vorgesetzt bekommen habe.
+Das lag zum einen an der leckeren Buttercreme (nein, Sahne geht gar nicht!) zum anderen aber auch an den leckeren handgeraspelten Schoko-Raspeln.
+
+Letzten Monat habe ich mir die Zeit genommen und versucht das Rezept interativ wieder herzustellen.
+Ich habe also Rezepte verglichen, gebacken, probiert und wieder von Vorne angefangen.
+Das Ergebnis findest Du nun hier als Rezept für den Thermomix(TM).
+
+Fotos Deiner Umsetzung bitte gerne auf Twitter mit dem Hashtag #OmasSchwarzwaelderKirsch teilen.
+
+image::blog/2021/02/torte.jpg[]
+
+== Zutaten
+
+=== Tortenboden
+
+* [ ] 200g Zucker
+* [ ] 5 Eier
+* [ ] 150g Mehl
+* [ ] 50g Kakaopulver
+* [ ] 50g Speisestärke
+* [ ] 1/2 Pck. Backpulver
+* [ ] 1 Pck. Vanillezucker
+
+=== Füllung und Schoko-Raspeln
+
+* [ ] 600 g Milch
+* [ ] 120 g Zucker
+* [ ] 2 Pck. Vanillepuddingpulver
+* [ ] 1 Prise Salz
+* [ ] 330 g Butter, Zimmertemperatur, in Stücken
+* [ ] 1 Glas Sauerkirschen
+* [ ] 200g Blockschokolade
+
+== Rezept
+
+Anfangs habe ich den Fehler gemacht mit dem Tortenboden anzufangen.
+Dadurch ergeben sich zu lange Wartezeiten und das Backen dauert fast einen Tag.
+Deshalb fangen wir nun mit der Buttercreme an.
+
+=== Pudding (für die Buttercreme)
+
+. Butter aus dem Kühlschrank nehmen, damit sie Zimmertemperatur annehmen kann.
+. 600g Milch, 120g Zucker, 2 Pck. Vanillepuddingpulver und eine Prise Salz in den Mixtopf geben
+. 10 Sekunden auf Stufe 4 verrühren
+. 7 Minuten bei 100°C auf Stufe 2,5 aufkochen
+. in eine große Schüssel umfüllen, und ein Stück hitzebeständige Frischhaltefolie direkt auf den Pudding legen, damit dieser keine Haut bilden kann
+. den Pudding ca. 2 Stunden auf Zimmertemperatur abkühlen lassen
+
+=== Dunkler Wiener Boden
+
+Den Wiener Boden kannst Du auch fertig gebacken und geschnitten kaufen - dann ist er aber nur halb so gut.
+Mit dem Thermomix(TM) ist er auch ganz schnell selbst gemacht.
+
+. Backofen auf 180°C vorheizen
+. Den Boden einer Springform (Ø 26 cm) mit Backpapier auslegen.
+Du kannst das Backpapier einfach über den Boden legen und mit dem Rahmen der Springform einspannen.
+Das überstehende Backpapier am Besten nicht abschneiden.
+. Rühraufsatz (Schmetterling) in den Thermomix(TM) einsetzen
+. 5 Eier in den Mixtopf aufschlagen
+. 2 Minuten bei 37°C auf Stufe 4 verrühren
+. 200g Zucker und 1 Pkg. Vanillezucker zugeben
+. 10 Minuten bei Stufe 4 weiter aufschlagen
+. 150g Mehl, 1/2 Pck. Backpulver, 50g Kakaopulver und 50g Speisestärke rechts und links neben den Rühraufsatz (Schmetterling) zugeben
+. 4-8 Sekunden auf Stufe 3 unterheben
+. Rühraufsatz(Schmetterling) entfernen
+. Mit dem Spatel das Mehl noch etwas mehr unterheben
+. Biskuitteig in die vorbereitete Form geben und 20-25 Minuten bei 180°C backen
+. Biskuitteig mindestens 10 Minuten abkühlen lassen
+. waagerecht mit zwei Schnitten in drei Böden schneiden
+
+=== Schokoraspeln
+
+Wartezeiten kannst Du prima mit dem Raspeln der Schokolade füllen.
+Lege dazu die Blockschokolade auf ein Schneidebrett, nimm ein großes scharfes Messer und schneide ganz dünne Raspeln ab, bis die kompletten 200g Blockschokolade geraspelt sind.
+
+=== Kirschen
+
+Auch die Kirschen kannst Du als Pausenfüller schon mal abtropfen lassen.
+
+=== Buttercreme
+
+Wenn nun der Pudding abgekühlt ist (Butter und Pudding müssen ca. Zimmertemperatur haben), mit der Buttercreme fortfahren.
+
+. 330g Butter in Stücken in den Mixtopf geben
+. 1 Minunte auf Stufe 4 aufschlagen
+. nun den Thermomix(TM) auf 2,5 Minuten bei Stufe 2,5 einstellen
+. nach und nach den Pudding auf das laufende Messer zugeben
+. 10 Sekunden bei Stufe 6 die Creme glatt rühren
+
+=== Zusammenbau der Torte
+
+Mit einem Tortenretter legst Du nun den untersten Boden auf zwei Stück Backpapier, die sich in der Mitte ca. 2 Zentimeter überlappen.
+Mit diesem Trick kannst Du das Backpapier zum Schluss leichter unter der Torte rausziehen.
+
+Du solltest jetzt ca. 1050g Buttercreme im Thermomix haben.
+Bei der lezten Zubereitung habe ich die Buttercreme nach Gefühl aufgeteilt, ich denke aber, wir sollten die eingebaute Waage nutzen um es uns zu erleichtern.
+Die Zahlen sind also momentan Schätzungen.
+
+. verteile 300g Buttercreme auf den ersten Boden. Lücken zum Rand hin können später noch leicht verfüllt werden.
+. lege 12 ausgewählte Kirschen für die Dekoration beiseite
+. verteile die restlichen abgetropften Kirschen auf der Buttercreme
+. setze den zweiten Boden auf den ersten
+. verteile wieder 300g Buttercreme auf dem Boden
+. setze den dritten Boden auf den zweiten
+. fülle eine {uri-garnierspritze}[Granierspritze] etwa zur Hälfte mit Buttercreme
+. verteile die restliche Buttercreme auf der Torte und über die Seiten.
+Dabei schliesst Du eventuelle Lücken am Rand der Tortenböden.
+Keine Angst, das muss nicht super aussehen - die Schokoraspeln werden einiges Kaschieren.
+. verteile nun auf der Torte Schokoraspeln, bis die Oberfläche vollständig bedeckt ist
+. nimm nun ein breites Messer und "streiche" jeweils einige Schokoraspeln von unten nach oben über die Ränder der Torte, bis auch der Rand mit Raspeln bedeckt ist.
+. zum Schluss setzt Du noch 12 Tupfer Buttercreme mit der Garnierspritze auf den Rand der Torte und verzierst sie mit jeweils einer Kirsche.
+. stelle die Torte in den Kühlschrank
+
+Nach ca. zwei Stunden im Kühlschrank ist die Buttercreme fest und die Torte somit servierfertig.
+Richtiggute schmeckt sie allerdings, wenn sie ein bis zwei Tage durchgezogen ist.
+
+Guten Appetit!
+
+image::blog/2021/02/tortenstueck.jpg[]
