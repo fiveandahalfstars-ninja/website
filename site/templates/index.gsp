@@ -4,7 +4,7 @@
 	    <%include "menu.gsp"%>
         <div class="container">
 
-	      <%published_posts.findAll{post->(post.lang=='en')&&(!('off-topic' in post.tags))}[0..10].each {post ->%>
+	      <%published_posts.findAll{post->(post.lang!='de')&&(!('off-topic' in post.tags))}[0..10].each {post ->%>
 			  <!--%include "postpreview.gsp"%-->
 
 		  <div class="row article-preview-row">
