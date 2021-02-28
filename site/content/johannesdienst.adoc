@@ -1,8 +1,38 @@
-title=Johannes Dienst
-date=2020-07-10
-type=page
-status=published
-~~~~~~
+:jbake-title: Johannes Dienst
+:jbake-date: 2020-07-10
+:jbake-type: page
+:jbake-status: published
+
+
+++++
+<style>
+.exampleblock > .content {
+    border: 0px;
+}
+</style>
+++++
+
+ifndef::imagesdir[:imagesdir: ./images/]
+
+[.row]
+====
+
+[.text-center]
+[.col-md-2]
+--
+image::profiles/jdienst.jpg[]
+
+++++
+        <a href="mailto:info@johannesdienst.net"><i class="svg-icon email"></i></a>
+        <a href="http://github.com/JohannesDienst"><i class="svg-icon github"></i></a>
+        <a href="/feed.xml"><i class="svg-icon rss"></i></a>
+        <a href="http://twitter.com/JohannesDienst"><i class="svg-icon twitter"></i></a>
+++++
+
+--
+
+[.col-md-5]
+--
 
 Ich bin Johannes und ich bin DevOps-Engineer bei der DB Systel GmbH in Frankfurt am Main.
 
@@ -18,20 +48,97 @@ Hier schreibe ich über alle Dinge, die ich in der Softwareentwicklung interessa
 
 Viel Spaß!
 
+--
 
-== Veröffentlichungen (nur online verfügbare)
+[.col-md-5]
+--
+image::https://github-readme-stats.vercel.app/api?username=johannesdienst&show_icons=true[]
+--
+
+====
+
+[.row]
+====
+
+[.col-md-2]
+--
+-
+--
+
+[.col-md-5]
+--
+[discrete]
+==== Talks
+
+<%
+def json = new File("./site/data/talks.json").text
+def data = new groovy.json.JsonSlurper().parseText(json)
+def now = new Date()
+def past = false
+def last_year = null
+data.talks.sort{it.date}.reverse().each { talk ->
+    if (talk.speaker.contains("johannesdienst")) {
+        def date = Date.parse("yyyy-MM-dd", talk.date)
+        def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
+        if (date>now) {
+            if (data.details[""+talk.talkid]?.link!=null && data.details[""+talk.talkid]?.link[0]!= "/talks/details/.html") {
+%>
+
+[discrete]
+${dateString}: <a href="${data.details[""+talk.talkid]?.link[0]}">${talk.title}</a> +
+<% } else { %>
+
+${dateString}: ${talk.title} +
+<% } %>
+<a href="${talk.url}">${talk.event}</a>, ${talk.location}, ${dateString}, <% talk.speaker.sort().each { %>
+https://twitter.com/$it[$it]
+<% }.join(" / ") %>
+
+<% }
+}} %>
+
+
+--
+
+[.col-md-5]
+--
+
+[discrete]
+==== Blog Posts
+
+<% published_posts.findAll{it.author=="jdienst"}[0..3].each { post -> %>
+link:/${post.uri}[${post.title}] +
+<% } %>
+
+--
+
+====
+
+[.row]
+====
+
+[.col-md-12]
+--
+[discrete]
+==== Links
 * link:https://www.heise.de/developer/artikel/Mutationstests-mit-PIT-in-Java-3888683.html[Mutationstests mit PIT in Java]
 * link:https://www.sigs-datacom.de/uploads/tx_dmjournals/dienst_JS_04_15.pdf[Getyptes JavaScript – JavaSpektrum]
 * link:https://jaxenter.de/author/johannesdienst[JAXEnter Profil:]
 
-* Multilingual: Scala-Code in Java-Applikationen
-* Scala Tutorial
+[discrete]
+==== Kurzvita
 
-== Kurzvita
 Johannes Dienst ist Softwarecrafter aus Leidenschaft bei der DB Systel GmbH. Sein Tätigkeitsschwerpunkt liegt im Bereich Content Management, DevOps und Softwarequalität.
 
-== Langversion
+[discrete]
+==== Langversion
+
 Johannes Dienst ist Diplom Informatiker und Softwarecrafter mit 8 Jahren Berufserfahrung in der Entwicklung von komplexen IT-Systemen im Umfeld von Java, JavaScript und allen möglichen anderen Sprachen. Seine sonstigen Interessen sind breit gestreut mit Fokus auf Softwarequalität und Softwarearchitektur. Sein Wissen teilt und erweitert er gerne als Sprecher auf Konferenzen und mit Fachartikeln. In seiner Freizeit gehört sein Herz der Familie für die er sich mit Kraftsport fit hält.
 
-== Twitter
+[discrete]
+==== Twitter
+
 Softwarecrafter, Clean Coder, Trainer, Speaker, Writer, Weightlifter
+
+--
+====
