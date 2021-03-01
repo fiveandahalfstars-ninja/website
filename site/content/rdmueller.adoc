@@ -74,10 +74,11 @@ def now = new Date()
 def past = false
 def last_year = null
 data.talks.sort{it.date}.reverse().each { talk ->
-    def date = Date.parse("yyyy-MM-dd", talk.date)
-    def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
-    if (date>now) {
-    if (data.details[""+talk.talkid]?.link!=null && data.details[""+talk.talkid]?.link[0]!= "/talks/details/.html") {
+    if (talk.speaker.contains("ralfdmueller")) {
+        def date = Date.parse("yyyy-MM-dd", talk.date)
+        def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
+        if (date>now) {
+            if (data.details[""+talk.talkid]?.link!=null && data.details[""+talk.talkid]?.link[0]!= "/talks/details/.html") {
 %>
 
 [discrete]
@@ -91,7 +92,7 @@ https://twitter.com/$it[$it]
 <% }.join(" / ") %>
 
 <% }
-} %>
+}} %>
 
 
 --
