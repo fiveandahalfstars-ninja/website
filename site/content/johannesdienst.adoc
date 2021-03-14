@@ -76,7 +76,7 @@ def data = new groovy.json.JsonSlurper().parseText(json)
 def now = new Date()
 def past = false
 def last_year = null
-data.talks.sort{it.date}.reverse().each { talk ->
+data.talks.sort{it.date}.each { talk ->
     if (talk.speaker.contains("johannesdienst")) {
         def date = Date.parse("yyyy-MM-dd", talk.date)
         def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
