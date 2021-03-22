@@ -32,8 +32,9 @@ def last_year = null
 talks.sort{it.date}.each { talk ->
     def date = Date.parse("yyyy-MM-dd", talk.date)
     def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
-	if (talk.speaker.contains("johannesdienst") && date>now) {
-%>
+      if (talk.speaker.contains("johannesdienst") ) {
+        if (date<now) { %>
+
 
 <%
         cur_year = new java.text.SimpleDateFormat("yyyy", Locale.ENGLISH).format(date)
@@ -60,7 +61,7 @@ https://twitter.com/$it[$it]
 
 <%
   last_year = cur_year
-  }
+  } }
 } %>
 
 
