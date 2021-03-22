@@ -2,7 +2,6 @@
 
 Blog based on jBake - Available at https://fiveandahalfstars.ninja/[fiveandahalfstars.ninja]
 
-build via `./build` and locally serve with `./serve`
+build via `./gradlew bake` and locally serve with `./gradlew bakePreview`
 
 
-include::
