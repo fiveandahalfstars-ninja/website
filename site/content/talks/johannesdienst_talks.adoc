@@ -28,7 +28,7 @@ h4 {
 <%
 def now = new Date()
 def last_year = null
-talks.sort{it.date}.reverse().each { talk ->
+talks.sort{it.date}.each { talk ->
     def date = Date.parse("yyyy-MM-dd", talk.date)
     def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
       if (talk.speaker.contains("johannesdienst") ) {
