@@ -27,9 +27,47 @@ h4 {
 
 <%
 def now = new Date()
-def past = false
 def last_year = null
-talks.sort{it.date}.each { talk ->
+talks.sort{it.date}.reverse().each { talk ->
+    def date = Date.parse("yyyy-MM-dd", talk.date)
+    def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
+      if (talk.speaker.contains("johannesdienst") ) {
+        if (date>now) { %>
+
+
+<%
+        cur_year = new java.text.SimpleDateFormat("yyyy", Locale.ENGLISH).format(date)
+        if (last_year != cur_year) { %>
+
+=== ${cur_year}
+
+<%
+        }
+%>
+
+<% if (details[""+talk.talkid]?.link!=null && details[""+talk.talkid]?.link[0]!= "/talks/details/.html") { %>
+
+==== ${dateString}: <a href="${details[""+talk.talkid]?.link[0]}">${talk.title}</a>
+
+<% } else { %>
+
+==== ${dateString}: ${talk.title}
+
+<% } %>
+<a href="${talk.url}">${talk.event}</a>, ${talk.location}, ${dateString}, <% talk.speaker.sort().each { %>
+https://twitter.com/$it[$it]
+<% }.join(" / ") %>
+
+<%
+  last_year = cur_year
+  } }
+} %>
+
+== Past Talks
+
+<%
+last_year = null
+talks.sort{it.date}.reverse().each { talk ->
     def date = Date.parse("yyyy-MM-dd", talk.date)
     def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
       if (talk.speaker.contains("johannesdienst") ) {
