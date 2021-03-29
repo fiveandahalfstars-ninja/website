@@ -45,7 +45,7 @@ talks.sort{it.date}.each { talk ->
         }
 %>
 
-<% if (details[""+talk.talkid]?.link!=null && details[""+talk.talkid]?.link[0]!= "/talks/details/.html") { %>
+<% if (details[""+talk.talkid]?.link!=null && {details[""+talk.talkid]?.link[0]!="/talks/details/.html"}) { %>
 
 ==== ${dateString}: <a href="${details[""+talk.talkid]?.link[0]}">${talk.title}</a>
 
