@@ -1,0 +1,85 @@
+= Architecture Decision Records Teil 1 - Warum Entscheidungen dokumentieren?
+:jbake-date: 2021-04-05
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: asciidoc, softwarearchitecture, architecture decision records
+:doctype: article
+:toc: macro
+
+Entscheidungen zu dokumentieren ist aus meiner Erfahrung eine sinnvolle Idee, um Verbindlichkeit und Transparenz herzustellen.
+Um Architekturentscheidungen zu dokumentieren hat sich für mich ein Format namens Architecture Decision Record (kurz ADR) bewährt.
+
+Im Rahmen dieser Artikelserie betten wir die Architecture Decision Records in den größeren Rahmen der Architekturarbeit ein.
+Dabei gehe ich insbesondere auf den Kontext des Dokumentationstemplates arc42 und dessen Einsatz im DevOps-Umfeld ein.
+
+Wir sehen uns dazu auch intensiver die Technik an, mit der dokumentiert wird. Hier kommen AsciiDoc, Microsites und Git zum Einsatz.
+
+Aber starten wir zuerst mit dem _Warum_. Warum ist es eine gute Idee, Entscheidungen zu dokumentieren?
+
+== Undokumentierte Entscheidungen - Ein Problem auf unterschiedlichen Ebenen
+
+Undokumentierte Entscheidungen sind meistens die Regel. Meistens bleiben sie eine lange Zeit unbemerkt oder kommen nie wieder zur Sprache.
+Interessant wird es, wenn an irgendeiner Stelle die Frage gestellt wird: *Warum* ist das *so*?
+
+Dabei ist dieses Problem nicht nur auf technische Dinge beschränkt. Auch zwischenmenschliche Aspekte der Zusammenarbeit sind betroffen.
+
+=== Technische Entscheidungen
+
+Die Überschrift kann alles Mögliche umfassen. Ich nehme mal das Beispiel einer Frameworkentscheidung für einen Microservice heraus.
+
+Inzwischen gibt es zu jeder Programmiersprache unzählige Frameworks, um einen Microservice zu implementieren. Interessanterweise hat dazu in einem Team
+eine andere Meinung, welches Framework das Beste ist. Deswegen sollte so eine Entscheidung dokumentiert werden. Wichtig hierbei aus meiner Sicht: Die 
+untersuchten Alternativen mitdokumentieren.
+
+In unserem Team hatten wir genau diese Entscheidung zur Wiedervorlage. Wir waren mit unserer alten Implementierung unzufrieden und haben uns einige Alternativen
+angesehen und sie mit Performance-Tests und Proof-Of-Concepts evaluiert. Die folgende Entscheidung beruhte auf der erstellten Datenbasis. Alle Alternativen
+sind in der Entscheidungsdokumentation zu finden und für jeden nachvollziehbar.
+
+=== Zwischenmenschliches
+
+Zwischenmenschliches klingt meistens banal, hat aber im Alltag große Auswirkungen auf Arbeitsmoral und Motivation.
+Dazu ein Beispiel:
+
+In meinem Team fehlt anscheinend eine Regel wie mit temporärer Abwesenheit ohne Krankmeldung umgegangen wird. Ein Teamkollege von mir war nur zum Daily
+anwesend, aber dann den ganzen Tag nicht mehr in der Teamkommunikation zu sehen. Am Ende des Tages war ich besorgt und leicht ärgerlich zugleich.
+Mir war nicht klar ob er noch da ist und arbeitet.
+
+Aus meiner Sicht brauchen wir dafür im Team eine dokumentierte Entscheidung, wie wir mit solchen Abwesenheiten umgehen.
+Ziel ist dann nicht Kollegen:innen zu gängeln, wenn sie sich nicht daran halten. Aber ich kann dann so darauf hinweisen: "Sieh mal, so hatten wir das entschieden,
+warum machst Du das nicht so?"
+
+== Architekturentscheidungen
+
+Eine besondere Rolle nehmen Entscheidungen ein, die sich auf die Softwarearchitektur eines Softwaresystems beziehen. Meine Definition dieser Entscheidungen ist
+die Folgende: "Eine Architekturentscheidung ist im Nachhinein potentiell teuer bis gar nicht zu ändern und bezieht sich auf die Qualitätsanforderungen eines Systems"
+
+Aus meiner Erfahrung sind Architekturentscheidungen dann gefährlich wenn sie _unbewusst_ getroffen werden. Unbewusst werden sie getroffen, wenn ein System _einfach so_
+entsteht. Es wird an allen Stellen gearbeitet, aber nie darüber geredet, was mit dem System erreicht werden soll. Sehr oft kommt später die Frage auf: 
+"Warum ist das so gemacht worden?"
+
+In unserem Team wurde explizit die horizontale Skalierbarkeit als Qualitätsanforderung gesetzt und daraufhin ein Kollege mit der Umsetzung einer API beauftragt.
+Am Ende kam eine hochperformante Implementierung heraus, die leider für den Rest des Teams unwartbar war. Hier wurde die Qualitätsanforderung Wartbarkeit missachtet.
+Das hätte durch Transparenz in der Entscheidungsfindung vermieden werden können.
+
+== Das Besondere an DevOps-Teams
+
+Entscheidungen zu dokumentieren und vor allem zu _vergemeinschaften_ ist in einem DevOps-Team sehr wichtig. Um als Team effektiv
+zu agieren sollte der Kommunikationsaufwand innerhalb des Teams klein gehalten werden. Aus meiner Sicht ist die Maximalgröße von sieben Menschen
+schon fast zu groß, da die Kommunikationskanäle im Team sehr viele sind (siehe dazu link:https://www.digitales-denken.de/toolbox/2017/11/28/kommunikationsbeziehungen[Kommunikationsbeziehungen]).
+
+Um mit dieser kleinen Anzahl an Menschen den gesamten Entwicklungszyklus von der Anforderungserhebung beim Kunden bis zum Betrieb des Systems abzudecken
+ist effektive Kommunikation unabdingbar. Besonderes Augenmerk ist hier aus meiner Erfahrung heraus auf "Einigkeit" bei architektonischen und technischen
+Entscheidungen zu legen.
+
+Nichts wirkt sich destruktiver auf des Team aus, als eine im Stillen nicht mitgetragene Entscheidung!
+
+== Wie geht es weiter?
+
+Inzwischen sollte klar geworden sein, warum ich es wichtig finde Entscheidungen zu dokumentieren.
+
+Doch wie geht das eigentlich effektiv und effizient?
+
+Im nächsten Post sehen wir uns ein Format namens Architecture Decision Records an. Das eignet sich speziell für Architekturentscheidungen, kann aber auch
+auf andere Entscheidungen adaptiert werden.
