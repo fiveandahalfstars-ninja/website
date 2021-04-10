@@ -8,7 +8,6 @@
 :doctype: article
 :toc: macro
 
-toc::[]
 
 Entscheidungen zu dokumentieren stellt meiner Erfahrung nach Verbindlichkeit und Transparenz her.
 Um Architekturentscheidungen zu dokumentieren hat sich für mich ein Format namens _Architecture Decision Record_ (kurz ADR) bewährt.
@@ -85,3 +84,5 @@ Doch wie geht das eigentlich effektiv und effizient?
 
 Im nächsten Post sehen wir uns ein Format namens Architecture Decision Records an. Das eignet sich speziell für Architekturentscheidungen, kann aber auch
 auf andere Entscheidungen adaptiert werden.
+
+toc::[]
