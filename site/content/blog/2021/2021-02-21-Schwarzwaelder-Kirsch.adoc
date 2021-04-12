@@ -5,8 +5,8 @@
 :jbake-toc: true
 :jbake-status: published
 :jbake-tags: off-topic, recipe
-:jbake-lang: de
 :doctype: article
+:jbake-lang: de
 :toc: macro
 
 :uri-garnierspritze: https://www.amazon.de/Dr-Oetker-Einhand-Garnierspritze-T%C3%BCllen-K%C3%BCchenhelfer/dp/B07CBZDB48/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=garnierspritze&qid=1613941035&sr=8-9
