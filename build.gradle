@@ -9,7 +9,7 @@ plugins {
 
 jbake {
     version = '2.6.5'
-    srcDirName = new File("site").canonicalPath
+    srcDirName = new File("site")
     configuration['asciidoctor.option.requires'] = 'asciidoctor-diagram'
     configuration['asciidoctor.attributes'] = [
             'source-highlighter=prettify',
@@ -20,4 +20,5 @@ jbake {
 bakePreview {
     port = '8044'
 }
+
 defaultTasks 'bake', 'bakePreview'
