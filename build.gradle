@@ -20,4 +20,5 @@ jbake {
 bakePreview {
     port = '8044'
 }
+
 defaultTasks 'bake', 'bakePreview'

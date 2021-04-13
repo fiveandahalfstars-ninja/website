@@ -3,6 +3,11 @@
 	body = content.body.split("<div id=\"toc\" class=\"toc\">")
 	if (body.size()==2) {
 		toc = body[1].replaceAll("(?ms)(</div>[\r\n\t ]*){3}\$","")
+		if (toc.trim().endsWith('</div>')) {
+
+		} else {
+			toc+='</div><!-- fixed -->'
+		}
 		body = body[0]
 	} else {
 		toc = ""
