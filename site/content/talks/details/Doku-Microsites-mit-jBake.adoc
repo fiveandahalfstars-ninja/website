@@ -12,7 +12,7 @@ a|
 +++
 a|
 +++
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U8o9UuYlm9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U8o9UuYlm9c?list=PLhB0zxn4tPQY8RunMJZepyJBPKYwFYVW-" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 +++
 |===
 Dokumentation in Markdown oder AsciiDoc zu erstellen ist einfach.

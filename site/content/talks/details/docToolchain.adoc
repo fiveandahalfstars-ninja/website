@@ -1,0 +1,19 @@
+:jbake-title: Doku-Microsites mit jBake
+:jbake-type: page
+:jbake-status: published
+
+== Docs-as-Code with AsciiDoc & docToolchain
+=== A journey to the limits
+
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1W5fEku4-_A?list=PLhB0zxn4tPQY8RunMJZepyJBPKYwFYVW-" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
++++
+
+
+The combination of AsciiDoc and Gradle should be well known by now. But what if you want to go beyond? Have you ever tried to include UML diagrams the easy way, convert Excel to AsciiDoc or export your results to Confluence? This talk shows you what you can really do if you treat your docs as code and apply some tricks you only did to your code before. Forget about copy & paste your images to your documentation – let the build do it! Create different docs for different stakeholders and even run automated tests on your docs!
+
+In this talk, Ralf will give an short overview of the open source documentation tool chain "docToolchain". He will open up the Docs-as-Code solution space with some new and fresh ideas and show where the Docs-as-Code approach is heading to.
+
+As the maintainer of the open source tool called "docToolchain", Ralf tries to push the Docs-as-Code approach further to its limits. Every new idea finds its place in the docToolchain. It is by now a collection of quite helpful tasks of your every day documentation needs.
+
+This talk assumes that you already know about the docs-as-code approach and AsciiDoc.
