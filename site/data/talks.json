@@ -184,6 +184,12 @@
       },
 	  "547":  {
         "link": "/talks/details/.html"
+      },
+      "548":  {
+        "link": "/talks/details/.html"
+      },
+      "549":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -1180,6 +1186,17 @@
       "talkid": 546
     },
     {
+      "title": "Architecture Decision Records for Fun and Profit",
+      "event": "Continuous Delivery & Automation Summer Europe",
+      "location": " Virtuell",
+      "date": "2021-06-09",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 547
+    },
+    {
       "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
       "event": "Enterprise Code",
       "location": " Virtuell",
@@ -1188,7 +1205,18 @@
       "speaker": [
         "johannesdienst"
       ],
-      "talkid": 547
+      "talkid": 548
+    },
+    {
+      "title": "Managed Cloud to Gitops: Deploying Several Client Clusters",
+      "event": "GitLab Commit",
+      "location": " Virtuell",
+      "date": "2021-08-03",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 549
     }
   ]
 }
