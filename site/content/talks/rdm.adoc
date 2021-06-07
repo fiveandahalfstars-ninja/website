@@ -32,7 +32,8 @@ def last_year = null
 talks.sort{it.date}.reverse().each { talk ->
     def date = Date.parse("yyyy-MM-dd", talk.date)
     def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
-    if (!past && (date<now)) { %>
+      if (talk.speaker.contains("ralfdmueller")) {
+        if (!past && (date<now)) { %>
 
 == Past Talks
 
@@ -61,7 +62,8 @@ https://twitter.com/$it[$it]
 <% }.join(" / ") %>
 
 <%
-last_year = cur_year
+  last_year = cur_year
+  }
 } %>
 
 siehe https://speakerdeck.com/rdmueller

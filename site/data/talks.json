@@ -40,8 +40,158 @@
       "13":  {
         "link": "/talks/details/Doku-Microsites-mit-jBake.html"
       },
-      "14":  {
+      "14": {
+        "link": "/talks/details/docToolchain.html"
+      },
+      "15": {
         "link": "/talks/details/Moderne-Softwarearchitekturdokumentation.html"
+      },
+	  "500":  {
+        "link": "/talks/details/.html"
+      },
+	  "501":  {
+        "link": "/talks/details/.html"
+      },
+	  "502":  {
+        "link": "/talks/details/.html"
+      },
+	  "503":  {
+        "link": "/talks/details/.html"
+      },
+	  "504":  {
+        "link": "/talks/details/.html"
+      },
+	  "505":  {
+        "link": "/talks/details/.html"
+      },
+	  "506":  {
+        "link": "/talks/details/.html"
+      },
+	  "507":  {
+        "link": "/talks/details/.html"
+      },
+	  "508":  {
+        "link": "/talks/details/.html"
+      },
+	  "509":  {
+        "link": "/talks/details/.html"
+      },
+	  "510":  {
+        "link": "/talks/details/.html"
+      },
+	  "511":  {
+        "link": "/talks/details/.html"
+      },
+	  "512":  {
+        "link": "/talks/details/.html"
+      },
+	  "513":  {
+        "link": "/talks/details/.html"
+      },
+	  "514":  {
+        "link": "/talks/details/.html"
+      },
+	  "515":  {
+        "link": "/talks/details/.html"
+      },
+	  "516":  {
+        "link": "/talks/details/.html"
+      },
+	  "517":  {
+        "link": "/talks/details/.html"
+      },
+	  "518":  {
+        "link": "/talks/details/.html"
+      },
+	  "519":  {
+        "link": "/talks/details/.html"
+      },
+	  "520":  {
+        "link": "/talks/details/.html"
+      },
+	  "521":  {
+        "link": "/talks/details/.html"
+      },
+	  "522":  {
+        "link": "/talks/details/.html"
+      },
+	  "523":  {
+        "link": "/talks/details/.html"
+      },
+	  "524":  {
+        "link": "/talks/details/.html"
+      },
+	  "525":  {
+        "link": "/talks/details/.html"
+      },
+	  "526":  {
+        "link": "/talks/details/.html"
+      },
+	  "527":  {
+        "link": "/talks/details/.html"
+      },
+	  "528":  {
+        "link": "/talks/details/.html"
+      },
+	  "529":  {
+        "link": "/talks/details/.html"
+      },
+	  "530":  {
+        "link": "/talks/details/.html"
+      },
+	  "531":  {
+        "link": "/talks/details/.html"
+      },
+	  "532":  {
+        "link": "/talks/details/.html"
+      },
+	  "534":  {
+        "link": "/talks/details/.html"
+      },
+	  "535":  {
+        "link": "/talks/details/.html"
+      },
+	  "536":  {
+        "link": "/talks/details/.html"
+      },
+	  "537":  {
+        "link": "/talks/details/.html"
+      },
+	  "538":  {
+        "link": "/talks/details/.html"
+      },
+	  "539":  {
+        "link": "/talks/details/.html"
+      },
+	  "540":  {
+        "link": "/talks/details/.html"
+      },
+	  "541":  {
+        "link": "/talks/details/.html"
+      },
+	  "542":  {
+        "link": "/talks/details/.html"
+      },
+	  "543":  {
+        "link": "/talks/details/.html"
+      },
+	  "544":  {
+        "link": "/talks/details/.html"
+      },
+	  "545":  {
+        "link": "/talks/details/.html"
+      },
+	  "546":  {
+        "link": "/talks/details/.html"
+      },
+	  "547":  {
+        "link": "/talks/details/.html"
+      },
+      "548":  {
+        "link": "/talks/details/.html"
+      },
+      "549":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -59,7 +209,7 @@
       "image": "/images/conferences/SAA.png",
       "duration": 180,
       "cfp": "https://confcall.sigsdatacom.de/conflist.php",
-      "talkid": 14
+      "talkid": 15
     },
     {
       "title": "Docs-as-Code",
@@ -88,7 +238,7 @@
       "event": "JUG CH",
       "location": "Online",
       "date": "2021-04-13",
-      "url": "",
+      "url": "https://www.jug.ch/html/events/2021/docs-as-code.html",
       "speaker": [
         "ralfdmueller"
       ],
@@ -115,7 +265,7 @@
       "speaker": [
         "ralfdmueller"
       ],
-      "talkid": 5
+      "talkid": 14
     },
     {
       "title": "Architekturdokumentation mit Microsites",
@@ -517,6 +667,573 @@
       ],
       "talkid": 1,
       "video": "https://www.youtube.com/watch?v=L75DdPon5Gk"
+    },
+	{
+      "title": "Liebst du Typen? JavaScript in großem Stil mit TypeScript",
+      "event": "Clean Code Days",
+      "location": " München",
+      "date": "2015-11-04",
+      "url": "https://www.cleancode-days.de/archiv/downloads/handouts-2015.html",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 500
+    },
+	{
+      "title": "Code-Metriken lügen!? Praxisbeispiele und Gegenmaßnahmen",
+      "event": "Software QS Tag",
+      "location": " Nürnberg",
+      "date": "2016-11-03",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 501
+    },
+	{
+      "title": "Herr Ober: Eine getypte Obermenge von JavaScript bitte",
+      "event": "Berlin Expert Days (BEDcon)",
+      "location": " Berlin",
+      "date": "2016-09-15",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 502
+    },
+	{
+      "title": "Typen nach JavaScript tragen - TypeScript",
+      "event": "Karlsruher Entwicklertag",
+      "location": " Karlsruhe",
+      "date": "2016-06-15",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 503
+    },
+	{
+      "title": "Clean Communication - No Space for Ambiguities",
+      "event": "Clean Code Days",
+      "location": " München",
+      "date": "2016-04-22",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 504
+    },
+    {
+      "title": "Und wer testet die Tests? - Mutationstesten mit PIT",
+      "event": "Karlsruher Entwicklertag",
+      "location": " Karlsruhe",
+      "date": "2017-05-23",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 505
+    },
+    {
+      "title": "Und wer testet die Tests? - Mutationstesten mit PIT",
+      "event": "Clean Code Days",
+      "location": " München",
+      "date": "2017-06-21",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 506
+    },
+    {
+      "title": "Und wer testet die Tests? - Mutationstesten mit PIT",
+      "event": "BOB",
+      "location": " Berlin",
+      "date": "2017-02-24",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 507
+    },
+    {
+      "title": "BDD in Multimandantensystemen - Ist doch ganz einfach, oder?",
+      "event": "Software QS-Tag",
+      "location": " Nürnberg",
+      "date": "2017-11-24",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 508
+    },
+    {
+      "title": "Livecoding: TypeScript in der Praxis",
+      "event": "Frankfurter Entwicklertag",
+      "location": " Frankfurt",
+      "date": "2017-02-16",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 509
+    },
+    {
+      "title": "Clean Code ist doch einfach…​ Qualität ist schwierig!",
+      "event": "Clean Code Days",
+      "location": " München",
+      "date": "2018-06-21",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 510
+    },
+	{
+      "title": "Ist das Softwarearchitektur oder kann das weg? (Pecha Kucha)",
+      "event": "Java Forum Stuttgart",
+      "location": " Stuttgart",
+      "date": "2018-07-05",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 511
+    },
+	{
+      "title": "CIO-aRT! Die Kunst, agil zu arbeiten",
+      "event": "IT-Tage",
+      "location": " Frankfurt",
+      "date": "2018-12-10",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 512
+    },
+    {
+      "title": "Clean Code ist einfach…​ Qualität ist schwierig!",
+      "event": "Code Days",
+      "location": " München",
+      "date": "2019-02-06",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 513
+    },
+    {
+      "title": "Clean Code ist einfach … Qualität ist schwierig",
+      "event": "c’t webdev",
+      "location": " Köln",
+      "date": "2019-02-06",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 514
+    },
+    {
+      "title": "Pride & Prejuice: Teambildung & Motivation im agilen Umfeld",
+      "event": "Clean Code Days",
+      "location": " München",
+      "date": "2019-07-04",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 515
+    },
+    {
+      "title": "DevOps im Konzern – Autonomie von DevOps-Teams vs. Betriebssicherheit",
+      "event": "JAX",
+      "location": " Mainz",
+      "date": "2019-05-06",
+      "url": "",
+      "speaker": [
+        "johannesdienst",
+		"thomaskappatsch"
+      ],
+      "talkid": 516
+    },
+    {
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "DevDay Dresden",
+      "location": " Dresden",
+      "date": "2019-04-20",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 517
+    },
+    {
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "Karlsruher Entwicklertag",
+      "location": " Karlsruhe",
+      "date": "2019-06-04",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 518
+    },
+    {
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "Java Forum Stuttgart",
+      "location": " Stuttgart",
+      "date": "2019-05-04",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 519
+    },
+    {
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "Berlin Expert Days (BEDcon)",
+      "location": " Berlin",
+      "date": "2019-06-09",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 520
+    },
+    {
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "Software Architecture Gathering",
+      "location": " München",
+      "date": "2019-10-17",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 521
+    },
+    {
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "JCON",
+      "location": " Düsseldorf",
+      "date": "2019-09-24",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 521
+    },
+    {
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "BASTA!",
+      "location": " Mainz",
+      "date": "2019-09-25",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 522
+    },
+    {
+      "title": "DevOps im Konzern – Autonomie von DevOps-Teams vs. Betriebssicherheit",
+      "event": "Continuous Lifecycle",
+      "location": " Mannheim",
+      "date": "2019-11-13",
+      "url": "",
+      "speaker": [
+        "johannesdienst",
+		"thomaskappatsch"
+      ],
+      "talkid": 523
+    },
+    {
+      "title": "DevOps im Konzern – Autonomie von DevOps-Teams vs. Betriebssicherheit",
+      "event": "Better Software",
+      "location": " Virtuell",
+      "date": "2019-12-10",
+      "url": "",
+      "speaker": [
+        "johannesdienst",
+		"thomaskappatsch"
+      ],
+      "talkid": 524
+    },
+    {
+      "title": "Kill Legacy Code – wie man alten Code wieder wartbar bekommt (Workshop)",
+      "event": "OOP",
+      "location": " München",
+      "date": "2020-02-03",
+      "url": "",
+      "speaker": [
+	    "ChristianFischer",
+		"CarstenThurau",
+		"CorneliaFranke",
+        "johannesdienst"
+      ],
+      "talkid": 525
+    },
+    {
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "OOP",
+      "location": " München",
+      "date": "2020-02-05",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 526
+    },
+    {
+      "title": "Effizient Arbeiten mit Architecture Decision Records (ADR)",
+      "event": "BOB",
+      "location": " Berlin",
+      "date": "2020-01-01",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 527
+    },
+    {
+      "title": "The Dev, the Ops & the Team",
+      "event": "DevOps Thüringen - Joint Meetup JUG Thüringen",
+      "location": " Erfurt",
+      "date": "2020-02-18",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 528
+    },
+    {
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "Frankfurter Entwicklertag",
+      "location": " Frankfurt",
+      "date": "2020-02-20",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 529
+    },
+	{
+      "title": "Everything as Code: Pipeline, Infrastructure, Configuration, Documentation",
+      "event": "Gastvortrag",
+      "location": " THM Gießen",
+      "date": "2020-02-22",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 530
+    },
+    {
+      "title": "Effizient arbeiten mit Architecture Decision Records (ADRs)",
+      "event": "SAEC Days",
+      "location": " Virtuell",
+      "date": "2020-07-23",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 531
+    },
+    {
+      "title": "Effizient arbeiten mit Architecture Decision Records (ADRs)",
+      "event": "JCON",
+      "location": " Virtuell",
+      "date": "2020-10-28",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 532
+    },
+    {
+      "title": "Work efficiently with Architecture Decision Records (ADRs)",
+      "event": "WeAreDevelopers - LiveWeek",
+      "location": " Virtuell",
+      "date": "2020-10-07",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 533
+    },
+	{
+      "title": "Lessons Learned: arc42 in a Real Devops Team",
+      "event": "DevConf.CZ",
+      "location": " Virtuell",
+      "date": "2020-02-18",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 534
+    },
+	{
+      "title": "Terraform Livecoding",
+      "event": "Gastvortrag THM Gießen",
+      "location": " Virtuell",
+      "date": "2021-01-06",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 535
+    },
+	{
+      "title": "Griechische Philosophie für moderne Softwareentwicklung",
+      "event": "Softwerkskammer Nürnberg",
+      "location": " Virtuell",
+      "date": "2021-02-04",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 536
+    },
+	{
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "Continuous Delivery DACH",
+      "location": " Virtuell",
+      "date": "2021-02-11",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 537
+    },
+	{
+      "title": "Lessons Learned: arc42 in a Real Devops Team",
+      "event": "DevConf.CZ",
+      "location": " Virtuell",
+      "date": "2021-02-18",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 538
+    },
+	{
+      "title": "Journey Of Devops Teams in a Corporate Environment",
+      "event": "DevConf.CZ",
+      "location": " Virtuell",
+      "date": "2021-02-18",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 539
+    },
+	{
+      "title": "Griechische Philosophie für moderne Softwareentwicklung",
+      "event": "Frankfurter Entwicklertag",
+      "location": " Virtuell",
+      "date": "2021-03-04",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 540
+    },
+	{
+      "title": "Lessons Learned: arc42 in einem DevOps Team",
+      "event": "Javaland",
+      "location": " Virtuell",
+      "date": "2021-03-16",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 541
+    },
+	{
+      "title": "Griechische Philosophie für moderne Softwareentwicklung",
+      "event": "PHP Usergroup Darmstadt",
+      "location": " Virtuell",
+      "date": "2021-04-14",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 542
+    },
+	{
+      "title": "Effizient arbeiten mit Architecture Decision Records (ADRs)",
+      "event": "Navigate",
+      "location": " Virtuell",
+      "date": "2021-04-20",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 543
+    },
+    {
+      "title": "Griechische Philosophie für moderne Softwareentwicklung",
+      "event": "DevDay Dresden",
+      "location": " Virtuell",
+      "date": "2021-04-20",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 544
+    },
+	{
+      "title": "Lessons Learned: arc42 in a Real Devops Team",
+      "event": "DevOps Pro Europe",
+      "location": " Virtuell",
+      "date": "2021-05-13",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 545
+    },
+	{
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "JUG Oberpfalz",
+      "location": " Virtuell",
+      "date": "2021-06-09",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 546
+    },
+    {
+      "title": "Architecture Decision Records for Fun and Profit",
+      "event": "Continuous Delivery & Automation Summer Europe",
+      "location": " Virtuell",
+      "date": "2021-06-09",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 547
+    },
+    {
+      "title": "Leichtgewichte Softwarearchitektur mit Architecture Decision Records und Qualitätsszenarien",
+      "event": "Enterprise Code",
+      "location": " Virtuell",
+      "date": "2021-06-28",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 548
+    },
+    {
+      "title": "Managed Cloud to Gitops: Deploying Several Client Clusters",
+      "event": "GitLab Commit",
+      "location": " Virtuell",
+      "date": "2021-08-03",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 549
     }
   ]
 }

@@ -1,0 +1,15 @@
+:jbake-title: Docs-as-Code
+:jbake-type: page
+:jbake-status: published
+
+== Docs-as-Code
+
++++
+<script async class="speakerdeck-embed" data-id="f3c5697a75ba4723a0fa57475ff70d29" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
++++
+
+Der Vortrag zeigt, wie Du die Qualität Deiner Dokumentation erhöhst und gleichzeitig den Aufwand zur Pflege reduzierst, indem Du Deine Dokumentation genauso wie Deinen Code verwaltest und in den Build integrierst. Anhand des Beispiels einer Architekturdokumentation, zeigt Ralf, wie Du mit dem arc42-Template im AsciiDoc-Format und Gradle als Build-Tool einfach Diagramme in Ihre Dokumentation integrierst, Stakeholder-spezifische Dokumente erzeugst und verschiedene Ausgabeformate generierst. Reviewfähige PDF-Dokumente? Publishing nach Confluence? Integration einer Präsentation? Alles kein Problem! Einige Teile der Doku kannst Du sogar automatisiert testen!
+
+docToolchain: https://doctoolchain.github.io/docToolchain/v2.0.x/
+
+

@@ -1,6 +1,6 @@
 body {
-    font-size: 16px;
-    line-height: 1.628571;
+    font-size: 20px;
+    line-height: 1.8;
     color: #292929;
 }
 
@@ -54,14 +54,16 @@ a {
 }
 
 h1 {
-    font-size: 2.3125em
+    font-size: 2.3125em;
 }
 
 h2 {
-    font-size: 1.6875em
+    font-size: 1.6875em;
+	margin-top: 1.5em;
 }
 h3 {
-    font-size: 1.4em
+    font-size: 1.4em;
+	margin-top: 1.5em;
 }
 #toc .sectlevel1 {
     margin-left: 1em;
@@ -77,3 +79,8 @@ ul {
     list-style-image: none;
     padding-left: 1em;
 }
+
+.paragraph {
+  margin-top: 0em;
+  margin-bottom: 1em;
+}	
