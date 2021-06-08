@@ -3,7 +3,7 @@
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
-:jbake-status: published
+:jbake-status: draft
 :jbake-tags: speaking
 :jbake-lang: en
 :doctype: article
