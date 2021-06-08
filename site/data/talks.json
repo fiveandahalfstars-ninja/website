@@ -196,6 +196,22 @@
     }
   ],
   "talks": [
+
+    {
+      "title": "Modern software architecture documentation hands on",
+      "event": "Software Architecture Gathering",
+      "location": "online",
+      "date": "2021-10-12",
+      "url": "https://conferences.isaqb.org/software-architecture-gathering/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 210,
+      "cfp": "",
+      "talkid": 15
+    },
     {
       "title": "Workshop: Moderne Softwarearchitekturdokumentation",
       "event": "Software Architecture Alliance",

@@ -1,137 +1,85 @@
-= Schwarzwälder Kirschtorte
-:jbake-date: 2021-02-21
+= Do we still need Conferences?
+:jbake-date: 2021-05-08
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
 :jbake-status: published
-:jbake-tags: off-topic, recipe
-:jbake-lang: de
+:jbake-tags: speaking
+:jbake-lang: en
 :doctype: article
 :toc: macro
 
-:uri-garnierspritze: https://www.amazon.de/Dr-Oetker-Einhand-Garnierspritze-T%C3%BCllen-K%C3%BCchenhelfer/dp/B07CBZDB48/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=garnierspritze&qid=1613941035&sr=8-9
+Since more than one year, all our conferences, meetups and user groups are now remote online events.
+I attended lots of them - mostly as speaker - and I have to say, I don't like most of them.
 
-Jedesmal, wenn ich zu Besuch bei meiner Großmutter war, konnte ich wählen, welche Torte es Sonntags geben sollte.
-Zur Auswahl standen Schwarzwälder Kirsch und Prinzregenten.
-Meist wurde es die Schwarzwälder Kirsch.
-Das Originalrezept ist leider nicht überliefert, es war aber natürlich bei weitem Besser als alles, was ich an Schwarzwälder Kirsch sonst vorgesetzt bekommen habe.
-Das lag zum einen an der leckeren Buttercreme (nein, Sahne geht gar nicht!) zum anderen aber auch an den leckeren handgeraspelten Schoko-Raspeln.
+So, let's analyze the current situation.
 
-Letzten Monat habe ich mir die Zeit genommen und versucht das Rezept interativ wieder herzustellen.
-Ich habe also Rezepte verglichen, gebacken, probiert und wieder von Vorne angefangen.
-Das Ergebnis findest Du nun hier als Rezept für den Thermomix(TM).
+Als die Pandemie began und wir alle ins Home-Office gewechselt sind, haben wir auch unsere Präsenzveranstaltungen versucht 1:1 in die Online-Welt zu kopieren.
+Schnell ist uns aufgefallen, dass diesen online Events etwas fehlte.
+Der Hallway-Track ist ein ganz großer Nachteil.
+Die Gespräche zwischen den Talks, beim Essen und bei den Abendveranstaltungen kann man nicht so einfach inn die Online-Welt bringen.
+Um dem Gegenzusteuern sind Tools wie https://gather.town[Gather.Town], https://wonder.me[wonder.me], https://spatial.chat[spatial.chat] und https://workadventu.re/[workadventu.re] entstanden.
+Sie versuchen das "herumlaufen und zufällig Menschen treffen" nachzubilden.
+So ganz klappt das aber nicht für jeden.
 
-Fotos Deiner Umsetzung bitte gerne auf Twitter mit dem Hashtag #OmasSchwarzwaelderKirsch teilen.
+Was ist bei schief gelaufen?
 
-image::blog/2021/02/torte.jpg[]
+Als Architekt würde ich jetzt sagen, dass wir die Randbedingungen der alten Welt in die neue Welt mit hinein genommen haben.
+Auch haben wir uns keine Gedanken um die neuen Randbedingungen gemacht.
 
-== Zutaten
+Aber was sind die Randbedingungen der alten Welt?
 
-=== Tortenboden
+== C01: Treffen an einem Ort
 
-* [ ] 200g Zucker
-* [ ] 5 Eier
-* [ ] 150g Mehl
-* [ ] 50g Kakaopulver
-* [ ] 50g Speisestärke
-* [ ] 1/2 Pck. Backpulver
-* [ ] 1 Pck. Vanillezucker
+Wir wollen uns auf einer Konferenz austauschen.
+Dies war früher nur möglich, wenn man sich an einem Ort getroffen hat.
+Klingt heute verrückt, oder?
 
-=== Füllung und Schoko-Raspeln
+Das hat den netten Nebeneffekt, dass jeder aus seiner gewohnten Umgebung für ein paar Tage rausgerissen wird und sich voll auf die Konferenz konzentrieren kann.
 
-* [ ] 600 g Milch
-* [ ] 120 g Zucker
-* [ ] 2 Pck. Vanillepuddingpulver
-* [ ] 1 Prise Salz
-* [ ] 330 g Butter, Zimmertemperatur, in Stücken
-* [ ] 1 Glas Sauerkirschen
-* [ ] 200g Blockschokolade
+== C02: Zeitlich begrenztes Event
 
-== Rezept
+Zeit ist Geld.
+Das gilt umso mehr, wenn die Teilnehmer einer Konferenz anreisen und in einem Hotel übernachten müssen.
+Je nach größe der Konferenz und Einzugsgebiet, haben sich 2-5 Tage als optimaler Zeitrahmen für eine Konferenz etabliert.
+2-5 Tage können sich viele aus ihrem Projekt und dem Alltag ausklinken und 2-5 Tage rechtfertigen auch eine Anreise.
 
-Anfangs habe ich den Fehler gemacht mit dem Tortenboden anzufangen.
-Dadurch ergeben sich zu lange Wartezeiten und das Backen dauert fast einen Tag.
-Deshalb fangen wir nun mit der Buttercreme an.
+== C03: Möglichst viele Talks in kurzer Zeit
 
-=== Pudding (für die Buttercreme)
+Wenn wir uns vor Ort treffen, vielleicht eine längere Anreise hatten und ein Hotel bezahlen, dann wollen wir auch etwas erleben.
+Deshalb muss die Konferenz uns möglichst viele parallele Tracks bieten, damit für jeden etwas dabei ist.
+Und zwischen den Tracks braucht es auch nicht viel zeitliche Pausen.
+Snacks stehen über all vom Catering bereitgestellt zur Verfügung.
+Wenn ich das Gespräch mit einem Speaker suche, dann opfere ich meine Snackpause und fange ihn an der Bühne ab.
 
-. Butter aus dem Kühlschrank nehmen, damit sie Zimmertemperatur annehmen kann.
-. 600g Milch, 120g Zucker, 2 Pck. Vanillepuddingpulver und eine Prise Salz in den Mixtopf geben
-. 10 Sekunden auf Stufe 4 verrühren
-. 7 Minuten bei 100°C auf Stufe 2,5 aufkochen
-. in eine große Schüssel umfüllen, und ein Stück hitzebeständige Frischhaltefolie direkt auf den Pudding legen, damit dieser keine Haut bilden kann
-. den Pudding ca. 2 Stunden auf Zimmertemperatur abkühlen lassen
+== C04: Schlechtes Internet vor Ort
 
-=== Dunkler Wiener Boden
+Auch nachdem die Konferenzveranstalter jahrelang Erfahrung mit dem Aufbau eines Konferenz-WLANs sammeln konnten und wir alle einen 4G-Hotspot zur Verfügung haben - so richtig möchte man sich nicht auf das Internet vor Ort verlassen und die Teilnehmer eines Workshops auffordern mal ein paar MB herunterzuladen oder vom Internet abhängiges Live-Coding in den Talk einzubauen, oder?
 
-Den Wiener Boden kannst Du auch fertig gebacken und geschnitten kaufen - dann ist er aber nur halb so gut.
-Mit dem Thermomix(TM) ist er auch ganz schnell selbst gemacht.
+== C05: Abendveranstaltungen für die Angereisten
 
-. Backofen auf 180°C vorheizen
-. Den Boden einer Springform (Ø 26 cm) mit Backpapier auslegen.
-Du kannst das Backpapier einfach über den Boden legen und mit dem Rahmen der Springform einspannen.
-Das überstehende Backpapier am Besten nicht abschneiden.
-. Rühraufsatz (Schmetterling) in den Thermomix(TM) einsetzen
-. 5 Eier in den Mixtopf aufschlagen
-. 2 Minuten bei 37°C auf Stufe 4 verrühren
-. 200g Zucker und 1 Pkg. Vanillezucker zugeben
-. 10 Minuten bei Stufe 4 weiter aufschlagen
-. 150g Mehl, 1/2 Pck. Backpulver, 50g Kakaopulver und 50g Speisestärke rechts und links neben den Rühraufsatz (Schmetterling) zugeben
-. 4-8 Sekunden auf Stufe 3 unterheben
-. Rühraufsatz(Schmetterling) entfernen
-. Mit dem Spatel das Mehl noch etwas mehr unterheben
-. Biskuitteig in die vorbereitete Form geben und 20-25 Minuten bei 180°C backen
-. Biskuitteig mindestens 10 Minuten abkühlen lassen
-. waagerecht mit zwei Schnitten in drei Böden schneiden
+Zwischen den Veranstaltungstagen finden wir uns als Angereiste in einer Fremden Stadt einsam in einem Hotelzimmer wieder.
+Diese Leere füllen die Veranstalter mit Abendveranstaltungen.
+Und die haben es in sich.
+Hier trifft man gleichgesinnte und kommt mit ihnen in's Gespräch.
+Man tauscht sich aus, lernt ein paar Tricks und Kniffe und knüpft ein neues Netzwerk.
 
-=== Schokoraspeln
+== C06: Das Veranstalten einer Konferenz kostet viel Geld
 
-Wartezeiten kannst Du prima mit dem Raspeln der Schokolade füllen.
-Lege dazu die Blockschokolade auf ein Schneidebrett, nimm ein großes scharfes Messer und schneide ganz dünne Raspeln ab, bis die kompletten 200g Blockschokolade geraspelt sind.
+== C07: Speaker können froh sein, dass sie Speaker sein dürfen
 
-=== Kirschen
+== Speaker's Dinner
 
-Auch die Kirschen kannst Du als Pausenfüller schon mal abtropfen lassen.
+Nicht richtig am Arbeiten und nicht voll auf der Konferenz.
 
-=== Buttercreme
+aufgezeichnete Talks => "playlist"
 
-Wenn nun der Pudding abgekühlt ist (Butter und Pudding müssen ca. Zimmertemperatur haben), mit der Buttercreme fortfahren.
+interaction with audience => Umfragen
 
-. 330g Butter in Stücken in den Mixtopf geben
-. 1 Minunte auf Stufe 4 aufschlagen
-. nun den Thermomix(TM) auf 2,5 Minuten bei Stufe 2,5 einstellen
-. nach und nach den Pudding auf das laufende Messer zugeben
-. 10 Sekunden bei Stufe 6 die Creme glatt rühren
+Mehr möglichkeiten: greenscreen, live coding bei aufzeichnung
 
-=== Zusammenbau der Torte
+alt: schlechte Internetverbindung, Unterbringung im Hotel => Abendprogramm, Essen
+neu: gute Internetverbindung, jeder vor seinem Rechner, Essen benötigt Zubereitungszeit, Abend gehört u.U. der Familie
 
-Mit einem Tortenretter legst Du nun den untersten Boden auf zwei Stück Backpapier, die sich in der Mitte ca. 2 Zentimeter überlappen.
-Mit diesem Trick kannst Du das Backpapier zum Schluss leichter unter der Torte rausziehen.
 
-Du solltest jetzt ca. 1050g Buttercreme im Thermomix haben.
-Bei der lezten Zubereitung habe ich die Buttercreme nach Gefühl aufgeteilt, ich denke aber, wir sollten die eingebaute Waage nutzen um es uns zu erleichtern.
-Die Zahlen sind also momentan Schätzungen.
-
-. verteile 300g Buttercreme auf den ersten Boden. Lücken zum Rand hin können später noch leicht verfüllt werden.
-. lege 12 ausgewählte Kirschen für die Dekoration beiseite
-. verteile die restlichen abgetropften Kirschen auf der Buttercreme
-. setze den zweiten Boden auf den ersten
-. verteile wieder 300g Buttercreme auf dem Boden
-. setze den dritten Boden auf den zweiten
-. fülle eine {uri-garnierspritze}[Granierspritze] etwa zur Hälfte mit Buttercreme
-. verteile die restliche Buttercreme auf der Torte und über die Seiten.
-Dabei schliesst Du eventuelle Lücken am Rand der Tortenböden.
-Keine Angst, das muss nicht super aussehen - die Schokoraspeln werden einiges Kaschieren.
-. verteile nun auf der Torte Schokoraspeln, bis die Oberfläche vollständig bedeckt ist
-. nimm nun ein breites Messer und "streiche" jeweils einige Schokoraspeln von unten nach oben über die Ränder der Torte, bis auch der Rand mit Raspeln bedeckt ist.
-. zum Schluss setzt Du noch 12 Tupfer Buttercreme mit der Garnierspritze auf den Rand der Torte und verzierst sie mit jeweils einer Kirsche.
-. stelle die Torte in den Kühlschrank
-
-Nach ca. zwei Stunden im Kühlschrank ist die Buttercreme fest und die Torte somit servierfertig.
-Richtiggute schmeckt sie allerdings, wenn sie ein bis zwei Tage durchgezogen ist.
-
-Guten Appetit!
-
-image::blog/2021/02/tortenstueck.jpg[]
-
-toc::[]
+Green Room for Speakers

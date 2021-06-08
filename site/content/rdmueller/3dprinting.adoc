@@ -1,64 +1,94 @@
-title=About
-date=2020-07-10
+title=3D Druck
+date=2021-05-03
 type=page
-status=published
+status=draft
 ~~~~~~
 
-== Texte und Bilder
-Die Texte auf dieser Seiten sind, wenn es nicht ausdrücklich anders gekennzeichnet ist, wie im Falle von Gastautoren auf dem Blog, von Johannes Dienst.
+== 3D Druck für interessierte
 
-Die Bilder sind von Pixabay oder Pexels.
-Alle anderen Bilder werden mit der entsprechenden Quelle markiert.
+* Du hast Interesse am 3D Druck aber keinen Zugang zu einem 3D Drucker?
+* Du bist Schüler, Student oder Hobby-Bastler?
+* Du wohnst in Schwalbach am Taunus oder einem angrenzenden Ort?
 
-== Datenschutzerklärung
-Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf. (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).
+Dann könnte folgendes für Dich interessant sein.
 
-Verantwortlicher
-Johannes Dienst
-Rothweg 22
-97268 Kirchheim
-info@johannesdienst.net
+Ich biete die Mitbenutzung meines 3D Druckers an.
 
-Kontakt zum Datenschutzbeauftragten
-info@johannesdienst.net
+=== Wie funktioniert das?
 
-== Arten der verarbeiteten Daten:
-* Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).
-* Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).
-* Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
+Du schickst mir Dein 3D Modell als `.stl` oder `.gcode` file per mailto:ralf.d.mueller@gmail.com[eMail] und nennst mir dabei Deinen Filament-Wunsch.
 
-== Kategorien betroffener Personen
-Besucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die betroffenen Personen zusammenfassend auch als „Nutzer“).
-Zweck der Verarbeitung
+Sollte mir auffallen, dass es Probleme beim Druck geben wird, melde ich mich.
+Ansonsten schicke ich Dir eine zahlungsaufforderung per paypal.
+Nach erhalt der Zahlung nehme ich das Modell ohne weitere Bearbeitung und sende es an den Drucker.
 
-* Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.
-*Sicherheitsmaßnahmen.
+Ist der Druck erfolgt, erhältst Du eine eMail, dass der Druck abholbereit ist.
 
-== Verwendete Begrifflichkeiten
-„Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.
+=== Was kostet der Druck?
 
-„Verarbeitung“ ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführten Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch jeden Umgang mit Daten.
+Diesen Service biete ich privat an, erhebe aber dennoch eine kleine Schutzgebür von 0,50€ pro Druck plus 0,50€ pro angefangene 30 Minuten Druckzeit.
 
-Als „Verantwortlicher“ wird die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet, bezeichnet.
+==== Beispiel: Benchy
 
-== Maßgebliche Rechtsgrundlagen
-Nach Maßgabe des Art. 13 DSGVO teilen wir Ihnen die Rechtsgrundlagen unserer Datenverarbeitungen mit. Sofern die Rechtsgrundlage in der Datenschutzerklärung nicht genannt wird, gilt Folgendes: Die Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6 Abs. 1 lit. a und Art. 7 DSGVO, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer Leistungen und Durchführung vertraglicher Maßnahmen sowie Beantwortung von Anfragen ist Art. 6 Abs. 1 lit. b DSGVO, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer rechtlichen Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO, und die Rechtsgrundlage für die Verarbeitung zur Wahrung unserer berechtigten Interessen ist Art. 6 Abs. 1 lit. f DSGVO. Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als Rechtsgrundlage.
+[.center]
+image::benchy.png[]
 
-== Zusammenarbeit mit Auftragsverarbeitern und Dritten
-Sofern wir im Rahmen unserer Verarbeitung Daten gegenüber anderen Personen und Unternehmen (Auftragsverarbeitern oder Dritten) offenbaren, sie an diese übermitteln oder ihnen sonst Zugriff auf die Daten gewähren, erfolgt dies nur auf Grundlage einer gesetzlichen Erlaubnis (z.B. wenn eine Übermittlung der Daten an Dritte, wie an Zahlungsdienstleister, gem. Art. 6 Abs. 1 lit. b DSGVO zur Vertragserfüllung erforderlich ist), Sie eingewilligt haben, eine rechtliche Verpflichtung dies vorsieht oder auf Grundlage unserer berechtigten Interessen (z.B. beim Einsatz von Beauftragten, Webhostern, etc.).
+Benchy, der bekannte 3D Druck Benchmark braucht 2 Stunden 44 Minuten zum Drucken.
+Das Filament (5,21m) kostet mich ca. 0,45€.
 
-Sofern wir Dritte mit der Verarbeitung von Daten auf Grundlage eines sog. „Auftragsverarbeitungsvertrages“ beauftragen, geschieht dies auf Grundlage des Art. 28 DSGVO.
+Das Modell hat eine Größe von ca. 60x31x48mm.
 
-== Übermittlungen in Drittländer
-Sofern wir Daten in einem Drittland (d.h. außerhalb der Europäischen Union (EU) oder des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder dies im Rahmen der Inanspruchnahme von Diensten Dritter oder Offenlegung, bzw. Übermittlung von Daten an Dritte geschieht, erfolgt dies nur, wenn es zur Erfüllung unserer (vor)vertraglichen Pflichten, auf Grundlage Ihrer Einwilligung, aufgrund einer rechtlichen Verpflichtung oder auf Grundlage unserer berechtigten Interessen geschieht. Vorbehaltlich gesetzlicher oder vertraglicher Erlaubnisse, verarbeiten oder lassen wir die Daten in einem Drittland nur beim Vorliegen der besonderen Voraussetzungen der Art. 44 ff. DSGVO verarbeiten. D.h. die Verarbeitung erfolgt z.B. auf Grundlage besonderer Garantien, wie der offiziell anerkannten Feststellung eines der EU entsprechenden Datenschutzniveaus (z.B. für die USA durch das „Privacy Shield“) oder Beachtung offiziell anerkannter spezieller vertraglicher Verpflichtungen (so genannte „Standardvertragsklauseln“).
+image::Benchy-Druckzeit.png[]
 
-== Rechte der betroffenen Personen
-Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten entsprechend Art. 15 DSGVO.
+Als Preis würde ich 0,50€ Grundkosten + 6*0,50€ für 6 angefangene 30 Minuten, also 3,50€ verlangen.
 
-Sie haben entsprechend. Art. 16 DSGVO das Recht, die Vervollständigung der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen.
+=== Welcher Drucker wird genutzt?
 
-Sie haben nach Maßgabe des Art. 17 DSGVO das Recht zu verlangen, dass betreffende Daten unverzüglich gelöscht werden, bzw. alternativ nach Maßgabe des Art. 18 DSGVO eine Einschränkung der Verarbeitung der Daten zu verlangen.
+Es kommt ein Creality Ender 3 mit Glasbett und neuem 16-Bit Mainboard zum Einsatz.
+Das ist ein Low-Cost Drucker, der aber ordentliche Ergebnisse liefert.
 
-Sie haben das Recht zu verlangen, dass die Sie betreffenden Daten, die Sie uns bereitgestellt haben nach Maßgabe des Art. 20 DSGVO zu erhalten und deren Übermittlung an andere Verantwortliche zu fordern.
+==== Druckraum
 
-Sie haben ferner gem. Art. 77 DSGVO das Recht, eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen.
+=== Wie kann ich `.gcode` Files erzeugen bzw. slicen?
+
+Den Vorgang ein 3D-Modell (`.stl`) in eine druckbare Datei (`.gcode`) zu wandeln wird als slicen bezeichnet, weil das Modell in Scheibchen zerlegt wird.
+
+Dieser Verarbeitungsschritt ist vom Drucker abhängig, denn der Slicer muss z.B. die Schichtdicke und noch viele weitere Parameter kennen.
+
+Zum Slicen empfehle ich Cura mit dem Standard Creality Ender 3 Profil.
+
+Die Drucktemperatur muss auf 210°C gesetzt werden (_Meterial>Printing Temperature_).
+
+Als Support bei komplexeren Modellen habe ich sehr gute Erfahrung mit _Support Structure > Tree_ gemacht.
+
+=== Was ist, wenn der Druck schiefgeht?
+
+3D-Druck ist keine einfache Angelegenheit und man braucht ein wenig Erfahrung für gute Modelle.
+
+Sollte ein Druck fehlschlagen, weil das Modell ungeeignet ist, werde ich Tipps geben, um das Modell zu verbessern.
+Es gibt jedoch keine Erstattung der ohnehin schon günstigen Gebühr.
+
+=== Welche Materialien stehen zur Verfügung?
+
+Ich benutze ausschließlich PLA Filamente von Eolas.
+Nach Absprache können nicht vorhandene Farben gekauft werden.
+
+Folgende Farben stehen momentan zur Verfügung:
+
+[cols="2"]
+|===
+| Grau | Grün
+| Weiss |
+|===
+
+=== Auf was sollte ich beim erstellen des Modells achten?
+
+CAD Design Tips for 3D Printing
+
+Make-Buch
+
+=== Kann ich alles drucken, was ich will?
+
+Fast.
+Ich behalte mir das Recht vor, Aufträge ohne angabe eines Grunds abzulehnen.
+Eine Ablehnung kann z.B. erfolgen, wenn Waffenteile gedruckt werden sollen oder der Druck gehen das Urheberrecht verstößt.
