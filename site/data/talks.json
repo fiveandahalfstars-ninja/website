@@ -196,7 +196,36 @@
     }
   ],
   "talks": [
-
+    {
+      "title": "Workshop: Moderne Softwarearchitekturdokumentation",
+      "event": "IT-Tage",
+      "location": "online",
+      "date": "2021-12-06",
+      "url": "https://www.ittage.informatik-aktuell.de/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 0,
+      "cfp": "",
+      "talkid": 15
+    },
+    {
+      "title": "Workshop: Moderne Softwarearchitekturdokumentation",
+      "event": "Herbscampus",
+      "location": "online",
+      "date": "2021-12-06",
+      "url": "https://www.herbstcampus.de/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 0,
+      "cfp": "",
+      "talkid": 15
+    },
     {
       "title": "Modern software architecture documentation hands on",
       "event": "Software Architecture Gathering",
