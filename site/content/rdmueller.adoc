@@ -40,7 +40,7 @@ image::profiles/rdmueller.jpg[]
 [.col-md-5]
 --
 
-Ralf is a Software Engineering Advocat at DB Systel during the day and after sunset he loves everything whit bits and bytes.
+Ralf is a Software Engineering Advocate at DB Systel GmbH during the day and after sunset he loves everything with bits and bytes.
 The last few years of his career, he focused on the documentation of software systems with https://arc42.org[arc42] and the https://docs-as-co.de[Docs-as-Code] approach.
 
 You can follow him on twitter https://twitter.com/RalfDMueller[@RalfDMueller].
