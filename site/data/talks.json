@@ -197,6 +197,21 @@
   ],
   "talks": [
     {
+      "title": "Talk: Moderne Softwarearchitekturdokumentation",
+      "event": "JCon",
+      "location": "online",
+      "date": "2021-08-06",
+      "url": "https://jcon.sched.com/event/721c133fed5d1daf4dabc46e1e8fe546",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 60,
+      "cfp": "",
+      "talkid": 15
+    },
+    {
       "title": "Workshop: Moderne Softwarearchitekturdokumentation",
       "event": "IT-Tage",
       "location": "online",
@@ -207,7 +222,7 @@
         "sippsack"
       ],
       "image": "",
-      "duration": 360,
+      "duration": 420,
       "cfp": "",
       "talkid": 15
     },
@@ -216,13 +231,13 @@
       "event": "Herbscampus",
       "location": "online",
       "date": "2021-09-24",
-      "url": "https://www.herbstcampus.de/",
+      "url": "https://www.herbstcampus.de/lecture.php?id=13159&source=0",
       "speaker": [
         "ralfdmueller",
         "sippsack"
       ],
       "image": "",
-      "duration": 0,
+      "duration": 360,
       "cfp": "",
       "talkid": 15
     },
@@ -246,13 +261,13 @@
       "event": "Software Architecture Alliance",
       "location": "online",
       "date": "2021-10-06",
-      "url": "https://www.software-architecture-alliance.de/",
+      "url": "https://www.software-architecture-alliance.de/software-architecture-alliance-2021/programm/programm.html#item-3137 ",
       "speaker": [
         "ralfdmueller",
         "sippsack"
       ],
       "image": "/images/conferences/SAA.png",
-      "duration": 180,
+      "duration": 195,
       "cfp": "https://confcall.sigsdatacom.de/conflist.php",
       "talkid": 15
     },
