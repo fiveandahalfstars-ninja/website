@@ -17,6 +17,7 @@
                 // (Asciidoctor replaces a bit too much)
                 body = content.body
                         .replaceAll("&#8594;", "->")
+                        .replaceAll("&#8656;", "<=")
                         .replaceAll("&lt;", "<")
                         .replaceAll("&gt;", ">")
                         .replaceAll("&amp;", "&")
