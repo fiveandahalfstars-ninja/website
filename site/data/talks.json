@@ -46,6 +46,9 @@
       "15": {
         "link": "/talks/details/Moderne-Softwarearchitekturdokumentation.html"
       },
+      "16": {
+        "link": "/talks/details/Portfolio-as-Code.html"
+      },
 	  "500":  {
         "link": "/talks/details/.html"
       },
@@ -196,6 +199,22 @@
     }
   ],
   "talks": [
+    {
+      "title": "Talk: Portfolio as Code – Homepage für ITler",
+      "event": "Herbscampus",
+      "location": "online",
+      "date": "2021-09-15",
+      "url": "https://www.herbstcampus.de/veranstaltung-13111-0-portfolio-as-code--homepage-fuer-itler.html",
+      "speaker": [
+        "SandraParsick",
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 45,
+      "cfp": "",
+      "talkid": 16
+    },
     {
       "title": "Talk: Moderne Softwarearchitekturdokumentation",
       "event": "JCon",

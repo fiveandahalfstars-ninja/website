@@ -1,0 +1,59 @@
+= Can Markdown, AsciiDoc and reStructuredText be Friends?
+:jbake-date: 2021-07-17
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: draft
+:jbake-tags: docs-as-code
+:jbake-lang: en
+:doctype: article
+:toc: macro
+
+Wenn ein Entwickler mit dem Docs-as-Code Ansatz sein System dokumentieren möchte, dann stehen ihm verschiedene Auszeichnungssprachen zur Verfügung.
+Die bekannteste ist wohl Markdown, allerdings verfügt Markdown auch über viele Dialekte, die jeweils ihre eigene Toolchain erfordern.
+
+Deshalb empfehle ich meist AsciiDoc mit dem für technische Dokumentation sehr geeigneten umfangreichen und standardisiertem Sprachumfang.
+Alle Toolchains benutzen als Konverter Asciidoctor, ein in Ruby geschriebenes Tool, welches mit jRuby in die Java-Welt gebracht oder mit Opal nach JavaScript transpiliert wird.
+Für Dialekte ist da nicht mehr viel Platz.
+
+In der Python Community hat sich ein ähnliches Tool-Gespann etabliert. Sphinx als Konverter für die umfangreiche Auszeichnungssprache reStructuredText (rst) ist dort allgegenwärtig.
+
+Beide Auszeichnungssprachen (AsciiDoc und reStructuredText) scheinen zwei extrem disjunkten Communities anzugehören.
+
+In der DB Systel haben wir für Java-Entwickler AsciiDoc als Empfehlung etabliert.
+Über jBake als Static-Site-Generator generieren wir unsere Dokumentation mit der CI der Bahn als GitLab-Pages, konvertieren sie nach PDF und exportieren die Dokumentation teilweise auch in Wikis.
+Da jBake auch Markdown beherrscht, können alle, die Markdown bevorzugen es auch verwenden.
+Sogar die gemischte Verwendung stellt kein Problem dar.
+
+Die vorgefertigte Toolchain wird gerne angenommen.
+Sie vereinfacht das Erstellen der Dokumentation, bringt ein einheitliches Look-and-Feel und integriert die Seiten auch in die konzernweite Suche.
+
+Das sind Vorteile, die unsere Python-Entwickler auch gerne nutzen würden.
+Der offensichtliche Weg ist es, das Standard-Design der generierten Ausgabe von Sphinx anzupassen und andere Features in dieser Umgebung nachzubilden.
+Einfacher Weg, doppelte Arbeit.
+Geht es nicht auch schlauer?
+
+== Pandoc als Retter
+
+Pandoc ist das schweitzer Taschenmesser under den Konvertierern für Dokumentenformate.
+Ein kurzer Blick auf die Liste der verfügbaren Formate zeigt, dass reStructuredText von Pandoc gelesen und geschrieben werden kann.
+AsciiDoc kann nur geschrieben werden.
+AsciiDoc wurde sehr eng an docBook angelehnt entwickelt und docBook kann Pandoc wiederum lesen.
+
+Ich kann mit Pandoc somit eine Konvertierungskette erstellen, die sogar im Kreis führt.
+
+image::blog/2021/pandoc.dio.png[]
+
+Und wie teste ich das jetzt?
+In den python docutils, in denen auch der reStructuredText-Parser beheimatet ist, gibt es ein Test-Dokument, welches ich jetzt mal im Kreis konvertieren werde.
+
+
+* AsciiDoc
+* Asciidoctor
+* Sphinx
+* reStructuredText
+* jbake
+* Pandoc
+* https://docutils.sourceforge.io/test/functional/input/standalone_rst_html5.txt
+* https://github.com/asciidocfx/HtmlToAsciidoc/blob/master/to-asciidoc.js
+* https://github.com/metanorma/reverse_adoc

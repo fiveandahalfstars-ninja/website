@@ -32,7 +32,7 @@ talks.sort{it.date}.each { talk ->
     def date = Date.parse("yyyy-MM-dd", talk.date)
     def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
       if (talk.speaker.contains("johannesdienst") ) {
-        if (date>now) { %>
+        if (date>=now) { %>
 
 
 <%

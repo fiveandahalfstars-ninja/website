@@ -33,7 +33,7 @@ talks.sort{it.date}.reverse().each { talk ->
     def date = Date.parse("yyyy-MM-dd", talk.date)
     def dateString = new java.text.SimpleDateFormat("dd.MM.", Locale.ENGLISH).format(date);
       if (talk.speaker.contains("ralfdmueller")) {
-        if (!past && (date<now)) { %>
+        if (!past && (date<=now)) { %>
 
 == Past Talks
 

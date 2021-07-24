@@ -1,0 +1,18 @@
+:jbake-title: Portfolio as Code – Homepage für ITler
+:jbake-type: page
+:jbake-status: published
+
+== Portfolio as Code – Homepage für ITler
+
+Auch wenn wir als ITler derzeit auf dem Arbeitsmarkt umworben werden, muss man uns erst mal finden. Neben der Präsenz auf diversen beruflichen Kontaktbörsen bietet sich das Erstellen einer eigenen Internetseite an, auf der wir uns präsentieren können. Aber nicht jeder möchte sich mit Design und Layout auseinandersetzen. Zum Glück gibt es mittlerweile Werkzeuge, die auf uns Entwickler zugeschnitten sind und pragmatische, aber trotzdem ansehnliche Ergebnisse produzieren.
+
+Getreu dem Motto "Everything as Code" unterstützen sie auch bei der Automatisierung des kompletten Entwicklungsprozesses bis zur Auslieferung und vor allem bei der kontinuierlichen Pflege der Webseite.
+
+=== Vorkenntnisse
+
+* Keine besonderen Vorkenntnisse nötig
+
+=== Lernziele
+
+* Verschiedene Lösungen basierend auf Jekyll, Hugo und JBake sowie Plattformen wie GitHub, GitLab und Netlify kennenlernen
+* Tipps und Tricks, die sich bewährt haben.
