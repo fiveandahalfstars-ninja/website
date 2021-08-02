@@ -57,3 +57,4 @@ In den python docutils, in denen auch der reStructuredText-Parser beheimatet ist
 * https://docutils.sourceforge.io/test/functional/input/standalone_rst_html5.txt
 * https://github.com/asciidocfx/HtmlToAsciidoc/blob/master/to-asciidoc.js
 * https://github.com/metanorma/reverse_adoc
+* https://pypi.org/project/sphinx-asciidoc/

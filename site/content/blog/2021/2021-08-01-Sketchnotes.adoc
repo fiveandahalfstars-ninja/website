@@ -1,0 +1,30 @@
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: sketchnotes
+:jbake-lang: de
+:doctype: article
+:toc: macro
+
+== Gelesen: Sketchnotes in der IT von Lisa Maria Moritz
+
+Gerade richtig zum Wochenende landete das Buch "https://www.amazon.de/dp/3864908302[Sketchnotes in der IT]" in meinem Briefkasten.
+Ich bewundere schon länger die Sketchnotes von Lisa und hoffe immer wieder, dass sie in einem meiner Vorträge sitzt und ich im Anschluss einen Tweet mit der graphischen Zusammenfassung auf ihrem Twitter-Kanal https://twitter.com/Teapot4181/status/1339614445031579650[@Teapot4181] bewundern kann.
+
+Jetzt ist ihr Buch draußen und ich habe das schöne Wetter am Wochenende genutzt, um es zu verschlingen.
+
+image::blog/2021/Sketchnotes-Buch.png[]
+
+Das Buch gliedert sich hauptsächlich in zwei Teile.
+Im ersten Teil erklärt Lisa die Grundlagen ihrer Sketchnotes und auch ihre Tipps und Tricks um erfolgreich starten zu können.
+
+Im zweiten Teil öffnet Lisa für uns ihre kreative Bibliothek an Symbolen, die sie für ihre IT-Sketchnotes benutzt.
+Darunter befinden sich viele clevere Icons (ich liebe die Symbole für Backend und Frontend!), die mir bei meinen ersten Gehversuchen auch gleich gut weiter geholfen haben.
+
+Am Spannendsten fand ich aber die Argumentation, dass Sketchnotes die Konzentration fördern und die visuellen Notizen sich viel besser nachschlagen lassen.
+Dem kann ich nach der Lektüre nur zustimmen.
+
+Allen, die ihren Lernhunger visuell unterstützen wollen, kann ich das Buch empfehlen!
+
+image::blog/2021/microsites-sketchnote.png[]
