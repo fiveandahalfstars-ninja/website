@@ -1,3 +1,4 @@
+:jbake-title: Gelesen: Sketchnotes in der IT von Lisa Maria Moritz
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
