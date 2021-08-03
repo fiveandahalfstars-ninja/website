@@ -8,9 +8,7 @@
 :doctype: article
 :toc: macro
 
-== Gelesen: Sketchnotes in der IT von Lisa Maria Moritz
-
-Gerade richtig zum Wochenende landete das Buch "https://amzn.to/3CjN2on[Sketchnotes in der IT]" in meinem Briefkasten.
+Gerade richtig zum Wochenende landete das Buch https://amzn.to/3CjN2on[Sketchnotes in der IT] in meinem Briefkasten.
 Ich bewundere schon länger die Sketchnotes von Lisa und hoffe immer wieder, dass sie in einem meiner Vorträge sitzt und ich im Anschluss einen Tweet mit der graphischen Zusammenfassung auf ihrem Twitter-Kanal https://twitter.com/Teapot4181/status/1339614445031579650[@Teapot4181] bewundern kann.
 
 Jetzt ist ihr Buch draußen und ich habe das schöne Wetter am Wochenende genutzt, um es zu verschlingen.
