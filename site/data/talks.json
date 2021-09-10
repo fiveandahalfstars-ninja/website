@@ -195,13 +195,34 @@
       },
       "549":  {
         "link": "/talks/details/.html"
+      },
+      "550":  {
+        "link": "/talks/details/.html"
+      },
+      "551":  {
+        "link": "/talks/details/.html"
+      },
+      "552":  {
+        "link": "/talks/details/.html"
+      },
+      "553":  {
+        "link": "/talks/details/.html"
+      },
+      "554":  {
+        "link": "/talks/details/.html"
+      },
+      "555":  {
+        "link": "/talks/details/.html"
+      },
+      "556":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
   "talks": [
     {
       "title": "Talk: Portfolio as Code – Homepage für ITler",
-      "event": "Herbscampus",
+      "event": "Herbstcampus",
       "location": "online",
       "date": "2021-09-15",
       "url": "https://www.herbstcampus.de/veranstaltung-13111-0-portfolio-as-code--homepage-fuer-itler.html",
@@ -1313,6 +1334,83 @@
         "johannesdienst"
       ],
       "talkid": 549
+    },
+    {
+      "title": "Lessons Learned: arc42 in einem DevOps Team",
+      "event": "Java Forum Nord",
+      "location": " Hannover",
+      "date": "2021-09-16",
+      "url": "https://javaforumnord.de/site/2021/page/sessions",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 550
+    },
+    {
+      "title": "Lessons Learned: arc42 in einem DevOps Team",
+      "event": "Java Forum Stuttgart",
+      "location": " Virtuell",
+      "date": "2021-09-23",
+      "url": "https://www.java-forum-stuttgart.de/vortraege/lessons-learned-arc42-in-einem-devops-team",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 551
+    },
+    {
+      "title": "Lessons Learned: arc42 in einem DevOps Team",
+      "event": "JCON",
+      "location": " Virtuell",
+      "date": "2021-10-05",
+      "url": "https://jcon.one/session-plan",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 552
+    },
+    {
+      "title": "Lessons Learned Using arc42 in a real DevOps Team",
+      "event": "Software Architecture Gathering",
+      "location": " Virtuell",
+      "date": "2021-10-14",
+      "url": "https://conferences.isaqb.org/software-architecture-gathering/full-program",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 553
+    },
+    {
+      "title": "To Be Done",
+      "event": "Agile Release und Changemanagement",
+      "location": " Bonn",
+      "date": "2021-10-35",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 554
+    },
+    {
+      "title": "Stoizismus: Eine praktische Philosophie für den IT-Alltag",
+      "event": "SAEC Days",
+      "location": " München",
+      "date": "2021-11-03",
+      "url": "https://www.saec-days.de/vortraege-2021/keynote-2.html",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 555
+    },
+    {
+      "title": "Von Managed Cloud zu GitOps: Multi Client-Cluster Deployment",
+      "event": "SAEC Days",
+      "location": " Virtuell",
+      "date": "2021-11-04",
+      "url": "https://www.saec-days.de/vortraege-2021/dienst-kohlhaas.html",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 556
     }
   ]
 }
