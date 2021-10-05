@@ -185,6 +185,7 @@ Hinweis: In diesem Buch geht es nicht primär darum den Umgang mit bestimmten To
 ** Arduino
 ** Retro Gaming (Atari)
 ** Halfbike
+* cool presentation: https://bentolor.github.io/java17-lts-presentation/#/
 --
 
 [.col-md-5]
