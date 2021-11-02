@@ -1,0 +1,87 @@
+= Architecture Decision Records Teil 2 - Das strukturierte Format für Architekturentscheidungen
+:jbake-date: 2021-11-02
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: asciidoc, softwarearchitecture, architecture decision records
+:doctype: article
+:toc: macro
+
+
+Nachdem ich im link:https://fiveandahalfstars.ninja/blog/2021/2021-04-05-adrs-warum[letzten Artikel] hergeleitet habe, _warum_ es eine gute Idee ist Entscheidungen 
+zu dokumentieren, will ich heute das _Was_ und das _Wie_ beschreiben.
+
+== Was sollte ich dokumentieren?
+
+Basierend auf meinen Erfahrungen lohnt es sich zwei Dinge zu dokumentieren.
+
+Zum Ersten finde ich es wichtig in einem Team Klarheit über die Technologientscheidungen zu haben.
+Wir sind alle Individuen mit bestimmten Vorlieben.
+In meinem jetzigen Team haben wir ein buntes Gemisch aus Technologiepräferenzen.
+Um unbewusste Ablehnung von implementierten Lösungen durch andere Teammitglieder zu vermeiden und um Klarheit über den Entscheidungsvorgang zu bekommen, dokumentieren wir diese Entscheidungen.
+
+Außerdem dokumentieren wir alle Architekturentscheidungen. Aber was ist das eigentlich genau? 
+Dafür lohnt sich eine Definition, denn Softwarearchitektur selbst ist schon ein schwieriger Begriff.
+
+____
+Architekturentscheidungen wirken sich direkt auf die Softwarearchitektur aus und sind später nur schwer oder gar nicht mehr änderbar.
+Sie definieren das Softwaresystem maßgeblich und zahlen im besten Fall direkt auf die Qualitätsanforderungen ein.
+____
+
+Architekturentscheidungen sind immer ein Kompromiss aus verschiedenen Qualitätsanforderungen. Letztere sollten priorisiert vorliegen, so dass
+die Entscheidungen immer zugunsten der höher Priorisierten getroffen wird. Das ist wichtig, da es oft zum Konflikt zweier Qualitätsanforderungen kommt.
+
+Dazu ein kleines Beispiel: Das Softwaresystem soll als Priorität 1 hohe Security bereitstellen. Außerdem soll es für den Benutzer leicht zu
+bedienen sein als Priorität 2. Es steht die Entscheidung an, wie die Benutzerauthentifizierung passieren soll. Hohe Sicherheit bietet die 
+Zwei-Faktor-Authentifizierung, die aber dummerweise für den Benutzer etwas umständlicher ist als die Kombination Benutzername und Passwort.
+Hier schlägt Priorität 1 die Priorität 2 und es wird die Zwei-Faktor-Authentifizierung implementiert!
+
+== Wie dokumentiere ich Entscheidungen?
+
+Für mich müssen die folgenden Anfordungen an die Dokumentation einer Entscheidung erfüllt sein:
+
+* Schnell zu erstellen
+* Leicht zu lesen
+* Chronologisch nachzuvollziehen
+
+=== Entering Architecture Decision Records (ADR)
+Ein hervorragendes Format hat Michael Nygard link:https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions[in einem Blogpost beschrieben]: 
+Die Architecture Decision Records. 
+Er schlägt vor, Entscheidungen nach einem festen Schema in einzelnen Dateien abzulegen. In seinem Team ist das als Dateien in einem Repository im Markdown-Format.
+Für ihn funktioniert das sehr gut in agil arbeitenden Teams. Sein Format sieht wie folgt aus:
+
+* **Title**: Durchnummeriert in der Form ADR-XXX: Nomenphrase
+* **Context**: Alle Fakten, die auf diese Entscheidung Einfluss haben. Politisch, sozial, technlogisch etc.
+* **Decision**: Die Entscheidung in einem bis maximal zwei Sätzen in aktiver Sprache
+* **Status**: Offen, Beschlossen, Ersetzt oder zurückgenommen
+* **Consequences**: Alles was aus der Entscheidung folgt. Positiv wie negativ
+
+Dieses Format kann in einer Datei in einem git-Repsitory oder als Wikiseite mit Ausfüllhinweisen als sogenanntes ADR-Template abgelegt werden.
+Bei Bedarf wird es kopiert und muss _nur_ ausgefüllt werden. Der Aufwand wird somit stark reduziert.
+
+=== Für mein Team angepasstes ADR-Format
+In meinem Team setzen wir ein leicht angepasstes Format ein.
+
+* Title
+* Decision
+* Status
+* Context
+* Consequences
+* Alternatives
+
+Wir empfinden es als wichtig, die Entscheidung sowie den Status prominent zu platzieren. Sie sind normalerweise das Wichtigste und Interessanteste für den Leser.
+Außerdem haben wir noch den letzten Punkt _Alternatives_ hinzugefügt, da er bei technologischen Entscheidungen hilft, die Alternativen in der Diskussion näher zu
+beleuchten. Wird eine Entscheidung zurückgenommen oder ersetzt stellte dieser Punkt schon ein paar Mal den Ausgangspunkt für weitere Evaluationen dar.
+
+=== Weitere Formate
+Es gibt noch zahlreiche andere Varianten von ADR-Templates. Auch welche, die sich weniger technologisch orientieren. Ein guter Einstiegspunkt
+dafür bietet die link:https://adr.github.io/#existing-adr-templates[ADR Organization auf Github].
+
+== Wie geht es weiter?
+
+In diesem Blog habe ich beschrieben, wie Entscheidungen strukturiert mit dem ADR-Template dokumentiert werden können.
+
+Im nächsten Post gehen wir auf das arc42 Architekturdokumentationstemplate ein und sehen uns an, wie wir dort die Architecture Decision Records einsetzen.
+
+toc::[]
