@@ -1,5 +1,5 @@
-= Architecture Decision Records Teil 1 - Warum Entscheidungen dokumentieren?
-:jbake-date: 2021-04-11
+= Architecture Decision Records Teil 2 - Das strukturierte Format für Architekturentscheidungen
+:jbake-date: 2021-11-02
 :jbake-author: jdienst
 :jbake-type: post
 :jbake-toc: true
@@ -9,80 +9,78 @@
 :toc: macro
 
 
-Entscheidungen zu dokumentieren stellt meiner Erfahrung nach Verbindlichkeit und Transparenz her.
-Um Architekturentscheidungen zu dokumentieren hat sich für mich ein Format namens _Architecture Decision Record_ (kurz ADR) bewährt.
+Nachdem ich im link:https://fiveandahalfstars.ninja/blog/2021/2021-04-05-adrs-warum[letzten Artikel] hergeleitet habe, _warum_ es eine gute Idee ist Entscheidungen 
+zu dokumentieren, will ich heute das _Was_ und das _Wie_ beschreiben.
 
-Im Rahmen dieser Artikelserie betten wir die Architecture Decision Records in den größeren Rahmen der Architekturarbeit ein.
-Dabei gehe ich insbesondere auf den Kontext des Dokumentationstemplates arc42 und dessen Einsatz im DevOps-Umfeld ein.
+== Was sollte ich dokumentieren?
 
-Wir sehen uns dazu auch intensiver die Technik an, mit der dokumentiert wird. Hier kommen AsciiDoc, Microsites und Git zum Einsatz.
+Basierend auf meinen Erfahrungen lohnt es sich zwei Dinge zu dokumentieren.
 
-Aber starten wir zuerst mit dem _Warum_. Warum ist es eine gute Idee, Entscheidungen zu dokumentieren?
+Zum Ersten finde ich es wichtig in einem Team Klarheit über die Technologientscheidungen zu haben. Wir sind alle Individuen mit bestimmten Vorlieben.
+In meinem jetzigen Team haben wir ein buntes Gemisch aus Technologiepräferenzen. Um unbewusste Ablehnung von implementierten Lösungen durch andere Teammitglieder 
+herzustellen und um Klarheit über den Entscheidungsvorgang zu bekommen, dokumentieren wir diese Entscheidungen.
 
-== Undokumentierte Entscheidungen - Ein Problem auf unterschiedlichen Ebenen
+Außerdem dokumentieren wir alle Architekturentscheidungen. Aber was ist das eigentlich genau? 
+Dafür lohnt sich eine Definition, denn Softwarearchitektur selbst ist schon ein schwieriger Begriff.
 
-Undokumentierte Entscheidungen sind oft die Regel. Meistens bleiben sie eine lange Zeit unbemerkt oder kommen nie wieder zur Sprache.
-Interessant wird es, wenn an einer Stelle die Frage gestellt wird: *Warum* ist das *so*?
+____
+Architekturentscheidungen wirken sich direkt auf die Softwarearchitektur aus und sind später nur schwer oder gar nicht mehr änderbar.
+Sie definieren das Softwaresystem maßgeblich und zahlen im besten Fall direkt auf die Qualitätsanforderungen ein.
+____
 
-Dabei ist dieses Problem nicht nur auf technische Dinge beschränkt. Auch zwischenmenschliche Aspekte der Zusammenarbeit sind betroffen.
+Architekturentscheidungen sind immer ein Kompromiss aus verschiedenen Qualitätsanforderungen. Letztere sollten priorisiert vorliegen, so dass
+die Entscheidungen immer zugunsten der höher Priorisierten getroffen wird. Das ist wichtig, da es oft zum Konflikt zweier Qualitätsanforderungen kommt.
 
-=== Technische Entscheidungen
+Dazu ein kleines Beispiel: Das Softwaresystem soll als Priorität 1 hohe Security bereitstellen. Außerdem soll es für den Benutzer leicht zu
+bedienen sein als Priorität 2. Es steht die Entscheidung an, wie die Benutzerauthentifizierung passieren soll. Hohe Sicherheit bietet die 
+Zwei-Faktor-Authentifizierung, die aber dummerweise für den Benutzer etwas umständlicher ist als die Kombination Benutzername und Passwort.
+Hier schlägt Priorität 1 die Priorität 2 und es wird die Zwei-Faktor-Authentifizierung implementiert!
 
-Technik kann alles Mögliche umfassen. Ich nehme mal das Beispiel einer Frameworkentscheidung für einen Microservice heraus.
+== Wie dokumentiere ich Entscheidungen?
 
-Inzwischen gibt es zu jeder Programmiersprache unzählige Frameworks, um einen Microservice zu implementieren. Interessanterweise gibt es in einem Team
-normalerweise mehrere Meinungen, welches Framework das Beste ist. Deswegen sollte so eine Entscheidung dokumentiert werden. Wichtig hierbei aus meiner Sicht: Die 
-untersuchten Alternativen mitdokumentieren.
+Für mich müssen die folgenden Anfordungen an die Dokumentation einer Entscheidung erfüllt sein:
 
-In unserem Team hatten wir genau diese Entscheidung zur Wiedervorlage. Wir waren mit unserer alten Implementierung unzufrieden und haben uns einige Alternativen
-angesehen und sie mit Performance-Tests und Proof-Of-Concepts evaluiert. Die folgende Entscheidung beruhte auf der erstellten Datenbasis. Alle Alternativen
-sind in der Entscheidungsdokumentation zu finden und für jeden nachvollziehbar.
+* Schnell zu erstellen
+* Leicht zu lesen
+* Chronologisch nachzuvollziehen
 
-=== Zwischenmenschliches
+=== Entering Architecture Decision Records (ADR)
+Ein hervorragendes Format hat Michael Nygard link:https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions[in einem Blogpost beschrieben]: 
+Die Architecture Decision Records. 
+Er schlägt vor, Entscheidungen nach einem festen Schema in einzelnen Dateien abzulegen. In seinem Team ist das als Dateien in einem Repository im Markdown-Format.
+Für ihn funktioniert das sehr gut in agil arbeitenden Teams. Sein Format sieht wie folgt aus:
 
-Zwischenmenschliches klingt meistens banal, hat aber im Alltag große Auswirkungen auf Arbeitsmoral und Motivation.
-Dazu ein Beispiel:
+* **Title**: Durchnummeriert in der Form ADR-XXX: Nomenphrase
+* **Context**: Alle Fakten, die auf diese Entscheidung Einfluss haben. Politisch, sozial, technlogisch etc.
+* **Decision**: Die Entscheidung in einem bis maximal zwei Sätzen in aktiver Sprache
+* **Status**: Offen, Beschlossen, Ersetzt oder zurückgenommen
+* **Consequences**: Alles was aus der Entscheidung folgt. Positiv wie negativ
 
-In meinem Team fehlt anscheinend eine Regel, wie mit temporärer Abwesenheit ohne Krankmeldung umgegangen wird. Ein Teamkollege von mir war nur zum Daily
-anwesend, aber dann den ganzen Tag nicht mehr in der Teamkommunikation zu sehen. Am Ende des Tages war ich besorgt und leicht ärgerlich zugleich.
-Mir war nicht klar, wie er den Tag verbracht hat oder ob etwas passiert ist.
+Dieses Format kann in einer Datei in einem git-Repsitory oder als Wikiseite mit Ausfüllhinweisen als sogenanntes ADR-Template abgelegt werden.
+Bei Bedarf wird es kopiert und muss _nur_ ausgefüllt werden. Der Aufwand wird somit stark reduziert.
 
-Aus meiner Sicht brauchen wir dafür im Team eine dokumentierte Entscheidung, wie wir mit solchen Abwesenheiten umgehen.
-Ziel ist nicht Kollegen:innen zu gängeln, wenn sie sich nicht daran halten. Aber ich kann dann so darauf hinweisen: "Sieh mal, so hatten wir das entschieden,
-warum machst Du das nicht so?"
+=== Für mein Team angepasstes ADR-Format
+In meinem Team setzen wir ein leicht angepasstes Format ein.
 
-== Architekturentscheidungen
+* Title
+* Decision
+* Status
+* Context
+* Consequences
+* Alternatives
 
-Eine besondere Rolle nehmen Entscheidungen ein, die sich auf die Softwarearchitektur eines Softwaresystems beziehen. Meine Definition dieser Entscheidungen ist
-die Folgende: "Eine Architekturentscheidung ist im Nachhinein potentiell teuer bis gar nicht zu ändern und bezieht sich auf die Qualitätsanforderungen eines Systems"
+Wir empfinden es als wichtig, die Entscheidung sowie den Status prominent zu platzieren. Sie sind normalerweise das Wichtigste und Interessanteste für den Leser.
+Außerdem haben wir noch den letzten Punkt _Alternatives_ hinzugefügt, da er bei technologischen Entscheidungen hilft, die Alternativen in der Diskussion näher zu
+beleuchten. Wird eine Entscheidung zurückgenommen oder ersetzt stellte dieser Punkt schon ein paar Mal den Ausgangspunkt für weitere Evaluationen dar.
 
-Aus meiner Erfahrung sind Architekturentscheidungen dann gefährlich wenn sie _unbewusst_ getroffen werden. Unbewusst werden sie getroffen, wenn ein System _einfach so_
-entsteht. Es wird an allen Stellen gearbeitet, aber nie darüber geredet, was mit dem System erreicht werden soll. Sehr oft kommt später die Frage auf: 
-"Warum ist das so gemacht worden?"
-
-In unserem Team wurde explizit die horizontale Skalierbarkeit als Qualitätsanforderung gesetzt und daraufhin ein Kollege mit der Umsetzung einer API beauftragt.
-Am Ende kam eine hochperformante Implementierung heraus, die leider für den Rest des Teams unwartbar war. Hier wurde die Qualitätsanforderung _Wartbarkeit_ missachtet.
-Das hätte durch Transparenz in der Entscheidungsfindung vermieden werden können.
-
-== Das Besondere an DevOps-Teams
-
-Entscheidungen zu dokumentieren und vor allem zu _vergemeinschaften_ ist in einem DevOps-Team sehr wichtig. Um als Team effektiv
-zu agieren sollte der Kommunikationsaufwand innerhalb des Teams klein gehalten werden. Aus meiner Sicht ist die Maximalgröße von sieben Menschen
-schon fast zu groß, da die Kommunikationskanäle im Team sehr viele sind (siehe dazu link:https://www.digitales-denken.de/toolbox/2017/11/28/kommunikationsbeziehungen[Kommunikationsbeziehungen]).
-
-Um mit dieser kleinen Anzahl an Menschen den gesamten Entwicklungszyklus von der Anforderungserhebung beim Kunden bis zum Betrieb des Systems abzudecken
-ist effektive Kommunikation unabdingbar. Besonderes Augenmerk ist hier aus meiner Erfahrung heraus auf *Einigkeit* bei architektonischen und technischen
-Entscheidungen zu legen.
-
-Nichts wirkt sich destruktiver auf das Team aus, als eine im Stillen nicht mitgetragene Entscheidung!
+=== Weitere Formate
+Es gibt noch zahlreiche andere Varianten von ADR-Templates. Auch welche, die sich weniger technologisch orientieren. Ein guter Einstiegspunkt
+dafür bietet die link:https://adr.github.io/#existing-adr-templates[ADR Organization auf Github].
 
 == Wie geht es weiter?
 
-Inzwischen sollte klar geworden sein, warum ich es wichtig finde Entscheidungen zu dokumentieren.
+In diesem Blog habe ich beschrieben, wie Entscheidungen strukturiert mit dem ADR-Template dokumentiert werden können.
 
-Doch wie geht das eigentlich effektiv und effizient?
-
-Im nächsten Post sehen wir uns ein Format namens Architecture Decision Records an. Das eignet sich speziell für Architekturentscheidungen, kann aber auch
-auf andere Entscheidungen adaptiert werden.
+Im nächsten Post gehen wir auf das arc42 Architekturdokumentationstemplate ein und sehen uns an, wie wir dort die Architecture Decision Records einsetzen.
 
 toc::[]
