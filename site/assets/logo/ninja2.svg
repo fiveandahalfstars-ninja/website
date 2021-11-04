@@ -43,10 +43,23 @@
 	  
 	  leftBrow = evt.target.ownerDocument.getElementById("path985-9");
 	  leftEye = evt.target.ownerDocument.getElementById("path21-6");
+	  eyeBallLeft = evt.target.ownerDocument.getElementById("path1002-6");
+	  
 	  rightBrow = evt.target.ownerDocument.getElementById("path985");
 	  rightEye = evt.target.ownerDocument.getElementById("path21");
+	  eyeBallRight = evt.target.ownerDocument.getElementById("path1002");
 	  
 	  body = evt.target.ownerDocument.getElementById("path891");
+	  
+	  bandStripe1 = evt.target.ownerDocument.getElementById("path903-6-2-7");
+	  bandStripe2 = evt.target.ownerDocument.getElementById("path903-6-2-7-6");
+	  
+	  leftArmStripe = evt.target.ownerDocument.getElementById("path903");
+	  rightArmStripe = evt.target.ownerDocument.getElementById("path903-6");
+	  
+	  leftLegStripe = evt.target.ownerDocument.getElementById("path903-6-9");
+	  rightLegStripe = evt.target.ownerDocument.getElementById("path903-6-9-7");
+	  
       Animate();
     }
 
@@ -74,11 +87,22 @@
 	  
 	  leftBrow.setAttribute("opacity", alpha);
 	  leftEye.setAttribute("opacity", alpha);
+	  eyeBallLeft.setAttribute("opacity", alpha);
 	  rightBrow.setAttribute("opacity", alpha);
 	  rightEye.setAttribute("opacity", alpha);
+	  eyeBallRight.setAttribute("opacity", alpha);
 	  
 	  body.setAttribute("opacity", alpha);
 	  star.setAttribute("opacity", alpha);
+	  
+	  bandStripe1.setAttribute("opacity", alpha);
+	  bandStripe2.setAttribute("opacity", alpha);
+	  
+	  leftArmStripe.setAttribute("opacity", alpha);
+	  rightArmStripe.setAttribute("opacity", alpha);
+	  
+	  leftLegStripe.setAttribute("opacity", alpha);
+	  rightLegStripe.setAttribute("opacity", alpha);
 	  
       // Repeat
       if (time<end_time) {
