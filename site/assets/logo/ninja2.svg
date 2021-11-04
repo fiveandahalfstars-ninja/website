@@ -7,6 +7,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   onload="Start(evt)"
    width="195.31833mm"
    height="166.97977mm"
    viewBox="0 0 195.31833 166.97977"
@@ -14,6 +15,81 @@
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="ninja2.svg">
+   
+   <script
+     id="script2"
+     type="text/ecmascript"><![CDATA[
+
+    var time = 0;
+    var delta_time = 0.7;
+    var end_time = 150;
+    var dir = 1;
+    console.log("test");
+    var arm;
+    var star;
+
+    function Start(evt) {
+	
+	  // Remove the swing bow
+	  evt.target.ownerDocument.getElementById("path1064-8").setAttribute("opacity", 0);
+	  evt.target.ownerDocument.getElementById("path1064-8-2").setAttribute("opacity", 0);
+	  evt.target.ownerDocument.getElementById("path1064").setAttribute("opacity", 0);
+
+      arm = evt.target.ownerDocument.getElementById("layer2");
+      star = evt.target.ownerDocument.getElementById("path1127-4");
+      star.setAttribute("transform","rotate(-32,100,100) translate(1,11.5)");
+	  ninja = evt.target.ownerDocument.getElementById("layer2");
+	  head = evt.target.ownerDocument.getElementById("g899");
+	  
+	  leftBrow = evt.target.ownerDocument.getElementById("path985-9");
+	  leftEye = evt.target.ownerDocument.getElementById("path21-6");
+	  rightBrow = evt.target.ownerDocument.getElementById("path985");
+	  rightEye = evt.target.ownerDocument.getElementById("path21");
+	  
+	  body = evt.target.ownerDocument.getElementById("path891");
+      Animate();
+    }
+
+    function Animate() {
+
+      time = time + dir * delta_time;
+      if (time <= 100) {
+        state = (100-time)/100.0;
+        starstate = 1.0
+        if (time>21) {
+          starstate=(70-(time-21))/70.0;
+        }
+      }
+      alpha=1.0
+      if (time>80) {
+        alpha = 1.0-((time-80)/70.0);
+      }
+
+      arm.setAttribute("transform", "rotate("+(-90*state)+","+(46)+","+(132)+") scale ("+(1.0+0.4*state)+")");
+	  var starstate32 = 32*starstate;
+      star.setAttribute("transform", "rotate("+(-32*starstate)+","+(100*starstate)+","+(100*starstate)+") translate ("+(1*starstate)+","+(11.5*starstate)+")");
+	  
+      arm.setAttribute("opacity", alpha);
+      head.setAttribute("opacity", alpha);
+	  
+	  leftBrow.setAttribute("opacity", alpha);
+	  leftEye.setAttribute("opacity", alpha);
+	  rightBrow.setAttribute("opacity", alpha);
+	  rightEye.setAttribute("opacity", alpha);
+	  
+	  body.setAttribute("opacity", alpha);
+	  star.setAttribute("opacity", alpha);
+	  
+      // Repeat
+      if (time<end_time) {
+        setTimeout("Animate()", delta_time)
+      }
+    }
+
+    window.Animate = Animate
+
+   ]]></script>
+   
   <defs
      id="defs2" />
   <sodipodi:namedview
