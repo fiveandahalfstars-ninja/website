@@ -1,0 +1,11 @@
+:jbake-title: Rock Solid Software Architecture with ADRs, arc42 and Microsites
+:jbake-type: page
+:jbake-status: published
+
+== Rock Solid Software Architecture with ADRs, arc42 and Microsites
+
+Das arc42-Architektur-Template verleitet dazu alle Kapitel von oben nach unten durchzuarbeiten. Ein Architektur-Review offenbart aber eine sinnvollere Herangehensweise, um Softwarearchitektur zu erarbeiten. Dabei wird zuerst der In-Scope und Out-Of-Scope des Vorhabens definiert, anschließend Qualitätsattribute aufgenommen, um schließlich konkrete Qualitätsszenarien abzuleiten.
+
+Die Dokumentation dieser Ergebnisse im arc42 stellt uns vor viele Aufgaben und Fragestellungen: Wie erarbeite Architekturentscheidungen, Qualitätsattribute und Qualitätsszenarien? Und wie dokumentiere ich sie effizient?
+
+In diesem Vortrag zeigen wir anhand des Docs-as-Code Ansatzes, wie wir mit dem arc42-Template effizient arbeiten und die Dokumentation als Microsite jedem zur Verfügung gestellt wird. Durch diese Vorgehensweise ist es effizient möglich eine Architekturdokumentation zu erstellen, die jedem Review standhält.

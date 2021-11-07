@@ -49,6 +49,9 @@
       "16": {
         "link": "/talks/details/Portfolio-as-Code.html"
       },
+      "17": {
+        "link": "/talks/details/Rock-Solid.html"
+      },
 	  "500":  {
         "link": "/talks/details/.html"
       },
@@ -220,6 +223,21 @@
     }
   ],
   "talks": [
+    {
+      "title": "Talk: Rock Solid Software Architecture with ADRs, arc42 and Microsites",
+      "event": "JavaLand",
+      "location": "Brühl",
+      "date": "2022-03-15",
+      "url": "https://shop.doag.org/javaland/2022/agenda/",
+      "speaker": [
+        "johannesdienst",
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 40,
+      "cfp": "",
+      "talkid": 17
+    },
     {
       "title": "Talk: Portfolio as Code – Homepage für ITler",
       "event": "Herbstcampus",
