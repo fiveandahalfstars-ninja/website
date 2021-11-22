@@ -1398,37 +1398,15 @@
       "talkid": 553
     },
     {
-      "title": "To Be Done",
+      "title": "Effizient Arbeiten mit ADRs",
       "event": "Agile Release und Changemanagement",
       "location": " Bonn",
-      "date": "2021-10-35",
+      "date": "2021-10-26",
       "url": "",
       "speaker": [
         "johannesdienst"
       ],
       "talkid": 554
-    },
-    {
-      "title": "Stoizismus: Eine praktische Philosophie für den IT-Alltag",
-      "event": "SAEC Days",
-      "location": " München",
-      "date": "2021-11-03",
-      "url": "https://www.saec-days.de/vortraege-2021/keynote-2.html",
-      "speaker": [
-        "johannesdienst"
-      ],
-      "talkid": 555
-    },
-    {
-      "title": "Von Managed Cloud zu GitOps: Multi Client-Cluster Deployment",
-      "event": "SAEC Days",
-      "location": " Virtuell",
-      "date": "2021-11-04",
-      "url": "https://www.saec-days.de/vortraege-2021/dienst-kohlhaas.html",
-      "speaker": [
-        "johannesdienst"
-      ],
-      "talkid": 556
     }
   ]
 }
