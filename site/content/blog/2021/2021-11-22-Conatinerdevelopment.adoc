@@ -1,0 +1,67 @@
+:jbake-title:
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: container, development
+:jbake-lang: en
+:doctype: article
+:toc: macro
+
+Do you remember the times when the biggest challenge to compile a project was to set up the correct build environment with all required dependencies?
+
+The flexibility you have as a developer with current technologies is amazing.
+Not only that you can setup your dev environment with docker but you also chose where to run it.
+You can even choose to run your IDE on a remote machine.
+
+Let's take a look at the options you have with Visual Studio Code or short VS Code.
+
+Let's start with the standard way you use https://code.visualstudio.com/[VS Code] for development.
+You download and install it.
+Then you run it locally, clone your project from a git repository and develop locally.
+You have to ensure that everybody who uses the code has all needed external dependencies like build tools installed.
+
+image::blog/2021/vscode.dio.png[]
+
+That's ok, but let's take a look how we can help others to get the right start with the right environment for your code.
+
+== Move your environment to a container
+
+The next logical step is to move your environment to a container.
+
+The VS Code team started soon to experiment with splitting up the IDE into a frontend and a server backend.
+When you start VS Code on a Windows environment from within the Windows Subsystem for Linux (WSL), it just starts the backend server  in WSL and then connects to the frontend which runs natively on Windows.
+
+With the https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[Remote Containers] plugin, you can use this mechanism to start a container with your well defined environment, get the server part of VS Code installed there and connect from the frontend to it.
+
+Put a https://code.visualstudio.com/docs/remote/create-dev-container#:~:text=In%20this%20document%2C%20we%27ll%20go%20through%20the%20steps,multiple%20containers%20through%20Docker%20Compose.%20More%20items...%20[`devcontainer.json`] in your repository and VS Code will use this container definition as your dev environment.
+
+image::blog/2021/devcontainer.dio.png[]
+
+== Move your environment to a remote machine
+
+Now that your development environment runs independent of your local VS Code instance, you can even move it to a remote machine.
+Maybe one with more power.
+And it is easier than you think - with https://gitpod.io[gitpod.io].
+
+Gitpod is basically a free and open source IDE for GitHub.
+Choose any github repository and prefix the URL with `gitpod.io#`.
+This will invoke gitpod which clones the selected repository to a remote container, and asks you if you want to connect the remote container to your local VS Code.
+
+image::blog/2021/remotecontainer.dio.png[]
+
+== Move your IDE to a remote machine
+
+If you've followed me and gave Gitpod a try, you will have noticed that it not only starts your repository in a remote container.
+It also starts an instance of VS Code as web based application!
+
+As a result, you have a full-blown remote development environment which even works with low bandwidth connections.
+Only some keystrokes and characters go over the wire.
+Your code is always executed on a performant remote machine.
+
+With a https://github.com/docToolchain/aoc-2021/blob/main/.gitpod[`.gitpod`] file in your repository, you can even define the container to which the repository is cloned.
+
+image::blog/2011/gitpod.dio.png[]
+
+I hope this article gave you some new ideas on how to set up your next dev environment.
+Have fun coding!
