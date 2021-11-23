@@ -9,6 +9,14 @@
 :doctype: article
 :toc: macro
 
+++++
+<style>
+.center {
+  text-align: center;
+}
+</style>
+++++
+
 Do you remember the times when the biggest challenge to compile a project was to set up the correct build environment with all required dependencies?
 
 The flexibility you have as a developer with current technologies is amazing.
@@ -22,6 +30,7 @@ You download and install it.
 Then you run it locally, clone your project from a git repository and develop locally.
 You have to ensure that everybody who uses the code has all needed external dependencies like build tools installed.
 
+[.center]
 image::blog/2021/vscode.dio.png[]
 
 That's ok, but let's take a look how we can help others to get the right start with the right environment for your code.
@@ -37,6 +46,7 @@ With the https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.re
 
 Put a https://code.visualstudio.com/docs/remote/create-dev-container#:~:text=In%20this%20document%2C%20we%27ll%20go%20through%20the%20steps,multiple%20containers%20through%20Docker%20Compose.%20More%20items...%20[`devcontainer.json`] in your repository and VS Code will use this container definition as your dev environment.
 
+[.center]
 image::blog/2021/devcontainer.dio.png[]
 
 == Move your environment to a remote machine
@@ -49,6 +59,7 @@ Gitpod is basically a free and open source IDE for GitHub.
 Choose any github repository and prefix the URL with `gitpod.io#`.
 This will invoke gitpod which clones the selected repository to a remote container, and asks you if you want to connect the remote container to your local VS Code.
 
+[.center]
 image::blog/2021/remotecontainer.dio.png[]
 
 == Move your IDE to a remote machine
@@ -62,6 +73,7 @@ Your code is always executed on a performant remote machine.
 
 With a https://github.com/docToolchain/aoc-2021/blob/main/.gitpod[`.gitpod`] file in your repository, you can even define the container to which the repository is cloned.
 
+[.center]
 image::blog/2011/gitpod.dio.png[]
 
 I hope this article gave you some new ideas on how to set up your next dev environment.
