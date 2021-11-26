@@ -40,7 +40,7 @@ That's ok, but let's take a look how we can help others to get the right start w
 The next logical step is to move your environment to a container.
 
 The VS Code team started soon to experiment with splitting up the IDE into a frontend and a server backend.
-When you start VS Code on a Windows environment from within the Windows Subsystem for Linux (WSL), it just starts the backend server  in WSL and then connects to the frontend which runs natively on Windows.
+When you start VS Code on a Windows environment from within the Windows Subsystem for Linux (WSL), it starts the backend server in WSL and then connects to the frontend which runs natively on Windows.
 
 With the https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[Remote Containers] plugin, you can use this mechanism to start a container with your well defined environment, get the server part of VS Code installed there and connect from the frontend to it.
 
