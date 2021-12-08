@@ -1,5 +1,10 @@
 = Aufnahmen
 
+== Managed Cloud to GitOps - Deploying Several Client Clusters
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/TPlaUKid19c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
+
 == Lessons learned: arc42 in einem DevOps Team
 ++++
 <iframe width="880" height="540" src="https://www.youtube.com/embed/lrm0Ln96dY4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
