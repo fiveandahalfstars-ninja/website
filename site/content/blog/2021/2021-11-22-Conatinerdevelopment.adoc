@@ -9,13 +9,6 @@
 :doctype: article
 :toc: macro
 
-++++
-<style>
-.center {
-  text-align: center;
-}
-</style>
-++++
 
 Do you remember the times when the biggest challenge to compile a project was to set up the correct build environment with all required dependencies?
 
@@ -78,3 +71,11 @@ image::blog/2011/gitpod.dio.png[]
 
 I hope this article gave you some new ideas on how to set up your next dev environment.
 Have fun coding!
+
+++++
+<style>
+.center {
+  text-align: center;
+}
+</style>
+++++
