@@ -3,9 +3,14 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: ./gradlew build
+  - init: chmod +x gradlew && ./gradlew build
+  - command: ./gradlew
 vscode:
   extensions:
     - redhat.java
     - vscjava.vscode-java-debug
-
+# Ports to expose on workspace startup
+# Add /index.html to the url a the 'Simple Browser' tab
+ports:
+  - port: 8044
+    onOpen: open-preview
