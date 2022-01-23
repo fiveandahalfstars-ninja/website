@@ -9,6 +9,7 @@ vscode:
   extensions:
     - redhat.java
     - vscjava.vscode-java-debug
+    - asciidoctor.asciidoctor-vscode
 # Ports to expose on workspace startup
 # Add /index.html to the url a the 'Simple Browser' tab
 ports:
