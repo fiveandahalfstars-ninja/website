@@ -219,6 +219,12 @@
       },
       "556":  {
         "link": "/talks/details/.html"
+      },
+      "557":  {
+        "link": "/talks/details/.html"
+      },
+      "558":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -1313,7 +1319,7 @@
       ],
       "talkid": 544
     },
-	{
+	  {
       "title": "Lessons Learned: arc42 in a Real Devops Team",
       "event": "DevOps Pro Europe",
       "location": " Virtuell",
@@ -1422,6 +1428,28 @@
         "johannesdienst"
       ],
       "talkid": 554
+    },
+    {
+      "title": "Von Managed Cloud zu GitOps: Multi Client-Cluster Deployments",
+      "event": "OOP Virtual",
+      "location": " Virtuell",
+      "date": "2022-02-03",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 555
+    },
+    {
+      "title": "Pecha Kucha - Stoizismus: Eine Praktische Philosophie für den IT-Alltag",
+      "event": "OOP Virtual",
+      "location": " Virtuell",
+      "date": "2022-02-03",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 556
     }
   ]
 }
