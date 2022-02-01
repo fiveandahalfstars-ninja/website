@@ -1430,6 +1430,17 @@
       "talkid": 554
     },
     {
+      "title": "Arc42 in einem echten DevOps-Team: Lessons Learned",
+      "event": "IT-Tage 2021",
+      "location": " Remote",
+      "date": "2021-12-09",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 555
+    },
+    {
       "title": "Von Managed Cloud zu GitOps: Multi Client-Cluster Deployments",
       "event": "OOP Virtual",
       "location": " Virtuell",
@@ -1438,7 +1449,7 @@
       "speaker": [
         "johannesdienst"
       ],
-      "talkid": 555
+      "talkid": 556
     },
     {
       "title": "Pecha Kucha - Stoizismus: Eine Praktische Philosophie für den IT-Alltag",
@@ -1449,7 +1460,7 @@
       "speaker": [
         "johannesdienst"
       ],
-      "talkid": 556
+      "talkid": 557
     }
   ]
 }
