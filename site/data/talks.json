@@ -219,10 +219,31 @@
       },
       "556":  {
         "link": "/talks/details/.html"
+      },
+      "557":  {
+        "link": "/talks/details/.html"
+      },
+      "558":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
   "talks": [
+    {
+      "title": "Talk: Rock Solid Software Architecture with ADRs, arc42 and Microsites - Ein Erfahrungsbericht",
+      "event": "NAVIGATE",
+      "location": "Online",
+      "date": "2022-03-22",
+      "url": "https://navigate-kongress.de/class/rock-solid-software-architecture/",
+      "speaker": [
+        "johannesdienst",
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 45,
+      "cfp": "",
+      "talkid": 17
+    },
     {
       "title": "Talk: Rock Solid Software Architecture with ADRs, arc42 and Microsites",
       "event": "JavaLand",
@@ -1298,7 +1319,7 @@
       ],
       "talkid": 544
     },
-	{
+	  {
       "title": "Lessons Learned: arc42 in a Real Devops Team",
       "event": "DevOps Pro Europe",
       "location": " Virtuell",
@@ -1418,6 +1439,28 @@
         "johannesdienst"
       ],
       "talkid": 555
+    },
+    {
+      "title": "Von Managed Cloud zu GitOps: Multi Client-Cluster Deployments",
+      "event": "OOP Virtual",
+      "location": " Virtuell",
+      "date": "2022-02-03",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 556
+    },
+    {
+      "title": "Pecha Kucha - Stoizismus: Eine Praktische Philosophie für den IT-Alltag",
+      "event": "OOP Virtual",
+      "location": " Virtuell",
+      "date": "2022-02-03",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 557
     }
   ]
 }
