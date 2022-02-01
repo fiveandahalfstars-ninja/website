@@ -5,6 +5,11 @@ body {
 	font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+blockquote {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
 .author-image img {
   max-width: 100%;
 }
@@ -13,6 +18,11 @@ body {
   body {
     font-size: 18px;
 	line-height: 1.6;
+  }
+
+  blockquote {
+      font-size: 18px;
+      line-height: 1.6;
   }
   
   .author-image img {
