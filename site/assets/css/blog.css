@@ -1,7 +1,23 @@
 body {
     font-size: 20px;
-    line-height: 1.8;
+    line-height: 1.7;
     color: #292929;
+	font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.author-image img {
+  max-width: 100%;
+}
+
+@media(max-width: 551.98px) {
+  body {
+    font-size: 18px;
+	line-height: 1.6;
+  }
+  
+  .author-image img {
+	max-width: 40%;
+  }
 }
 
 .page-header {
