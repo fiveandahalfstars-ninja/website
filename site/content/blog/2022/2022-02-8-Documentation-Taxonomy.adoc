@@ -1,0 +1,30 @@
+= Dokumentationstaxonomie
+:jbake-title: Dokumentationstaxonomie
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: development, documentation
+:jbake-lang: de
+:doctype: article
+:toc: macro
+
+TODO Introduction
+
+== Dokumentation - Nicht alles ist gleich
+
+
+link:https://www.youtube.com/watch?v=SQZVrwuC0VM[Manual Work is a Bug!]
+
+
+== Softwarearchitektur
+TODO
+
+== Betriebshandbuch
+TODO
+
+== Benutzerdokumentation
+TODO
+
+== Temporäre Dokumentation
+TODO
