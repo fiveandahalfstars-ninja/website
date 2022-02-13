@@ -18,12 +18,11 @@ Irgendwann in den Diskussionen ist uns aufgefallen, dass Dokumenation ein zu bre
 == Dokumentation - Nicht alles ist gleich
 Sprechen wir über Dokumentation meinen wir üblicherweise die folgenden Dinge (nicht vollständig wahrscheinlich):
 
-* Anleitungen für Endbenutzer
-* Technische HowTos für Entwickler
-* Anforderungen (User Stories, fachliche Dokumentation)
-* Technische nicht codebezogene Dokumente wie Softwarearchitektur
+* Anleitungen für Endbenutzer und/oder Entwickler
+* Einmaldokumentation wie Meetingprotokolle
+* Anforderungen und fachliche Dokumentation
+* Technische nicht direkt codebezogene Dokumente wie Softwarearchitektur
 * Betriebsdokumentation. Beispiel: Wie stelle ich den Normalbetrieb wieder her?
-* Flüchtige Dokumentation wie Meetingprotokolle
 
 Sieht man sich die unterschiedlichen Artefakte an, die erzeugt werden fallen ein paar Punkte direkt auf. Die Änderungshäufigkeit unterscheidet sich stark. Meetingprotokolle werden ausschließlich archiviert während sich Anforderungen und fachliche Dokumentation bei agiler Entwicklungsweise tendenziell öfter ändern. Softwarearchitektur und Beriebsdokumentation ändern sich zwar, aber nicht sehr oft und meistens nicht gravierend, sobald sie erstellt wurden. Anleitungen für Endbenutzer und technische Benutzer werden normalerweise immer weiter verbessert.
 
@@ -31,31 +30,37 @@ Ein weiteres Kriterium ist die Auffindbarkeit und mit ihr die Benutzbarkeit der 
 
 Als letztes ist zusätzlich aufgefallen, dass Automatisierbarkeit eine große Rolle spielt. Diagramme können aus einem bestehenden System automatisch generiert werden. Betriebsaufgaben und technische HowTos sind oft Anleitungen, die nach Automatisierung schreien.
 
-== Softwarearchitektur
+== Anleitungen für Endbenutzer und/oder Entwickler
 TODO
 
 === Empfehlung
 TODO
 
-== Betriebdokumentation
+== Einmaldokumentation
+TODO
+
+=== Empfehlung
+TODO
+
+== Anforderungen und fachliche Dokumentation
+TODO
+
+=== Empfehlung
+TODO
+
+== Nicht codebezogene technische Dokumentation
+TODO
+
+=== Empfehlung
+TODO
+
+== Betriebsdokumentation
 TODO
 
 === Empfehlung
 TODO
 
 link:https://www.youtube.com/watch?v=SQZVrwuC0VM[Manual Work is a Bug!]
-
-== Benutzerdokumentation
-TODO
-
-=== Empfehlung
-TODO
-
-== Temporäre Dokumentation
-TODO
-
-=== Empfehlung
-TODO
 
 == Fazit
 TODO
