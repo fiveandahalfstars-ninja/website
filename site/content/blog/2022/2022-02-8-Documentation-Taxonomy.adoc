@@ -9,10 +9,27 @@
 :doctype: article
 :toc: macro
 
-TODO Introduction
+In meinem Team diskutieren wir immer wieder wo Dokumentation abgelegt werden soll. Wir sind immer wieder unzufrieden und wissen nicht auf Anhieb, wo was zu finden ist.
+
+Das Problem wird außerdem dadurch verstärkt, dass es gefühlt 5 verschiedene Ablagemöglichkeiten gibt. Im Git-Repository, Wiki, Docs-As-Code oder doch lieber als auf einem Sharepoint? Welches Format? Markdown, AsciiDoc oder das verhasst Word-Dokumente? Unsere Idee war der Ansatz, alles an einen Ort abzulegen. Natürlichweise war das für uns ein Git-Repository. Es hat sich aber nie richtig durchgesetzt.
+
+Irgendwann in den Diskussionen ist uns aufgefallen, dass Dokumenation ein zu breiter Begriff ist und eine weitere Unterteilung nötig ist. Dieser Post fasst meinen aktuellen Stand zu unserer *Dokumenationstaxonomie* zusammen und an welchem Ort sich die jeweilige Dokumentation _wahrscheinlich_ am wohlsten anfühlt.
 
 == Dokumentation - Nicht alles ist gleich
-TODO
+Sprechen wir über Dokumentation meinen wir üblicherweise die folgenden Dinge (nicht vollständig wahrscheinlich):
+
+* Anleitungen für Endbenutzer
+* Technische HowTos für Entwickler
+* Anforderungen (User Stories, fachliche Dokumentation)
+* Technische nicht codebezogene Dokumente wie Softwarearchitektur
+* Betriebsdokumentation. Beispiel: Wie stelle ich den Normalbetrieb wieder her?
+* Flüchtige Dokumentation wie Meetingprotokolle
+
+Sieht man sich die unterschiedlichen Artefakte an, die erzeugt werden fallen ein paar Punkte direkt auf. Die Änderungshäufigkeit unterscheidet sich stark. Meetingprotokolle werden ausschließlich archiviert während sich Anforderungen und fachliche Dokumentation bei agiler Entwicklungsweise tendenziell öfter ändern. Softwarearchitektur und Beriebsdokumentation ändern sich zwar, aber nicht sehr oft und meistens nicht gravierend, sobald sie erstellt wurden. Anleitungen für Endbenutzer und technische Benutzer werden normalerweise immer weiter verbessert.
+
+Ein weiteres Kriterium ist die Auffindbarkeit und mit ihr die Benutzbarkeit der Dokumentation. Anleitungen für Endbenutzer sowie Architekturdokumentation lebt von der leichten Lesbarkeit und einer sinnvollen Struktur. User Stories, fachliche Dokumentation, Meetingprotokolle und Betriebsdokumentation sollten sehr gut durchsuchbar sein, da sie als Referenz gebraucht werden.
+
+Als letztes ist zusätzlich aufgefallen, dass Automatisierbarkeit eine große Rolle spielt. Diagramme können aus einem bestehenden System automatisch generiert werden. Betriebsaufgaben und technische HowTos sind oft Anleitungen, die nach Automatisierung schreien.
 
 == Softwarearchitektur
 TODO
