@@ -1,0 +1,142 @@
+= JavaLand 2022 Gedächtnistörtchen
+:jbake-date: 2022-03-20
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: off-topic, recipe
+:doctype: article
+:jbake-lang: de
+:toc: macro
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+Im JavaLand gab es diesmal super leckere Törtchen - wohl auch Petit Fours genannt.
+Ich dachte erst, die würden viel zu süß sein, aber nein.
+Nach anfänglich einem einzelnen, konnte ich mich auf drei plus Espresso steigern.
+
+image::blog/2022/JavaLand22/petitfours.jpg[]
+
+Diese kleinen Biester waren so lecker, dass ich, kaum war ich daheim angekommen, versuchen musste sie mit meinen limitierten Backkünsten nachzumachen.
+
+Hier mein Rezept
+
+== Zutaten
+
+=== biskuitboden
+
+* [ ] 200g Zucker
+* [ ] 5 Eier
+* [ ] 150g Mehl
+* [ ] 50g Speisestärke
+* [ ] 1/2 Pck. Backpulver
+* [ ] 1 Pck. Vanillezucker
+
+=== Füllung und Schoko-Raspeln
+
+* [ ] 200g sehr weiche Butter
+* [ ] 300g Milch
+* [ ] https://www.oetker.de/unsere-produkte/backzutaten/tortencremes/vanilla[Dr. Oetker TortenCreme Vanilla]
+
+=== Glasur
+
+* [ ] 250g Puderzucker
+* [ ] 1 Zitrone
+
+=== Umhüllung
+
+* [ ] 1 geheime Zutat
+
+== Rezept
+
+=== Biskuitboden
+
+Den Biskuitboden kannst Du auch fertig gebacken und geschnitten kaufen.
+Ich habe ihn mal wieder selbst gebacken.
+
+Mit dem Thermomix(TM) ist er auch ganz schnell selbst gemacht.
+
+. Backofen auf 180°C vorheizen
+. Den Boden einer Springform (Ø 26 cm) mit Backpapier auslegen.
+Du kannst das Backpapier einfach über den Boden legen und mit dem Rahmen der Springform einspannen.
+Das überstehende Backpapier am Besten nicht abschneiden.
+. Rühraufsatz (Schmetterling) in den Thermomix(TM) einsetzen
+. 5 Eier in den Mixtopf aufschlagen
+. 2 Minuten bei 37°C auf Stufe 4 verrühren
+. 200g Zucker und 1 Pkg. Vanillezucker zugeben
+. 10 Minuten bei Stufe 4 weiter aufschlagen
+. 150g Mehl, 1/2 Pck. Backpulver, 50g Kakaopulver und 50g Speisestärke rechts und links neben den Rühraufsatz (Schmetterling) zugeben
+. 4-8 Sekunden auf Stufe 3 unterheben
+. Rühraufsatz(Schmetterling) entfernen
+. Mit dem Spatel das Mehl noch etwas mehr unterheben
+. Biskuitteig in die vorbereitete Form geben und 20-25 Minuten bei 180°C backen
+. Biskuitteig mindestens 10 Minuten abkühlen lassen
+. waagerecht mit vier Schnitten in fünf Böden schneiden
+
+Zum Schneiden der Torte habe ich den Tortenschneider aus dem https://www.ikea.com/de/de/p/smaksam-tortengarnier-set-10257033/[Ikea-Set SMAKSAM] genutzt :-).
+
+=== Tortencreme
+
+. Rühraufsatz (Schmetterling) in den Thermomix(TM) einsetzen
+. Dr. Oetker TortenCreme Vanilla in den Mixtopf geben
+. 200g sehr weiche Butter und 300g Milch nach Angabe auf der Dr. Oetker Packung zugeben
+. Mixer langsam von Stufe 1 bis Stufe 5 anstellen und ca. 3 Minuten aufschlagen.
+
+=== Zusammenbau
+
+Verteile die TortenCreme auf den Bisquitböden, so dass ein entsprechender Stapel aus Schichten entsteht.
+Die TortenCreme muss dabei nicht ganz die Ränder erreichen, denn nach dem Zusammenbau wird aus der runden Torte ein Quadrat herausgeschnitten.
+In diesem Bereich sollte die Creme also gut verteilt sein.
+
+Vor dem Schneiden aber erstmal die Schichttorte für 2 Stunden in den Kühlschrank geben, damit die TortenCreme fest wird.
+
+Nun aus der Schichttorte ein großes Quadrat rausschneiden.
+Der Rest ist "Abfall" und kann jetzt vernascht werden.
+
+Vor Dir liegt nun ein Quadrat aus leckeren Creme- und Biskuit-Schichten.
+Dieses unterteilst Du nun mit 6 Schnitten in 16 kleinere Quadrate.
+
+Löse die Quadrate vorsichtig vom Backpapier und setze sie auf z.B. ein Backblech (sollte in Deinen Kühlschrank passen)
+
+image::blog/2022/JavaLand22/Schritt3.jpg[]
+
+=== Die Glasur
+
+Nun gibst Du den Puderzucker in ein Schälchen und rührst mit ein wenig Zitronensaft die Glasur an.
+Achtung - nicht zu viel Zitronensaft, damit die Glasur nicht zerfliesst.
+
+Jetzt kommt der Spritzbeutel aus dem https://www.ikea.com/de/de/p/smaksam-tortengarnier-set-10257033/[Ikea-Set SMAKSAM] zum Einsatz.
+Mit der breiten Tülle wird der Zuckerguss in drei breiten Strichen aufgetragen und eventuell noch mit irgendwas dekoriert.
+
+Schnell wieder in den Kühlschrank, damit der Zuckerguss fest wird.
+30 Minuten sollten hier reichen.
+
+=== Umhüllung
+
+Hier kommt die geheime Zutat zum Einsatz. Leider kenne ich sie nicht.
+Ich habe anfang auf Marzipan getippt.
+Das lässt sich aber nicht so dünn verarbeiten und ist recht dunkel.
+Also habe ich es nochmal mit Fondant probiert - kommt dem Original leider auch nicht so nah.
+
+Dennoch, hier ist, was ich gemacht habe.
+
+Weisses Fondant möglichst dünn (ca. 1mm) als breiten Streifen (ca 9-12cm) ausrollen. +
+Die obere und rechte Kannte mit einem Messer gerade schneiden. +
+Törtchen rechts anlegen, 3x nach links drehen und die rechte und untere Kannte mit einem Messer schneiden. +
+Anschliessend das Törtchen mit dem so abgemessenen Fondant ummanteln. +
+15x wiederholen.
+
+Wieder nach Belieben jedes Törtchen verzieren.
+
+image:blog/2022/JavaLand22/marzipan.jpg[width=45%]
+image:blog/2022/JavaLand22/fondant.jpg[width=45%]
+
+Guten Appetit!
+
+PS: Für Hinweise, wie man das Rezept verbessern kann (vor allem die Ummantelung) bin ich sehr dankbar.
+
+PS PS: an Stelle der TortenCreme kann man natürlich auch richtige Buttercreme verwenden, so wie sie in link:/blog/2021/2021-02-21-schwarzwaelder-kirsch[meinem anderen Rezept] beschrieben ist.
+
+image::blog/2022/JavaLand22/fertig.jpg[]
+
+toc::[]
