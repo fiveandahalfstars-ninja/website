@@ -1319,7 +1319,7 @@
       ],
       "talkid": 544
     },
-	  {
+    {
       "title": "Lessons Learned: arc42 in a Real Devops Team",
       "event": "DevOps Pro Europe",
       "location": " Virtuell",
@@ -1461,6 +1461,17 @@
         "johannesdienst"
       ],
       "talkid": 557
+    },
+    {
+      "title": "Managed Cloud to GitOps: Deploying Several Client Clusters",
+      "event": "DevOps Pro Europe",
+      "location": " Virtuell",
+      "date": "2022-05-26",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 558
     }
   ]
 }
