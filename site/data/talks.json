@@ -260,6 +260,22 @@
       "talkid": 17
     },
     {
+      "title": "Workshop: Moderne Softwarearchitekturdokumentation",
+      "event": "JavaLand",
+      "location": "Brühl",
+      "date": "2022-03-18",
+      "url": "",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 420,
+      "cfp": "",
+      "talkid"g: 15
+    },
+
+    {
       "title": "Talk: Portfolio as Code – Homepage für ITler",
       "event": "Herbstcampus",
       "location": "online",
