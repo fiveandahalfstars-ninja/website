@@ -1,0 +1,25 @@
+= JavaLand 2022: Day1
+:jbake-title: JavaLand 2022: Day1
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: conference, javaland
+:jbake-lang: de
+:doctype: article
+:toc: macro
+
+Der erste Konferenztag beginnt gleich ganz früh um 8:30 mit "*Sentry in Aktion: Wie wäre es, wenn wir nur Fehlermeldungen protokollieren würden?*"
+
++++
+<blockquote class="twitter-tweet"><p lang="de" dir="ltr">Nicht verpassen: <a href="https://twitter.com/ahus1de?ref_src=twsrc%5Etfw">@ahus1de</a> gleich im ersten Talk über &quot;Sentry in Aktion&quot; auf der <a href="https://twitter.com/hashtag/JavaLand2022?src=hash&amp;ref_src=twsrc%5Etfw">#JavaLand2022</a><br>Im Stock&#39;s (gegenüber vom Haupteingang) <a href="https://t.co/FLe7U8k6qK">pic.twitter.com/FLe7U8k6qK</a></p>&mdash; Ralf D. Müller (@RalfDMueller) <a href="https://twitter.com/RalfDMueller/status/1503625817653403651?ref_src=twsrc%5Etfw">March 15, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
++++
+
+[quote, Alexander Schwartz, JavaLand 2022]
+Wenn ein Fehler auftritt, aber sich keiner beschwert, besteht dann trotzdem ein Problem?
+
+
+Fehler sind nicht immer gleich auf dem Server als Exception sichtbar. Viele Fehler treten lokal beim User auf und sind somit für die Entwickler erstmal nicht sichtbat.
+Keynote: Common Misunderstandings in Software Architecture - Carola Lilienthal
+
+https://sentry.io/welcome/

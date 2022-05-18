@@ -1,0 +1,23 @@
+= 3D-Printing: Wisdom from the first year
+:jbake-title: 3D-Printing: Wisdom from the first year
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: draft
+:jbake-tags: 3d-printing
+:jbake-lang: en
+:doctype: article
+:toc: macro
+
+Es ist nun etwas über ein Jahr her, dass ich mir meinen eigenen 3D-Drucker gekauft habe.
+Damals ist der Drucker meines Bruders, den ich ab und zu mitbenutzt habe, kurz vor Weihnachten kaputtgegangen.
+Da ich mit den Kindern über die Weihnachtsfeiertage ein wenig was mit 3D-Druck machen wollte, kam  mir das etwas ungelegen.
+
+Gemeinsam dachten wir über eine Neuanschaffung nach.
+Diesmal ein teureres und hoffentlich besseres Gerät?
+Dafür fehlte die Zeit.
+Das hätte erst im Januar geklappt.
+
+Also entschied ich mich aufgrund einer Empfehlung einen "billigen" Ender 3 für 136€ zu kaufen.
+Zum Spielen über die Feiertage wird er schon reichen.
+
