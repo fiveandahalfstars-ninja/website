@@ -242,6 +242,18 @@
       "talkid": 17
     },
     {
+      "title": "Talk: Rock Solid Software Architecture with ADRs, arc42 and Microsites - Ein Erfahrungsbericht",
+      "event": "devday.22",
+      "location": "Dresden",
+      "date": "2022-05-24",
+      "url": "https://devday.de/dev-day-2022/talk/rock-solid-software-architecture-with-adrs-arc42-and-microsites-ein-erfahrungsbericht/",
+      "speaker": [
+        "johannesdienst",
+        "ralfdmueller"
+      ],
+      "talkid": 17
+    },
+    {
       "title": "Docs-as-Code",
       "event": "EAM-Community Rhein-Main",
       "location": "Online",
