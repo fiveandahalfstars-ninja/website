@@ -230,6 +230,21 @@
   ],
   "talks": [
     {
+      "title": "Workshop: Moderne Softwarearchitekturdokumentation",
+      "event": "Software Architecture Summit",
+      "location": "Berlin/Online",
+      "date": "2022-09-12",
+      "url": "https://software-architecture-summit.de/berlin/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 360,
+      "cfp": "",
+      "talkid": 15
+    },
+    {
       "title": "Talk: Rock Solid Software Architecture with ADRs, arc42 and Microsites - Ein Erfahrungsbericht",
       "event": "9. JUG Saxony Day",
       "location": "Radebeul",
@@ -251,17 +266,6 @@
         "johannesdienst"
       ],
       "talkid": 17
-    },
-    {
-      "title": "Docs-as-Code",
-      "event": "EAM-Community Rhein-Main",
-      "location": "Online",
-      "date": "2022-06-14",
-      "url": "",
-      "speaker": [
-        "ralfdmueller"
-      ],
-      "talkid": 5
     },
     {
       "title": "Talk: Rock Solid Software Architecture with ADRs, arc42 and Microsites - Ein Erfahrungsbericht",
