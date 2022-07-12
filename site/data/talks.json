@@ -225,6 +225,27 @@
       },
       "558":  {
         "link": "/talks/details/.html"
+      },
+      "559":  {
+        "link": "/talks/details/.html"
+      },
+      "560":  {
+        "link": "/talks/details/.html"
+      },
+      "561":  {
+        "link": "/talks/details/.html"
+      },
+      "562":  {
+        "link": "/talks/details/.html"
+      },
+      "563":  {
+        "link": "/talks/details/.html"
+      },
+      "564":  {
+        "link": "/talks/details/.html"
+      },
+      "565":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -1550,6 +1571,74 @@
         "johannesdienst"
       ],
       "talkid": 558
+    },
+    {
+      "title": "Von Managed Cloud zu GitOps: Multi Client-Cluster Deployment",
+      "event": "SAEC Days",
+      "location": " München",
+      "date": "2022-06-29",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 559
+    },
+    {
+      "title": "Keynote: Eine praktische Philosophie für den IT-Alltag",
+      "event": "SAEC Days",
+      "location": " München",
+      "date": "2022-06-30",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 560
+    },
+    {
+      "title": "Rock Solid Software Architecture with ADRs, arc42 and Microsites",
+      "event": "JCON Online",
+      "location": " Virtuell",
+      "date": "2022-09-22",
+      "url": "",
+      "speaker": [
+        "johannesdienst",
+        "ralfdmueller"
+      ],
+      "talkid": 561
+    },
+    {
+      "title": "Herausforderungen bei der UI-Automatisierung und wie man sie löst",
+      "event": "Java Forum Nord",
+      "location": " Hannover Congress Centrum",
+      "date": "2022-10-6",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 563
+    },
+    {
+      "title": "Challenges in UI Automation and How to Solve Them",
+      "event": "International PHP Conference",
+      "location": " München",
+      "date": "2022-10-25",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 564
+    },
+    {
+      "title": "Rock Solid Software Architecture with ADRs, arc42 and Microsites",
+      "event": "IT-Tage Remote",
+      "location": " Virtuell",
+      "date": "2022-12-14",
+      "url": "",
+      "speaker": [
+        "johannesdienst",
+        "ralfdmueller"
+      ],
+      "talkid": 565
     }
   ]
 }
