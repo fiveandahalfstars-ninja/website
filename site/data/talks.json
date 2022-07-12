@@ -234,13 +234,13 @@
       "event": "Software Architecture Summit",
       "location": "Berlin/Online",
       "date": "2022-09-12",
-      "url": "https://software-architecture-summit.de/berlin/",
+      "url": "https://software-architecture-summit.de/softwarearchitektur/moderne-softwarearchitekturdokumentation/",
       "speaker": [
         "ralfdmueller",
         "sippsack"
       ],
       "image": "",
-      "duration": 360,
+      "duration": 210,
       "cfp": "",
       "talkid": 15
     },
