@@ -1,0 +1,283 @@
+= Electronics: electrifying my mini arcade
+:jbake-title: Electronics: electrifying my mini arcade
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: draft
+:jbake-tags: 3d-printing, raspberry-pi
+:jbake-lang: en
+:doctype: article
+:toc: macro
+
+:icons: font
+
+ifndef::imagesdir[:imagesdir: ../images]
+++++
+<style>
+div.center {
+    text-align: center;
+}
+</style>
+++++
+
+:uri-blogspot: https://myminiarcade.blogspot.com/
+:uri-printables: https://www.printables.com/model/232318-cool-print-flat-mini-retro-arcade-cabinet
+:uri-ips-screen: https://www.amazon.de/gp/product/B07QGPKWJ2
+:uri-oled-screen: https://www.amazon.de/gp/product/B074N9VLZX
+:uri-az-manual: https://www.az-delivery.de/products/1-77-zoll-spi-tft-display
+
+Lately, I did some studies to learn how to better design for 3D printing.
+One of the outcomes is a tiny arcade cabinet.
+
+.{uri-printables}[Mini Arcade Cabinet]
+image::blog/2022/arcade-cabinet.jpg[alt="tiny 3D printed arcade cabinet"]
+
+More than 12 years ago, I already had the idea to create {uri-blogspot}[my own mini arcade].
+Back then, my skills where limited :-D
+
+This blog post will document the decisions and technology behind my ideas.
+
+== Three Brothers
+
+The goal is to build three different versions of my mini arcade with different features.
+
+=== The Minimalist
+
+The smallest screen I found, with a usable resolution is an 0.96 inch I2C OLED 128x64.
+Since this screen has only a color depth of 2, a simple arduino based controller should be enough.
+
+[.center]
+.{uri-oled-screen}[OLED display from AZ-Delivery]
+image::blog/2022/OLED.jpg[width=50%]
+
+*Main Challenge*: code some arcade like demo for the screen.
+
+*Second Challenge*: a bluetooth controller would be great, but it seems that the arduino libraries can only play the slave part
+and hence can not directly connect to a bluetooth game pad.
+
+
+=== The Multi-Talent
+
+A Raspberry Pi Zero is small enough to fit into a slightly bigger mini arcade.
+With linux as operating system, enough memory on board and even WiFi, it is quite powerful.
+It is able to simulate the real arcade machines and home computer systems of the past.
+And you will even be able to connect a bluetooth game controller to make the arcade even playable.
+
+*Main Challenge*: find a small screen which can be used as output for the emulator.
+
+=== The rare Specialist
+
+I still have the original handheld game with sonic on board and the display extension cable.
+This will result in the largest but still small arcade cabinet.
+
+== The Guides
+
+let's get started with
+
+=== The Multi-Talent
+
+The Display I want to go with is an IPS 240x240 screen with SPI:
+
+[.center]
+.{uri-ips-screen}[1.3inch 240x240 IPS Screen]
+image::blog/2022/ips-screen.jpg[width=50%]
+
+Most tutorials show how to control such a display via python.
+Some also show how the standard HDMI framebuffer can be copied to the display.
+
+==== Control via Python
+
+Let's start with python to see if the display is working at all.
+
+\... two days later.
+Wow.
+This wasn't as easy as I thought.
+Here are my learnings.
+
+The https://github.com/pimoroni/st7789-python[python library st7789] works quite well, if you get the parameters right.
+A certain https://techatronic.com/st7789-raspberry-pi/[blockpost] helped me most.
+
+Here is my wiring between the pi zero and the display:
+
+[options="header"]
+|===
+| Display | other name | GPIO | PIN
+| GND     | 0V         | -    | 6
+| VCC     | 3.3V       | -    | 17
+| SCL     | SCLK, CLK  | 11   | 23
+| SDA     | MOSI       | 10   | 19
+| RES     | CS?        | 25   | 22
+| DC      | Data Control | 24 | 18
+| BLK     | BackLight Kontrol :-) | 27 | 13
+|===
+
+The two power pins GND and VCC should be trivial to wire.
+
+SCL and SDA are part of the SPI bus.
+The rasperry has two hardware implementations of the SPI protocol.
+Normally, you will use SPI0 (remember to enable it in `raspi-config`).
+Thus, these two pins are also fix.
+
+The remaining three can be put on any GPIO you like, but you need to configure them the right way in your code.
+
+The following code (taken from above blog post) works for me:
+
+[source, bash]
+----
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python3
+sudo apt-get install python3-rpi.gpio python3-spidev python3-pil python3-numpy
+----
+
+[source, python]
+----
+import ST7789
+from PIL import Image
+from time import sleep
+display=ST7789.ST7789(port=0,cs=0,rst=25,dc=24,backlight=27,spi_speed_hz=160000000)
+display._spi.mode=3
+display.reset()
+display._init()
+image=Image.new('RGB',(240,240),(255,0,0))  #('RGB',(240,240),(r,g,b))
+display.display(image)
+sleep(2)
+image=Image.open("image5.jpg")
+image=image.resize((240,240),resample=Image.LANCZOS)
+
+display.display(image)
+----
+
+With this knowledge, I also managed to get the pimorony examples from above git repository up and running.
+
+WARNING: I had lots of problems to get the display up and running.
+It turns out, that the line `display._spi.mode=3` was the key to success.
+Other displays seem to work out of the box, mine needs `spi.mode=3`.
+And this was also the key to get the framebuffer up and running in the next section.
+
+
+NOTE: it seems that this method gets us 8 FPS at most.
+
+==== Automatic copy of Framebuffer
+
+Not that we are sure that we have a working hardware setup, let's see what kind of magic we can apply with framebuffers.
+
+setup pi with network over usb: https://github.com/rdmueller/Offline-Digital-Signage-for-Conferences---ODSFC
+
+=== Install Recallbox
+
+Use the Raspberry Pi Imager to install RetroPie for the Raspberry Pi Zero 1.
+
+Add a file called `wpa_supplication.conf` to the image in order to setup wifi:
+
+[source]
+----
+country=DE
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+    ssid="WIFI_SSID"
+    scan_ssid=1
+    psk="WIFI_PASSWORD"
+    key_mgmt=WPA-PSK
+}
+----
+
+...and an empty file called `ssh` to activate ssh access.
+
+Use ssh to connect to your RetroPie and start the config via `sudo ~/RetroPie-Setup/retropie_setup.sh`
+It will take some time for the config to start up.
+
+`Configuration` > `Bluetooth`
+
+see the https://retropie.org.uk/docs/8Bitdo-Controller/[RetroPie docs] for details.
+
+NOTE: Since I don't know which key `R1` should be, I figured out that ´start`+`B` does the trick for my 8Bitdo zero.
+Use this combo to start the controller.
+The LED should blink twice in blue.
+Verify the correct mode by connecting it to a PC.
+It should act as a bluetooth keyboard and emit one character per keypress.
+(`start`+`A` will give two characters per keypress.)
+
+NOTE: Since the controller is connected as keyboard, the "setup controller" screen will tell you that no controller is connected.
+Just press and hold a key and setup a keyboard controller.
+
+
+[source, bash]
+----
+cmake -DST7789=ON
+  -DGPIO_TFT_DATA_CONTROL=24
+  -DGPIO_TFT_RESET_PIN=25
+  -DSPI_BUS_CLOCK_DIVISOR=30
+  -DGPIO_TFT_BACKLIGHT=27
+  -DSTATISTICS=0
+  -DDISPLAY_BREAK_ASPECT_RATIO_WHEN_SCALING=OFF
+  -DBACKLIGHT_CONTROL=ON
+  -DUSE_DMA_TRANSFERS=OFF ..
+
+----
+
+==== Bill of Materials
+
+[cols="2,1,1*>.>"options="header"]
+|===
+| Item | Source | Price
+| Loudspeaker +
+3 W, 8 Ohm
+| https://www.amazon.de/dp/B07FT9CFY4[Amazon.de]
+| 5.50€
+
+| Amplifier Breakout +
+I2S 3W Class D - MAX98357A
+| https://www.amazon.de/dp/B09PL8XKPX[Amazon.de]
+| 7.70€
+
+| 8Bitdo Zero 2 +
+Bluetooth Gamepad
+| https://www.amazon.de/gp/product/B081HNH39K[Amazon.de]
+| 20.69€
+
+| TECNOIOT Full Color LCD Display Module +
+1.3 inch IPS HD TFT ST7789 Drive IC 240 * 240
+| https://www.amazon.de/gp/product/B07QGPKWJ2[Amazon.de]
+| 21.25€
+
+| Raspberry Pi Zero W
+| ?
+| ~15.00€
+
+| Filament
+|
+| ~0.10€
+
+| SEGA Mega Drive and Genesis Classics ROMs
+| https://store.steampowered.com/bundle/10143/SEGA_Mega_Drive_and_Genesis_Classics/[Steam]
+| 22.74€
+
+h|Sum
+h|
+h|92.98€
+|===
+
+'''
+
+== Other Projects like this
+
+* https://spritesmods.com/?art=rpi_arcade&page=1[Laser Cut Design]
+* https://spritesmods.com/?art=pbftable&f=had[Tiny Pinball]
+* Darts?
+* Billiard?
+
+'''
+
+https://forums.raspberrypi.com/viewtopic.php?t=33251
+https://github.com/notro/fbtft
+https://www.youtube.com/watch?v=KciKqGX8g94&t=66s
+https://github.com/juj/fbcp-ili9341
+https://learn.adafruit.com/adafruit-2-2-pitft-hat-320-240-primary-display-for-raspberry-pi/easy-install
+https://krystof.io/mirroring-raspberry-pi-hdmi-video-to-a-st7789-1-3-inch-lcd-display/
+https://learn.adafruit.com/worlds-smallest-mame-arcade-cabinet?view=all
+
+
+to be continued...
