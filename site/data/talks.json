@@ -246,6 +246,12 @@
       },
       "565":  {
         "link": "/talks/details/.html"
+      },
+      "566":  {
+        "link": "/talks/details/.html"
+      },
+      "567":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -1639,6 +1645,28 @@
         "ralfdmueller"
       ],
       "talkid": 565
+    },
+    {
+      "title": "The Future of UI Testing",
+      "event": "Software QS-Tag",
+      "location": " Frankfurt am Main",
+      "date": "2022-10-05",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 566
+    },
+    {
+      "title": "Succeed as a DevOps Team in a Regulated Corporate Environment",
+      "event": "MNDWRK-Hungary Meetup",
+      "location": " Virtuell",
+      "date": "2022-09-29",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 567
     }
   ]
 }
