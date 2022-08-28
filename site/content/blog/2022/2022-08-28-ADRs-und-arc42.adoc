@@ -1,0 +1,70 @@
+= Architecture Decision Records Teil 3 - Im Kontext von arc42
+:jbake-date: 2022-08-28
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: asciidoc, softwarearchitecture, architecture decision records
+:doctype: article
+:toc: macro
+
+
+Nachdem ich im link:https://fiveandahalfstars.ninja/blog/2021/2021-11-02-adrs-das-format[letzten Artikel] das _Was_ und das _Wie_ von Architecture Decision Records erläutert habe, geht es diesmal Architekturentscheidungen im Kontext des link:[arc42-Templates] einzubetten.
+
+== arc42 - Leichtgewichtig von oben nach unten auszufüllen?
+
+Die Gliederung von arc42 sieht auf den ersten Blick sehr angenehm und logisch aus (aus link:https://www.arc42.de/overview[arc42]): 
+
+* 1 Einführung und Ziele
+* 2 Randbedingungen
+* 3 Kontextabgrenzung
+* 4 Lösungsstrategie
+* 5 Bausteinsicht
+* 6 Laufzeitsicht
+* 7 Verteilungssicht
+* 8 Querschnittliche Konzepte
+* 9 Entwurfsentscheidungen
+* 10 Qualitätsanforderungen
+* 11 Risiken und technische Schulden
+* 12 Glossar
+
+Das liegt daran, dass diese Struktur für *Lesende* ist!
+
+=== Wie erstelle ich die Dokumentation als Schreibende*r
+Wird die Architekturdokumentation gerade erstellt, sollte anders vorgegangen werden. Ralf und ich haben dazu im weiter unten verlinkten Talk die folgende Reihenfolge für die Kapitel vorgeschlagen:
+
+1 -> 2 -> 3 -> *10* -> 9 -> ...
+
+Kapitel 1-3 sind notwendig, um festzulegen _WAS_ gebaut werden soll, _WELCHE_ Randbedingen nicht änderbar sind und in _WELCHEM_ Kontext das zu bauende System operiert.
+
+Bevor nun die Architektur entworfen werden kann, ist es notwendig die Qualitätsanforderungen abzuklären. Das Ergebnis sollte ein gewichteter Qualitätsattributbaum sein, der die maximal *fünf* höchstpriorisierten Qualitätsattribute enthält. Die folgende Abbildung zeigt einen Ausschnitt eines solchen Baumes für ein System, das ich betreut habe.
+
+image::blog/2022/qualityattributetree_example.drawio.png["Gewichteter Qualitätsattributbaum mit den Qualitätsattributen Usability und Sicherheit und den Prioritäten hinter den Attributen."]
+
+Für dieses System waren die Qualitätsattribute sehr klar, dank zweier Fachexpert*innen, die sich in ihrem Bereich und mit dem abzulösenden Altsystem sehr gut auskannten. In den meisten Fällen wird es eher darauf hinauslaufen mit unklaren Qualitätsanfordungen wie "Das System mus performant sein!" konfrontiert zu werden. Oder es werden mehrere sich widersprechende Qualitätsattribute gefordert. Hier hilft es Vergleiche mit anderen System heranzuziehen. Im Falle von Performanz von Kundenseite zum Beispiel ein System benannt werden, dass als performant empfunden wird.
+
+=== Entscheidungen treffen im Hinblick auf Qualitätsanforderungen
+
+Erst jetzt kann ich daran gehen die Architektur zu entwerfen und die Entwurfsentscheidungen als ADRs zu dokumentieren. Es empfiehlt sich am Ende eines jeden ADRs eine weitere Überschrift einzufügen in der die von der Entscheidung betroffenen Qualitätsattribute aus Kapitel 10 verlinkt werden.
+
+NOTE: Hin und wieder kommt es vor, dass eine Entscheidung auf kein Qualitätsattribut _einzahlt_. Hier ist zu überprüfen, ob sie architekturrelevant ist und in arc42 dokumentiert werden sollte.
+
+=== Warum Qualitätsattribute und Entwurfsentscheidungen in so späten Kapiteln?
+
+Lesende interessieren sich normalerweise nicht dafür auf welcher Grundlage ein System gebaut wurde. Viele interessanter ist doch zu sehen *WIE* es aufgebaut ist. Architekturdiagramme wie die Microservicearchitektur von Netflix zum Beispiel wirken imposant und eindrucksvoll. Die Kompromisse im Betrieb und die Komplexität im Entwicklungs- und Deploymentprozess treten in den Hintergrund.
+
+Für Softwarearchitekturschaffende oder falls es Probleme gibt sind Kapitel neun und zehn aber hochinteressant. Denn dort steht im besten Fall nachvollziehbar *WARUM* ein System so gebaut ist und welche Entwurfsentscheidungen dazu geführt haben, dass ein gewisses Problem aufgetreten ist. Nicht selten sind unklare Qualitätsanforderungen die wahre Ursache für Schwächen des Systems!
+
+== Wie geht es weiter?
+
+In diesem Blog habe ich beschrieben, welche Bedeutung Architekturentscheidungen im Kontext von arc42 einnehmen und .
+
+Im nächsten Post gehen wir _endlich_ auf die Technik ein, mit der Architekturentscheidungen effizient gesammelt und verwaltet werden können.
+
+Wer lieber ein Video zu arc42 und Architekturentscheidungen angucken will dem empfehle ich schamlos meinen Vortrag mit Ralf:
+
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/1RUgt73tXoE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
+
+toc::[]
