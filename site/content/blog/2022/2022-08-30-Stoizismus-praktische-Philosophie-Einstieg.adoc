@@ -41,19 +41,32 @@ bin und es sehr viele verschiedene Interpretierungsnuancen in der Literatur gibt
 
 == Kernaussagen
 
+Bild des stoischen Glückdreiecks
 
+Areté erläutern
+Fokus auf das Kontrollierbare (Hier die vier Arten erklären)
+Verantwortung übernehmen
 
 == Praktischer Nutzen
 
 Situatives Anwenden von Pausen zwischen Reaktionen
 
+=== Stoische Übungen
+Es geht darum sich mental vorzubereiten und sich mental zu trainieren, wie es für jeden Muskel notwendig ist.
+
 Übungen wie sich klar machen, was am Tag schief gehen kann etc.
 
 == Weiterführende Gedanken und Leseempfehlungen
 
-The Practicing Stoic
-The little Book of Stoicism
-How to think like an Roman Emperor
-TODO link zu Jonas Selzgebers Webseite
+Es gibt noch viel mehr zu entdecken im Stoizismus als das, was ich hier beschrieben habe. Jedes mal, wenn ich wieder ein Buch in die Hand nehme und es lese kommen
+neue Einsichten dazu. Ich kann nur empfehlen mit dem einsteigerfreundlichen Buch _The Little Book of Stoicism_ von Jonas Salzgeber loszulegen, da es sehr
+konzentriert alle wichtigen Kernaussagen des Stoizismus verständlich rüberbringt.
+
+=== Leseempfehlungen
+
+* The Little Book of Stoicism - Jonas Salzgeber
+* The Practicing Stoic - Farnsworth
+* How to Think Like a Roman Emperor - Donald Robertson
+* link:https://www.njlifehacks.com/[Webseite von Nils und Jonas Salzgeber]
 
 toc::[]
