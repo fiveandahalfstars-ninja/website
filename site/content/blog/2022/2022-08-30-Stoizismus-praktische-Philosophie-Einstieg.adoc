@@ -12,13 +12,48 @@ _Dieser Post basiert auf meinem Vortrag *Stoizismus - Eine Praktische Philosophi
 Das Video dazu ist auf link:https://fiveandahalfstars.ninja/talks/johannesdienst_talks.html[meiner Talkseite] demnächst verlinkt.
 
 == Philosophie für IT?
+Warum Philosophie auf einem Tech-Blog? Mag sich der Eine oder die andere Fragen. Für mich ist der Umgang mit Menschen manchmal schwierig, 
+da ich eine eher kurze _Zündschnur_ besitze. Technik ist einfach und logisch im Vergleich zum Verhalten von so manchen Kolleg:innen.
+Gerade in der heutigen Arbeitswelt lässt sich Kommunikation nicht mehr vermeiden. Also musste ich einen Weg für mich finden, professionell
+mit Herausforderungen in diesem Bereich umzugehen.
+
+Ich weiß nicht mehr wo es war, aber so um 2018 bin ich über den Stoizismus gestolpert und habe mich seitdem immer weiter damit beschäftigt.
+Inzwischen bin ich der festen Überzeugung, dass diese Philosophie für jede:n ein Gewinn ist, der sich auch nur damit auseinandersetzt.
+Deswegen erzähle ich jedem davon, der es nicht hören will ;-)
 
 == Stoizismus - Praktische Philosophie
 
+Philosophie hat in vielen Köpfen etwas mit weltfremden Diskussionen zu tun, die keinen praktischen Nutzen haben im Alltag.
+
+Im Gegensatz dazu stehen die *Praktischen Philosophien*, zu denen auch der _Stoizismus_ gehört. In diesen Philosophien wird die Frage gestellt:
+
+----
+Wie lebe ich ein gutes Leben?
+----
+
+Ich empfehle den obigen Satz zweimal zu lesen, denn es wird explizit nicht von glücklich gesprochen. In der heutigen Zeit wird sehr oft dazu aufgerufen nach
+dem glücklichen Leben zu streben. In der stoischen Philosophie geht es darum ein Leben in Einklang mit den stoischen Tugenden zu leben und der *perfekte* Stoiker
+zu werden, der unter anderem sein Urteilsvermögen ungetrübt von Emotionen einzusetzen. Da wir Menschen sind und Emotionen zu unserer Natur gehören ist dieses Ideal
+natürlich nicht erreichbar. Dazu aber später mehr.
+
+Gehen wir zum nächsten Abschnitt, in dem ich die Kernaussagen des Stoizismus zusammenfasse. Hier bitte nicht vergessen, dass ich noch ein Schüler des Stoizismus
+bin und es sehr viele verschiedene Interpretierungsnuancen in der Literatur gibt!
+
 == Kernaussagen
+
+
 
 == Praktischer Nutzen
 
-== Weiterführende Gedanken
+Situatives Anwenden von Pausen zwischen Reaktionen
+
+Übungen wie sich klar machen, was am Tag schief gehen kann etc.
+
+== Weiterführende Gedanken und Leseempfehlungen
+
+The Practicing Stoic
+The little Book of Stoicism
+How to think like an Roman Emperor
+TODO link zu Jonas Selzgebers Webseite
 
 toc::[]
