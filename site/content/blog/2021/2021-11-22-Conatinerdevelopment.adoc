@@ -1,4 +1,5 @@
 = Remote Dev Environments
+:jbake-date: 2021-11-22
 :jbake-title: Remote Dev Environments
 :jbake-author: rdmueller
 :jbake-type: post
