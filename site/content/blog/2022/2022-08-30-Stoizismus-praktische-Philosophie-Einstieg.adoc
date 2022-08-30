@@ -91,6 +91,7 @@ Sehen wir uns insbesondere Social Media an, dann sehen wir genau das Gegenteil. 
 scharf in den Kommentaren reagiert bis hin zu Beleidigungen. Sehr oft unberechtigt und ohne Nachzudenken, dass das Medium sehr beschränkt ist.
 
 TODO Bild mit Instant-Reaktion
+stimulus_reaction_simple_de.drawio.png
 
 Stattdessen können wir uns einen Effekt zu Nutze machen, der uns wieder die Kontrolle zurück gibt. Es gibt eine kurze Zeitspanne zwischen dem Ereignis und 
 unserer spontanen Reaktion darauf. Mir persönlich ist er erst aufgefallen nachdem ich davon gewusst habe. Ich rate daher dazu sich selbst genauer zu beobachten.
@@ -98,11 +99,35 @@ Die Chancen stehen sehr gut, dass es bei allen Menschen so ist ;-). Greifen wir 
 Reaktion auf ein Ereignis ist. Dadurch gewinnen wir die Kontrolle zurück und lösen uns davon nur Emotionsgesteuert zu handeln. 
 
 TODO Bild mit Pause + passende Reaktion überlegen + erst dann handeln
+stimulus_reaction_stoic_de.drawio.png
 
 === Stoische Übungen
-Es geht darum sich mental vorzubereiten und sich mental zu trainieren, wie es für jeden Muskel notwendig ist.
 
-Übungen wie sich klar machen, was am Tag schief gehen kann etc.
+Um in jeder Situation angemessen zu reagieren ist es nicht genug über das theoretische Wissen zu verfügen. Das wusste schon die antiken Stoiker.
+Deswegen gibt es eine große Palette an stoischen Übungen, die uns mental trainieren angemessen zu reagieren.
+
+Ich werde zwei meiner Lieblingsübungen vorstellen, da sie mir persönlich sehr geholfen haben im Alltag.
+
+==== Gelassenheit kaufen
+Beim Essen habe ich das Talent zu kleckern. Diese Übung hat mir geholfen die negative Stimme in meinem Kopf auszuschalten und stattdessen zu üben, mit 
+Unfällen umzugehen. Bis dahin habe ich nach jeder Kleckerei eine Weile darüber sinniert, wie dumm das doch war. Inzwischen kann ich über das meiste Lachen 
+oder es ist mir einfach egal. Deswegen kaufe ich mir mit dieser Übung Gelassenheit. Sie geht so:
+
+Sobald ein kleines Missgeschick geschieht die Gelegenheit nutzen und sich selbst beobachten. Die Gefühle akzeptieren und dann zu sich selbst sagen während des 
+Aufräumens: "Für diese Kleinigkeit kaufe ich mir Gelassenheit!" Die Effekte bei mir waren eine größere Gelassenheit im Alltag. Kleine Missgeschicke hängen mir 
+inzwischen gar nicht mehr nach, was mich zufriedener mit mir selbst gemacht hat.
+
+==== Premeditatio Malorum
+
+Kennt ihr diese Menschen, die alles exakt bis auf die letzte Minute durchplanen, wenn sie auf reisen gehen. Nur um dann festzustellen, dass sie etwas Wichtiges wie 
+Zahnpasta vergessen haben? Genau so jemand war ich auch. Jetzt liegt es aber in der Natur der Sache bei einer Reise irgendetwas zu vergessen. Das meiste ist aber 
+ersetzbar. Drogerieartikel gibt es überall und auch größere Dinge wie Netzteile für Elektronik.
+
+Die Übung Premeditatio Malorum hilft bei der mentalen Vorbereitung auf Fehlschläge. Es macht einen großen Unterschied, ob über mögliche Schwierigkeiten nachgedacht wurde 
+oder nicht. Dadurch kann in der Situation rationaler reagiert werden, selbst wenn sie im Kopf noch nicht durchgespielt wurde. Alleine der Akt darüber nachzudenken 
+hilft. Deswegen rate ich dazu, nicht vollständig alles zu durchdenken, sondern nur ein paar.
+
+Inzwischen bin ich bei Reisen dadurch sehr entspannt, sogar als ich einmal meine Zahnbürste und Zahnpasta vergessen hatte.
 
 == Weiterführende Gedanken und Leseempfehlungen
 
