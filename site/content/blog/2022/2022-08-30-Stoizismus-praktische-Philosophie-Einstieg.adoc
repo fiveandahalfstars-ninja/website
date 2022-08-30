@@ -33,19 +33,44 @@ Wie lebe ich ein gutes Leben?
 
 Ich empfehle den obigen Satz zweimal zu lesen, denn es wird explizit nicht von glücklich gesprochen. In der heutigen Zeit wird sehr oft dazu aufgerufen nach
 dem glücklichen Leben zu streben. In der stoischen Philosophie geht es darum ein Leben in Einklang mit den stoischen Tugenden zu leben und der *perfekte* Stoiker
-zu werden, der unter anderem sein Urteilsvermögen ungetrübt von Emotionen einzusetzen. Da wir Menschen sind und Emotionen zu unserer Natur gehören ist dieses Ideal
+zu werden, der unter anderem sein Urteilsvermögen ungetrübt von Emotionen einsetzen kann. Da wir Menschen sind und Emotionen zu unserer Natur gehören ist dieses Ideal
 natürlich nicht erreichbar. Dazu aber später mehr.
 
 Gehen wir zum nächsten Abschnitt, in dem ich die Kernaussagen des Stoizismus zusammenfasse. Hier bitte nicht vergessen, dass ich noch ein Schüler des Stoizismus
 bin und es sehr viele verschiedene Interpretierungsnuancen in der Literatur gibt!
 
-== Kernaussagen
+== Kernideen
 
-Bild des stoischen Glückdreiecks
+Eine wunderschöne graphische Zusammenfassung der stoizistischen Kernideen ist das stoische Glücksdreieck. Das höchste gut ist _Verantwortung zu übernehmen_ für sein
+Tun und seine Reaktionen. Das ist aber erst in möglich, wenn die beiden Fundamente _Leben in Aretè_ und _Fokus auf das Kontrollierbare_ gemeistert wurden.
+In der Mitte steht das höchste Ziel: Eudaimonia. Ein zusammengesetztes Wort mit der Bedeutung mit seinem inneren Selbst (_Daimon_) im Reinen zu sein (_Eu_).
 
-Areté erläutern
-Fokus auf das Kontrollierbare (Hier die vier Arten erklären)
-Verantwortung übernehmen
+link:blog/2022/stoicism_happiness_triangle_de.drawio.png[Stoisches Glückdreieck aus dem Buh "The Little Book of Stoicism" von Jonas Salzgeber]
+
+=== Leben in Areté
+
+In dieser Ecke geht es um Tugenden und darum nach diesen zu leben. Das beudetet in unserem Handeln gutes Urteilsvermögen zu zeigen, die zu diesen Tugenden passen.
+
+TODO Stoische Tugenden
+
+=== Fokus auf das Kontrollierbare_
+
+Umgangsprachlich wird der Begriff _stoisch_ mit Gefühlslosigkeit gleichgesetzt. Das kommt daher, dass Stoiker ihren Fokus auf das Kontrollierbare legen.
+Dazu unterteilen sie Dinge die Passieren in vier Kategorien:
+
+TODO die Kategorien
+
+Nur die dritte Kategorie können wir wirkich kontrollieren. Das heißt, sich zum Beispiel über das Wetter zu beschweren ist nicht sinnvoll, 
+da es nur akzeptiert werden kann. Die Kunst ist es in jeder Situation in Einklang mit den stoischen Tugenden zu reagieren.
+
+=== Verantwortung übernehmen
+
+Ohne die beiden Fundamente kann keine Verantwortung übernommen werden. Was _wirklich_ in unserer Verantwortung liegt ist _wie_ wir auf ein Ereignis reagieren.
+So ist es dem Wetter (um bei dme Beispiel zu bleiben) ziemlich egal, ob wir uns darüber freuen, indifferent oder genervt sind. Es liegt also in unserer 
+Verantwortung zu entscheiden, wie wir uns fühlen.
+
+Das ist einfach geschrieben, aber sehr schwierig umzusetzen! Deswegen sehen wir uns in den nächsten Abschnitten an, welchen praktischen Nutzen
+uns das bringt und welche stoischen Übungen es gibt, mit denen wir das stoische Glücksdreieck verinnerlichen können.
 
 == Praktischer Nutzen
 
