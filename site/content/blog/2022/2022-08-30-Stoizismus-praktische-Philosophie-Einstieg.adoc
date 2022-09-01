@@ -4,7 +4,7 @@
 :jbake-type: post
 :jbake-toc: true
 :jbake-status: published
-:jbake-tags: stoicism, philosphy
+:jbake-tags: stoicism, philosophy
 :doctype: article
 :toc: macro
 
