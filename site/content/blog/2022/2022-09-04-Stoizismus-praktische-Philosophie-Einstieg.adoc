@@ -1,10 +1,12 @@
 = Stoizismus - Praktische Philosophie für den IT-Alltag
+:jbake-pseudo: stoicism-overview-post
 :jbake-date: 2022-09-04
 :jbake-author: jdienst
 :jbake-type: post
 :jbake-toc: true
 :jbake-status: published
 :jbake-tags: stoicism, philosophy
+:jbake-lang: de
 :doctype: article
 :toc: macro
 

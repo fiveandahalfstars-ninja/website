@@ -1,5 +1,14 @@
 <%include "header.gsp"%>
 <%
+	hasGermanVersion = false
+	germanVersionLink = "germanversion.html"
+	germanVersion = published_posts.find{post->(post.lang=='de')&&(post.pseudo==content.pseudo)}
+	
+	if (germanVersion) {
+		hasGermanVersion = true
+		germanVersionLink = germanVersion.uri
+	}
+	
 	body = content.body.split("<div id=\"toc\" class=\"toc\">")
 	if (body.size()==2) {
 		toc = body[1].replaceAll("(?ms)(</div>[\r\n\t ]*){3}\$","")
@@ -30,7 +39,6 @@
 			  </div>
 
 			  <p><em>${new java.text.SimpleDateFormat("dd MMMM yyyy", Locale.ENGLISH).format(content.date)}</em></p>
-
 	      <p>${content.body}</p>
 
 			  </div>
@@ -40,7 +48,6 @@
 		      </div>
 			  <div class="col-md-11">
 					  <h1>${content.title}</h1>
-
 			  </div>
 		  </div>
 		  <div class="row">
@@ -50,6 +57,9 @@
 				${toc}
 		  	 </div>
 			  <div class="col-md-9">
+				<% if (content.lang=="en" && hasGermanVersion) { %>
+			      <p style="font-size:25px; margin-bottom:20px;"><a href="/${germanVersionLink}">German version of this post can be found here</a></p>
+				<% } %>
 				  <p>${body}</p>
 			  </div>
 			  </div>
