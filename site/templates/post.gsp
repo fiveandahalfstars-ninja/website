@@ -1,12 +1,16 @@
 <%include "header.gsp"%>
 <%
-	hasGermanVersion = false
-	germanVersionLink = "germanversion.html"
-	germanVersion = published_posts.find{post->(post.lang=='de')&&(post.pseudo==content.pseudo)}
+	searchContentLang = content.lang=='de' ? 'en' : 'de'
+	hasAnotherLanguageVersion = false
+	anotherLanguageVersionLink = "anotherLanguageversion.html"
+	anotherLanguageVersionPost = published_posts.find{
+		post->
+			(post.lang==searchContentLang)&&(post.pseudo==content.pseudo)
+		}
 	
-	if (germanVersion) {
-		hasGermanVersion = true
-		germanVersionLink = germanVersion.uri
+	if (anotherLanguageVersionPost) {
+		hasAnotherLanguageVersion = true
+		anotherLanguageVersionLink = anotherLanguageVersionPost.uri
 	}
 	
 	body = content.body.split("<div id=\"toc\" class=\"toc\">")
@@ -57,8 +61,15 @@
 				${toc}
 		  	 </div>
 			  <div class="col-md-9">
-				<% if (content.lang=="en" && hasGermanVersion) { %>
-			      <p style="font-size:25px; margin-bottom:20px;"><a href="/${germanVersionLink}">German version of this post can be found here</a></p>
+				<% if (hasAnotherLanguageVersion) { %>
+			      <p style="font-size:25px; margin-bottom:20px;">
+				     <% if (content.lang=='en') { %>
+				     <a href="/${anotherLanguageVersionLink}">Für die Deutsche Version dieses Posts hier klicken</a>
+					 <% } %>
+					 <% if (content.lang=='de') { %>
+				     <a href="/${anotherLanguageVersionLink}">English version of this post can be found here</a>
+					 <% } %>
+				  </p>
 				<% } %>
 				  <p>${body}</p>
 			  </div>
