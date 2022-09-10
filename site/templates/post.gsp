@@ -64,10 +64,10 @@
 				<% if (hasAnotherLanguageVersion) { %>
 			      <p style="font-size:25px; margin-bottom:20px;">
 				     <% if (content.lang=='en') { %>
-				     <a href="/${anotherLanguageVersionLink}">🇩🇪 Für die Deutsche Version dieses Posts hier klicken</a>
+				     <a href="/${anotherLanguageVersionLink}">Für die Deutsche Version dieses Posts hier klicken</a>
 					 <% } %>
 					 <% if (content.lang=='de') { %>
-				     <a href="/${anotherLanguageVersionLink}">🇺🇸 English version of this post can be found here</a>
+				     <a href="/${anotherLanguageVersionLink}">English version of this post can be found here</a>
 					 <% } %>
 				  </p>
 				<% } %>
