@@ -11,7 +11,7 @@
 :toc: macro
 
 _Dieser Post basiert auf meinem Vortrag *Stoizismus - Eine Praktische Philosophie für den IT-Alltag*. 
-Das Video dazu ist demnächst auf link:https://fiveandahalfstars.ninja/talks/johannesdienst_talks.html[meiner Talkseite] verlinkt._
+Das Video dazu ist auf link:https://fiveandahalfstars.ninja/talks/johannesdienst_talks.html[meiner Talkseite] verlinkt._
 
 == Philosophie für IT?
 Warum Philosophie auf einem Tech-Blog? Mag sich die Eine oder der Andere Fragen. Für mich ist der Umgang mit Menschen manchmal schwierig, 

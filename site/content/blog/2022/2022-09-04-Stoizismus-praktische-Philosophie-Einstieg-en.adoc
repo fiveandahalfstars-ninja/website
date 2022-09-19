@@ -11,7 +11,7 @@
 :toc: macro
 
 _This post is based on my talk *Stoicism - A Practical Philosophy for Everyday IT*. 
-The video for this will be linked soon on link:https://fiveandahalfstars.ninja/talks/johannesdienst_talks.html[my talk page]_.
+The video for this is linked on link:https://fiveandahalfstars.ninja/talks/johannesdienst_talks.html[my talk page]_.
 
 == Philosophy for IT?
 Why philosophy on a tech blog? One or the other may ask. For me, dealing with people is sometimes difficult, 
