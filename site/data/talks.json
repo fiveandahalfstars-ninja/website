@@ -257,6 +257,17 @@
   ],
   "talks": [
     {
+      "title": "Docs-as-Code",
+      "event": "EA Community Rhein-Main",
+      "location": "Online",
+      "date": "2022-09-20",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "talkid": 5
+    },
+    {
       "title": "Workshop: Moderne Softwarearchitekturdokumentation",
       "event": "Software Architecture Summit",
       "location": "Berlin/Online",
