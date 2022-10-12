@@ -128,8 +128,9 @@ link:/${post.uri}[${post.title}] +
 
 [discrete]
 ==== Sessionize Speaker Profil
-link:https://sessionize.com/johannes-dienst/[Sessionize]
+Speakerprofil auf link:https://sessionize.com/johannes-dienst/[Sessionize]
 
+[discrete]
 ==== Kurzvita
 
 Johannes Dienst ist Developer Advocate bei askui. Sein Fokus liegt auf Automatisierung, Dokumentation und Softwarequalität.
