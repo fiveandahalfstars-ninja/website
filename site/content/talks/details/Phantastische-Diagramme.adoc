@@ -1,4 +1,4 @@
-:jbake-title: Docs-as-Code
+:jbake-title: Phantastische Diagramme
 :jbake-type: page
 :jbake-status: published
 
