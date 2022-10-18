@@ -1,0 +1,30 @@
+:jbake-title: Docs-as-Code
+:jbake-type: page
+:jbake-status: published
+
+== Phantastische Diagramme und wie Du sie selbst erstellst
+
+Die wichtigste Aufgabe eines Software-Architekten besteht darin, die Architektur zu kommunizieren.
+
+Neben den textuellen Inhalten gilt es auch, Grafiken zu erstellen. Getreu dem Motto "ein Bild sagt mehr als tausend Worte" helfen Diagramme bei einer effektiven und pragmatischen Dokumentation. Damit sie wirken, müssen sie leicht erfassbar, stets aktuell und korrekt sein..
+
+In diesem Talk spüren wir zuerst die Schwachstellen vieler Diagramme auf und überlegen uns anschließend, wie wir sie umgehen können. Das Ergebnis ist eine Checkliste für richtig gute, fast schon phantastische Architektur-Diagramme.
+
+Als Bonus werden wir aufzeigen, wie Diagramme wartbar mit dem Docs-as-Code Ansatz umgesetzt werden, um sie jederzeit aktuell und im Einklang mit der Architektur halten zu können.
+
+[cols="1,2h"]
+|===
+| Schwerpunkt	| Architektur
+| Vortragstyp	| Best Practices
+| Schwierigkeitsgrad	| Kein Schwierigkeitsgrad
+| Keywords	| Architektur, Diagramme, Dokumentation, C4
+| Sprache	| Deutsch
+| Features	| Slot mit Demo
+|===
+
+=== Referenzen
+
+* https://www.innoq.com/de/articles/2022/09/better-architecture-diagrams/[Gernot Starke: 1×1 guter Architekturdiagramme]
+* https://leanpub.com/praxisbuchdocs-as-code/[Ralf D. Müller et.al.: Einführung in Docs-as-Code]
+* https://c4model.com/assets/software-architecture-diagram-review-checklist.pdf[Simon Brown: Software Architecture Diagram Review Checklist]
+* https://conferences.oreilly.com/software-architecture/sa-eu-2018/public/schedule/detail/68915.html[Jochem Schulenklopper: How to improve your architectural visualizations]
