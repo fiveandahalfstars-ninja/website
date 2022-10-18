@@ -34,12 +34,13 @@ image::profiles/jdienst.jpg[]
 [.col-md-5]
 --
 
-Ich bin Johannes und ich bin DevOps-Engineer bei der DB Systel GmbH in Frankfurt am Main.
+Ich bin Johannes und ich bin Developer Advocate bei link:https://www.askui.com/[askui] in Karlsruhe.
 
 Folgt mir doch auf Twitter link:https://twitter.com/johannesdienst[@JohannesDienst]
 
-Seit 5 Jahren bin ich auch als Sprecher aktiv. Bei Interesse schreibt mich einfach an. Meine Lieblingsthemen sind:
+Seit über fünf Jahren bin ich auch als Sprecher aktiv. Bei Interesse schreibt mich einfach an. Meine Lieblingsthemen sind:
 
+* Testautomatisierung
 * Mutationstesten
 * Softwarequalität
 * Softwarearchitektur (arc42, Architecture Decision Records)
@@ -126,14 +127,20 @@ link:/${post.uri}[${post.title}] +
 * link:https://jaxenter.de/author/johannesdienst[JAXEnter Profil:]
 
 [discrete]
+==== Sessionize Speaker Profil
+Speakerprofil auf link:https://sessionize.com/johannes-dienst/[Sessionize]
+
+[discrete]
 ==== Kurzvita
 
-Johannes Dienst ist Softwarecrafter aus Leidenschaft bei der DB Systel GmbH. Sein Tätigkeitsschwerpunkt liegt im Bereich Content Management, DevOps und Softwarequalität.
+Johannes Dienst ist Developer Advocate bei askui. Sein Fokus liegt auf Automatisierung, Dokumentation und Softwarequalität.
+
+Johannes Dienst is Developer Advocate at askui. His focus is on automation, documentation, and software quality.
 
 [discrete]
 ==== Langversion
 
-Johannes Dienst ist Diplom Informatiker und Softwarecrafter mit 8 Jahren Berufserfahrung in der Entwicklung von komplexen IT-Systemen im Umfeld von Java, JavaScript und allen möglichen anderen Sprachen. Seine sonstigen Interessen sind breit gestreut mit Fokus auf Softwarequalität und Softwarearchitektur. Sein Wissen teilt und erweitert er gerne als Sprecher auf Konferenzen und mit Fachartikeln. In seiner Freizeit gehört sein Herz der Familie für die er sich mit Kraftsport fit hält.
+Johannes Dienst ist Diplom Informatiker und Softwarecrafter mit 10 Jahren Berufserfahrung in der Entwicklung von komplexen IT-Systemen im Umfeld von Java, JavaScript und allen möglichen anderen Sprachen. Seine sonstigen Interessen sind breit gestreut mit Fokus auf Softwarequalität und Softwarearchitektur. Sein Wissen teilt und erweitert er gerne als Sprecher auf Konferenzen und mit Fachartikeln. In seiner Freizeit gehört sein Herz der Familie für die er sich mit Kraftsport fit hält.
 
 [discrete]
 ==== Twitter

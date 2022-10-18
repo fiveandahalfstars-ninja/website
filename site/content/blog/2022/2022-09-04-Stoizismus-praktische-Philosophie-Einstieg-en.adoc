@@ -1,0 +1,135 @@
+= Stoicism - Practical Philosophy for Your Daily It-Life
+:jbake-pseudo: stoicism-overview-post
+:jbake-date: 2022-09-04
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: stoicism, philosophy
+:jbake-lang: en
+:doctype: article
+:toc: macro
+
+_This post is based on my talk *Stoicism - A Practical Philosophy for Everyday IT*. 
+The video for this is linked on link:https://fiveandahalfstars.ninja/talks/johannesdienst_talks.html[my talk page]_.
+
+== Philosophy for IT?
+Why philosophy on a tech blog? One or the other may ask. For me, dealing with people is sometimes difficult, 
+because I have a rather short _fuse_. Technology is simple and logical compared to the behavior of some colleagues. 
+Especially in today's working world, communication cannot be avoided. So I had to find a way for myself to deal professionally with challenges in this area.
+
+I don't remember where it was, but around 2018 I stumbled across Stoicism and have been studying it ever since.
+In the meantime, I am firmly convinced that this philosophy is an asset for anyone who even explores it.
+That's why I tell everyone about it, who doesn't want to hear it ;-)
+
+== Stoicism - Practical Philosophy
+
+Philosophy has in many minds something to do with unworldly discussions that have no practical use in everyday life.
+
+In contrast to this are the *practical philosophies*, to which also the _Stoicism_ belongs. They deal explicitly with everyday life, or more precisely with interpersonal relationships. Stoicism in particular poses the following question:
+
+*How do I live my life so that I am overjoyed and it runs smoothly?*
+
+Stoic philosophy is about living a life in accordance with the Stoic virtues and becoming the *perfect* Stoic who can, among other things, use his or her judgment unclouded by emotion. Since we are human beings and emotions are part of our nature, this ideal is of course not attainable. But more about that later.
+
+From this striving then happiness arises!
+
+Let's go to the next section, where I summarize the core statements of Stoicism. 
+
+_Here please do not forget that I am a student of Stoicism and that there are additionally many different interpretations in the literature!_
+
+== Core Ideas
+
+A beautiful graphic summary of the core Stoic ideas is the Stoic triangle of happiness. High up is _taking responsibility_ for one's actions and reactions. But this is only possible when the two foundations _Living in Aretè_ and _Focusing on the Controllable_ have been mastered.
+In the middle is the highest goal: _Eudaimonia_. A compound word with the meaning of being at peace (_Eu_) with one's inner self (_Daimon_).
+
+image::blog/2022/stoicism_happiness_triangle_en.drawio.png[Stoic triangle of happiness from the book "The Little Book of Stoicism" by Jonas Salzgeber]
+
+=== Life in Areté
+
+This corner of the triangle is about virtues and living by them. This means expressing these virtues in our actions.
+
+* *Wisdom*: In the sense of good judgment that is deliberate and not thoughtless.
+* *Justice*: This is about our relationship with our fellow human beings in which we should act with integrity and fairness
+* *Courage*: To act rightly in a situation. Against any resistance (even internal).
+* *Self-discipline*: In Stoicism, especially the appropriate response to emotions and strong desire in any respect.
+
+It should be added that for Stoics all virtues are important. If one is not lived, then it becomes difficult to achieve eudaimonia. 
+Nevertheless, all Stoics have found in their lives that they have problems to always act according to the virtues.
+
+Seneca is a very famous example. As one of the richest men of his time, he was often accused of hypocrisy because he lived in abundance. He used to keep an evening journal in which he openly wrote about all the events of the day. He was aware of his mistakes. The important thing is to do your best!
+
+=== Focus on the Controllable
+
+Colloquially, the term _stoic_ is equated with insensitivity. This is because stoics focus on the controllable.
+For this purpose, they divide things that happen into four categories:
+
+. *No influence*: Almost all external influences
+. *Partial influence*: For example, reactions to our behavior or even health .
+. *Indifferent but preferred*: Being rich or poor should have no influence on whether we live a stoic life. But being rich is definitely more pleasant ;-)
+. *High Influence*: The most important category, but also the smallest. Our judgment and actions
+
+Only the fourth category we can really control. That is, complaining about the weather, for example, is not useful, 
+since it can only be accepted. The art is to react in any situation in accordance with the stoic virtues.
+
+=== Assume Responsibility
+
+Without the two foundations, no responsibility can be taken. What _really_ is our responsibility is _how_ we react to an event.
+Thus, the weather (to stay with the example) doesn't really care whether we are happy about it, indifferent, or annoyed. So it is our 
+responsibility to decide how we feel.
+
+That's easy to write, but very difficult to implement! That's why in the next sections we'll look at the practical benefits of this and what stoic exercises are available to help us internalize the stoic happiness triangle.
+
+== Practical benefit
+
+For me, the biggest practical benefit was the realization that we have a high impact on our reactions to external events.
+In particular, we see just the opposite in normal reactions on social media. This is where the *empathy culture* is at work. Every tweet is immediately reacted to sharply in the comments, up to and including insults. Very often unjustified, but also without the insight that the medium itself is very limited in its ability to express itself.
+
+.A stimulus is usually responded to instinctively without thinking.
+image::blog/2022/stimulus_reaction_simple_en.drawio.png["A stimulus is usually responded to instinctively without thinking."]
+
+Instead, we can take advantage of an effect that puts us back in control. There is a short period of time between the event and our spontaneous reaction to it. Personally, I only noticed it after I knew about it. So my advice is to observe yourself more closely.
+Chances are very good that it is like that for all people ;-). If we intervene at that exact moment, we can rationally consider what is the appropriate reaction to an event. In this way, we regain control and free ourselves from acting only emotionally.
+
+.The stoic approach to a stimulus of first stepping back and responding thoughtfully.
+image::blog/2022/stimulus_reaction_stoic_en.drawio.png["The stoic approach to a stimulus of first stepping back and responding thoughtfully."]
+
+=== Stoic Exercises
+
+To react appropriately in any situation, it is not enough to have the theoretical knowledge. This was already known to the ancient Stoics.
+That is why there is a wide range of stoic exercises that train us mentally to react appropriately.
+
+I will present two of my favorite exercises, as they have helped me personally in everyday life.
+
+=== Buy Serenity
+When it comes to eating, I have a talent for spilling. This exercise has helped me turn off the negative voice in my head after such an incident and instead practice dealing with accidents. Until then, after every spill, I would ponder for a while how stupid it was. In the meantime I can laugh about most of it 
+or I just don't care. That's why I buy myself serenity with this exercise. It goes like this:
+
+As soon as a little mishap happens: Take the opportunity to observe yourself. Accept the feelings and then say to yourself during the 
+Clean up: "For this little thing, I buy serenity!" The effects for me have been greater serenity in everyday life. Small mishaps are no longer 
+which has made me more satisfied with myself.
+
+=== Premeditatio Malorum
+
+You know those people who plan everything exactly down to the last minute when they go on a trip? Only to realize that they have forgotten something important like 
+toothpaste? I was exactly that kind of person. Now, it is in the nature of things to forget something when traveling. But most things are 
+replaceable. Drugstore items are everywhere and so are larger items like power supplies for electronics.
+
+The _Premeditatio Malorum_ exercise helps with mental preparation for failure. It makes a big difference whether possible difficulties have been thought about 
+or not. This allows for a more rational reaction in the situation, even if it has not yet been played out in the mind. Just the act of thinking about it helps. That's why I advise not to think through everything completely, but only a few contingencies.
+
+In the meantime, I am very relaxed when traveling, even when I really forgot my toothbrush and toothpaste.
+
+== Further Thoughts and Reading Recommendations
+
+There is much more to discover in Stoicism than what I have described here. Every time I pick up a book on Stoicism and read it, I gain new insights. I can only recommend to start with the beginner-friendly book _The Little Book of Stoicism_ by Jonas Salzgeber, it contains 
+all important core statements of Stoicism in a very concentrated and understandable way.
+
+=== Reading Recommendations
+
+* The Little Book of Stoicism - Jonas Salzgeber
+* The Practicing Stoic - Farnsworth
+* How to Think Like a Roman Emperor - Donald Robertson
+* link:https://www.njlifehacks.com/[Website of Nils and Jonas Salzgeber]
+
+toc::[]

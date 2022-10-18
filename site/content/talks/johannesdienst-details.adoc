@@ -1,5 +1,10 @@
 = Aufnahmen
 
+== Keynote: Stoizismus: Eine praktische Philosophie für den IT-Alltag
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/iMu0rxJQcno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
+
 == Rock Solid Software Architecture with ADRs, arc42 and Microsites
 ++++
 <iframe width="880" height="540" src="https://www.youtube.com/embed/1RUgt73tXoE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

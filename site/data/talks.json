@@ -246,10 +246,27 @@
       },
       "565":  {
         "link": "/talks/details/.html"
+      },
+      "566":  {
+        "link": "/talks/details/.html"
+      },
+      "567":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
   "talks": [
+    {
+      "title": "Docs-as-Code",
+      "event": "EA Community Rhein-Main",
+      "location": "Online",
+      "date": "2022-09-20",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "talkid": 5
+    },
     {
       "title": "Workshop: Moderne Softwarearchitekturdokumentation",
       "event": "Software Architecture Summit",
@@ -1639,6 +1656,28 @@
         "ralfdmueller"
       ],
       "talkid": 565
+    },
+    {
+      "title": "The Future of UI Testing",
+      "event": "Software QS-Tag",
+      "location": " Frankfurt am Main",
+      "date": "2022-10-05",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 566
+    },
+    {
+      "title": "Succeed as a DevOps Team in a Regulated Corporate Environment",
+      "event": "MNDWRK-Hungary Meetup",
+      "location": " Virtuell",
+      "date": "2022-09-29",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 567
     }
   ]
 }

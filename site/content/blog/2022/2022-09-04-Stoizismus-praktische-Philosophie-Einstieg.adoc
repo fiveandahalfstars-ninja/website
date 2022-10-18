@@ -1,0 +1,138 @@
+= Stoizismus - Praktische Philosophie für den IT-Alltag
+:jbake-pseudo: stoicism-overview-post
+:jbake-date: 2022-09-04
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: stoicism, philosophy
+:jbake-lang: de
+:doctype: article
+:toc: macro
+
+_Dieser Post basiert auf meinem Vortrag *Stoizismus - Eine Praktische Philosophie für den IT-Alltag*. 
+Das Video dazu ist auf link:https://fiveandahalfstars.ninja/talks/johannesdienst_talks.html[meiner Talkseite] verlinkt._
+
+== Philosophie für IT?
+Warum Philosophie auf einem Tech-Blog? Mag sich die Eine oder der Andere Fragen. Für mich ist der Umgang mit Menschen manchmal schwierig, 
+da ich eine eher kurze _Zündschnur_ besitze. Technik ist einfach und logisch im Vergleich zum Verhalten von so manchen Kolleg:innen.
+Gerade in der heutigen Arbeitswelt lässt sich Kommunikation nicht mehr vermeiden. Also musste ich für mich einen Weg finden, professionell
+mit Herausforderungen in diesem Bereich umzugehen.
+
+Ich weiß nicht mehr wo es war, aber so um 2018 bin ich über den Stoizismus gestolpert und habe mich seitdem immer weiter damit beschäftigt.
+Inzwischen bin ich der festen Überzeugung, dass diese Philosophie für jede:n ein Gewinn ist, der:die sich auch nur damit auseinandersetzt.
+Deswegen erzähle ich jedem davon, der es nicht hören will ;-)
+
+== Stoizismus - Praktische Philosophie
+
+Philosophie hat in vielen Köpfen etwas mit weltfremden Diskussionen zu tun, die keinen praktischen Nutzen haben im Alltag.
+
+Im Gegensatz dazu stehen die *Praktischen Philosophien*, zu denen auch der _Stoizismus_ gehört. Sie beschäftigen sich explizit mit dem Alltag, genauer gesagt mit zwischenmenschlichen Beziehungen. Stoizismus im Speziellen stellt sich die folgende Frage:
+
+*Wie lebe ich mein Leben so, dass ich überglücklich bin und es reibungslos verläuft?*
+
+In der stoischen Philosophie geht es darum ein Leben in Einklang mit den stoischen Tugenden zu leben und der:die *perfekte* Stoiker:in zu werden, der:die unter anderem sein:ihr Urteilsvermögen ungetrübt von Emotionen einsetzen kann. Da wir Menschen sind und Emotionen zu unserer Natur gehören ist dieses Ideal natürlich nicht erreichbar. Dazu aber später mehr.
+
+Aus diesem Streben erwächst dann das Glück!
+
+Gehen wir zum nächsten Abschnitt, in dem ich die Kernaussagen des Stoizismus zusammenfasse. 
+
+_Hier bitte nicht vergessen, dass ich ein Schüler des Stoizismus bin und es zusätzlich viele verschiedene Interpretierungen in der Literatur gibt!_
+
+== Kernideen
+
+Eine wunderschöne grafische Zusammenfassung der stoischen Kernideen ist das stoische Glücksdreieck. Weit oben steht _Verantwortung zu übernehmen_ für sein Tun und seine Reaktionen. Das ist aber erst möglich, wenn die beiden Fundamente _Leben in Aretè_ und _Fokus auf das Kontrollierbare_ gemeistert wurden.
+In der Mitte steht das höchste Ziel: _Eudaimonia_. Ein zusammengesetztes Wort mit der Bedeutung, mit seinem inneren Selbst (_Daimon_) im Reinen zu sein (_Eu_).
+
+image::blog/2022/stoicism_happiness_triangle_de.drawio.png[Stoisches Glückdreieck aus dem Buch "The Little Book of Stoicism" von Jonas Salzgeber]
+
+=== Leben in Areté
+
+In dieser Ecke des Dreiecks geht es um Tugenden und darum nach diesen zu leben. Das bedeutet in unserem Handeln diese Tugenden auszudrücken.
+
+* *Weißheit*: Im Sinne von guter Urteilsfähigkeit, die überlegt ist und nicht gedankenlos
+* *Gerechtigkeit*: Hier geht es um die Beziehung zu unseren Mitmenschen, in denen integer und fair gehandelt werden soll
+* *Mut*: In einer Situation richtig zu handeln. Entgegen jedweden Widerstands (auch inneren)
+* *Selbst-Disziplin*: Im Stoizismus vor allem die angemessene Reaktion auf Emotionen und starkes Begehren in jeder Hinsicht
+
+Noch hinzuzufügen ist, dass für Stoiker:innen alle Tugenden wichtig sind. Wird eine nicht gelebt, dann wird es schwierig Eudaimonia zu erreichen. 
+Trotzdem haben alle Stoiker:innen in ihrem Leben festgestellt, dass sie Probleme haben immer nach den Tugenden zu handeln.
+
+Seneca ist ein sehr berühmtes Beispiel. Als einer der reichsten Männer seiner Zeit wurde ihm oft Heuchlerei vorgeworfen, da er im Überfluss lebte. Er pflegte ein abendliches Journal in dem er offen über alle Vorkommnisse das Tages schrieb. Er war sich seinen Fehlern bewusst. Wichtig ist nur, sein Bestes zu geben!
+
+=== Fokus auf das Kontrollierbare
+
+Umgangsprachlich wird der Begriff _stoisch_ mit Gefühlslosigkeit gleichgesetzt. Das kommt daher, dass Stoiker:innen ihren Fokus auf das Kontrollierbare legen.
+Dazu unterteilen sie Dinge, die Passieren, in vier Kategorien:
+
+. *Kein Einfluss*: Fast alle externen Einflüsse
+. *Teilweiser Einfluss*: Zum Beispiel die Reaktionen auf unser Verhalten oder auch Gesundheit
+. *Indifferent aber bevorzugt*: Reich oder arm zu sein sollte keinen Einfluss darauf haben, ob wir ein stoisches Leben führen. Reich sein ist aber definitiv angenehmer ;-)
+. *Hoher Einfluss*: Die wichtigste Kategorie, aber auch die kleinste. Unser Urteilsvermögen und Handeln
+
+Nur die vierte Kategorie können wir wirklich kontrollieren. Das heißt, sich zum Beispiel über das Wetter zu beschweren ist nicht sinnvoll, 
+da es nur akzeptiert werden kann. Die Kunst ist es, in jeder Situation in Einklang mit den stoischen Tugenden zu reagieren.
+
+=== Verantwortung übernehmen
+
+Ohne die beiden Fundamente kann keine Verantwortung übernommen werden. Was _wirklich_ in unserer Verantwortung liegt ist, _wie_ wir auf ein Ereignis reagieren.
+So ist es dem Wetter (um bei dem Beispiel zu bleiben) ziemlich egal, ob wir uns darüber freuen, indifferent oder genervt sind. Es liegt also in unserer 
+Verantwortung zu entscheiden, wie wir uns fühlen.
+
+Das ist einfach geschrieben, aber sehr schwierig umzusetzen! Deswegen sehen wir uns in den nächsten Abschnitten an, welchen praktischen Nutzen
+uns das bringt und welche stoischen Übungen es gibt, mit denen wir das stoische Glücksdreieck verinnerlichen können.
+
+== Praktischer Nutzen
+
+Für mich der größte praktische Nutzen war die Erkenntnis, dass wir einen hohen Einfluss auf unsere Reaktionen auf externe Ereignisse haben.
+Insbesondere in den normalen Reaktionen in Social Media sehen wir genau das Gegenteil. Hier ist die *Empörungskultur* am Werk. Auf jeden Tweet wird sofort scharf in den Kommentaren reagiert, bis hin zu Beleidigungen. Sehr oft unberechtigt, aber auch ohne die Einsicht, dass das Medium an sich sehr beschränkt ist in seiner Ausdrucksfähigkeit.
+
+.Auf einen Stimulus wird normalerweise ohne nachzudenken instinktiv reagiert.
+image::blog/2022/stimulus_reaction_simple_de.drawio.png["Auf einen Stimulus wird normalerweise ohne nachzudenken instinktiv reagiert."]
+
+Stattdessen können wir uns einen Effekt zunutze machen, der uns wieder die Kontrolle zurückgibt. Es gibt eine kurze Zeitspanne zwischen dem Ereignis und unserer spontanen Reaktion darauf. Mir persönlich ist er erst aufgefallen, nachdem ich davon gewusst habe. Ich rate daher dazu, sich selbst genauer zu beobachten.
+Die Chancen stehen sehr gut, dass es bei allen Menschen so ist ;-). Greifen wir genau zu diesem Zeitpunkt ein, können wir rational überlegen, was die passende Reaktion auf ein Ereignis ist. Dadurch gewinnen wir die Kontrolle zurück und lösen uns davon, nur emotionsgesteuert zu handeln. 
+
+.Die stoische Vorgehensweise auf einen Stimulus zuerst zurückzutreten und überlegt zu reagieren.
+image::blog/2022/stimulus_reaction_stoic_de.drawio.png["Die stoische Vorgehensweise auf einen Stimulus zuerst zurückzutreten und überlegt zu reagieren."]
+
+=== Stoische Übungen
+
+Um in jeder Situation angemessen zu reagieren, ist es nicht genug über das theoretische Wissen zu verfügen. Das wussten schon die antiken Stoiker:innen.
+Deswegen gibt es eine große Palette an stoischen Übungen, die uns mental trainieren, angemessen zu reagieren.
+
+Ich werde zwei meiner Lieblingsübungen vorstellen, da sie mir persönlich sehr geholfen haben im Alltag.
+
+=== Gelassenheit kaufen
+Beim Essen habe ich das Talent zu kleckern. Diese Übung hat mir geholfen, die negative Stimme in meinem Kopf nach einem solchen Vorfall auszuschalten und stattdessen zu üben, mit Unfällen umzugehen. Bis dahin habe ich nach jeder Kleckerei eine Weile darüber sinniert, wie dumm das doch war. Inzwischen kann ich über das meiste Lachen 
+oder es ist mir einfach egal. Deswegen kaufe ich mir mit dieser Übung Gelassenheit. Sie geht so:
+
+Sobald ein kleines Missgeschick geschieht: Die Gelegenheit nutzen und sich selbst beobachten. Die Gefühle akzeptieren und dann zu sich selbst sagen während des 
+Aufräumens: "Für diese Kleinigkeit kaufe ich mir Gelassenheit!" Die Effekte bei mir waren eine größere Gelassenheit im Alltag. Kleine Missgeschicke hängen mir 
+inzwischen gar nicht mehr nach, was mich zufriedener mit mir selbst gemacht hat.
+
+=== Premeditatio Malorum
+
+Kennt ihr diese Menschen, die alles exakt bis auf die letzte Minute durchplanen, wenn sie auf Reisen gehen. Nur um dann festzustellen, dass sie etwas Wichtiges wie 
+Zahnpasta vergessen haben? Genau so jemand war ich auch. Jetzt liegt es aber in der Natur der Sache, bei einer Reise irgendetwas zu vergessen. Das Meiste ist aber 
+ersetzbar. Drogerieartikel gibt es überall und auch größere Dinge wie Netzteile für Elektronik.
+
+Die Übung _Premeditatio Malorum_ hilft bei der mentalen Vorbereitung auf Fehlschläge. Es macht einen großen Unterschied, ob über mögliche Schwierigkeiten nachgedacht wurde 
+oder nicht. Dadurch kann in der Situation rationaler reagiert werden, selbst wenn sie im Kopf noch nicht durchgespielt wurde. Alleine der Akt darüber nachzudenken hilft. Deswegen rate ich dazu, nicht vollständig alles zu durchdenken, sondern nur ein paar Eventualitäten.
+
+Inzwischen bin ich bei Reisen dadurch sehr entspannt, sogar als ich dann wirklich einmal meine Zahnbürste und Zahnpasta vergessen hatte.
+
+== Weiterführende Gedanken und Leseempfehlungen
+
+Es gibt noch viel mehr zu entdecken im Stoizismus als das, was ich hier beschrieben habe. Jedes mal, wenn ich wieder ein Buch über Stoizismus in die Hand nehme und es lese, kommen
+neue Einsichten dazu. Ich kann nur empfehlen mit dem einsteigerfreundlichen Buch _The Little Book of Stoicism_ von Jonas Salzgeber loszulegen, da es sehr
+konzentriert alle wichtigen Kernaussagen des Stoizismus verständlich rüberbringt.
+
+=== Leseempfehlungen
+
+* The Little Book of Stoicism - Jonas Salzgeber
+* The Practicing Stoic - Farnsworth
+* How to Think Like a Roman Emperor - Donald Robertson
+* link:https://www.njlifehacks.com/[Webseite von Nils und Jonas Salzgeber]
+
+toc::[]

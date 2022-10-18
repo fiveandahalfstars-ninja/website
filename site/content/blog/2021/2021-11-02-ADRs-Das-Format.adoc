@@ -57,7 +57,7 @@ Für ihn funktioniert das sehr gut in agil arbeitenden Teams. Sein Format sieht 
 * **Status**: Offen, Beschlossen, Ersetzt oder zurückgenommen
 * **Consequences**: Alles was aus der Entscheidung folgt. Positiv wie negativ
 
-Dieses Format kann in einer Datei in einem git-Repsitory oder als Wikiseite mit Ausfüllhinweisen als sogenanntes ADR-Template abgelegt werden.
+Dieses Format kann in einer Datei in einem git-Repository oder als Wikiseite mit Ausfüllhinweisen als sogenanntes ADR-Template abgelegt werden.
 Bei Bedarf wird es kopiert und muss _nur_ ausgefüllt werden. Der Aufwand wird somit stark reduziert.
 
 === Für mein Team angepasstes ADR-Format
