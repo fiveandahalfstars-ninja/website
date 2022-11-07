@@ -26,6 +26,7 @@ image::profiles/rdmueller.jpg[]
         <a href="mailto:ralf.d.mueller@gmail.com"><i class="svg-icon email"></i></a>
         <a href="http://github.com/rdmueller"><i class="svg-icon github"></i></a>
         <a href="/feed.xml"><i class="svg-icon rss"></i></a>
+        <a href="https://mastodontech.de/@rdmueller"><i class="svg-icon mastodon"></i></a>
         <a href="http://twitter.com/RalfDMueller"><i class="svg-icon twitter"></i></a>
 
 
@@ -43,7 +44,7 @@ image::profiles/rdmueller.jpg[]
 Ralf is a Software Engineering Advocate at DB Systel GmbH during the day and after sunset he loves everything with bits and bytes.
 The last few years of his career, he focused on the documentation of software systems with https://arc42.org[arc42] and the https://docs-as-co.de[Docs-as-Code] approach.
 
-You can follow him on twitter https://twitter.com/RalfDMueller[@RalfDMueller].
+You can follow him on mastodon https://mastodontech.de/@rdmueller[rdmueller@mastodontech.de].
 
 --
 
