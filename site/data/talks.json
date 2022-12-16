@@ -52,6 +52,9 @@
       "17": {
         "link": "/talks/details/Rock-Solid.html"
       },
+      "18": {
+        "link", "/talks/Details/Diagramme-Interview.html"
+      },
 	  "500":  {
         "link": "/talks/details/.html"
       },
@@ -256,6 +259,17 @@
     }
   ],
   "talks": [
+    {
+      "title": "Mehr als Pfeile und Kästen: Architekturdiagramme",
+      "event": "Software Architektur im Stream",
+      "location": "Online",
+      "date": "2022-12-16",
+      "url": "https://software-architektur.tv/2022/12/16/folge146.html",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "talkid": 18
+    },
     {
       "title": "Docs-as-Code",
       "event": "EA Community Rhein-Main",
