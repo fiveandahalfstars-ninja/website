@@ -5,13 +5,13 @@
 :jbake-toc: true
 :jbake-status: draft
 :jbake-tags: raspberry-pi, nerd
-//:jbake-tags: 3d-printing, raspberry-pi, electronics, nerd
 :jbake-lang: de
-:doctype: article
-:toc: macro
 :jbake-status: published
 :jbake-date: 2022-12-20
 :jbake-pseudo: nerd-toy-zumi
+//:jbake-tags: 3d-printing, raspberry-pi, electronics, nerd
+:doctype: article
+:toc: macro
 
 :icons: font
 

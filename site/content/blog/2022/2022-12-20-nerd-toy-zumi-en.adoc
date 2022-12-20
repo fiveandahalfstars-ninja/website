@@ -4,14 +4,14 @@
 :jbake-type: post
 :jbake-toc: true
 :jbake-status: draft
-:jbake-tags: raspberry-pi, nerd
-//:jbake-tags: 3d-printing, raspberry-pi, electronics, nerd
 :jbake-lang: en
-:doctype: article
-:toc: macro
 :jbake-status: published
 :jbake-date: 2022-12-20
 :jbake-pseudo: nerd-toy-zumi
+:jbake-tags: raspberry-pi, nerd
+//:jbake-tags: 3d-printing, raspberry-pi, electronics, nerd
+:doctype: article
+:toc: macro
 
 :uri-kickstarter: https://www.kickstarter.com/projects/robolink/driving-into-the-world-of-ai-zumi
 :uri-zumi: https://www.robolink.com/products/zumi
