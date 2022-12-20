@@ -9,6 +9,8 @@
 :jbake-lang: de
 :doctype: article
 :toc: macro
+:jbake-status: published
+:jbake-date: 2022-12-20
 
 :icons: font
 
