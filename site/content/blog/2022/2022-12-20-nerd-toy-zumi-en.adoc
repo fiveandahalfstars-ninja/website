@@ -11,6 +11,7 @@
 :toc: macro
 :jbake-status: published
 :jbake-date: 2022-12-20
+:jbake-pseudo: nerd-toy-zumi
 
 :uri-kickstarter: https://www.kickstarter.com/projects/robolink/driving-into-the-world-of-ai-zumi
 :uri-zumi: https://www.robolink.com/products/zumi
