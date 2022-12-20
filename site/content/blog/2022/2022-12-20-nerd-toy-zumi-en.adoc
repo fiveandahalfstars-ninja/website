@@ -3,7 +3,6 @@
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
-:jbake-status: draft
 :jbake-lang: en
 :jbake-status: published
 :jbake-date: 2022-12-20
@@ -17,13 +16,6 @@
 :uri-zumi: https://www.robolink.com/products/zumi
 
 ifndef::imagesdir[:imagesdir: ../images]
-++++
-<style>
-div.center {
-    text-align: center;
-}
-</style>
-++++
 
 For the last few years, I've been interested in various nerdy topics like 3D printing, Raspberry Pi, Arduino and electronics.
 But I have never taken the time to do anything with this knowledge.
@@ -75,3 +67,4 @@ Robolink itself seems to have no interest in an upgrade.
 
 So I have set myself the goal of setting up my own nerd toy in a similar way.
 
+toc::[]

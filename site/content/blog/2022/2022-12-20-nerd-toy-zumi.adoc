@@ -1,9 +1,8 @@
 = Darf ich vorstellen? Zümi
-:jbake-title: Nerd-Toy: Zümi
+:jbake-title: Nerd-Spielzeug: Zümi
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
-:jbake-status: draft
 :jbake-tags: raspberry-pi, nerd
 :jbake-lang: de
 :jbake-status: published
@@ -19,13 +18,6 @@
 :uri-zumi: https://www.robolink.com/products/zumi
 
 ifndef::imagesdir[:imagesdir: ../images]
-++++
-<style>
-div.center {
-    text-align: center;
-}
-</style>
-++++
 
 Die letzten Jahre habe ich mich immer wieder für verschiedene nerdige Themen wie 3D-Druck, Raspberry Pi, Arduino und Elektronik interessiert.
 Aber ich habe mir nie die Zeit genommen was mit diesem Wissen umzusetzen.
@@ -75,3 +67,4 @@ Robolink selbst scheint kein Interesse an einem Upgrade zu haben.
 
 Somit habe ich mir zum Ziel gesetzt mein eigenes Nerd-Spielzeug in ähnlicher Art und Weise aufzusetzen.
 
+toc::[]
