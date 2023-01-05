@@ -255,6 +255,12 @@
       },
       "567":  {
         "link": "/talks/details/.html"
+      },
+      "568":  {
+        "link": "/talks/details/.html"
+      },
+      "569":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -1692,6 +1698,28 @@
         "johannesdienst"
       ],
       "talkid": 567
+    },
+    {
+      "title": "How to automate 2-Factor-Authentication and other fancy stuff with AI?",
+      "event": "TestBustersNight Vienna",
+      "location": " Remote",
+      "date": "2023-01-12",
+      "url": "https://www.meetup.com/agile-test-automation-meetup-vienna/",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 568
+    },
+    {
+      "title": "The State and Future of UI Testing",
+      "event": "OOP",
+      "location": " Remote",
+      "date": "2023-02-07",
+      "url": "https://www.oop-konferenz.de/oop-2023",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 569
     }
   ]
 }
