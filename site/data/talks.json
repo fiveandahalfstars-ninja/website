@@ -55,6 +55,9 @@
       "18": {
         "link": "/talks/Details/Diagramme-Interview.html"
       },
+      "19": {
+        "link": "/talks/Details/Phantastische-Diagramme.html"
+      },
 	  "500":  {
         "link": "/talks/details/.html"
       },
@@ -265,6 +268,36 @@
     }
   ],
   "talks": [
+    {
+      "title": "Phantastische Diagramme und wie Du sie selbst erstellst",
+      "event": "JavaLand",
+      "location": "Brühl",
+      "date": "2023-03-21",
+      "url": "https://shop.doag.org/events/javaland/2023/agenda/#eventDay.all#textSearch.phantastische",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 40,
+      "cfp": "",
+      "talkid": 19
+    },
+    {
+      "title": "Phantastische Diagramme und wie Du sie selbst erstellst",
+      "event": "Software Architecture Summit",
+      "location": "München",
+      "date": "2023-03-13",
+      "url": "https://software-architecture-summit.de/softwarearchitektur/phantastische-diagramme-und-wie-du-sie-selbst-erstellst",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 210,
+      "cfp": "",
+      "talkid": 19
+    },
     {
       "title": "Mehr als Pfeile und Kästen: Architekturdiagramme",
       "event": "Software Architektur im Stream",
