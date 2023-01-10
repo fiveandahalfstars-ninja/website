@@ -51,6 +51,10 @@ You can follow him on mastodon https://mastodontech.de/@rdmueller[rdmueller@mast
 [.col-md-5]
 --
 image::https://github-readme-stats.vercel.app/api?username=rdmueller&show_icons=true[]
+
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xsi9ErFzPiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
 --
 
 ====
