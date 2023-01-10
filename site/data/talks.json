@@ -269,7 +269,7 @@
   ],
   "talks": [
     {
-      "title": "Phantastische Diagramme und wie Du sie selbst erstellst",
+      "title": "Talk: Phantastische Diagramme und wie Du sie selbst erstellst",
       "event": "JavaLand",
       "location": "Brühl",
       "date": "2023-03-21",
@@ -284,7 +284,7 @@
       "talkid": 19
     },
     {
-      "title": "Phantastische Diagramme und wie Du sie selbst erstellst",
+      "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
       "event": "Software Architecture Summit",
       "location": "München",
       "date": "2023-03-13",
