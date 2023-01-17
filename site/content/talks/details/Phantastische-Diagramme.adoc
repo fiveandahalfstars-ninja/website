@@ -2,6 +2,9 @@
 :jbake-type: page
 :jbake-status: published
 
+:diagram-server-url: https://kroki.io
+:diagram-server-type: kroki_io
+
 == Phantastische Diagramme und wie Du sie selbst erstellst
 
 Die wichtigste Aufgabe eines Software-Architekten besteht darin, die Architektur zu kommunizieren.
