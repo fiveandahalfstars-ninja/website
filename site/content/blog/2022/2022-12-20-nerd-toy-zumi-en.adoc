@@ -67,4 +67,6 @@ Robolink itself seems to have no interest in an upgrade.
 
 So I have set myself the goal of setting up my own nerd toy in a similar way.
 
+In the next blog posts I will explain step by step how I proceed. Let me surprise you!
+
 toc::[]

@@ -67,7 +67,4 @@ Robolink selbst scheint kein Interesse an einem Upgrade zu haben.
 
 Somit habe ich mir zum Ziel gesetzt mein eigenes Nerd-Spielzeug in ähnlicher Art und Weise aufzusetzen.
 
-In den nächsten Blog-Posts werde ich Schritt für Schritt erklären, wie ich dabei vorgehen. Lasst Euch überraschen!
-
-
 toc::[]

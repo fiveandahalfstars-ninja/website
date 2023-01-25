@@ -29,6 +29,8 @@ Als Bonus werden wir aufzeigen, wie Diagramme wartbar mit dem Docs-as-Code Ansat
 * https://c4model.com/assets/software-architecture-diagram-review-checklist.pdf[Simon Brown: Software Architecture Diagram Review Checklist]
 * https://conferences.oreilly.com/software-architecture/sa-eu-2018/public/schedule/detail/68915.html[Jochem Schulenklopper: How to improve your architectural visualizations]
 
+:kroki-server-url: kroki.io
+
 [plantuml]
 ----
 skinparam legendBackgroundColor transparent

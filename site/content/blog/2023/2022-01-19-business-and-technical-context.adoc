@@ -1,0 +1,24 @@
+= Ein paar Gedanken über Docs-as-Code
+:jbake-title: Docs-as-Code Gedanken
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-tags: docs-as-code
+:jbake-lang: de
+:jbake-status: published
+:jbake-date: 2023-01-11
+:jbake-pseudo: 2023-01-11
+:doctype: article
+:toc: macro
+
+:icons: font
+
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+* docusaurus und mdx
+* Antora syntax
+* Antora repositories
+* reicht SSG aus?
+
+toc::[]
