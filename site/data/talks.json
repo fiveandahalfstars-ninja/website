@@ -269,6 +269,35 @@
   ],
   "talks": [
     {
+      "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
+      "event": "Java Forum Stuttgart",
+      "location": "Stuttgart",
+      "date": "2023-07-12",
+      "url": "https://www.java-forum-stuttgart.de",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 180,
+      "cfp": "",
+      "talkid": 19
+    },
+    {
+      "title": "(Phantastic Diagrams and how to create them yourself) submitted",
+      "event": "Devoxx UK",
+      "location": "London",
+      "date": "2023-05-10",
+      "url": "https://www.java-forum-stuttgart.de",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 50,
+      "cfp": "https://devoxxuk23.cfp.dev/#/",
+      "talkid": 19
+    },
+    {
       "title": "Talk: Phantastische Diagramme und wie Du sie selbst erstellst",
       "event": "JavaLand",
       "location": "Brühl",

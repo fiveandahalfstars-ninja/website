@@ -5,7 +5,7 @@
 :diagram-server-url: https://kroki.io
 :diagram-server-type: kroki_io
 
-== Phantastische Diagramme und wie Du sie selbst erstellst
+== 🇩🇪 Phantastische Diagramme und wie Du sie selbst erstellst
 
 Die wichtigste Aufgabe eines Software-Architekten besteht darin, die Architektur zu kommunizieren.
 
@@ -14,6 +14,17 @@ Neben den textuellen Inhalten gilt es auch, Grafiken zu erstellen. Getreu dem Mo
 In diesem Talk spüren wir zuerst die Schwachstellen vieler Diagramme auf und überlegen uns anschließend, wie wir sie umgehen können. Das Ergebnis ist eine Checkliste für richtig gute, fast schon phantastische Architektur-Diagramme.
 
 Als Bonus werden wir aufzeigen, wie Diagramme wartbar mit dem Docs-as-Code Ansatz umgesetzt werden, um sie jederzeit aktuell und im Einklang mit der Architektur halten zu können.
+
+== 🇬🇧 Phantastic Diagrams and how to create them yourself
+
+The most important task of a software architect is to communicate the architecture.
+
+In addition to textual content, it is also important to create diagrams. True to the motto "a picture is worth a thousand words", diagrams help with effective and pragmatic documentation. In order for them to be effective, they must be easy to grasp, always up-to-date and correct...
+
+In this talk, we first track down the weak points of many diagrams and then consider how to work around them. The result is a checklist for really good, almost fantastic architectural diagrams.
+
+As a bonus, we will show how to implement diagrams in a maintainable way using the Docs-as-Code approach to keep them up-to-date and in line with the architecture at all times.
+
 
 [cols="1,2h"]
 |===
