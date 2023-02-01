@@ -15,7 +15,7 @@ In diesem Talk spüren wir zuerst die Schwachstellen vieler Diagramme auf und ü
 
 Als Bonus werden wir aufzeigen, wie Diagramme wartbar mit dem Docs-as-Code Ansatz umgesetzt werden, um sie jederzeit aktuell und im Einklang mit der Architektur halten zu können.
 
-== 🇬🇧 Phantastic Diagrams and how to create them yourself
+== 🇬🇧 Fantastic Diagrams and how to create them yourself
 
 The most important task of a software architect is to communicate the architecture.
 
