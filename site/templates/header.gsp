@@ -8,7 +8,7 @@
     <meta name="author" content="${content.author}">
     <meta name="keywords" content="${content.tags}">
     <meta name="generator" content="JBake">
-
+    <script defer data-domain="fiveandahalfstars.ninja" src="https://plausible.io/js/script.js"></script>
     <% if (content.type=="post") { %>
     <%
       //get first paragraph as teaser
