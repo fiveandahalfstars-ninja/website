@@ -1,0 +1,123 @@
+= Let Grails fly in the cloud
+:jbake-title: Grails and Fly.io
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-tags: grails, groovy, fly.io
+:jbake-lang: en
+:jbake-status: published
+:jbake-date: 2023-02-13
+:jbake-pseudo: grails-fly
+
+:doctype: article
+:toc: macro
+
+:icons: font
+
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+:uri-grails: https://grails.org
+:uri-fly-io: https://fly.io
+:uri-patrick: https://twitter.com/patbaumgartner
+:uri-guide: https://guides.grails.org/creating-your-first-grails-app/guide/index.html
+
+This week I wanted to load test a {uri-grails}[grails] application under real conditions.
+So I needed a simple way to deploy a grails application to a real server (not my notebook).
+
+So, I asked my followers on twitter and mastodon, what cloud service I should use.
+
++++
+<iframe src="https://mastodontech.de/@rdmueller/109825870006686282/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodontech.de/embed.js" async="async"></script>
++++
+
+I quickly got a response from {uri-patrick}[Patrick Baumgartner] to use {uri-fly-io}[fly.io] as a service.
+
++++
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fly IO has some free tier. See - <a href="https://t.co/iJP12wPWSe">https://t.co/iJP12wPWSe</a><br><br>I haven&#39;t used it yet because I run my dockerized apps on my NAS <a href="https://twitter.com/Synology?ref_src=twsrc%5Etfw">@Synology</a></p>&mdash; Patrick Baumgartner (@patbaumgartner) <a href="https://twitter.com/patbaumgartner/status/1623204567029514242?ref_src=twsrc%5Etfw">February 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
++++
+
+A quick check showed me that fly.io seems to be really a simple service with a good free tier.
+
+Let's see how you can deploy your grails app to fly.io ...
+
+First, go to https://start.grails.org/ and download a starter app.
+Since I didn't modify the defaults, a simple
+
+[source, bash]
+----
+curl -O https://start.grails.org/myapp.zip
+unzip myapp.zip
+----
+
+also does the trick.
+You can now create some simple domain objects as described in the quick start guide "{uri-guide}[Creating your first Grails Application]" - but you don't have to.
+The basic application template will be enough to test the deployment to fly.io .
+
+Now, modify the app to create a fat-jar file instead of a .war .
+Remove the reference to the `war` plugin from the `build.gradle` config (line 19):
+
+[source, groovy]
+----
+//apply plugin:"war"
+----
+
+In order to avoid having to set up a database, I also modified the production configuration to use an in-memory database.
+In `grails-app/conf/application.yml`, I copied the development datasource over to the production one (line 122):
+
+.grails-app/conf/application.yml
+[source, yaml]
+----
+production:
+    dataSource:
+        dbCreate: create-drop
+        url: jdbc:h2:mem:devDb;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
+
+----
+
+
+Next, create a simple `Dockerfile` with the following content:
+
+.Dockerfile
+[source, dockerfile]
+----
+FROM openjdk:14-ea-alpine3.10
+
+EXPOSE 8080
+
+WORKDIR /app
+COPY *.jar application.jar
+
+CMD ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app/application.jar"]
+----
+
+WARNING: yes, this is not perfect. It is just a quick hack.
+
+Now, everything is prepared for the last few steps.
+To test your grails app, execute the following steps on the command line:
+
+[source]
+----
+./grailsw package
+cp build/libs/myapp-0.1.jar .
+docker build --tag="grails-sample/complete:0.1" .
+docker run -p 8080:8080 grails-sample/complete:0.1
+----
+
+This will test-run your app locally as docker image.
+
+To deploy it to fly.io, execute
+
+[source]
+----
+./grailsw package
+cp build/libs/myapp-0.1.jar .
+fly launch
+fly apps list
+----
+
+Hope this little guide will help you with your own deployment.
+
+for feedback:
+
+toc::[]
