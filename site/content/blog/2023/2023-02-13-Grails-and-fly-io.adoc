@@ -29,15 +29,15 @@ So I needed a simple way to deploy a grails application to a real server (not my
 
 So, I asked my followers on twitter and mastodon, what cloud service I should use.
 
-+++
+++++
 <iframe src="https://mastodontech.de/@rdmueller/109825870006686282/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodontech.de/embed.js" async="async"></script>
-+++
+++++
 
 I quickly got a response from {uri-patrick}[Patrick Baumgartner] to use {uri-fly-io}[fly.io] as a service.
 
-+++
+++++
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fly IO has some free tier. See - <a href="https://t.co/iJP12wPWSe">https://t.co/iJP12wPWSe</a><br><br>I haven&#39;t used it yet because I run my dockerized apps on my NAS <a href="https://twitter.com/Synology?ref_src=twsrc%5Etfw">@Synology</a></p>&mdash; Patrick Baumgartner (@patbaumgartner) <a href="https://twitter.com/patbaumgartner/status/1623204567029514242?ref_src=twsrc%5Etfw">February 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-+++
+++++
 
 A quick check showed me that fly.io seems to be really a simple service with a good free tier.
 
