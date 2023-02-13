@@ -283,6 +283,21 @@
       "cfp": "",
       "talkid": 19
     },
+
+    {
+      "title": "(Phantastic Diagrams and how to create them yourself) submitted",
+      "event": "JCON-Europe",
+      "location": "Cologne",
+      "date": "2023-06-20",
+      "url": "https://2023.europe.jcon.one/",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 50,
+      "cfp": "https://sessionize.com/jcon-europe-2023/",
+      "talkid": 19
+    },g
     {
       "title": "(Phantastic Diagrams and how to create them yourself) submitted",
       "event": "Devoxx UK",
