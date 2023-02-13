@@ -22,10 +22,10 @@ ifndef::imagesdir[:imagesdir: ../images]
 :uri-patrick: https://twitter.com/patbaumgartner
 :uri-guide: https://guides.grails.org/creating-your-first-grails-app/guide/index.html
 
-image::blog/2023/grails-fly.dio.png[width=20%, float=left]
-
 This week I wanted to load test a {uri-grails}[grails] application under real conditions.
 So I needed a simple way to deploy a grails application to a real server (not my notebook).
+
+image::blog/2023/grails-fly.dio.png[width=60%, align=center]
 
 So, I asked my followers on twitter and mastodon, what cloud service I should use.
 
