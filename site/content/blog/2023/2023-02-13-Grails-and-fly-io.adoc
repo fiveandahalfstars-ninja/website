@@ -41,6 +41,8 @@ A quick check showed me that fly.io seems to be really a simple service with a g
 
 Let's see how you can deploy your grails app to fly.io ...
 
+== Setup a Grails Starter
+
 First, go to https://start.grails.org/ and download a starter app.
 Since I didn't modify the defaults, a simple
 
@@ -75,6 +77,7 @@ production:
 
 ----
 
+== ... and deploy to fly.io
 
 Next, create a simple `Dockerfile` with the following content:
 
