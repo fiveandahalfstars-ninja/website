@@ -120,6 +120,6 @@ fly apps list
 
 Hope this little guide will help you with your own deployment.
 
-for feedback:
+for feedback and discussion: https://twitter.com/RalfDMueller/status/1625217620508135429[Twitter], https://mastodontech.de/@rdmueller/109859111382637873[Mastodon]
 
 toc::[]
