@@ -8,12 +8,9 @@
 :jbake-status: published
 :jbake-date: 2023-02-13
 :jbake-pseudo: grails-fly
-
 :doctype: article
 :toc: macro
-
 :icons: font
-
 
 ifndef::imagesdir[:imagesdir: ../images]
 
