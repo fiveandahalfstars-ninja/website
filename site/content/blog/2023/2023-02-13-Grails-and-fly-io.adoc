@@ -1,5 +1,5 @@
 = Let Grails fly in the cloud
-:jbake-title: Grails and Fly.io
+:jbake-title: Let Grails fly in the cloud
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
