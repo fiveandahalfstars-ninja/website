@@ -118,6 +118,10 @@ fly launch
 fly apps list
 ----
 
+Now, this is the part where you have to leave the free tier, but it is still cheap.
+If you go to your monitoring dashboard at fly.io, you will notice that your app crashed because of low memory (256MB).
+So, scale it up to 1GB (don't have to redeploy) and it will run flawless :-)
+
 Hope this little guide will help you with your own deployment.
 
 for feedback and discussion: https://twitter.com/RalfDMueller/status/1625217620508135429[Twitter], https://mastodontech.de/@rdmueller/109859111382637873[Mastodon]
