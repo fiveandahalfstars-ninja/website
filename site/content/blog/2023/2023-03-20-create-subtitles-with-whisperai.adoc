@@ -1,0 +1,100 @@
+= How to Create Subtitle-Files (srt) with WhisperAI
+:jbake-title: How to Create Subtitle-Files (srt) with WhisperAI
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-tags: whisperAI, subtitles, videoproduction
+:jbake-lang: en
+:jbake-status: published
+:jbake-date: 2023-03-20
+:jbake-pseudo: subtitles-with-whisperai
+:doctype: article
+:toc: macro
+:icons: font
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+:uri-whisperai: https://github.com/openai/whisper
+:uri-gist-example-script: https://gist.github.com/yasinuygun/a5aaa24af9f5531872e4c6c863fd793f
+
+image::blog/2023/ruby_chen_whisperai.png[width=60%, align=center]
+
+For my tutorial videos I want to provide high-quality subtitles. But I did not want to write them myself as this is a tedious task.
+
+Luckily there is {uri-whisperai}[WhisperAI] that can help me, or so it promises 😂 Time to give it a shot for my current project.
+
+== Install WhisperAI
+I followed their installation guide on their GitHub-Repository side. It is a Python tool so the first step I did was setting up a virtual-environment (my current installed version is `3.9.6` on macOS. Here are all the commands I ran:
+
+[source,shell]
+----
+## I installed python with brew as far as I remember ;-)
+## Initialize and activate the virtualenv
+python3 -m venv venv
+source venv/bin/activate
+
+## Install latest WhisperAI from Github
+pip install git+https://github.com/openai/whisper.git
+
+## Install ffmpeg
+brew install ffmpeg
+----
+
+== Create Util-Script for Easier Handling
+With that set I created a little script based on {uri-gist-example-script}[this Gist]. It was for an older version of WhisperAI so I had to implement some changes. Save it as `createSrt.py` or whatever name you like 😋:
+
+[source,python]
+----
+import sys
+
+import whisper
+from whisper.utils import get_writer
+
+
+def run(input_path: str, output_name: str = "", output_directory: str = "./") -> None:
+    model = whisper.load_model("medium")
+    result = model.transcribe(input_path)
+
+    writer = get_writer("srt", str(output_directory))
+    writer(result, output_name)
+
+def main() -> None:
+    if len(sys.argv) != 4:
+        print(
+            "Error: Invalid number of arguments.\n"
+            "Usage: python createSrt.py <input-path> <output-name> <output-directory>\n"
+            "Example: python createSrt.py transcribed.srt ./transcribed"
+        )
+        sys.exit(1)
+
+    run(input_path=sys.argv[1], output_name=sys.argv[2], output_directory=sys.argv[3])
+
+
+if __name__ == "__main__":
+    main()
+----
+
+== Usage of Util-Script
+You can call it like this and it can handle `.wav` and also `.mp4`. So you do not even have to export your videos in another format to use it:
+
+[source,shell]
+----
+python createSrt.py <path to your mp4/wav file> <name of the srt file> <path to where to save the srt file>
+----
+
+== Adjustments
+If you want to use another model instead of `medium` you have to change the following line and replace `medium` with a model https://github.com/openai/whisper#available-models-and-languages[documented here]:
+
+[source,shell]
+----
+model = whisper.load_model("medium")
+----
+
+If you want to change the output format you can use one of the following instead of `srt`: `vtt`, `tsv`, `json`. Change it in the following line:
+
+[source,shell]
+----
+writer = get_writer("srt", str(output_directory))
+----
+
+Happy transcribing 🦄

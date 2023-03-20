@@ -264,6 +264,9 @@
       },
       "569":  {
         "link": "/talks/details/.html"
+      },
+      "570":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -1797,6 +1800,18 @@
         "johannesdienst"
       ],
       "talkid": 569
+    }
+    ,
+    {
+      "title": "Real Cross-Platform Workflow UI Automation",
+      "event": "JCON Europe 2023",
+      "location": " Cologne",
+      "date": "2023-06-20",
+      "url": "https://2023.europe.jcon.one/",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 570
     }
   ]
 }
