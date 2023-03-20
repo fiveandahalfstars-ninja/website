@@ -1,4 +1,4 @@
-= Stoicism - Practical Philosophy for Your Daily It-Life
+= Stoicism - Practical Philosophy for Your Daily IT-Life
 :jbake-pseudo: stoicism-overview-post
 :jbake-date: 2022-09-04
 :jbake-author: jdienst
