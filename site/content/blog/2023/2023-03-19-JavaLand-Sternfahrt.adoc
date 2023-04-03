@@ -1,0 +1,28 @@
+= JavaLand Sternfahrt
+:jbake-title: JavaLand Sternfahrt
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-tags: javaland, bike
+:jbake-lang: en
+:jbake-status: draft
+:jbake-date: 2023-03-19
+:jbake-pseudo: sternfahrt23
+:doctype: article
+:toc: macro
+:icons: font
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+:uri-javaland: https://www.javaland.eu
+
+Es ist nun das zweite Mal, dass ich mit dem Fahrrad zur JavaLand-Konferenz in Brühl fahre.
+Das könnte ganz unspektakulär sein, wenn ich in der Nähe wohnen würde.
+Ich wohle allerdings bei Frankfurt, ca. 210 Kilometer entfernt.
+
+== Wie alles anfing
+
+In der Java-Community gibt es ein paar Leute, die ich für Ihre Leistungsfähigkeit auf dem Rad bewundere.
+Michael Simons, und
+
+toc::[]

@@ -46,7 +46,7 @@ So wird die Zeit des Bootvorgangs clever überbrückt.
 Das eingebaute Display ist sehr klein und eignet sich somit nicht sehr gut für die Programmierung.
 Deshalb haben sich die Entwickler ein weiteres cleveres Detail einfallen lassen.
 Zümi macht nach dem Booten einen *WiFi-Access-Point* auf.
-Auf dem Display wird der Name des Wifi-Netzwerks angezeigt und Zümi reagiert sogar auf eine Verbindung mit der Ausgabe der URL, über die man nach dem Verbindungsaufbau das Dashboard erreicht.
+Auf dem Display wird der Name des WiFi-Netzwerks angezeigt und Zümi reagiert sogar auf eine Verbindung mit der Ausgabe der URL, über die man nach dem Verbindungsaufbau das Dashboard erreicht.
 
 Über das Dashboard kann Zümi noch in das standard WLAN-Netz integriert werden, so daß eine *WiFi-Bridge* ins Internet aufgebaut wird.
 

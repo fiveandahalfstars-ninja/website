@@ -1,73 +1,71 @@
-= Darf ich vorstellen? Zümi
-:jbake-title: Nerd-Spielzeug: Zümi
+= Der Raspberry Pi als WiFi Access Point
+:jbake-title: Nerd-Spielzeug: WiFi AP
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
-:jbake-tags: raspberry-pi, nerd
+:jbake-tags: raspberry-pi, nerd, raspberry
 :jbake-lang: de
 :jbake-status: published
-:jbake-date: 2022-12-20
-:jbake-pseudo: nerd-toy-zumi
+:jbake-date: 2023-01-26
+:jbake-pseudo: nerd-toy-ap
 //:jbake-tags: 3d-printing, raspberry-pi, electronics, nerd
 :doctype: article
 :toc: macro
 
 :icons: font
 
-:uri-kickstarter: https://www.kickstarter.com/projects/robolink/driving-into-the-world-of-ai-zumi
-:uri-zumi: https://www.robolink.com/products/zumi
+:uri-ethernetgadget: https://github.com/thagrol/Guides
 
 ifndef::imagesdir[:imagesdir: ../images]
 
-Die letzten Jahre habe ich mich immer wieder für verschiedene nerdige Themen wie 3D-Druck, Raspberry Pi, Arduino und Elektronik interessiert.
-Aber ich habe mir nie die Zeit genommen was mit diesem Wissen umzusetzen.
+Das letzte Mal habe ich von den Features von Zümi erzählt.
+Dieses Mal möchte ich die Umsetzung des ersten Features beschreiben.
 
-Doch jetzt ist es an der Zeit.
-Inspiriert von Zümi, einem kleinen Roboter-Auto mit Raspberry Pi unter der Haube, habe ich angefangen mein eigenes Nerd-Spielzeug umzusetzen.
+Da ich mit dem Aufsetzen des WiFi Access Points die meisten Probleme hatte, beginne ich auch damit.
 
-Aber fangen wir vorne an.
+Das Ziel ist es den Raspberry so aufzusetzen, dass er einen Access Point bereitstellt, über den man auf einen Webserver und somit webbasierte Software auf dem Raspberry Pi zugreifen kann.
+Als Bonus soll sich der Raspberry Pi auch über ein weiteres WiFi Netz mit dem Internet verbinden und diese Verbindung durchreichen.
+In diesem Fall spricht man auch von _Bridging_.
 
-== Was ist Zümi?
+image::blog/2023/raspi-ap.dio.png[]
 
-Zümi ist ein cleveres Lernspielzeug der Firma Robolink.
-Anscheinend wurde er mittlerweile auf Zumi umgetauft, das hindert mich aber nicht daran, ihn weiterhin Zümi zu nennen, denn ich habe meinen durch {uri-kickstarter}[die damalige Kickstarter Kampagne] als "Zümi" bekommen :-).
-Den besten Überblick über die Features von Zümi gibt es natürlich auf der {uri-zumi}[Produktwebsite].
-Lasst mich die Features aber nochmal aus der Sicht eines Nerds beschreiben.
+Warum ist das so schwierig?
+Den Raspberry Pi betreibe ich gerne headless (ohne Monitor) und verbinde mich per SSH über WiFi mit ihm.
+Wenn ich nun mit der WiFi-Konfiguration rumspiele und etwas schiefläuft, dann ist die Wahrscheinlichkeit hoch, dass ich von Vorne anfangen muss, weil ich mich ausgesperrt habe 😒.
 
-== Was kann Zümi?
+Eine zweite Herausforderung ist die Tatsache, dass ein WiFi-Modul zwei Verbindungen herstellen muss.
+Aber dieses Problem haben schon andere schlaue Köpfe gelöst.
 
-Zümi ist *autonom*. Er verfügt über einen Akku mit Ladelogik, zwei Motoren, ein kleines, monochromes OLED-Display, eine Kamera und einen Raspberry Pi.
+== Lösung
 
-Der Raspberry Pi braucht seine Zeit zum Booten und kann sich nicht um die Ladelogik kümmern.
-Deshalb wurde er ganz clever um einen *Arduino* ergänzt, der die Ladelogik übernimmt und das Display ansteuert.
-Dadurch kann er beim Laden den Zustand am Display anzeigen und bringt beim Einschalten zwei animierte Augen auf das Display, die anzeigen, dass der Raspberry aufwacht.
-So wird die Zeit des Bootvorgangs clever überbrückt.
+:uri-wap: https://www.raspberrypi.com/documentation/computers/configuration.html#setting-up-a-routed-wireless-access-point
 
-Das eingebaute Display ist sehr klein und eignet sich somit nicht sehr gut für die Programmierung.
-Deshalb haben sich die Entwickler ein weiteres cleveres Detail einfallen lassen.
-Zümi macht nach dem Booten einen *WiFi-Access-Point* auf.
-Auf dem Display wird der Name des Wifi-Netzwerks angezeigt und Zümi reagiert sogar auf eine Verbindung mit der Ausgabe der URL, über die man nach dem Verbindungsaufbau das Dashboard erreicht.
+Auf der Suche im Internet nach einer Lösung bin ich auf viele Tutorials gestossen.
+So beschreibt z.B. die Raspberry Pi Dokumentation direkt das {uri-wap}[Setup des Wireless Access Points].
+Hier wird die WiFi-Verbindung jedoch auf den Ethernet-Port geroutet.
+Auch das manuelle Setup sagt mir nicht ganz zu, da die Erfahrungen mit solchen Tutorials, gepaart mit meinem Know-How, nicht immer positiv waren.
 
-Über das Dashboard kann Zümi noch in das standard WLAN-Netz integriert werden, so daß eine *WiFi-Bridge* ins Internet aufgebaut wird.
+Die Lösung habe ich dann auf https://raspap.com/ gefunden.
 
-Über das Dashboard stehen mehrere *Jupyter Notebooks* mit Tutorials zur Verfügung.
-Diese Tutorials zeigen, wie Zümi gesteuert wird.
-Highlights sind eine Gesichtserkennung und eine QR-Code-Erkennung.
-Beide sind über *openCV* realisiert.
+"The easiest, full-featured wireless router setup for Debian-based devices. Period."
 
-Zur genaueren Steuerung der Motoren verfügt Zümi noch über einen *Beschleunigungs*- und einen *Gyro-Sensor*.
+Eine Open Source WiFi Access Point Lösung mit Web-Interface 😍.
 
-Alles in allem eine sehr runde Geschichte, wäre da nicht der Raspberry Pi Zero der ersten Generation.
-Dieser verfügt über nur einen Core und fühlt sich dadurch langsam an.
-Das System blockiert öfters und vermittelt das Gefühl, dass es nicht für größere Aufgaben geeignet ist.
+Das initiale installieren geht über ein geführtes Setup ganz leicht.
+Beim Konfigurieren sperrt man sich aber ganz leicht aus.
+Deshalb hier meine Tipps:
 
-Das von Robolink bereitgestellte SD-Card-Image ist etwas älter und läuft somit nicht auf einem Pi Zero 2.
-Da unklar ist, was und wie alles auf dem Image installiert ist, ist ein Upgrade schwierig.
-Robolink selbst scheint kein Interesse an einem Upgrade zu haben.
+* beim Aufsetzen des Raspi, nach dem ersten Booten über `sudo raspi-config` das WiFi-Passwort neu setzen.
+Aus Sicherheitsgründen wurde es mit einem Token ersetzt, welcher zu Problemen mit dem RaspAP Frontend führt.
+* befolge die Anleitung auf https://docs.raspap.com/ap-sta/[AP-STA] peinlich genau
+* Beim Start des Setup die erste Frage nach dem Installationsverzeichnis `/var/www/html` verneinen, um als Verzeichnis `/var/www/html/raspap` anzugeben.
+Dadurch ist RaspAP dann unter http://server/raspap erreichbar und der dafür installiere Webserver kann leicht noch für eigene Websites verwendet werden.
 
-Somit habe ich mir zum Ziel gesetzt mein eigenes Nerd-Spielzeug in ähnlicher Art und Weise aufzusetzen.
+* Im RaspAP Frontend unter dem Punkt "Wireless Client" die bestehende Verbindung erneut herstellen.
+* Der "WiFi client AP mode"-Button ist weiter ausgegraut?
+Unter dem Reiter "Logging" das Logging kurz aktivieren und speichern.
+Danach sollte der Button funktionieren.
 
-In den nächsten Blog-Posts werde ich Schritt für Schritt erklären, wie ich dabei vorgehen. Lasst Euch überraschen!
 
 
 toc::[]

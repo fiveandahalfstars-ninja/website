@@ -168,7 +168,7 @@ setup pi with network over usb: https://github.com/rdmueller/Offline-Digital-Sig
 
 Use the Raspberry Pi Imager to install RetroPie for the Raspberry Pi Zero 1.
 
-Add a file called `wpa_supplication.conf` to the image in order to setup wifi:
+Add a file called `wpa_supplication.conf` to the image in order to setup WiFi:
 
 [source]
 ----
@@ -177,9 +177,9 @@ ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
 network={
-    ssid="WIFI_SSID"
+    ssid="WiFi_SSID"
     scan_ssid=1
-    psk="WIFI_PASSWORD"
+    psk="WiFi_PASSWORD"
     key_mgmt=WPA-PSK
 }
 ----

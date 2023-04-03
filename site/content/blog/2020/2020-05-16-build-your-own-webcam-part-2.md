@@ -28,8 +28,8 @@ It was quite clear from the start that the Pi Zero does not have too much power 
 To cut the long story short, here is what I learned:
 
 * network connection
-  * you can connect the Pi Zero over Wifi or through a usb based network connection (the pi plays the role of a network adapter which only works with the zero or pi 4)
-  * the usb connection has less lag and more throughput than the wifi connection
+  * you can connect the Pi Zero over WiFi or through a usb based network connection (the pi plays the role of a network adapter which only works with the zero or pi 4)
+  * the usb connection has less lag and more throughput than the WiFi connection
   * the throughput is still the bottleneck for high-quality, high frame-rate video
 * [mjpg-streamer](https://github.com/jacksonliam/mjpg-streamer) is a powerful tool to turn your pi into a network camera! It also comes with a cool web interface
 

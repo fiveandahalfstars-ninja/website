@@ -1,24 +1,95 @@
-= Ein paar Gedanken über Docs-as-Code
-:jbake-title: Docs-as-Code Gedanken
+== Neu gedacht: fachlicher und technischer Kontext
+:jbake-title: Kontext
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
 :jbake-tags: docs-as-code
 :jbake-lang: de
-:jbake-status: published
-:jbake-date: 2023-01-11
-:jbake-pseudo: 2023-01-11
+:jbake-status: draft
+:jbake-date: 2023-01-19
+:jbake-pseudo: 2023-01-19
 :doctype: article
 :toc: macro
 
 :icons: font
 
+:kroki-server-url: https://kroki.io
+:uri-c4: https://c4model.com
+:uri-arc42: https://arc42.org
+:uri-isaqb: https://www.isaqb.org/
+:uri-bigspender: https://www.isaqb.org/wp-content/uploads/2021/07/cpsa-a-aufgabe-BigSpender-1.5.pdf
 
 ifndef::imagesdir[:imagesdir: ../images]
 
-* docusaurus und mdx
-* Antora syntax
-* Antora repositories
-* reicht SSG aus?
+In einer System-Architektur ist die Dokumentation des Systemkontexts ein wichtiger Faktor.
+Die Aktoren des Systems und Umsysteme werden sichtbar, so daß nichts vergessen wird.
+Auch das Thema In-Scope und Out-of-Scope wird transparent, indem herausgearbeitet wird, welche Aktoren und Komponenten Teil des Projekts sind, zugekauft werden oder komplett extern sind.
+
+Im {uri-c4}[C4-Ansatz von Simon Brown] gibt es nur ein Kontext-Diagramm.
+Das System wird als Black-Box mit allen Umsystemen dargestellt.
+Einfach und wirkungsvoll.
+
+Der {uri-arc42}[arc42-Ansatz von Peter Hruschka und Gernot Starke] sieht zwei unterschiedliche Kontext-Diagramme vor.
+Den fachlichen und den technischen Kontext.
+
+Die Unterscheidung zwischen diesen beiden Kontext-Diagrammen sehe ich als sinnvoll an.
+Mir ist es in der Vergangenheit jedoch schwergefallen die Unterscheidung sauber umzusetzen.
+
+=== Prozesse ...
+
+In der Vergangenheit hatte ich das Glück viel direkt mit unterschiedlichen Fachbereichen zusammen zu arbeiten und so Wissen über Prozessmanagement und Prozessoptimierung aufzubauen.
+
+Fachlich wird viel in Prozessen gedacht, die mit IT-Systemen unterstützt werden.
+Die fachlichen Prozesse, wenn richtig entworfen, sind als Geschäftsprozesse sehr langlebig.
+Die unterstützenden IT-Systeme werden häufig erneuert, während der Prozess gleich bleibt.
+
+Der Prozess beschreibt, _was_ gemacht werden soll.
+Die IT-Systeme bestimmen, _wie_ es gemacht wird.
+Das erklärt die Stabilität der Prozesse.
+
+=== ...  und Schnittstellen
+
+IT-Systeme verarbeiten Informationen und benötigen somit Schnittstellen, über die Daten in das System fliessen und nach der Verarbeitung wieder ausgegeben werden.
+
+Somit sind die Schnittstellen wichtige technische Konzepte, fachlich spielen sie jedoch keine Rolle, solange die fachlichen Prozesse korrekt abgebildet und unterstützt werden.
+
+=== Ein Beispiel
+
+Schauen wir uns das mal an einem Beispiel an.
+Vom {uri-isaqb}[iSAQB] gibt es eine Beispielaufgabe "{uri-bigspender}[Big Spender]", in der ein fachliches Kontext-Diagramm enthalten ist.
+
+.Beispiel eines fachlichen Kontext footnote:[Quelle: iSAQB Beispielaufgabe "Big Spender"]
+image::blog/2023/big-spender-02-fachlicher-kontext.png[]
+
+Das Diagramm erklärt schon recht gut, was das System fachlich können soll.
+Interessanterweise stellt das Diagramm, von links nach rechts gelesen, den Prozess der Spesenabrechnung dar.
+Warum dann nicht gleich als Prozess darstellen?
+
+//image::blog/2023/diagram.bpmn20-closed.png[]
+
+//image::blog/2023/diagram.bpmn20.png[]
+
+.Fachlicher Prozess der Spesenabrechnung footnote:[grün hinterlegt ist der vom IT-System zu unterstützende Prozess]
+image::blog/2023/diagram-business-process.bpmn20.png[]
+
+Interessant ist hier, dass der Schritt des manuellen Beleg-Scannens in diesem Prozess keinen Platz hat, denn das _wie_ gehört hier nicht rein.
+Es steckt in der Schnittstelle zwischen Spesenritter und Spesenabrechnung und eröffnet durch das Fehlen weiteres Optimierungspotenzial.
+
+Auch das _User Directory_ als nicht fachliches System taucht nicht mehr auf.
+
+Um den reinen fachlichen _Kontext_ darzustellen, lässt sich der Pool der Spesenabrechnung schliessen, so daß der interne Prozess unsichtbar wird.
+
+.Fachlicher Kontext, ohne interne Prozessdarstellung
+image::blog/2023/diagram-business-process-closed.bpmn20.png[]
+
+Da die Darstellung des internen Prozesses aber durchaus sinnvoll ist, sollte der Prozess in diesem Diagramm auch dargestellt werden.
+Erst wenn der Prozess zu komplex für die Darstellung an dieser Stelle ist, wird es sinnvoll in einzuklappen und per Link auf die komplexe Darstellung im Text zu verweisen.
+
+Durch diese prozessuale Darstellung des fachlichen Kontextes bekommt der Leser eine neue Sicht auf das System.
+Die Abläufe, in die das System eingebettet ist, werden dargestellt und im zugehörigen Abschnitt erklärt.
+
+Nun kann der fachliche Kontext durch den technischen Kontext im C4-Stil ergänzt werden.
+
+image::blog/2023/c4-context.dio.png[]
 
 toc::[]

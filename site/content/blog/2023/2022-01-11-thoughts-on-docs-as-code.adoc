@@ -1,70 +1,24 @@
-= Darf ich vorstellen? Zümi
-:jbake-title: Nerd-Spielzeug: Zümi
+= Ein paar Gedanken über Docs-as-Code
+:jbake-title: Docs-as-Code Gedanken
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
-:jbake-tags: raspberry-pi, nerd
+:jbake-tags: docs-as-code
 :jbake-lang: de
 :jbake-status: published
-:jbake-date: 2022-12-20
-:jbake-pseudo: nerd-toy-zumi
-//:jbake-tags: 3d-printing, raspberry-pi, electronics, nerd
+:jbake-date: 2023-01-11
+:jbake-pseudo: 2023-01-11
 :doctype: article
 :toc: macro
 
 :icons: font
 
-:uri-kickstarter: https://www.kickstarter.com/projects/robolink/driving-into-the-world-of-ai-zumi
-:uri-zumi: https://www.robolink.com/products/zumi
 
 ifndef::imagesdir[:imagesdir: ../images]
 
-Die letzten Jahre habe ich mich immer wieder für verschiedene nerdige Themen wie 3D-Druck, Raspberry Pi, Arduino und Elektronik interessiert.
-Aber ich habe mir nie die Zeit genommen was mit diesem Wissen umzusetzen.
-
-Doch jetzt ist es an der Zeit.
-Inspiriert von Zümi, einem kleinen Roboter-Auto mit Raspberry Pi unter der Haube, habe ich angefangen mein eigenes Nerd-Spielzeug umzusetzen.
-
-Aber fangen wir vorne an.
-
-== Was ist Zümi?
-
-Zümi ist ein cleveres Lernspielzeug der Firma Robolink.
-Anscheinend wurde er mittlerweile auf Zumi umgetauft, das hindert mich aber nicht daran, ihn weiterhin Zümi zu nennen, denn ich habe meinen durch {uri-kickstarter}[die damalige Kickstarter Kampagne] als "Zümi" bekommen :-).
-Den besten Überblick über die Features von Zümi gibt es natürlich auf der {uri-zumi}[Produktwebsite].
-Lasst mich die Features aber nochmal aus der Sicht eines Nerds beschreiben.
-
-== Was kann Zümi?
-
-Zümi ist *autonom*. Er verfügt über einen Akku mit Ladelogik, zwei Motoren, ein kleines, monochromes OLED-Display, eine Kamera und einen Raspberry Pi.
-
-Der Raspberry Pi braucht seine Zeit zum Booten und kann sich nicht um die Ladelogik kümmern.
-Deshalb wurde er ganz clever um einen *Arduino* ergänzt, der die Ladelogik übernimmt und das Display ansteuert.
-Dadurch kann er beim Laden den Zustand am Display anzeigen und bringt beim Einschalten zwei animierte Augen auf das Display, die anzeigen, dass der Raspberry aufwacht.
-So wird die Zeit des Bootvorgangs clever überbrückt.
-
-Das eingebaute Display ist sehr klein und eignet sich somit nicht sehr gut für die Programmierung.
-Deshalb haben sich die Entwickler ein weiteres cleveres Detail einfallen lassen.
-Zümi macht nach dem Booten einen *WiFi-Access-Point* auf.
-Auf dem Display wird der Name des Wifi-Netzwerks angezeigt und Zümi reagiert sogar auf eine Verbindung mit der Ausgabe der URL, über die man nach dem Verbindungsaufbau das Dashboard erreicht.
-
-Über das Dashboard kann Zümi noch in das standard WLAN-Netz integriert werden, so daß eine *WiFi-Bridge* ins Internet aufgebaut wird.
-
-Über das Dashboard stehen mehrere *Jupyter Notebooks* mit Tutorials zur Verfügung.
-Diese Tutorials zeigen, wie Zümi gesteuert wird.
-Highlights sind eine Gesichtserkennung und eine QR-Code-Erkennung.
-Beide sind über *openCV* realisiert.
-
-Zur genaueren Steuerung der Motoren verfügt Zümi noch über einen *Beschleunigungs*- und einen *Gyro-Sensor*.
-
-Alles in allem eine sehr runde Geschichte, wäre da nicht der Raspberry Pi Zero der ersten Generation.
-Dieser verfügt über nur einen Core und fühlt sich dadurch langsam an.
-Das System blockiert öfters und vermittelt das Gefühl, dass es nicht für größere Aufgaben geeignet ist.
-
-Das von Robolink bereitgestellte SD-Card-Image ist etwas älter und läuft somit nicht auf einem Pi Zero 2.
-Da unklar ist, was und wie alles auf dem Image installiert ist, ist ein Upgrade schwierig.
-Robolink selbst scheint kein Interesse an einem Upgrade zu haben.
-
-Somit habe ich mir zum Ziel gesetzt mein eigenes Nerd-Spielzeug in ähnlicher Art und Weise aufzusetzen.
+* docusaurus und mdx
+* Antora syntax
+* Antora repositories
+* reicht SSG aus?
 
 toc::[]

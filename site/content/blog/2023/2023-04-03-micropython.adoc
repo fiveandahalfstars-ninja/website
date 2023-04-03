@@ -1,0 +1,22 @@
+= Micropython zähmen
+:jbake-title: Micropython zähmen
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-tags: micropython
+:jbake-lang: de
+:jbake-status: draft
+:jbake-date: 2023-04-03
+:jbake-pseudo: micrpython1
+:doctype: article
+:toc: macro
+:icons: font
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+:uri1: https://github.com/virgesmith/pimoroni-pico/blob/main/micropython-build.md
+:uri2: https://learn.adafruit.com/custom-fonts-for-pyportal-circuitpython-display/conversion
+
+
+
+toc::[]

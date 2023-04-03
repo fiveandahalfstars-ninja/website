@@ -286,6 +286,21 @@
       "cfp": "",
       "talkid": 19
     },
+    {
+      "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
+      "event": "DevDay Dresden",
+      "location": "Dresden",
+      "date": "2023-04-25",
+      "url": "https://www.devday.de/dev-day-2023/talk/phantastische-diagramme-und-wie-du-sie-selbst-erstellst/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 180,
+      "cfp": "",
+      "talkid": 19
+    },
 
     {
       "title": "(Phantastic Diagrams and how to create them yourself) submitted",
@@ -299,20 +314,6 @@
       "image": "",
       "duration": 50,
       "cfp": "https://sessionize.com/jcon-europe-2023/",
-      "talkid": 19
-    },
-    {
-      "title": "(Phantastic Diagrams and how to create them yourself) submitted",
-      "event": "Devoxx UK",
-      "location": "London",
-      "date": "2023-05-10",
-      "url": "https://www.devoxx.co.uk/",
-      "speaker": [
-        "ralfdmueller"
-      ],
-      "image": "",
-      "duration": 50,
-      "cfp": "https://devoxxuk23.cfp.dev/#/",
       "talkid": 19
     },
     {

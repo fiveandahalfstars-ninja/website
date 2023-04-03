@@ -46,7 +46,7 @@ This cleverly bridges the time of the boot process.
 The built-in display is very small and therefore not very suitable for programming.
 Therefore, the developers have come up with another clever detail.
 After booting, Zümi opens a *WiFi access point*.
-The name of the Wifi network is shown on the display and Zümi even responds to a connection by outputting the URL that is used to reach the dashboard after the connection is established.
+The name of the WiFi network is shown on the display and Zümi even responds to a connection by outputting the URL that is used to reach the dashboard after the connection is established.
 
 Via the dashboard, Zümi can also be integrated into the standard WLAN network, so that a *WiFi bridge* to the Internet is established.
 
