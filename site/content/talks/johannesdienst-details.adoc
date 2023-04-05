@@ -1,5 +1,10 @@
 = Aufnahmen
 
+== Pecha Kucha: What is Developer Experience anyway?
+++++
+<iframe width="880" height="540" src="https://www.youtube.com/embed/QMHNBjUdWbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
+
 == Keynote: Stoizismus: Eine praktische Philosophie für den IT-Alltag
 ++++
 <iframe width="880" height="540" src="https://www.youtube.com/embed/iMu0rxJQcno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
