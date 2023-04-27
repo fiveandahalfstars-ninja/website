@@ -271,6 +271,35 @@
     }
   ],
   "talks": [
+
+    {
+      "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
+      "event": "ArchDoc 2023",
+      "location": "online",
+      "date": "2023-06-10",
+      "url": "http://archdoc.bettercode.eu/veranstaltung-20887-se-0-fantastische-diagramme-und-wie-du-sie-selbst-erstellst.html",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 360,
+      "cfp": "",
+      "talkid": 19
+    },
+    {
+      "title": "Programmbeirat: ArchDoc 2023",
+      "event": "ArchDoc 2023",
+      "location": "online",
+      "date": "2023-06-26",
+      "url": "http://archdoc.bettercode.eu/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "cfp": ""
+    },
     {
       "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
       "event": "Java Forum Stuttgart",
@@ -302,20 +331,6 @@
       "talkid": 19
     },
 
-    {
-      "title": "(Phantastic Diagrams and how to create them yourself) submitted",
-      "event": "JCON-Europe",
-      "location": "Cologne",
-      "date": "2023-06-20",
-      "url": "https://2023.europe.jcon.one/",
-      "speaker": [
-        "ralfdmueller"
-      ],
-      "image": "",
-      "duration": 50,
-      "cfp": "https://sessionize.com/jcon-europe-2023/",
-      "talkid": 19
-    },
     {
       "title": "Talk: Phantastische Diagramme und wie Du sie selbst erstellst",
       "event": "JavaLand",
