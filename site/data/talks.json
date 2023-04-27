@@ -273,6 +273,20 @@
   "talks": [
 
     {
+      "title": "Training: Documentation-as-Code",
+      "event": "Socreatory",
+      "location": "online",
+      "date": "2023-07-10",
+      "url": "https://www.socreatory.com/de/trainings/docascode",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 720,
+      "cfp": ""
+    },
+    {
       "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
       "event": "ArchDoc 2023",
       "location": "online",
