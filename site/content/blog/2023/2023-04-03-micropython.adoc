@@ -16,7 +16,8 @@ ifndef::imagesdir[:imagesdir: ../images]
 
 :uri1: https://github.com/virgesmith/pimoroni-pico/blob/main/micropython-build.md
 :uri2: https://learn.adafruit.com/custom-fonts-for-pyportal-circuitpython-display/conversion
+:uri3: https://forums.raspberrypi.com/viewtopic.php?t=310876&start=50
 
-
+todo: create this blog
 
 toc::[]
