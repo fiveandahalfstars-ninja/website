@@ -26,7 +26,7 @@ image::profiles/jdienst.jpg[]
         <a href="mailto:info@johannesdienst.net"><i class="svg-icon email"></i></a>
         <a href="http://github.com/JohannesDienst"><i class="svg-icon github"></i></a>
         <a href="/feed.xml"><i class="svg-icon rss"></i></a>
-        <a rel="me" href="https://mastodon.social/@JohannesDienst">Mastodon</a>
+        <a rel="me" href="https://mastodon.social/@JohannesDienst"><i class="svg-icon mastodon"></i></a>
         <a href="http://twitter.com/JohannesDienst"><i class="svg-icon twitter"></i></a>
 ++++
 
