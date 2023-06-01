@@ -1,0 +1,115 @@
+= A Comprehensive DevRel Metrics Guide (Part 1): Why Track Metrics Anyway?
+:jbake-title: A Comprehensive DevRel Metrics Guide (Part 1): Why Track Metrics Anyway?
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-tags: DevRel
+:jbake-lang: en
+:jbake-status: published
+:jbake-date: 2023-06-01
+:jbake-pseudo: comprehensive-devrel-metrics-guide-part1
+:doctype: article
+:toc: macro
+:icons: font
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+:uri-cover-art: https://www.pexels.com/de-de/foto/armaturenbrett-des-auf-dem-flugplatz-geparkten-flugzeugs-5262805
+:uri-kurt-kemple-guide-to-metrics-and-reporting: https://theworst.dev/developer-advocates-guide-to-metrics-and-reporting
+:uri-vera-tiago-north-star-video: https://www.youtube.com/watch?v=KXGXfbQfrrI&ab_channel=DevRel
+:uri-sean-falconer-devrel-blog-post: https://thefalc.com/2020/12/devrel-metrics-and-why-they-matter/
+:uri-kim-maida-keystone-framework: https://maida.kim/how-to-measure-the-value-of-developer-relations
+
+image::blog/2023/comprehensive-devrel-metrics-guide-part1-cover.jpg[width=60%, align=center]
+
+Metrics are the bane of existence for DevRel folks out there. At least in my perception. There seems to be a state of constant confusion and vague advice. I even watched a panel discussion about metrics once, where everybody seemed to avoid giving exact recommendations on how to tackle them.
+
+So I embarked on a mission to get this sorted out for myself only to discover, that it is complicated enough to spend hours on end on it :-D
+
+This post-series brings together everything I found out about DevRel metrics. I surfaced a ton by doing extensive research over 20+ hours and applying it directly at my current company.
+
+At the end of the series you will have a solid understanding of: 
+
+* Why you should even track anything?
+* What should you even track?
+* How to make a strong case for DevRel with your metrics?
+* How to do reporting?
+
+== Start From The Top
+The age-old question **Why should I measure?** and you always get the same Drucker quote… Do not worry: Not here!
+
+For me tracking metrics helps me see clearer in terms of direction. As my manager put it: “You can run pretty fast in the wrong direction! So you better NOT do that!”
+
+== What does your Company Care about?
+Let us face the harsh truth first: "Nearly all companies care about is money!". For me this is clear and it should be clear to you. Money keeps the lights on and your paycheck delivered to your bank account. This is not just me who thinks like this but a lot of DevRel folks have written about this already.
+
+Often there is one key metric that is used to communicate the health of a company: The North Star or Keystone.
+
+_Also as a side note: Just because your company only really cares about money, it is not the thing you aim for in your job directly as you will see later!_
+
+== What Is a North Star/Keystone Metric?
+
+I stand on the shoulders of giants here as I like the following definitions:
+
+Tera Viago says that a North Star Metric is your company metric. And “In the end it is all about money and customer satisfaction”! (Source: {uri-vera-tiago-north-star-video}[YouTube-Video])
+
+Sean Falconer defines it as "A North Star metric is a single measurement that is predictive to your company’s or product’s long-term success." (Source: {uri-sean-falconer-devrel-blog-post}[Blog Post])
+
+Examples from companies:
+
+- Spotify: Time Spent listening
+- airbnb: Booked nights
+- LinkedIn: Monthly Active Users (MAU)
+
+== What is your Company North Star?
+So how does this translate to metrics for your company? It may be one of those:
+
+- Annual recurring revenue (ARR)
+- Number of Sign Ups
+- Number of Paying customers
+- …
+
+To everyone I have talked to by now they know their companies North Star as it is communicated often through all channels.
+
+== Why do I need a Company North Star for DevRel Metrics?
+If you look for metrics to measure you should always strive to find the metrics that are tied directly to company goals in some way.
+
+But there is a catch and something I had to wrap my head around. DevRel is so far away from a hard North Star metric as it could be.
+
+Kurt Kemple has a nice chain-of-metrics graphic which illustrates this dilemma. 
+
+.Chain of trusted metrics (Source: {uri-kurt-kemple-guide-to-metrics-and-reporting}[Kurt Kemples Developer Advocates Guide to Metrics and Reporting]). You see that everything DevRel does is at the end of the chain. And the farther away you get from your North Star, the harder it gets to tie them to a hard and trusted metric like Annual Recurring Revenue (ARR).
+image::blog/2023/chain-of-trusted-metrics-kurt-kemple.png[width=90%, align=center]
+
+== Why should you care about DevRel-Metrics?
+All this DevRel-Metrics talk makes me tired. Why should I care about metrics, when all I want to do is help my developer community?
+
+Well, there are two things to consider:
+
+1. If you can not communicate your value to upper management by showing how you impact **their** metrics... Your value might be underestimated. And guess who gets laid off more likely? Yes, somebody not helping the company succeed.
+
+2. There are so many different things you can do to improve the life of your development community. Blog posts, tutorials in written or video form, engaging directly by giving talks. Providing great docs. But what should you do? If you do not track what has an impact on your business you just do **not** know. For example at my current company we are testing a lot of stuff that we _think_ will help our community and our company. And we measure it as good as we can. Some things turned out useless already. Some others were surprisingly helpful. Without a metric, we would not know what to focus on.
+
+== What Are We Going to Do?
+The thing I realized is that determining what to measure and how to tie it to a meaningful company metric is the reason I struggle to wrap my head around DevRel-Metrics: They ARE hard to make sense of and I have to find the ones that are important for **my** company!
+
+What adds to that is that they are diverse and also distributed across different areas.
+
+So over the next few blog posts we will look at:
+
+1. A lot of metrics suggested by knowledgeable DevRel practitioners and thinkers.
+
+2. Then we will discuss {uri-kim-maida-keystone-framework}[Kim Maidas Keystone Framework]. Where she explains what metrics she tracks and how she makes them quantifiable, so they can be communicated in cold hard numbers.
+
+3. After that we will dive into the different development stages companies can be in and what it means for choosing the correct metrics. Because what is important to track for a startup is completely different for an enterprise company.
+
+4. In the last part I will share my own experiences and opinion in applying the Keystone Framework and extending it to my needs.
+
+## Conclusion Part 1
+Tying your metrics to your companies North Star in a meaningful way is important but difficult. DevRel-Metrics are usually far away from cold hard numbers relating to a North Star.
+
+But measuring and communicating your value is important to not get laid off and to get an idea what is actually working.
+
+So in the next part we will look at a plethora of metrics other more influential DevRel practitioners compiled.
+
+__Cover art image by Daniel Torobekov: {uri-cover-art}[Source]__
