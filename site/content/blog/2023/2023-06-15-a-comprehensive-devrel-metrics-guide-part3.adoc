@@ -1,0 +1,99 @@
+= A Comprehensive DevRel Metrics Guide (Part 3): A Framework to Get Started!
+:jbake-title: A Comprehensive DevRel Metrics Guide (Part 3): A Framework to Get Started!
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-tags: DevRel
+:jbake-lang: en
+:jbake-status: published
+:jbake-date: 2023-06-16
+:jbake-pseudo: comprehensive-devrel-metrics-guide-part3
+:doctype: article
+:toc: macro
+:icons: font
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+:uri-cover-art: https://www.pexels.com/photo/scales-with-berries-and-organic-ingredients-for-recipe-3743169/
+:uri-second-part: https://fiveandahalfstars.ninja/blog/2023/2023-06-05-a-comprehensive-devrel-metrics-guide-part2.html
+:uri-kim-maida-keystone-framework-reach: https://maida.kim/how-to-measure-the-value-of-developer-relations/#ib-toc-anchor-9
+:uri-kim-maida-keystone-framework-awareness: https://maida.kim/how-to-measure-the-value-of-developer-relations/#ib-toc-anchor-12
+:uri-kim-maida-keystone-framework-engagement: https://maida.kim/how-to-measure-the-value-of-developer-relations/#ib-toc-anchor-15
+:uri-kim-maida-keystone-framework-dql: https://maida.kim/how-to-measure-the-value-of-developer-relations/#ib-toc-anchor-18
+:uri-kim-maidas-keystone-framework: https://maida.kim/how-to-measure-the-value-of-developer-relations
+:uri-sean-falconer-why-devrel-metrics-matter: https://thefalc.com/2020/12/devrel-metrics-and-why-they-matter/
+:uri-core-competencies-of-devrel-reto-meier: https://medium.com/google-developers/the-core-competencies-of-developer-relations-f3e1c04c0f5b
+
+image::blog/2023/comprehensive-devrel-metrics-guide-part3-cover.jpg[width=60%, align=center]
+
+In {uri-second-part}[part two of the series] we discussed what DevRel north star metrics commonly get used across the industry. We also saw that it can be quite tricky to find the right metrics to measure because they are plenty, sometimes lag behind or the relation to your North Star is not direct but only delivered over time.
+
+**So what should we do?**
+
+I will answer this question in this article for people who are just starting out and looking for a way to have a solid foundation to build on. Because that is what I found myself in when I started my Developer Advocate journey 😊.
+
+But also if you have something in place already. This article will help you make sense of metrics and give you inspiration.
+
+## The Solid Framework: Kim Maidas Keystone Framework
+Just starting out with DevRel-Metrics? Look no further than Kim Maidas **DevRel Metrics Keystone Framework**. Over the course of her career leading in Developer Relations she says she found a way to holistically measure DevRel in a way the C-Suite understands. And I could not agree more!
+
+.Kim Maidas Keystone DevRel Metrics (Source: {uri-kim-maidas-keystone-framework}[Kim Maidas article])
+image::blog/2023/kim-maida-keystone-devrel-metrics-horizontal.png["Reach, Awareness, Engagement and DevRel Qualified Leads in this order in a horizontal pyramid. Decreasing breadth from left to right and increasing depth from left to right.", width=90%, align=center]
+
+Her idea is to define one __Keystone__ (North Star) as your guidance. Her recommended keystone is **1 signup/registration**. Ideally it is your company's North Star.
+
+Once you have your keystone you can come up with a price tag for it. Yes, real money!
+
+Then with a price tag you can attach a percentage of this keystone value to each metric in the following categories:
+
+* {uri-kim-maida-keystone-framework-reach}[Reach]
+* {uri-kim-maida-keystone-framework-awareness}[Awareness]
+* {uri-kim-maida-keystone-framework-engagement}[Engagement]
+* {uri-kim-maida-keystone-framework-dql}[DevRel Qualified Leads]
+
+There is an order to it also. __Reach__ metrics are at the top of the funnel and thus improving metrics from that category is not as valuable as further down the funnel. __Engagement__ and finally __DevRel Qualified Leads__ are worth so much more and you can add more value to each metric in those categories.
+
+What you basically do is attaching a value tag on every metric and are thus able to calculate the value DevRel brings to the table 🥳.
+
+I do not want to copy {uri-kim-maidas-keystone-framework}[Kim Maidas article], so for the sake of brevity, I encourage you to read it and use her method to give every metric a meaning tied to company metrics.
+
+There is also much more in her article that makes the read worthwile!
+
+== My Personal Additions
+I personally found two additions helpful in showing impact on product/engineering:
+
+1. **Internal Impact**
+2. **Direct Impact**.
+
+The first one captures the feedback you bring from the community into the company. The second one measures your direct impact you have by doing developer experience audits and creating content.
+
+=== Internal Impact
+In my daily work a lot of things I do are related to product development. Be it providing feedback for new features, betatesting new features, writing docs, gathering feedback from the community and relaying it back to development. The above areas do not cover them completely.
+
+Luckily I found two articles that cover these areas well (See {uri-sean-falconer-why-devrel-metrics-matter}[Sean Falconers - DevRel Metrics And Why They Matter]) and {uri-core-competencies-of-devrel-reto-meier}[The Core competencies of Developer Relations by Reto Meier]. They talk about the developer relations cycle where they introduce __Developer Feedback__ and __Developer Sentiment__ that Developer Relations collects and brings into product development.
+
+.The Developer Relations ongoing interface cycle (Source: {uri-core-competencies-of-devrel-reto-meier}[The Core competencies of Developer Relations by Reto Meier])
+image::blog/2023/reto-meier-core-competencies-of-devrel.png["Developer Relations Cycle: Platform & Engineering putting out features for your product and receiving developer feedback. Developer Relations as middlehuman to spread awareness and put out resources for the developer community. Also receiving developer feedback and sentiment.", width=90%, align=center]
+
+As you are acting as a middlehuman for these two, I call this __internal impact__ as you affect your product through the feedback delivered.
+
+What I like to measure here is the number of feedback and sentiment brought to the department in your company where it is best seated. If anything comes out of this feedback that is also noted down.
+
+=== Direct Impact
+As you have noticed, most metrics are loosely tied to company goals. But there are ways to demonstrate a direct impact. Things I found useful are the following:
+
+1. **Developer Experience Audits**: Evaluating your product as a user would and providing detailed feedback and improvement suggestions to product management. You should also track what is finally implemented and if possible if any metric was impacted by the change (Less bug-tickets for example or specific user complaints decreasing).
+2. **Tracking your content's impact**: With sufficient tracking in place you can track if your company's North Star metric is affected by your content like docs, blogs or videos. In fact this is what I do and I could demonstrate that videos on YouTube drive Sign Ups.
+
+== Conclusion Part 3
+With a framework like the one from Kim Maida you can lay a solid foundation for all your metric needs in a structured way. It also makes reporting easier by directly tying individual metrics to your companies north star.
+
+In the last part of the series we will dive into the wonderful world of company development stages and their individual needs from DevRel. Early stage startups are different than enterprise organizations. And there is a lot of space in between.
+
+Thus we should shift our focus and the metrics we take into focus accordingly.
+
+I will also share my template I use to report DevRel metrics every month.
+
+__Photo by Leonardo Vazquez: {uri-cover-art}[Source]__
+
+toc::[]
