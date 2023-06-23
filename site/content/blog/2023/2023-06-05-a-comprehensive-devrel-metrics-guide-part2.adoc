@@ -1,0 +1,104 @@
+= A Comprehensive DevRel Metrics Guide (Part 2): What DevRel Metrics should I track?
+:jbake-title: A Comprehensive DevRel Metrics Guide (Part 2): What DevRel Metrics should I track?
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-tags: DevRel
+:jbake-lang: en
+:jbake-status: published
+:jbake-date: 2023-06-07
+:jbake-pseudo: comprehensive-devrel-metrics-guide-part2
+:doctype: article
+:toc: macro
+:icons: font
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+:uri-cover-art: https://www.pexels.com/photo/radio-telescope-against-sky-with-stars-6325001/
+
+:uri-first-part: https://fiveandahalfstars.ninja/blog/2023/2023-06-01-a-comprehensive-devrel-metrics-guide-part1.html
+:uri-measuring-devrel-by-swyx: https://www.swyx.io/measuring-
+:uri-slashdata-report-2020: https://dev.to/slashdatahq/developer-marketing-kpis-are-different-from-devrel-kpis-3i8l
+:uri-sean-falconer-why-devrel-metrics-matter: https://thefalc.com/2020/12/devrel-metrics-and-why-they-matter/
+:uri-kim-maidas-keystone-framework: https://maida.kim/how-to-measure-the-value-of-developer-relations
+:uri-devrel-kpis: https://devrel-kpis.com/
+:uri-kim-maida-keystone-framework-reach: https://maida.kim/how-to-measure-the-value-of-developer-relations/#ib-toc-anchor-9
+:uri-kim-maida-keystone-framework-awareness: https://maida.kim/how-to-measure-the-value-of-developer-relations/#ib-toc-anchor-12
+:uri-kim-maida-keystone-framework-engagement: https://maida.kim/how-to-measure-the-value-of-developer-relations/#ib-toc-anchor-15
+:uri-kim-maida-keystone-framework-dql: https://maida.kim/how-to-measure-the-value-of-developer-relations/#ib-toc-anchor-18
+
+image::blog/2023/comprehensive-devrel-metrics-guide-part2-cover.jpg[width=60%, align=center]
+
+Now that we got the **Why?** out of the way {uri-first-part}[in part 1]. Let's face the difficult challenge on what DevRel Metrics we should collect in the first place.
+
+Of course I will stand on the shoulders of giants here again as a lot of smart DevRel-practitioners have already written about this.
+
+The goal of this post is to get to a common understanding what others usually track. I also want to give you my opinion on metrics as I think there is so much confusion about metrics. I believe that a pragmatic approach is reasonable to be practical for each individual situation.
+
+We will discuss the following things:
+
+1. DevRel North Star metrics: Why they are useful but not sufficient
+2. Common metrics that are collected in the industry
+3. My critique and opinion about this
+
+== DevRel North Star Metrics
+Swyx claims nearly all companies settle on one specific metric: **Monthly Active Developers** (Source: {uri-measuring-devrel-by-swyx}[Measuring DevRel by swyx])
+
+Also popular:
+
+* Registered Developer Accounts (Source: {uri-slashdata-report-2020}[Slashdata Report 2020])
+* Developer Satisfaction score (Source: {uri-slashdata-report-2020}[Slashdata Report 2020])
+* Time To Hello World (TTHW) (Source: {uri-sean-falconer-why-devrel-metrics-matter}[Sean Falconers - DevRel Metrics And Why They Matter])
+* Time to First WOW! Exclamation (TTFWE) (My own invention: The first time a user experiences and realizes the value of your product. Sorry had to sneak that in here 😋)
+* Number of signups / registrations (Source: {uri-kim-maidas-keystone-framework}[Kim Maidas Keystone Framework])
+* ...
+
+Also, have a look at {uri-devrel-kpis}[DevRel-KPIs.com] for more inspiration.
+
+== Common Metrics in the Industry
+So this __may__ be useful when you have to report one or two numbers to management, but not sufficient of what DevRel is actually doing in their day-to-day work.
+
+Many more metrics have been collected and I will just link them here for you to explore and get an idea.
+
+I really like the supporting DevRel Metrics _swyx_ compiled for his North Star metric **Monthly Active Developers**.
+
+.Metrics that feed into Monthly Active Developers North Star Metric.(Source: {uri-measuring-devrel-by-swyx}[Measuring DevRel by swyx])
+image::blog/2023/swyx-devrel-metrics.png["Metrics feeding into Monthly Active Developers. Community: Number of Members, Topics, Contributions, Orbit Level 1, Events, Attendees, Superusers. Content: Newsletter subs, YouTube subs, Twitter follows, Workshops complete, Confs/Hackathons, Meetups, Traffic/ SEO Authority. Product: Launch users, Launch mentions, Prioritized issues, Integration/tooling, Sean Ellis Question, ???. Bad Metrics: GitHub Stars, GA UTM Tag, Badges Scanned, NPS", width=90%, align=center]
+
+From {uri-kim-maidas-keystone-framework}[Kim Maidas Keystone Framework]:
+
+* {uri-kim-maida-keystone-framework-reach}[Reach]
+* {uri-kim-maida-keystone-framework-awareness}[Awareness]
+* {uri-kim-maida-keystone-framework-engagement}[Engagement]
+* {uri-kim-maida-keystone-framework-dql}[DevRel Qualified Leads]
+
+Also again {uri-devrel-kpis}[DevRel-KPIs.com] is a great resource to get you going.
+
+=== Are There Bad Metrics
+I would say **It depends** 😋
+
+Usually you do not want to be measured with a marketing metric. We are dealing with relations here, remember? But if we produce content for example that is for creating awareness or inspiration. What metrics can we actually collect to measure its success? In my opinion this would be something like views or likes or Github-stars.
+
+So I suggest the following: Be pragmatic with what you track. There is no harm in collecting a marketing metric if it fits your current situation. If management cares about these sometimes so called *Vanity Metrics*, even better. Easy to collect and report on.
+
+But do not get caught up in them! An audience is not a community and you want to foster real relationships 😊
+
+== My Critique and Opinion About This
+It always felt wrong as a software developer to reduce a complex topic into a single number. It feels even more so with DevRel. I get that management would like to have a single number to gauge how DevRel is doing. But DevRel performs a cross-functional function in a company. The metrics are influenced by a lot of departments and also ultimately by the state your product is in.
+
+A metric like **Monthly Active Developers** is a great metric if the management trusts that you influence it positively. The problem is, that it is usually influenced by a lot of departments like product, support, technical writing, marketing and so forth. If your product has sharp edges you can not work around even with the best onboarding and with the best feedback for engineering you can possibly provide: Good luck with improving your TTHW!
+
+The only thing you can then do is to try and improve the supporting metrics as __swyx__ suggests. But even this will not get you far in my opinion because you are only applying bandaids.
+
+Also tieing your activities to a North Star metric may sometimes be hard as it can lag significantly behind. Not every relationship or piece of content has an impact immediately. Often it is a compounding effect of positive encounters that tips the scale. Relationships are built over time!
+
+== Conclusion Part 2
+In this post we discussed popular DevRel-North Star metrics like *Monthly Active Developers* used in the industry. They are useful when reporting to management, but not sufficient to measure the complex day-to-day work or specific project/campaigns DevRel is focusing on in a specific company.
+
+We gave a lot of pointers on what you can also collect with the general recommmendation to be pragmatic and, if possible, to focus on metrics that cover relationships.
+
+In the next part of this series we will cover Kim Maidas Keystone Framework. It is a great framework if you are just starting out! I use it with a few extensions. It is useful in my current situation and it includes the **Relations** part of a DevRel-Practitioner!
+
+__Photo by Igor Mashkov: {uri-cover-art}[Source]__
+
+toc::[]

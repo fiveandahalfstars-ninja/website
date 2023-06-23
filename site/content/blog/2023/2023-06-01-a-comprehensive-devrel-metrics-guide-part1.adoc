@@ -113,3 +113,5 @@ But measuring and communicating your value is important to not get laid off and 
 So in the next part we will look at a plethora of metrics other more influential DevRel practitioners compiled.
 
 __Cover art image by Daniel Torobekov: {uri-cover-art}[Source]__
+
+toc::[]

@@ -267,6 +267,12 @@
       },
       "570":  {
         "link": "/talks/details/.html"
+      },
+      "571":  {
+        "link": "/talks/details/.html"
+      },
+      "572":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -1847,8 +1853,7 @@
         "johannesdienst"
       ],
       "talkid": 569
-    }
-    ,
+    },
     {
       "title": "Real Cross-Platform Workflow UI Automation",
       "event": "JCON Europe 2023",
@@ -1859,6 +1864,28 @@
         "johannesdienst"
       ],
       "talkid": 570
+    },
+    {
+      "title": "Rock Solid Software Architecture mit ADRs, arc42 und Microsites – ein Erfahrungsbericht",
+      "event": "ArchDoc 2023",
+      "location": " virtuell",
+      "date": "2023-06-26",
+      "url": "https://archdoc.bettercode.eu/veranstaltung-20820-se-0-rock-solid-software-architecture-mit-adrs-arc42-und-microsites--ein-erfahrungsbericht.html",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 571
+    },
+    {
+      "title": "Real Cross-Platform Workflow UI Automation",
+      "event": "AI in QA and Testing Conf 23",
+      "location": " virtual",
+      "date": "2023-07-11",
+      "url": "https://events.geekle.us/aitesting/",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 572
     }
   ]
 }
