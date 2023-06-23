@@ -279,7 +279,7 @@
   "talks": [
 
     {
-      "title": "Workshop: Fantastische Diagramme und wie Du sie selbst erstellst",
+      "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
       "event": "Software Architecture Summit",
       "location": "online",
       "date": "2023-09-11",
@@ -290,21 +290,6 @@
       ],
       "image": "",
       "duration": 180,
-      "cfp": "",
-      "talkid": 19
-    },
-    {
-      "title": "Workshop: Fantastische Diagramme und wie Du sie selbst erstellst",
-      "event": "ArchDoc",
-      "location": "online",
-      "date": "2023-07-10",
-      "url": "https://archdoc.bettercode.eu/veranstaltung-20887-se-0-fantastische-diagramme-und-wie-du-sie-selbst-erstellst.html",
-      "speaker": [
-        "ralfdmueller",
-        "sippsack"
-      ],
-      "image": "",
-      "duration": 720,
       "cfp": "",
       "talkid": 19
     },
