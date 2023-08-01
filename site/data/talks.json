@@ -58,6 +58,9 @@
       "19": {
         "link": "/talks/Details/Phantastische-Diagramme.html"
       },
+      "20": {
+        "link": "/talks/Details/chatGPT.html"
+      },
 	  "500":  {
         "link": "/talks/details/.html"
       },
@@ -278,6 +281,20 @@
   ],
   "talks": [
 
+    {
+      "title": "Using AI in Software Design: How ChatGPT Can Help With Creating a Solution Architecture",
+      "event": "iSAQB Software Architecture Gathering – Digital 2023",
+      "location": "online",
+      "date": "2023-11-29",
+      "url": "https://conferences.isaqb.org/software-architecture-gathering/program-2023/#using-ai-in-software-design-how-chatgpt-can-help-with-creating-a-solution-architecture",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 45,
+      "cfp": "sessionize.com",
+      "talkid": 20
+    },
     {
       "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
       "event": "Software Architecture Summit",
