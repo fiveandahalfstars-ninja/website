@@ -282,6 +282,21 @@
   "talks": [
 
     {
+      "title": "Talk: Phantastische Diagramme und wie Du sie selbst erstellst",
+      "event": "Java User Group Frankfurt - JUGF",
+      "location": "Frankfurt",
+      "date": "2023-11-29",
+      "url": "https://jugf.github.io/posts/phantastische-diagramme-29-11-2023/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 45,
+      "cfp": "",
+      "talkid": 19
+    },
+    {
       "title": "Using AI in Software Design: How ChatGPT Can Help With Creating a Solution Architecture",
       "event": "iSAQB Software Architecture Gathering – Digital 2023",
       "location": "online",
