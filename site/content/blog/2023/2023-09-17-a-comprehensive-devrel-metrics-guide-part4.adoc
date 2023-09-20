@@ -6,7 +6,7 @@
 :jbake-tags: DevRel
 :jbake-lang: en
 :jbake-status: published
-:jbake-date: 2023-06-17
+:jbake-date: 2023-09-17
 :jbake-pseudo: comprehensive-devrel-metrics-guide-part4
 :doctype: article
 :toc: macro
@@ -19,7 +19,7 @@ ifndef::imagesdir[:imagesdir: ../images]
 :vera-tiagos-talk: https://www.youtube.com/watch?v=KXGXfbQfrrI
 :vera-tiagos-talk-written: https://vera-tiago.medium.com/northstar-metrics-and-okrs-to-show-devrel-value-and-get-focus-92fb058f3e1a
 :google-slide-template: https://docs.google.com/presentation/d/1rdYEUbZWYPi7tVBbx5YRF78n1GdJDHHP8tCQ3piydL4/edit?usp=sharing
-:unsplash-link: https://unsplash.com/photos/hOwcob_3dpc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+:unsplash-link: https://unsplash.com/
 
 image::blog/2023/comprehensive-devrel-metrics-guide-part4-cover.jpg[width=60%, align=center]
 
@@ -29,7 +29,7 @@ Imagine you are working at an early stage startup and you are tasked with tracki
 
 I have been scratching my head over this question because it does not make sense to me that the metrics should be the same for both companies 🤔.
 
-## What Company Stages Are There?
+== What Company Stages Are There?
 I found an {vera-tiagos-talk}[inspiring talk from Vera Tiago] that resonated with me. There is also {vera-tiagos-talk-written}[a written form of it], if that is more your thing 🥰.
 
 In there she talks about North Star metrics and then comes to the topic of DevRel-Focus areas. Her Developer Relations focus areas are:
@@ -55,7 +55,7 @@ image::blog/2023/vera_tiago_where_to_focus.png[Reach, Awareness, Engagement and 
 
 Evaluating and validating your company's stage and your focus with management is extremely important as it again will determine the metrics you are prioritizing.
 
-## How to Do Reporting?
+== How to Do Reporting?
 Many companies have a monthly All-Hands meeting. Some call it a Jour-Fix. Whatever you call it, entering your collected data into a nice presentation template gives you the possibility to always be ready to give a presentation.
 
 I do not get into all the details in the presentation deck but focus on the things that matter now. Even when I track more than that as outlined in the previous blog post. There is a dedicated slide at the end where I link to the raw metrics if anyone is interested in them.
@@ -64,7 +64,7 @@ With the slide deck I am good to go to present 5-10 Minutes and give a concise u
 
 Here is {google-slide-template}[my template as a Google-Slide Deck].
 
-## Conclusion
+== Conclusion
 And this marks the end of this series. We discussed why metrics are important, where to even start and my personal view on what metrics to track.
 
 In this blog post I gave an introduction on what might be important and expected from DevRel at different company stages.
