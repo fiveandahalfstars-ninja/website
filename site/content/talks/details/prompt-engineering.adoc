@@ -1,0 +1,24 @@
+:jbake-title: Prompt-Engineering für Entwickler
+:jbake-type: page
+:jbake-status: published
+
+:diagram-server-url: https://kroki.io
+:diagram-server-type: kroki_io
+
+== 🇩🇪 Prompt-Engineering für Entwickler
+
+=== Hintergrund
+
+In einer Zeit, in der Large-Language-Models wie OpenAI's GPT-Serie immer mehr an Bedeutung gewinnen, stehen Entwickler und Software-Architekten vor der spannenden Herausforderung, diese Technologien in Chat-Anwendungen optimal zu nutzen. Die Qualität der Interaktion mit solchen Modellen hängt maßgeblich davon ab, wie präzise und durchdacht unsere Anfragen formuliert werden.
+
+=== Inhalt
+
+Der erste Teil des Talks taucht tief in die Kunst des "Prompt-Engineerings" ein. Hier betrachten wir, wie durch das gezielte "Priming" die KI in bestimmte Antwort- oder Denkrichtungen gelenkt werden kann. Dieses subtile Steuern der KI ermöglicht es, Antworten zu erhalten, die genau auf den Kontext und die Bedürfnisse des Anwenders abgestimmt sind. Weiterhin beleuchten wir die Unterschiede und Anwendungsgebiete von Few-Shots, Zero-Shots und Many-Shots. Jeder dieser Ansätze besitzt eigene Stärken, und es ist entscheidend, zu verstehen, wann und wie sie am besten in Chat-Anwendungen eingesetzt werden können. Besonders herausgestellt wird die Herausforderung der begrenzten Token-Zahl und Strategien, um innerhalb dieser Begrenzung klare, kohärente und hilfreiche Antworten zu erzielen.
+
+Als besonderen Bonus des Talks gehen wir kurz auf die Nutzung von Embeddings ein, die es ermöglichen, themenspezifische Kommunikationen mit der KI zu führen und somit die Relevanz der Antworten noch weiter zu erhöhen.
+
+=== Zielgruppe
+
+Der Talk wendet sich an Java-Entwickler, Software-Architekten und Technologie-Experten, die den Einsatz von LLM in Chat-Anwendungen in Betracht ziehen oder bereits erste Erfahrungen gesammelt haben.
+
+
