@@ -72,4 +72,6 @@ In this blog post I gave an introduction on what might be important and expected
 As always: Do not blindly follow advice but take it as a food for thought and an idea to test in your circumstance! I feel this is especially important in DevRel as no company is the same 🙃.
 
 Photo by {uri-cover-art}[Andre Taissin] on {unsplash-link}[Unsplash].
+
+toc::[]
   
