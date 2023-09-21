@@ -1,0 +1,256 @@
+= Speed Up Your Podcast Production (Developer Advocate Version)
+:jbake-title: Speed up your Podcast Editing with Generative AI (Developer Advocate Version)
+:jbake-author: jdienst
+:jbake-type: post
+:jbake-toc: true
+:jbake-tags: DevRel
+:jbake-lang: en
+:jbake-status: published
+:jbake-date: 2023-09-21
+:jbake-pseudo: speedup-podcast-production-developer-advocate-version
+:doctype: article
+:toc: macro
+:icons: font
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+:uri-cover-art: https://unsplash.com/@soundtrap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+
+:uri-podcast: https://podcasters.spotify.com/pod/show/jandjtalkai
+:uri-whisper-blog-post: https://fiveandahalfstars.ninja/blog/2023/2023-03-20-create-subtitles-with-whisperai
+
+:uri-riverside-fm: https://riverside.fm/homepage
+:uri-streamyard: https://streamyard.com/
+:uri-squadcast: https://squadcast.fm/
+
+:uri-auphonic: https://auphonic.com/
+:uri-ai-coustics: https://ai-coustics.com/
+:uri-adobe-podcaster: https://podcast.adobe.com/enhance
+:uri-audo-ai: https://audo.ai/
+:uri-descript: https://www.descript.com/
+:uri-cleanvoice: https://cleanvoice.ai/
+:uri-speaker-diarisation: https://github.com/MahmoudAshraf97/whisper-diarization
+
+:uri-askui-tutorial-wysiwyg: https://www.askui.com/blog-posts/automate-highlighting-in-wysiwyg-editors
+:unsplash-link: https://unsplash.com/
+
+image::blog/2023/speed-up-podcast-production-cover.jpg[width=60%, align=center]
+
+Recording and editing a podcast is a lot of fun. There is something special talking to each other and exchanging ideas, have a laugh and producing an artifact that potentially a lot of people can listen to to get some value.
+
+__Thus said it is also a ton of work!__
+
+For producing the first season of {uri-podcast}[J&J Talk AI] I did nearly everything manually except the transcription where I used {uri-whisper-blog-post}[Whisper (I wrote an article about that)].
+
+For season 2 I wanted to automate as much as I could to reduce the time I have to spend with tedious tasks like writing a full transcription with nice formatting and speaker labels, creating a podcast description and social media posts. Furthermore I wanted to get rid of much of the postproduction stuff like silences, stutter or filler words.
+
+So this blog post contains all the learnings which in sum reduced my editing/postproduction time to about 50% of what it was before - conservative estimation 🦄.
+
+== Recording Platform
+For recording a podcast there is no way around an online recording solution now, because they record locally for every participant and upload the recording afterwards. This guarantees the best audio quality where nobody has a big hassle with their local setup except getting their microphone to work 😉.
+
+=== Riverside.fm
+For the first two seasons we used {uri-riverside-fm}[Riverside.fm] as they offer a generous two hour recording limit for separated tracks.
+
+They also offer some unique features like Magic-Clips creation.
+
+Overall I liked the experience as the setup was easy. If you also want to edit inside a browser and get a transcript for free, Riverside.fm is your place to go.
+
+The only downside I found and that might be specific to me was that the exported quality lacked. At least for my voice I had overly loud white noise and also the sound level was way to high in every recording. By cleaning it up my voice suffered which is a real bummer as the sound quality is excellent when I record locally 😕.
+
+=== Streamyard
+{uri-streamyard}[Streamyard] -- as the name implies -- is designed for streaming. But it also has a recording feature which records locally.
+
+Setup is fairly easy and straightforward making it an alternative to Riverside.fm if you do not need all the fancy features.
+
+Also the audio quality seems to be a tick better in my opinion. And actually that is all I care about!
+
+=== Descripts Squadcast
+__Disclaimer: I did not try Squadcast yet as I exhausted my free minutes with a transcription 🙃__
+
+{uri-squadcast}[Squadcast] looks like Riverside.fm and Streamyard when it comes to features. The real gamechanger comes with the integration of Descript (See later in the article).
+
+Having a recording solution where you do not have to import the recording into another tool looks like a no brainer to me.
+
+== Editing
+Editing a podcast can be a daunting task. Not only do you have to cut silence, filler words, stuttering and mouth sounds.
+
+You also have to normalize audio levels and apply some voice filters to make the voices sound professional.
+
+Surely there are a lot of tools out there that can help with that, right? Right?
+
+And yes there are a ton of tools out there that you can try for free to see what helps in your particular situation.
+
+__Note: Your recording setup may be different and thus your recording quality you start with different than mine. Take this into account when you read the reviews.__
+
+=== Auphonic
+{uri-auphonic}[Auphonic] looks extremely strong when you look at the features. Except from removing filler words it should be your one-shot solution to produce great audio.
+
+Also the demos are impressive and I could not wait to try it out.
+
+But unfortunately I could not make it work in my case. I experienced the following issues:
+
+* Noise was not removed completely
+* Normalization put too much gain on my voice
+* Loudness levels where not applied
+
+What worked well:
+
+* Silence removal
+* The Auto-EQ.
+
+=== Adobe Podcaster Enhancer
+{uri-adobe-podcaster}[Adobe Podcaster] offers a free audio enhancer where you can remove noise and echo from your audio, but not filler sounds and stuttering.
+
+For me it did fail on:
+
+* Noise removal - Still noticable
+
+But it did a great job enhancing the audio. Both voices felt rich after enhancing.
+
+=== AI-Coustics
+{uri-ai-coustics}[AI-coustics] did a great job at removing noise. It was gone and the voices still sounded nice.
+
+The only problem I noticed was that sometimes the volume levels dipped a little bit.
+
+If you have heavy background noise I would probably use AI-coustics as in my opinion it did the best job with noise removal.
+
+=== Audo-AI
+{uri-audo-ai}[Audo.AI] did a similar good job with the audio quality like AI-coustics. But a little bit of background noise was noticable.
+
+=== Descript
+If I would create video or audio content every week I would definitely purchase {uri-descript}[Descript]!
+
+The editing is a completely different experience: You edit on the transcript! And then the audio adapts to that 🤯.
+
+Removing specific filler words is a Search+Replace away. Getting rid of silence is also well done: You specify the gap width that should be shortened and to what it should be reduced.
+
+Also the sound quality is great. No background noise hearable in my case.
+
+=== Cleanvoice
+For now I stuck with {uri-cleanvoice}[Cleanvoice] because they have a credit based payment model. I purchased the credits and can use it any time I want.
+
+The best thing about Cleanvoice is that it removes filler words, stuttering, background noise and silence automatically. Although you still have to edit a little bit, because automation makes mistakes 😉.
+
+I had to invest about 15 minutes of additional editing per episode to get the same result as with Descript. Which is ok when you are only casually podcasting.
+
+==== What Should I Use?
+If you have the money for it I highly recommend Descript. The different approach to editing is intuitive and fast and the audio quality is top notch.
+
+For now I use Cleanvoice as it is pay-what-you-use and the audio quality is as high as Descripts.
+
+== Transcription
+A transcript of the recording is a nice way to reuse your content and also to make it accessible to everyone. For transcribing text I use {uri-whisper-blog-post}[Whisper (I wrote an article about that)] locally. But you can also use any transcription service out there.
+
+At least for the raw transcription this seems to be a solved problem. The **medium** model from Whisper produces nearly no errors. So I have to do only a few minutes of correction on each episode.
+
+A raw transcription is nice if you want to feed it into a Large Language Model (LLM) like chatGPT. But it does not make for nice to read content because it misses two things:
+
+* Nice formatting
+* Speaker diarisation (Labels which speaker is speaking)
+
+I was not able to try out some tools for the latter, but {uri-speaker-diarisation}[this Github repository looks promising].
+
+=== Diarisation
+So to get my speaker labels I did the diarisation manually and every time the speaker changes I added an empty line. The transcripts look like this:
+
+----
+Hello and welcome to J&J Talk AI. Today we are talking...
+
+Hey there. Nice to be back gain!
+
+The topic of this episode is...
+
+Yeah, so...
+----
+
+=== Generating Speaker Labels Automatically with chatGPT
+I then fed the diarised output to chatGPT with a prompt to add the speaker labels.
+
+__Note: This only works well if you have two speakers that naturally alternate.__
+
+The prompt looks like this:
+
+----
+Heyho, can you help me with a tedious task please.
+
+So I have this long transcript of a podcast and I need you to add labels to a file. Here is an example:
+
+JH: Yeah this is a podcast
+JD: Welcome to it.
+
+The labels are JH: and JD:
+
+You can identify the blocks by an empty line. It starts with JD: and the next block with JH: and then it alternates between these two. Also do not label the blocks in any way please. Make sure the first block starts with JD: .
+ 
+Here is the transcript:
+----
+
+This worked for me, although sometimes I got the modified transcript as a codesnippet 😋.
+
+=== Generating Content
+For generating further content I used chatGPT-3.5 which can handle the longer transcripts and works decently now.
+
+The results where sometimes of mixed quality and I __highly__ recommend to proofread them and give them a personal touch.
+
+But the speedup at this stage for creating a podcast description, a LinkedIn post and a social messenger post, was fairly impressive. For the five episodes I needed about **two** hours of work to get the quality I wanted.
+
+Last time this took me **five** hours which is an impressive speedup 🥳.
+
+In the next section I will share my prompts and the reasoning behind it. I didn't do much prompt engineering to be honest. Just some basic things I picked up in the last weeks. If someone wants to improve on them let me know what worked for you.
+
+==== Podcast description
+The prompt for the podcast description took some attempts. The model picked up on a lot of content in the transcript you do not want to be in a podcast description.
+
+For example sponsor messages were included every time and also the opening lines. Especially annoying is the tendency to include a huge amount of emojis and add things that were not in the transcript at all.
+
+So I made sure to add instructions not to add superfluous stuff and to be concise.
+
+----
+Heyho I want you to act as a Developer Advocate who is great at social media. The things you write should not be markety but should be engaging.
+
+I want you to create a podcast description out of the text I provide. Keep the length short and to the point. Also do not use any emojis and direct quotations from the text I provide. Please take only content out of the text. No sponsor messages!
+
+Here is the text:
+----
+
+==== Social Media: Short Message and LinkedIn
+In social media I want some emojis so I made sure only some are there. Also again sponsor messages should not be included. But overall the results where great and I had to do only minimal editing.
+
+----
+Heyho I want you to act as a Developer Advocate who is great at social media. The things you write should not be markety but should be engaging.
+
+I want you to create a Twitter post out of the text I provide. Do not overly use emojis and keep the tweet under 160 characters. Please take only content out of the text. No sponsor messages!
+
+Here is the text:
+----
+
+LinkedIn looks nearly the same but without the character limit and the instruction to keep it brief:
+
+----
+Heyho I want you to act as a Developer Advocate who is great at social media. The things you write should not be markety but should be engaging.
+
+I want you to create a LinkedIn Post out of the text I provide. Do not overly use emojis and keep it somewhat brief. Please take only content out of the text. No sponsor messages!
+
+Here is the text:
+----
+
+==== Blogpost
+For the blog post I had to put the diarised and speaker labeled transcript into a WYSIWYG-Editor which works, but is not optimal. There was one particular problem:
+
+* **Bolden** the speaker labels
+
+Which is an easy Search+Replace in Markdown or AsciiDoc. But not in an WYSIWYG-Editor with no such feature.
+
+Thus I tried to automate this using {uri-askui-tutorial-wysiwyg}[AskUI which worked decently in this case]. Not faster, but less straining on my wrists 🦾.
+
+== Conclusion
+My little experiments in automating a lot of things around my podcast were a lot of fun and brought a lot of insights on how to speed up things with AI/ML.
+
+I managed to shave off a good amount of time for all the tasks.
+
+Thus said, using Large Language Models like chatGPT still requires a lot of finesse and the results need editing. I would not try to fully automate everything if quality is important... Yet! 😇
+
+Photo by {uri-cover-art}[Soundtrap] on {unsplash-link}[Unsplash].
+
+toc::[]

@@ -276,6 +276,15 @@
       },
       "572":  {
         "link": "/talks/details/.html"
+      },
+      "573":  {
+        "link": "/talks/details/.html"
+      },
+      "574":  {
+        "link": "/talks/details/.html"
+      },
+      "575":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -1917,6 +1926,39 @@
         "johannesdienst"
       ],
       "talkid": 572
+    },
+    {
+      "title": "Real Cross-Platform Workflow UI Automation",
+      "event": "Accento",
+      "location": " Südwerk in Karlsruhe",
+      "date": "2023-10-24",
+      "url": "https://2023.accento.dev/talks/workflow-ui-automation/",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 573
+    },
+    {
+      "title": "Real Cross-Platform Workflow UI Automation",
+      "event": "TACON 2023",
+      "location": " Design Offices Leipzig",
+      "date": "2023-09-26",
+      "url": "https://events.summit-community.de/event/b7c711fb-7510-4050-8806-f4e9f5364b9f/summary",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 574
+    },
+    {
+      "title": "Real Cross-Platform Workflow UI Automation",
+      "event": "TestCon 2023",
+      "location": " virtual",
+      "date": "2023-10-26",
+      "url": "https://testcon.lt/#",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 575
     }
   ]
 }

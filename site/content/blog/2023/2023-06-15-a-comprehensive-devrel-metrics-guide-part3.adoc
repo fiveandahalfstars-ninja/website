@@ -34,7 +34,7 @@ I will answer this question in this article for people who are just starting out
 
 But also if you have something in place already. This article will help you make sense of metrics and give you inspiration.
 
-## The Solid Framework: Kim Maidas Keystone Framework
+== The Solid Framework: Kim Maidas Keystone Framework
 Just starting out with DevRel-Metrics? Look no further than Kim Maidas **DevRel Metrics Keystone Framework**. Over the course of her career leading in Developer Relations she says she found a way to holistically measure DevRel in a way the C-Suite understands. And I could not agree more!
 
 .Kim Maidas Keystone DevRel Metrics (Source: {uri-kim-maidas-keystone-framework}[Kim Maidas article])
