@@ -32,6 +32,7 @@ ifndef::imagesdir[:imagesdir: ../images]
 :uri-speaker-diarisation: https://github.com/MahmoudAshraf97/whisper-diarization
 
 :uri-askui-tutorial-wysiwyg: https://www.askui.com/blog-posts/automate-highlighting-in-wysiwyg-editors
+:unsplash-link: https://unsplash.com/
 
 image::blog/2023/speed-up-podcast-production-cover.jpg[width=60%, align=center]
 
