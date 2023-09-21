@@ -281,3 +281,90 @@ https://learn.adafruit.com/worlds-smallest-mame-arcade-cabinet?view=all
 
 
 to be continued...
+
+//chatgpt
+
+:uri_blogspot: https://myminiarcade.blogspot.com/
+:uri_printables: https://www.printables.com/model/232318-cool-print-flat-mini-retro-arcade-cabinet
+:uri_ips_screen: https://www.amazon.de/gp/product/B07QGPKWJ2
+:uri_oled_screen: https://www.amazon.de/gp/product/B074N9VLZX
+
+== Introduction and Goals
+
+The goal of this project is to create a small, 3D-printed arcade cabinet powered by a Raspberry Pi.
+The cabinet will have different versions with varying features, allowing for a minimalist approach, a multi-talented version, and a rare specialist version.
+This blog post serves as an architecture documentation, detailing the decisions, technology, and steps taken to bring this idea to life.
+
+== Architecture Constraints
+
+The primary constraint is the limited size of the arcade cabinet, which influences the choice of components such as the screen, controller, and Raspberry Pi.
+Additionally, the project aims to keep costs low while maintaining a high level of functionality.
+
+== Solution Strategy
+
+The solution strategy is to create three different versions of the mini arcade with different features:
+
+- The Minimalist: A simple arcade-like demo with a small OLED screen and Arduino-based controller.
+- The Multi-Talent: A slightly larger cabinet with a Raspberry Pi Zero, offering more computing power and features, such as WiFi and Bluetooth.
+- The Rare Specialist: A larger cabinet that incorporates an original handheld game and display extension cable.
+
+== Building Block View
+
+The building blocks of this project include:
+
+- 3D-printed arcade cabinet
+- Display (OLED or IPS)
+- Controller (Arduino or Raspberry Pi)
+- Optional components (Bluetooth, WiFi, etc.)
+
+== Runtime View
+
+The runtime view for each version varies.
+The Minimalist focuses on running a simple arcade-like demo on an OLED screen, while the Multi-Talent utilizes a Raspberry Pi Zero to run emulator software and connect to a Bluetooth game controller.
+The Rare Specialist uses a handheld game and display extension cable to create a unique arcade experience.
+
+== Deployment View
+
+The deployment of each version involves assembling the necessary components, connecting them to the chosen controller, and loading the required software.
+
+=== The Minimalist
+
+- Wire the OLED screen to an Arduino-based controller
+- Code an arcade-like demo for the screen
+
+=== The Multi-Talent
+
+- Wire the IPS screen to a Raspberry Pi Zero
+- Install emulator software and configure the system
+- Connect a Bluetooth game controller
+
+=== The Rare Specialist
+
+- Connect the handheld game to the display extension cable
+- Assemble the components in the arcade cabinet
+
+== Cross-cutting Concepts
+
+The project touches on various cross-cutting concepts, such as 3D printing, electronics, programming, and emulation.
+It demonstrates how these concepts can be combined to create a unique and functional mini arcade cabinet.
+
+== Risks and Technical Debt
+
+Some risks and technical debt in this project include:
+
+- The possibility of components becoming obsolete or unavailable
+- The need for custom programming for each version
+- The potential complexity of connecting components and configuring the system
+
+== Glossary
+
+- Arduino: An open-source electronics platform based on easy-to-use hardware and software
+- IPS: In-Plane Switching, a type of LCD screen technology
+- OLED: Organic Light Emitting Diode, a type of display technology
+- Raspberry Pi: A small, low-cost, single-board computer
+- RetroPie: A software package that allows for the installation of multiple game emulators on a Raspberry Pi
+- SPI: Serial Peripheral Interface, a synchronous serial communication protocol
+
+== Further Reading and Resources
+
+- {uri-guide}
