@@ -1,0 +1,21 @@
+= Software architecture: "AI will complement our skills, not replace them".
+:jbake-pseudo: isaqb-post
+:jbake-date: 2023-10-22
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: ki, isaqb
+:jbake-lang: en
+:doctype: article
+:toc: macro
+
+:uri: https://conferences.isaqb.org/software-architecture-gathering/transforming-software-architecture-exams-chatgpt-as-your-strategic-ally-for-success-an-interview-with-ralf-d-mueller/
+
+How will the work of a software architect change with AI?
+
+I try it out and dare a look into the crystal ball...
+
+{uri}[read my interview on isaqb.org]...
+
+toc::[]
