@@ -1,0 +1,21 @@
+= Softwarearchitektur: "KI wird unsere Fähigkeiten ergänzen, nicht ersetzen"
+:jbake-pseudo: isaqb-post
+:jbake-date: 2023-10-22
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: ki, isaqb
+:jbake-lang: de
+:doctype: article
+:toc: macro
+
+:uri: https://www.heise.de/hintergrund/Softwarearchitektur-KI-wird-unsere-Faehigkeiten-ergaenzen-nicht-ersetzen-9339113.html
+
+Wie wird sich die Arbeit eines Software-Architekten mit KI verändern?
+
+Ich probiere es aus und wage einen Blick in die Glaskugel...
+
+{uri}[(M)ein Interview auf heise.de]
+
+toc::[]
