@@ -10,7 +10,10 @@
 :doctype: article
 :toc: macro
 
+
 :uri: https://www.heise.de/hintergrund/Softwarearchitektur-KI-wird-unsere-Faehigkeiten-ergaenzen-nicht-ersetzen-9339113.html
+
+== Software-Architektur und ChatGPT
 
 Wie wird sich die Arbeit eines Software-Architekten mit KI verändern?
 

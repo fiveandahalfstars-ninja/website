@@ -12,6 +12,8 @@
 
 :uri: https://conferences.isaqb.org/software-architecture-gathering/transforming-software-architecture-exams-chatgpt-as-your-strategic-ally-for-success-an-interview-with-ralf-d-mueller/
 
+== Software-Architecture and ChatGPT
+
 How will the work of a software architect change with AI?
 
 I try it out and dare a look into the crystal ball...
