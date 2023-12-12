@@ -384,7 +384,7 @@
     {
       "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
       "event": "Software Architecture Summit",
-      "location": "Berlin",
+      "location": "München",
       "date": "2023-09-11",
       "url": "https://software-architecture-summit.de/softwarearchitektur/phantastische-diagramme-und-wie-du-sie-selbst-erstellst/",
       "speaker": [
@@ -424,21 +424,6 @@
       "image": "",
       "cfp": "",
       "talkid": 8
-    },
-    {
-      "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
-      "event": "Java Forum Stuttgart",
-      "location": "Stuttgart",
-      "date": "2023-07-12",
-      "url": "https://www.java-forum-stuttgart.de",
-      "speaker": [
-        "ralfdmueller",
-        "sippsack"
-      ],
-      "image": "",
-      "duration": 180,
-      "cfp": "",
-      "talkid": 19
     },
     {
       "title": "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst",
