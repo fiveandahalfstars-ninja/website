@@ -285,6 +285,12 @@
       },
       "575":  {
         "link": "/talks/details/.html"
+      },
+      "576":  {
+        "link": "/talks/details/.html"
+      },
+      "577":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -2001,6 +2007,28 @@
         "johannesdienst"
       ],
       "talkid": 575
+    },
+    {
+      "title": "Useful and Beautiful Developer Docs and How to Create Them",
+      "event": "JCON World 2023",
+      "location": " virtual",
+      "date": "2023-11-22",
+      "url": "https://2023.world.jcon.one/",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 576
+    },
+    {
+      "title": "Useful and Beautiful Developer Docs and How to Create Them",
+      "event": "DevDays Europe 2024",
+      "location": " Vilnius, Lithuania",
+      "date": "2024-05-23",
+      "url": "https://devdays.lt/",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 577
     }
   ]
 }
