@@ -22,3 +22,6 @@ Als besonderen Bonus des Talks gehen wir kurz auf die Nutzung von Embeddings ein
 Der Talk wendet sich an Java-Entwickler, Software-Architekten und Technologie-Experten, die den Einsatz von LLM in Chat-Anwendungen in Betracht ziehen oder bereits erste Erfahrungen gesammelt haben.
 
 
+=== Referenzen
+
+* https://techstories.dbsystel.de/blog/2023/2023-11-08-prompt-engineering.html[Slides]

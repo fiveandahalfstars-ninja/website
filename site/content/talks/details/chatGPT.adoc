@@ -5,15 +5,6 @@
 :diagram-server-url: https://kroki.io
 :diagram-server-type: kroki_io
 
-//== 🇩🇪 Phantastische Diagramme und wie Du sie selbst erstellst
-
-//Die wichtigste Aufgabe eines Software-Architekten besteht darin, die Architektur zu kommunizieren.
-
-//Neben den textuellen Inhalten gilt es auch, Grafiken zu erstellen. Getreu dem Motto "ein Bild sagt mehr als tausend Worte" helfen Diagramme bei einer effektiven und pragmatischen Dokumentation. Damit sie wirken, müssen sie leicht erfassbar, stets aktuell und korrekt sein..
-
-//In diesem Talk spüren wir zuerst die Schwachstellen vieler Diagramme auf und überlegen uns anschließend, wie wir sie umgehen können. Das Ergebnis ist eine Checkliste für richtig gute, fast schon phantastische Architektur-Diagramme.
-
-//Als Bonus werden wir aufzeigen, wie Diagramme wartbar mit dem Docs-as-Code Ansatz umgesetzt werden, um sie jederzeit aktuell und im Einklang mit der Architektur halten zu können.
 
 == 🇬🇧 Using AI in Software Design: How ChatGPT Can Help With Creating a Solution Architecture
 
@@ -35,4 +26,6 @@ Whether you are a seasoned architect or a novice in the field, this presentation
 | Features	| recorded demos
 |===
 
-=== Referenzen
+=== References
+
+* https://techstories.dbsystel.de/blog/2023/2023-11-29-AI-in-Software-Design.html[Slides]

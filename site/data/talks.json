@@ -291,6 +291,48 @@
   "talks": [
 
     {
+      "title": "Using AI in Software Design: How ChatGPT Can Help With Creating a Solution Architecture",
+      "event": "Software-Architektur.tv",
+      "location": "online",
+      "date": "2023-12-15",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 60,
+      "cfp": ""
+    },
+
+    {
+      "title": "Using AI in Software Design: How ChatGPT Can Help With Creating a Solution Architecture",
+      "event": "Voxxed Days Zürich",
+      "location": "Zürich",
+      "date": "2024-03-07",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 45,
+      "cfp": "https://vdz24.cfp.dev/#/",
+      "talkid": 20
+    },
+    {
+      "title": "Talk: Prompt-Engineering für Entwickler",
+      "event": "JavaLand",
+      "location": "Nürburgring",
+      "date": "2024-04-10",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 40,
+      "cfp": "",
+      "talkid": 21
+    },
+    {
       "title": "Talk: Prompt-Engineering für Entwickler",
       "event": "W-JAX",
       "location": "München",
