@@ -1,0 +1,21 @@
+:jbake-title: Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung?
+:jbake-type: page
+:jbake-status: published
+
+:diagram-server-url: https://kroki.io
+:diagram-server-type: kroki_io
+
+== 🇩🇪 Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung?
+
+ChatGPT kann Dinge, von denen viele nicht gedacht hätten, dass sie überhaupt möglich sind. Ralf D. Müller hat ChatGPT die "iSAQB Advanced Level"-Beispielaufgabe lösen lassen. In dieser Episode berichtet er, wie er dabei vorgegangen ist. Müller und Wolff schauen sich außerdem die Ergebnisse an – und gehen der Frage nach, ob ChatGPT die Advanced-Level-Zertifizierung bestehen würde.
+
+* https://techstories.dbsystel.de/blog/2023/2023-11-29-AI-in-Software-Design.html[Using AI in Software Design: How ChatGPT Can Help With Creating a Solution Architecture]
+* https://www.heise.de/news/software-architektur-tv-Besteht-ChatGPT-die-iSAQB-Advanced-Level-Pruefung-9574316.html[software-architektur.tv: Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 1/x]
+
+++++
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YOr6tIhXgFE?si=CNMHLCQVRdHO07aD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+++++
+
+++++
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FcPm5PAQFaU?si=Gl5HFo6J0yDyg-k2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+++++
