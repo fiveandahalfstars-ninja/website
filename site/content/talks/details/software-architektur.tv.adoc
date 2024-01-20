@@ -19,3 +19,7 @@ ChatGPT kann Dinge, von denen viele nicht gedacht hätten, dass sie überhaupt m
 ++++
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FcPm5PAQFaU?si=Gl5HFo6J0yDyg-k2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ++++
+
+++++
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WFZppdVGqAw?si=DGBXKzF9t_5-fyOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+++++
