@@ -1,0 +1,14 @@
+:jbake-title: Real-World Architekturdiagramme
+:jbake-type: page
+:jbake-status: published
+
+:diagram-server-url: https://kroki.io
+:diagram-server-type: kroki_io
+
+== 🇩🇪 Real-World Architekturdiagramme
+
+An einem fiktiven, aber realistischen Beispiel werden wir live verschiedene Diagramme entwerfen, um wichtige Lösungsansätze und Entscheidungen festzuhalten. Dazu zählen neben den vier Sichten (Systemkontext, Baustein-, Laufzeit- und Verteilungssicht) auch weitere Visualisierungen wie zum Beispiel ein informelles Überblicksbild oder ein Qualitätsbaum.
+
+Wir diskutieren sowohl, was inhaltlich in das jeweilige Diagramm gehört und welche Form und Style-Richtlinien eingehalten werden sollten. Dabei verwenden wir frei verfügbare Werkzeuge und leichtgewichtige Methoden wie Diagrams-as-Code, Documentation-as-Code, C4, arc42, docToolchain, kroki.io, PlantUML, Structurizr, draw.io/diagrams.net und andere. Ihr könnt das Gelernte direkt auf Eure Projekte übertragen und werdet in Zukunft Eure Kollegen mit gut verständlichen und leicht zu wartenden Softwarearchitekturdiagrammen beglücken.
+
+

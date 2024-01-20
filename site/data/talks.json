@@ -67,6 +67,9 @@
       "22":  {
         "link": "/talks/details/software-architektur.tv.html"
       },
+      "23":  {
+        "link": "/talks/details/real-world-architekturdiagramme.html"
+      },
 	  "501":  {
         "link": "/talks/details/.html"
       },
@@ -299,6 +302,21 @@
   ],
   "talks": [
 
+    {
+      "title": "Talk: Real World Architekturdiagramme",
+      "event": "Software Architecture Summit",
+      "location": "München",
+      "date": "2024-03-12",
+      "url": "https://software-architecture-summit.de/session/real-world-architekturdiagramme/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 210,
+      "cfp": "",
+      "talkid": 23
+    },
     {
       "title": "Besteht ChatGPT die iSAQB-Advanced-Level-Prüfung? 3/x mit Ralf D. Müller",
       "event": "Software-Architektur.tv",
