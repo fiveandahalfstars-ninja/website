@@ -1,0 +1,12 @@
+:jbake-title: Training: Docs-as-Code
+:jbake-type: page
+:jbake-status: published
+
+:diagram-server-url: https://kroki.io
+:diagram-server-type: kroki_io
+
+== 🇩🇪 Training: Docs-as-Code
+
+Architektur-Dokumentation wird sehr oft stiefmütterlich behandelt. Die Gründe dafür sind vielfältig und unter anderem in der Verwendung unpraktikabler Werkzeuge und Formate zu finden. Beim Docs-as-Code-Ansatz wird Dokumentation wie Quellcode behandelt. Dokumente werden in leichtgewichtigen Text- und Grafikformaten erstellt, nahe beim Sourcecode in beispielsweise Git-Repos abgelegt und versioniert sowie in automatisierten Build-Prozessen verarbeitet. Dieses Seminar zeigt aufbauend auf schlanken Tools und Markup-Sprachen die Erstellung einer möglichst redundanzfreien Dokumentation, die für verschiedene Zielgruppen optimiert und in ansprechenden Formaten kontinuierlich ausgeliefert werden kann.
+
+Buchung: https://www.socreatory.com/de/trainings/docascode

@@ -70,6 +70,9 @@
       "23":  {
         "link": "/talks/details/real-world-architekturdiagramme.html"
       },
+      "24":  {
+        "link": "/talks/details/socreatory-docs-as-code.html"
+      },
 	  "501":  {
         "link": "/talks/details/.html"
       },
@@ -302,6 +305,36 @@
   ],
   "talks": [
 
+    {
+      "title": "Training: Documentation-as-Code",
+      "event": "Socreatory",
+      "location": "Remote",
+      "date": "2024-03-05",
+      "url": "https://www.socreatory.com/de/trainings/docascode",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 480,
+      "cfp": "",
+      "talkid": 23
+    },
+    {
+      "title": "Training: Documentation-as-Code",
+      "event": "Socreatory",
+      "location": "Remote",
+      "date": "2024-03-04",
+      "url": "https://www.socreatory.com/de/trainings/docascode",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "duration": 480,
+      "cfp": "",
+      "talkid": 23
+    },
     {
       "title": "Talk: Real World Architekturdiagramme",
       "event": "Software Architecture Summit",
