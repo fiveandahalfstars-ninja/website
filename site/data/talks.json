@@ -306,7 +306,7 @@
   "talks": [
 
     {
-      "title": "Training: Documentation-as-Code",
+      "title": "Training: Documentation-as-Code Day 2/2",
       "event": "Socreatory",
       "location": "Remote",
       "date": "2024-03-05",
@@ -318,10 +318,10 @@
       "image": "",
       "duration": 480,
       "cfp": "",
-      "talkid": 23
+      "talkid": 24
     },
     {
-      "title": "Training: Documentation-as-Code",
+      "title": "Training: Documentation-as-Code Day 1/2",
       "event": "Socreatory",
       "location": "Remote",
       "date": "2024-03-04",
@@ -333,7 +333,7 @@
       "image": "",
       "duration": 480,
       "cfp": "",
-      "talkid": 23
+      "talkid": 24
     },
     {
       "title": "Talk: Real World Architekturdiagramme",
