@@ -335,6 +335,35 @@
       "cfp": "",
       "talkid": 24
     },
+
+    {
+      "title": "Artikel: Smalltalk mit dem GPT",
+      "event": "Java-Magazin 4.2024",
+      "location": "Zeitschrift",
+      "date": "2024-03-01",
+      "url": "https://entwickler.de/digitale-transformation/prompt-engineering-gpt",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 45,
+      "cfp": "",
+      "talkid": 21
+    },
+    {
+      "title": "Night Session / Keynote: Prompt-Engineering für Entwickler",
+      "event": "Software Architecture Summit",
+      "location": "München",
+      "date": "2024-03-12",
+      "url": "https://software-architecture-summit.de/session/prompt-engineering-fuer-entwickler/",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 45,
+      "cfp": "",
+      "talkid": 21
+    },
     {
       "title": "Talk: Real World Architekturdiagramme",
       "event": "Software Architecture Summit",
