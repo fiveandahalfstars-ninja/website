@@ -1,0 +1,9 @@
+:jbake-title: Docs-as-Code: Acht Jahre Erfahrung
+:jbake-type: page
+:jbake-status: published
+
+== Docs-as-Code: Acht Jahre Erfahrungen
+
+Docs-as-Code als Ansatz hat die Art und Weise, wie Architekturdokumentationen erstellt und verwaltet werden, grundlegend verändert. In dieser Präsentation beleuchte ich die Entwicklungen und gewonnenen Erfahrungen der letzten acht Jahre im Einsatz von Docs-as-Code für die Softwarearchitekturdokumentation. Ein zentrales Element  ist die Verwendung von docToolchain, einem leistungsstarken Tool, das speziell für die Implementierung des Docs-as-Code-Ansatzes entwickelt wurde. Als Initiator des Projekts teile ich meine Erfahrung bzgl. der Erstellung, Pflege und dem Management von Dokumentationen in vielen unterschiedlichen Projekten. Ziel dieser Session ist es, Softwarearchitekten, Entwicklern und technischen Redakteuren praktische Einblicke und Anleitungen zu bieten, um ihre eigene Dokumentationsarbeit zu optimieren und die Zusammenarbeit innerhalb ihrer Teams zu fördern.
+
+https://www.meetup.com/de-DE/technology-night-rhein-main/events/300586725/[zum Meetup]

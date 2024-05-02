@@ -73,6 +73,9 @@
       "24":  {
         "link": "/talks/details/socreatory-docs-as-code.html"
       },
+      "25":  {
+        "link": "/talks/details/8-years-doctoolchain.html"
+      },
 	  "501":  {
         "link": "/talks/details/.html"
       },
@@ -305,6 +308,49 @@
   ],
   "talks": [
 
+    {
+      "title": "Programmbeirat: ArchDoc 2024",
+      "event": "ArchDoc 2024",
+      "location": "online",
+      "date": "2024-09-30",
+      "url": "http://archdoc.bettercode.eu/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 8
+    },
+
+    {
+      "title": "Prompt-Engineering für Entwickler",
+      "event": "EAM Community Rhein-Main",
+      "location": "S&N Eschborn",
+      "date": "2024-06-04",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 45,
+      "cfp": "",
+      "talkid": 21
+    },
+    {
+      "title": "Docs-as-Code: Acht Jahre Erfahrung",
+      "event": "InnoQ Technology Day",
+      "location": "Offenbach",
+      "date": "2024-05-22",
+      "url": "https://www.meetup.com/de-DE/technology-night-rhein-main/events/300586725/",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "duration": 45,
+      "cfp": "",
+      "talkid": 25
+    },
     {
       "title": "Training: Documentation-as-Code Day 2/2",
       "event": "Socreatory",
