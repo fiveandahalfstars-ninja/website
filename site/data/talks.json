@@ -309,6 +309,33 @@
   "talks": [
 
     {
+      "title": "Real World Architekturdiagramme",
+      "event": "Software Architecture Summit",
+      "location": "Berlin",
+      "date": "2024-10-14",
+      "url": "https://software-architecture-summit.de/berlin/",
+      "speaker": [
+        "ralfdmueller",
+        "sippsack"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 23
+    },
+    {
+      "title": "Prompt-Engineering für Entwickler",
+      "event": "IT-Tage 2024",
+      "location": "Frankfurt",
+      "date": "2024-12-09",
+      "url": "https://www.ittage.informatik-aktuell.de/programm/2024/prompt-engineering-fuer-entwickler.html",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 21
+    },
+    {
       "title": "Programmbeirat: ArchDoc 2024",
       "event": "ArchDoc 2024",
       "location": "online",
