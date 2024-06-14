@@ -303,6 +303,15 @@
       },
       "577":  {
         "link": "/talks/details/.html"
+      },
+      "578":  {
+        "link": "/talks/details/.html"
+      },
+      "579":  {
+        "link": "/talks/details/.html"
+      },
+      "580":  {
+        "link": "/talks/details/.html"
       }
     }
   ],
@@ -2199,6 +2208,39 @@
         "johannesdienst"
       ],
       "talkid": 577
+    },
+    {
+      "title": "Useful and Beautiful Developer Docs and How to Create Them",
+      "event": "Voxxed Days Luxembourg",
+      "location": " Bad-Mondorf, Luxembourg",
+      "date": "2024-06-20",
+      "url": "",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 578
+    },
+    {
+      "title": "Nützliche und schöne Developer Docs",
+      "event": "Softwerkskammer Nürnberg",
+      "location": " Nuremberg, Germany",
+      "date": "2024-07-24",
+      "url": "https://www.meetup.com/de-DE/softwerkskammer-nuernberg/events/301637682",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 579
+    },
+    {
+      "title": "The Road to Intent-Driven Automation",
+      "event": "RPA Europe 2024",
+      "location": " Vilnius, Lithuania",
+      "date": "2024-11-22",
+      "url": "hhttps://rpaconference.eu",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 580
     }
   ]
 }
