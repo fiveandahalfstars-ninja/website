@@ -1,12 +1,10 @@
 = iX: "Künstliche Intelligenz in der Softwarearchitektur praktisch einsetzen"
-:jbake-pseudo: iX-post
 :jbake-date: 2024-09-09
 :jbake-author: rdmueller
 :jbake-type: post
 :jbake-toc: true
 :jbake-status: published
 :jbake-tags: ki, iX
-:jbake-lang: de
 :doctype: article
 :toc: macro
 
