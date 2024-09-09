@@ -1,0 +1,24 @@
+= iX: "Künstliche Intelligenz in der Softwarearchitektur praktisch einsetzen"
+:jbake-pseudo: iX-post
+:jbake-date: 2024-09-09
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: ki, iX
+:jbake-lang: de
+:doctype: article
+:toc: macro
+
+
+:uri: https://www.heise.de/hintergrund/Kuenstliche-Intelligenz-in-der-Softwarearchitektur-praktisch-einsetzen-9849104.html
+
+== Künstliche Intelligenz in der Softwarearchitektur praktisch einsetzen
+
+Künstliche Intelligenz macht Softwarearchitektur und kann Architektinnen und Architekten auf vielfältige Weise bei Entwurf, Prüfung oder Diagramm unterstützen.
+
+Ein neuer Artikel für das Architektur-Sonderheft der iX.
+
+{uri}[weiterlesen]
+
+toc::[]
