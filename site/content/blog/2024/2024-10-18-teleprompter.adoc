@@ -1,5 +1,3 @@
-= Elgato Prompter: 2 Überraschungen, die du kennen musst 🎥🖥️
-
 :jbake-date: 2024-10-18
 :jbake-author: rdmueller
 :jbake-type: post
@@ -8,6 +6,8 @@
 :jbake-tags: elgato, speaking, technology
 :doctype: article
 :toc: macro
+
+= Elgato Prompter: 2 Überraschungen, die du kennen musst 🎥🖥️
 
 ifndef::imagesdir[:imagesdir: ../images]
 

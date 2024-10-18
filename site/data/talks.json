@@ -318,10 +318,23 @@
   "talks": [
 
     {
-      "title": "Real World Architekturdiagramme",
+      "title": "Workshop Promptengineering",
       "event": "Software Architecture Summit",
       "location": "Berlin",
-      "date": "2024-10-14",
+      "date": "2024-10-16",
+      "url": "https://software-architecture-summit.de/berlin/",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 21
+    },
+    {
+      "title": "Workshop Real World Architekturdiagramme",
+      "event": "Software Architecture Summit",
+      "location": "Berlin",
+      "date": "2024-10-16",
       "url": "https://software-architecture-summit.de/berlin/",
       "speaker": [
         "ralfdmueller",
