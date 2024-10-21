@@ -318,6 +318,19 @@
   "talks": [
 
     {
+      "title": "?",
+      "event": "iSAQB Meetup",
+      "location": "Frankfurt",
+      "date": "2025-02-12",
+      "url": "https://www.meetup.com/de-DE/isaqb-software-architektur-meetup-gruppe-fur-interessierte/",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 21
+    },
+    {
       "title": "Workshop Promptengineering",
       "event": "Software Architecture Summit",
       "location": "Berlin",
