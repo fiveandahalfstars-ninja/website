@@ -2246,14 +2246,36 @@
     },
     {
       "title": "The Road to Intent-Driven Automation",
-      "event": "RPA Europe 2024",
-      "location": " Vilnius, Lithuania",
-      "date": "2024-11-22",
-      "url": "hhttps://rpaconference.eu",
+      "event": "dotAI",
+      "location": " Paris, France",
+      "date": "2024-10-18",
+      "url": "https://www.dotai.io",
       "speaker": [
         "johannesdienst"
       ],
       "talkid": 580
+    },
+    {
+      "title": "The Road to Intent-Driven Automation",
+      "event": "RPA Europe 2024",
+      "location": " Vilnius, Lithuania",
+      "date": "2024-11-22",
+      "url": "https://rpaconference.eu",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 581
+    },
+    {
+      "title": "Intent-Driven Automation with Multimodal AI",
+      "event": "ASQF Quality Day Berlin",
+      "location": " Berlin, Germany",
+      "date": "2024-11-26",
+      "url": "https://www.asqf.de/eventkalender/asqf-quality-day-berlin",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 582
     }
   ]
 }
