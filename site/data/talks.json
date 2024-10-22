@@ -97,6 +97,19 @@
       "talkid": 26
     },
     {
+      "title": "Prompt-Engineering für Entwickler",
+      "event": "IT-Tage 2024",
+      "location": "Frankfurt",
+      "date": "2024-12-09",
+      "url": "https://www.ittage.informatik-aktuell.de/programm/2024/prompt-engineering-fuer-entwickler.html",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 21
+    },
+    {
       "title": "Workshop Promptengineering",
       "event": "Software Architecture Summit",
       "location": "Berlin",
@@ -124,17 +137,17 @@
       "talkid": 23
     },
     {
-      "title": "Prompt-Engineering für Entwickler",
-      "event": "IT-Tage 2024",
-      "location": "Frankfurt",
-      "date": "2024-12-09",
-      "url": "https://www.ittage.informatik-aktuell.de/programm/2024/prompt-engineering-fuer-entwickler.html",
+      "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
+      "event": "intern",
+      "location": "Remote",
+      "date": "2024-10-08",
+      "url": "",
       "speaker": [
         "ralfdmueller"
       ],
       "image": "",
       "cfp": "",
-      "talkid": 21
+      "talkid": 26
     },
     {
       "title": "Programmbeirat: ArchDoc 2024",
