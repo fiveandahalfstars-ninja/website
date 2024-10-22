@@ -1,0 +1,20 @@
+:jbake-title: Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten
+:jbake-type: page
+:jbake-status: published
+
+:diagram-server-url: https://kroki.io
+:diagram-server-type: kroki_io
+
+== 🇩🇪 Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten
+
+=== Abstract
+
+Die rasante Entwicklung generativer Künstlicher Intelligenz (GenAI) und großer Sprachmodelle (LLMs) steht kurz davor, die Software-Architektur grundlegend zu verändern. In diesem Vortrag werfen wir einen „Blick in die Glaskugel“, um zu erkunden, welche Auswirkungen diese Technologien auf traditionelle Architekturentscheidungen, den Lebenszyklus von Code und die Mensch-Maschine-Interaktion haben werden.
+
+Wir werden untersuchen, wie der Einsatz von LLMs dazu führen könnte, dass klassische Architekturfragen wie die Wahl der Programmiersprache an Bedeutung verlieren, während neue Herausforderungen in den Bereichen Sicherheit und ethische Verantwortung aufkommen. Zudem diskutieren wir die potenziellen Vorteile einer stärker automatisierten und optimierten Entwicklungspraxis, die durch diese Technologien ermöglicht wird.
+
+Dieser Vortrag richtet sich an Software-Architekten, Entwickler und Technologieenthusiasten, die verstehen möchten, wie GenAI und LLMs die zukünftige Architektur unserer Softwarelandschaften prägen werden. Gemeinsam wagen wir einen informierten Blick in die Zukunft der Softwareentwicklung und erörtern, wie wir uns als Fachleute darauf vorbereiten können.
+
+=== Referenzen
+
+* https://techstories.dbsystel.de/blog/2023/2023-11-08-prompt-engineering.html[Slides]
