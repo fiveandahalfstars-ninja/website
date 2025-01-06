@@ -82,6 +82,66 @@
     }
   ],
   "talks": [
+    {
+      "title": "GenAI & Softwarearchitektur mit Christian Weyer",
+      "event": "Software-Architektur.tv",
+      "location": "online",
+      "date": "2025-01-09",
+      "url": "https://software-architektur.tv/2025/01/09/episode246.html",
+      "speaker": [
+        "ralfdmueller",
+        "Christian Weyer"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 0
+    },
+    {
+      "title": "KI in der Software-Entwicklung - Über- oder unterhypt?",
+      "event": "Software-Architektur.tv",
+      "location": "online",
+      "date": "2024-12-20",
+      "url": "https://software-architektur.tv/2024/12/20/episode245.html",
+      "speaker": [
+        "ralfdmueller",
+        "Eberhard Wolff",
+        "Stephan Schmidt",
+        "André Neubauer",
+        "Lisa Maria Schäfer"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 0
+    },
+    {
+      "title": "IT im Jahr 2034 – Wo wollen wir hin?",
+      "event": "IT-Tage 2024",
+      "location": "Frankfurt",
+      "date": "2024-12-10",
+      "url": "https://software-architektur.tv/2024/12/10/episode244.html",
+      "speaker": [
+        "ralfdmueller",
+        "Eberhard Wolff",
+        "Lisa Maria Schäfer"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 0
+    },
+    {
+      "title": "Generative AI Meets Software Architecture mit Ralf D. Müller",
+      "event": "Software-Architektur.tv",
+      "location": "Frankfurt",
+      "date": "2024-11-29",
+      "url": "https://software-architektur.tv/2024/11/29/episode242.html",
+      "speaker": [
+        "ralfdmueller",
+        "Eberhard Wolff",
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 0
+    },
 
     {
       "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
