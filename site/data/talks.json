@@ -142,6 +142,19 @@
       "cfp": "",
       "talkid": 0
     },
+    {
+      "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
+      "event": "JavaLand",
+      "location": "Nürburgring",
+      "date": "2025-04-01",
+      "url": "https://meine.doag.org/events/javaland/2025/agenda/#eventDay.all#textSearch.ralf",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 26
+    },
 
     {
       "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
