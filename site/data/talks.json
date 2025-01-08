@@ -155,6 +155,19 @@
       "cfp": "",
       "talkid": 26
     },
+    {
+      "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
+      "event": "betterCode() clean Architecture",
+      "location": "online",
+      "date": "2025-03-24",
+      "url": "https://clean-architecture.bettercode.eu/",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 26
+    },
 
     {
       "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
