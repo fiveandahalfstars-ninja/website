@@ -84,6 +84,33 @@
   "talks": [
     {
       "title": "???",
+      "event": "???",
+      "location": "Rust",
+      "date": "2025-06-03",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 0
+    },
+    {
+      "title": "Prompt-Engineering für Entwickler",
+      "event": "IT-Tage - Developer Tag",
+      "location": "Online",
+      "date": "2025-06-25",
+      "url": "https://www.ittage.informatik-aktuell.de",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 21
+    },
+
+    {
+      "title": "???",
       "event": "DWX",
       "location": "Mannheim",
       "date": "2025-06-30",
