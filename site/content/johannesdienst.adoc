@@ -27,7 +27,6 @@ image::profiles/jdienst.jpg[]
         <a href="http://github.com/JohannesDienst"><i class="svg-icon github"></i></a>
         <a href="/feed.xml"><i class="svg-icon rss"></i></a>
         <a rel="me" href="https://mastodon.social/@JohannesDienst"><i class="svg-icon mastodon"></i></a>
-        <a href="http://twitter.com/JohannesDienst"><i class="svg-icon twitter"></i></a>
 ++++
 
 --
@@ -35,16 +34,15 @@ image::profiles/jdienst.jpg[]
 [.col-md-5]
 --
 
-Ich bin Johannes und ich bin Developer Advocate bei link:https://www.askui.com/[askui] in Karlsruhe.
+Ich bin Johannes.
 
-Folgt mir doch auf Twitter link:https://twitter.com/johannesdienst[@JohannesDienst]
+Folgt mir doch auf Mastodon link:https://mastodon.social/@JohannesDienst[@JohannesDienst] oder LinkedIn link:https://www.linkedin.com/in/johannesdienst[JohannesDienst]
 
-Seit über fünf Jahren bin ich auch als Sprecher aktiv. Bei Interesse schreibt mich einfach an. Meine Lieblingsthemen sind:
+Seit vielen jahren bin ich als Sprecher auf Konferenzen aktiv. Bei Interesse schreibt mich einfach an. Meine Lieblingsthemen sind:
 
-* Testautomatisierung
-* Mutationstesten
+* Dokumentation
 * Softwarequalität
-* Softwarearchitektur (arc42, Architecture Decision Records)
+* Softwarearchitektur
 
 Hier schreibe ich über alle Dinge, die ich in der Softwareentwicklung interessant finde.
 
@@ -125,7 +123,6 @@ link:/${post.uri}[${post.title}] +
 ==== Links
 * link:https://www.heise.de/developer/artikel/Mutationstests-mit-PIT-in-Java-3888683.html[Mutationstests mit PIT in Java]
 * link:https://www.sigs-datacom.de/uploads/tx_dmjournals/dienst_JS_04_15.pdf[Getyptes JavaScript – JavaSpektrum]
-* link:https://jaxenter.de/author/johannesdienst[JAXEnter Profil:]
 
 [discrete]
 ==== Sessionize Speaker Profil
@@ -134,17 +131,17 @@ Speakerprofil auf link:https://sessionize.com/johannes-dienst/[Sessionize]
 [discrete]
 ==== Kurzvita
 
-Johannes Dienst ist Developer Advocate bei askui. Sein Fokus liegt auf Automatisierung, Dokumentation und Softwarequalität.
+Johannes Dienst ist Softwarecrafter. Sein Fokus liegt auf Automatisierung, Dokumentation und Softwarequalität.
 
-Johannes Dienst is Developer Advocate at askui. His focus is on automation, documentation, and software quality.
+Johannes Dienst is a softwarecrafter. His focus is on automation, documentation, and software quality.
 
 [discrete]
 ==== Langversion
 
-Johannes Dienst ist Diplom Informatiker und Softwarecrafter mit 10 Jahren Berufserfahrung in der Entwicklung von komplexen IT-Systemen im Umfeld von Java, JavaScript und allen möglichen anderen Sprachen. Seine sonstigen Interessen sind breit gestreut mit Fokus auf Softwarequalität und Softwarearchitektur. Sein Wissen teilt und erweitert er gerne als Sprecher auf Konferenzen und mit Fachartikeln. In seiner Freizeit gehört sein Herz der Familie für die er sich mit Kraftsport fit hält.
+Johannes Dienst ist Diplom Informatiker und Softwarecrafter über 12 Jahren Berufserfahrung in der Entwicklung von komplexen IT-Systemen im Umfeld von Java, JavaScript und allen möglichen anderen Sprachen. Seine sonstigen Interessen sind breit gestreut mit Fokus auf Softwarequalität und Softwarearchitektur. Sein Wissen teilt und erweitert er gerne als Sprecher auf Konferenzen und mit Fachartikeln. In seiner Freizeit gehört sein Herz der Familie für die er sich mit Kraftsport fit hält.
 
 [discrete]
-==== Twitter
+==== Mastodon
 
 Softwarecrafter, Clean Coder, Trainer, Speaker, Writer, Weightlifter
 
