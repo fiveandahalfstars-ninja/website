@@ -2207,6 +2207,28 @@
         "johannesdienst"
       ],
       "talkid": 582
+    },
+    {
+      "title": "Developer Docs That are Actually Useful",
+      "event": "BASTA! Spring",
+      "location": " Frankfurt, Germany",
+      "date": "2025-03-05",
+      "url": "https://basta.net/frankfurt/",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 583
+    },
+    {
+      "title": "Nützliche und schöne Docs für Softwareentwickelnde erstellen",
+      "event": "Navigate",
+      "location": " Virtual, Germany",
+      "date": "2025-03-18",
+      "url": "https://navigate-kongress.de/",
+      "speaker": [
+        "johannesdienst"
+      ],
+      "talkid": 584
     }
   ]
 }

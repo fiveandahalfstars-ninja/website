@@ -1,7 +1,7 @@
 
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy; 2020 | Baked with <a href="http://jbake.org">JBake ${version}</a></p>
+        <p class="muted credit">&copy; 2025 | Baked with <a href="http://jbake.org">JBake ${version}</a></p>
       </div>
     </div>
     
