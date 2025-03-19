@@ -78,23 +78,13 @@
       },
       "26":  {
         "link": "/talks/details/GenAI-Architecture.html"
+      },
+      "27": {
+        "link": "/talks/details/arc42-20years.html"
       }
     }
   ],
   "talks": [
-    {
-      "title": "???",
-      "event": "???",
-      "location": "Rust",
-      "date": "2025-06-03",
-      "url": "",
-      "speaker": [
-        "ralfdmueller"
-      ],
-      "image": "",
-      "cfp": "",
-      "talkid": 0
-    },
     {
       "title": "Prompt-Engineering für Entwickler",
       "event": "IT-Tage - Developer Tag",
@@ -108,33 +98,48 @@
       "cfp": "",
       "talkid": 21
     },
-
     {
-      "title": "???",
+      "title": "arc42: Was, Wie, Woher, Wohin?",
+      "event": "betterCode() archDoc",
+      "location": "online",
+      "date": "2025-12-05",
+      "url": "https://archdoc.bettercode.eu/veranstaltung-83490-se-0-arc42-was-wie-woher-wohin.html",
+      "speaker": [
+        "ralfdmueller",
+        "Gernot Starke"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 27
+    },
+    {
+      "title": "arc42: Was, Wie, Woher, Wohin?",
       "event": "DWX",
       "location": "Mannheim",
-      "date": "2025-06-30",
-      "url": "",
+      "date": "2025-07-02",
+      "url": "https://www.developer-week.de/programm/#/talk/arc42-was-wie-woher-wohin",
       "speaker": [
-        "ralfdmueller"
+        "ralfdmueller",
+        "Gernot Starke"
       ],
       "image": "",
       "cfp": "",
-      "talkid": 0
+      "talkid": 27
     },
     {
-      "title": "???",
-      "event": "JCON Europe",
-      "location": "Köln",
-      "date": "2025-05-12",
-      "url": "",
+      "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
+      "event": "betterCode() archDoc",
+      "location": "online",
+      "date": "2025-05-05",
+      "url": "https://archdoc.bettercode.eu/veranstaltung-83496-se-0-ki-kompetenz-fuer-architektinnen-und-entwicklerinnen-prompt-engineering-praxisnah.html",
       "speaker": [
         "ralfdmueller"
       ],
       "image": "",
       "cfp": "",
-      "talkid": 0
+      "talkid": 26
     },
+
     {
       "title": "GenAI & Softwarearchitektur mit Christian Weyer",
       "event": "Software-Architektur.tv",
@@ -213,6 +218,19 @@
       "event": "betterCode() clean Architecture",
       "location": "online",
       "date": "2025-03-24",
+      "url": "https://clean-architecture.bettercode.eu/",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 26
+    },
+    {
+      "title": "KI-Kompetenz für Architekt:innen und Entwickler:innen: Prompt Engineering praxisnah",
+      "event": "betterCode() clean Architecture",
+      "location": "online",
+      "date": "2025-03-26",
       "url": "https://clean-architecture.bettercode.eu/",
       "speaker": [
         "ralfdmueller"

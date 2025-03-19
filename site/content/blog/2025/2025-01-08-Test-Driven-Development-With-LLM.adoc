@@ -1,0 +1,47 @@
+:jbake-date: 2025-01-08
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: llm, genai
+:doctype: article
+:toc: macro
+
+= Richtig arbeiten mit dem LLM
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+In vielen Demos sehe ich, wie Jemand mit Tools wie Github Copilot zu Code Tests erzeugen lässt.
+Das geht so schön einfach mit der Maschine und schnell hat man 100% Code-Coverage.
+
+Der Ansatz ist aber auf so vielen Ebenen falsch...
+
+== Development Driven Testing?
+
+Wollten wir nicht Test-Driven-Development machen?
+Wenn wir Tests zum Code schreiben, laufen wir Gefahr, dass wir die innere Mechanik unseres Codes testen und nicht das Verhalten!
+Wir sehen, was der Code macht und fangen an genau dafür Tests zu schreiben.
+
+Ein falsches Verhalten im Edge-Case?
+Der Test fixiert den Bug!
+
+Eine bestimmte Implementierung?
+Der Test, der die Implementierung testet und nicht das Verhalten, wird später ein Refactoring erschweren!
+
+== White-Board-Development
+
+Aber der wichtigste Grund, nicht die Tests für den Code schreiben zu lassen ist, was ich als White-Board-Development bezeichne.
+
+Wenn Du einen Algorithmus an einem Whiteboard entwerfen sollst, wie hoch ist die Wahrscheinlichkeit, dass der Code auf Anhieb fehlerfrei läuft?
+Genau - sehr gering.
+Aber von der Maschine erwarten wir es!
+
+Wie gehen wir stattdessen vor?
+Wir nutzen unsere Lieblings-IDE und führen den Code aus, bemerken den ersten Syntax-Fehler und verbessern den Code.
+So iterieren wir, bis der Code läuft.
+
+Ein LLM kann das über function-calling auch.
+Es muss nur das richtige Tool zur Verfügung gestellt bekommen.
+Im Fall von ChatGPT ist das der Python Code Interpreter
+
+toc::[]
