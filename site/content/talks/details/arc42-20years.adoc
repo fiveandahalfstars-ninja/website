@@ -1,0 +1,22 @@
+:jbake-title: arc42: Was, Wie, Woher, Wohin?
+:jbake-type: page
+:jbake-status: published
+
+:diagram-server-url: https://kroki.io
+:diagram-server-type: kroki_io
+
+== 🇩🇪 arc42: Was, Wie, Woher, Wohin?
+
+arc42 gilt der Standard in Sachen "Kommunikation von IT-Architekturen", und feiert 2025 den 20. Geburtstag.
+
+Was: Mit arc42 können Sie Ihre Architektur erklären und sie nahezu allen Stakeholdern verständlich machen. arc42 besteht aus einem Dutzend Sektionen, von denen knapp die Hälfte optional ist. Es ist (und bleibt für immer!) Open-Source unter liberaler Lizenz.
+
+Wie: Sie können arc42 für praktisch alle Arten von Systemen einsetzen, es ist komplett agnostisch gegenüber Technologien und Domänen. Anwender:innen haben es für kleine, mittlere und riesig große Systeme erfolgreich versendet.
+
+Wir zeigen Ihnen kleine und größere Beispiele von arc42, und leiten Sie in Kurzform durch die wesentlichen Teile: Auf Basis dieser Einführung können Sie sofort beginnen, Ihre eigenen Systeme effektiv und stakeholdergerecht zu dokumentieren/kommunizieren.
+
+Erleben Sie, wie Sie arc42 pragmatisch und sparsam einsetzen können.
+
+Woher: Was sind die grundlegenden Ideen und Ursprünge von arc42. Soviel sei verraten: Eine Reihe größerer Informationssysteme trafen auf eine Menge von Real-Time und Embedded Systemen. Erleben Sie eine komprimierte Zusammenfassung aus 20 Jahren Erfahrung über guten, besseren und besonders-schlechten Einsatz von arc42.
+
+Wohin: Wir gaben einen Ausblick, wohin bei arc42 und Architekturdokumentation die Reise mit Hilfe von LLM's und künstlicher Intelligenz gehen {könnten|wird}. ADR's können wir schon heute mittels RAG aus vorhandenen Wikis + Dokumenten ableiten, aber was ist mit den strategischen Entscheidungen, Querschnittskonzepten oder den Kontext- und Bausteinsichten? Erleben Sie einen (möglichen) Ausblick auf die nächsten 20 Monate arc42...
