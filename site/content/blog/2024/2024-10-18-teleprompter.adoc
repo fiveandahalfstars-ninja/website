@@ -37,4 +37,29 @@ Natürlich dachte ich, ich könnte einen meiner anderen Bildschirme (Notebook od
 
 Am Ende fand ich eine Lösung, die zwar ungewöhnlich ist, aber hervorragend funktioniert: Ich verwende https://amzn.to/4dRRz2w[**HDMI-Dummy-Stecker**], die einen HDMI-Monitor simulieren. So kann ich unter **Windows und MacOS** eine höhere Auflösung wie **1920 x 1080 Pixel (Full HD)** auf dem dummy-Monitor einstellen und dann dieses virtuelle Display auf den Prompter spiegeln. Mit dieser Lösung erhalte ich eine skalierte Full-HD-Auflösung, die perfekt für die Darstellung von UI-Elementen ist und eine gute Qualität beim Teilen des Bildschirms ermöglicht.
 
+== Update 30.04.2025
+
+Gestern konnte ich zwei weitere interessante erfahrungen machen.
+
+Den Prompter nutze ich mittlerweile nur noch unter Windows,
+denn ich nutze eine Canon Spiegelreflex als Kamera.
+Die Treiber funktionieren nicht mehr mit Apple-Silicon und eine andere Kamera möchte ich momentan nicht einsetzen.
+
+=== Schwarze Balken ohne HDMI-Dummy
+
+Den HDMI-Dummy Stecker benötige ich unter Windows nicht unbedingt. 
+Ich kann auch mein normales Display spiegel.
+Der Dummy-Stecker sorgt für weiteren Aufwand in meiner eh schon recht komplexen Verkabelung.
+Allerdings habe ich dann keine 16:9 Auflösung, die aber von meinen Slides erwartet wird.
+Dadurch ergeben sich beim Screensharing schwarze Balken
+
+=== Elgato Camera Hub
+
+Ein zweites Problem ist das helle Design meiner Slides.
+Das Display strahlt tatsächlich in die Kamera, wodurch ich blass rüber komme.
+Die Lösung ist, das Display zu dimmen.
+Allerdings hat der Elgato Camera Hub, mit dem man solche Einstellungen vornehmen kann, das Display nicht erkannt.
+Die unerwartete Lösung war, dass der Camera Hub das Display nur erkennt, wenn es nicht gespiegelt genutzt wird.
+Also erstmal die Displays wieder getrennt, dann das Display gedimmt, dann wieder das Hauptdisplay gespiegelt.
+
 toc::[]
