@@ -85,7 +85,20 @@
     }
   ],
   "talks": [
-    {
+{
+  "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
+  "event": "BaselOne",
+  "location": "Basel",
+  "date": "2025-10-15",
+  "url": "https://baselone.org",
+  "speaker": [
+    "ralfdmueller"
+  ],
+  "image": "",
+  "cfp": "",
+  "talkid": 26
+},
+{
       "title": "Prompt-Engineering für Entwickler",
       "event": "IT-Tage - Developer Tag",
       "location": "Online",
