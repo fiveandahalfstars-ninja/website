@@ -1,0 +1,16 @@
+:jbake-title: Domain Specific Benchmarks für LLMs
+:jbake-type: page
+:jbake-status: published
+
+:diagram-server-url: https://kroki.io
+:diagram-server-type: kroki_io
+
+== 🇩🇪 arc42: Was, Wie, Woher, Wohin?
+
+Das richtigen Large Language Model für Deine Anwendung finden
+
+In der heutigen Softwareentwicklung und -architektur spielen Large Language Models (LLMs) eine immer wichtigere Rolle. Die Auswahl des geeigneten Modells für spezifische Anwendungsfälle stellt jedoch eine erhebliche Herausforderung dar. Traditionelle, generische Benchmarks bieten oft nur eine oberflächliche Vergleichsbasis, die nicht immer die spezifischen Bedürfnisse einzelner Projekte widerspiegelt. In unserem Vortrag präsentieren wir einen innovativen Ansatz: Die Entwicklung von domänenspezifischen Benchmarks, die von Experten erstellt werden und genau auf die Bedürfnisse und Feinheiten des jeweiligen Einsatzgebietes abgestimmt sind.
+
+Wir diskutieren, wie solche maßgeschneiderten Benchmarks nicht nur eine genauere Bewertung der Modelltauglichkeit ermöglichen, sondern auch dazu beitragen, kosteneffiziente und leistungsorientierte Entscheidungen zu treffen. Anstatt sich auf das teuerste und umfangreichste Modell zu verlassen, ermöglicht unser Ansatz den Vergleich von Modellen basierend auf ihrer tatsächlichen Performance in spezifischen Szenarien.
+
+Der Vortrag wird nicht nur unseren Ansatz und das dazugehörige Benchmark-Tool vorstellen, sondern auch aufzeigen, wie durch gezielte System-Prompts die Modelleinstellungen für spezifische Anwendungsfälle optimiert werden können. Abschließend erläutern wir, wie die kontrollierte Aktualisierung von Modellen im operativen Betrieb Risiken minimiert und die Systemstabilität erhöht. Sei dabei und erfahre, wie Du die Potenziale von LLMs effektiv für Deine Projekte nutzen und die Auswahl des optimalen Modells systematisch angehen kannst.

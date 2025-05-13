@@ -81,10 +81,41 @@
       },
       "27": {
         "link": "/talks/details/arc42-20years.html"
+      },
+      "28": {
+        "link": "/talks/details/Domain-Specific-Benchmarks.html"
       }
     }
   ],
   "talks": [
+
+    {
+      "title": "Domain Specific Benchmarks für LLMs",
+      "event": "IT-Tage",
+      "location": "Frankfurt",
+      "date": "2025-12-08",
+      "url": "https://www.ittage.informatik-aktuell.de/programm/2025/",
+      "speaker": [
+        "ralfdmueller",
+        "Ingo Eichhorst"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 28
+    },
+    {
+      "title": "Zukunft der Softwarearchitektur mit GenAI und LLMs",
+      "event": "IT-Tage",
+      "location": "Frankfurt",
+      "date": "2025-12-08",
+      "url": "https://www.ittage.informatik-aktuell.de/programm/2025/zukunft-der-softwarearchitektur-mit-genai-und-llms.html",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 26
+    },
 {
   "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
   "event": "BaselOne",
@@ -98,7 +129,7 @@
   "cfp": "",
   "talkid": 26
 },
-{
+  {
       "title": "Prompt-Engineering für Entwickler",
       "event": "IT-Tage - Developer Tag",
       "location": "Online",
