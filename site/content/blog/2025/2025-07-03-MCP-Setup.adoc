@@ -1,0 +1,136 @@
+:jbake-date: 2025-07-03
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: mcp, llm, genai
+:doctype: article
+:toc: macro
+
+= My MCP Setup
+
+ifndef::imagesdir[:imagesdir: ../images]
+
+Oft werde ich gefragt, was für Tools ich bei der Arbeit mit LLMs verwende.
+Hier ist meine Liste.
+
+Als Chat nutze ich gerne Claude Desktop oder Claude Code.
+Auch der Amazon Q Developer CLI ist spannend und Gemini CLI ist installiert, aber nicht getestet.
+
+IDE basierte Systeme empfinde ich nicht so spannend.
+Eine Zusammenarbeit über das File-System reicht mir aus.
+Dabei greift der Chat über ein in einen Container gemountetes Working-Directory direkt auf das Projekt zu, das ich in einer IDE offen habe.
+
+Dennoch habe ich auch Cursor als spannendes Experiment installiert.
+
+== MCP Servers
+
+=== Filesystem & Bash
+
+Für Experimente ist ein Filesystem-MCP und ein Bash-MCP äussert nützlich.
+Ich habe mir beide von Claude erstellen lassen.
+Sie laufen in einem Container mit gemountetem Working-Directory.
+
+In der Bash sind wichtige Tools wie Git mit Account und gh installiert.
+
+Mein Filesystem-MCP hat eine Besonderheit.
+Wenn das LLM einen Folder oder ein File anlegt, muss es angeben, wofür dieser Folder oder das File dient.
+Schaut es sich in einer anderen Session die Files wieder an, bekommt es diese Meta-Daten auch wieder angezeigt.
+
+=== Codeinterpreter
+
+Durch den Einsatz der Bash fällt der Codeinterpreter weg.
+Das LLM kann alles direkt über die Bash erledigen.
+
+=== Kroki
+
+Experimentell nutze ich ein Kroki-MCP, welches Diagramme generieren kann.
+Ziel ist es, die Diagramme zuverlässig und in hoher Qualität zu erzeugen.
+
+=== gitmcp.io
+
+Um den Knowledgegap der Modell zu überbrücken nutze ich gitmcp.io .
+Um dem LLM die Dokumentation eines GitHub Projekts zur Verfügung zu stellen, muss man einfach nur in der URL github.com gegen gitmcp.io ausgetauscht werden.
+Das Ergebnis ist eine URL für einen entsprechenden Remote-MCP-Server.
+
+=== Sequential-Thinking
+
+Die Todo-Liste für das LLM.
+Claude nutzt diesen MCP-Server gerne, um seine Gedanken zu strukturieren.
+
+[source, json]
+----
+      "Sequential-Thinking": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-sequential-thinking"
+        ]
+      }
+----
+
+=== GitHub
+
+GitHub hat schon früh einen eigenen offiziellen MCP Server veröffentlicht.
+Damit kann das LLM quasi alle Operationen durchführen.
+Issues lesen und verändern, Forken, Files ändern, PR erstellen.
+
+Leider nutzt Claude momentan of dieses Tool, um Files zu editieren, ohne sie lokal zu testen.
+
+Der Umgang mit dem Git-Flow fällt Code auch nicht ganz leicht, weshalb ich ihm weitere Infos mitgebe:
+
+[source, asciidoc]
+----
+### Git-Workflow:
+
+✅ Richtig: main → branch → commit → push → PR
+✅ starte einen neuen Branch für einen Bugfix immer als Feature-Branch vom Main-Branch
+❌ Falsch: Parallele Branches ohne Synchronisation
+✅ entscheide, ob ich claude als co-authored-by nenne
+
+Achte immer auf folgendes, wenn Du mit Forks arbeitest
+* Fork-Status prüfen
+* Bei Bedarf synchronisieren
+* Dann Branch + PR erstellen
+
+Wenn Du mit source code arbeitest, sind wir immer unter versionskontrolle. Du brauchst keine Backup-Files anzulegen, sondern solltest mit commits arbeiten.
+----
+
+Da ich nicht möchte, dass Claude unter meinem Account arbeitet und somit Zugriff auf alles hat, habe ich einen neuen Account angelegt.
+Das war eine gute Entscheidung.
+So kann ich jederzeit sehen, was generiert worden ist.
+Claude hat keinen direkten Zugriff auf meine Projekte und muss deshalb immer erst Forken und dann einen PR erstellen, den ich natürlich erst einem Review unterziehe.
+
+[source, json]
+----
+      "github": {
+        "command": "docker",
+        "args": [
+          "run",
+          "-i",
+          "--rm",
+          "-e",
+          "GITHUB_PERSONAL_ACCESS_TOKEN",
+          "ghcr.io/github/github-mcp-server"
+        ],
+        "env": {
+          "comment": "Raif Mueller Account",
+          "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_xxx"
+        }
+      }
+----
+
+=== Responsible Vibe
+
+Oliver Jägle hat sich Gedanken gemacht, wie man das LLM dazu bringen kann, einen ordentlichen Entwicklungsprozess einzuhalten.
+Herausgekommen ist sein https://www.npmjs.com/package/responsible-vibe-mcp[Responsible Vibe MCP].
+
+[source, json]
+----
+"responsible-vibe-mcp": {
+  "command": "npx",
+  "args": ["responsible-vibe-mcp"]
+}
+----
+
+toc::[]
