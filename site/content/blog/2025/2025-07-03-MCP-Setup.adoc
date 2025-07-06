@@ -120,6 +120,15 @@ Claude hat keinen direkten Zugriff auf meine Projekte und muss deshalb immer ers
       }
 ----
 
+=== playwright: Augen für das LLM
+
+Beim Arbeiten mit den LLMs ist es wichtig immer einen Feedback-Loop aufzubauen, damit das LLM eigenständig arbeiten kann.
+Ein einfacher Weg für ein visuelles Feedback ist ein Browser.
+
+https://github.com/microsoft/playwright-mcp[playwright-mcp] von Microsoft ermöglicht es dem LLM nicht nur einen Browser fernzusteuern, sondern auch Screenshots zu "sehen".
+
+Damit kann das LLM automatische visuelle Tests einer Website durchführen und auch generierte Bilder über die Darstellung im Browser verifizieren.
+
 === Responsible Vibe
 
 Oliver Jägle hat sich Gedanken gemacht, wie man das LLM dazu bringen kann, einen ordentlichen Entwicklungsprozess einzuhalten.
