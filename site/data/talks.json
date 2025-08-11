@@ -116,6 +116,19 @@
       "cfp": "",
       "talkid": 26
     },
+    {
+      "title": "The Future of Software Architecture: How GenAI and LLMs Are Shaping the Code of Tomorrow",
+      "event": "iSAQB Software Architecture Gathering 2025",
+      "location": "Berlin",
+      "date": "2025-11-25",
+      "url": "https://conferences.isaqb.org/software-architecture-gathering/session/the-future-of-software-architecture-how-genai-and-llms-are-shaping-the-code-of-tomorrow/",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 26
+    },
 {
   "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
   "event": "BaselOne",
