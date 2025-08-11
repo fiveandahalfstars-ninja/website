@@ -129,6 +129,19 @@
   "cfp": "",
   "talkid": 26
 },
+    {
+      "title": "Context-Engineering für Entwickler",
+      "event": "S&N Invent",
+      "location": "Online",
+      "date": "2025-09-05",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 21
+    },
   {
       "title": "Prompt-Engineering für Entwickler",
       "event": "IT-Tage - Developer Tag",
