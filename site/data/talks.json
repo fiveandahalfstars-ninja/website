@@ -143,6 +143,20 @@
   "talkid": 26
 },
     {
+      "title": "arc42: Was, Wie, Woher, Wohin?",
+      "event": "iSAQB Meetup",
+      "location": "Frankfurt",
+      "date": "2025-10-01",
+      "url": "https://www.meetup.com/de-DE/isaqb-software-architektur-meetup-gruppe-fur-interessierte/",
+      "speaker": [
+        "ralfdmueller",
+        "Gernot Starke"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 27
+    },
+    {
       "title": "Context-Engineering für Entwickler",
       "event": "S&N Invent",
       "location": "Online",
