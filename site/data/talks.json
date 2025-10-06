@@ -133,7 +133,7 @@
   "title": "Die Zukunft der Software-Architektur: Wie GenAI und LLMs den Code von Morgen gestalten",
   "event": "BaselOne",
   "location": "Basel",
-  "date": "2025-10-15",
+  "date": "2025-10-16",
   "url": "https://baselone.org",
   "speaker": [
     "ralfdmueller"
@@ -155,6 +155,32 @@
       "image": "",
       "cfp": "",
       "talkid": 27
+    },
+    {
+      "title": "Context-Engineering für Entwickler",
+      "event": "",
+      "location": "",
+      "date": "2025-10-22",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 21
+    },
+    {
+      "title": "Context-Engineering für Entwickler",
+      "event": "",
+      "location": "",
+      "date": "2025-11-12",
+      "url": "",
+      "speaker": [
+        "ralfdmueller"
+      ],
+      "image": "",
+      "cfp": "",
+      "talkid": 21
     },
     {
       "title": "Context-Engineering für Entwickler",
