@@ -1,0 +1,116 @@
+:jbake-date: 2025-12-05
+:jbake-author: rdmueller
+:jbake-type: post
+:jbake-toc: true
+:jbake-status: published
+:jbake-tags: mcp, llm, genai, iSAQB
+:doctype: article
+:toc: macro
+
+= Peter Naur, Stochastic Parrots, and the Future of Software Architecture: My Thoughts from Software Architecture Gathering 2024
+Ralf D. Müller
+:toc:
+:toc-title: Contents
+:icons: font
+:sectanchors:
+
+Last week, I had the honor of speaking before an international audience at the iSAQB's Software Architecture Gathering in Berlin. The conference offered not only technical depth but also philosophical perspectives on the future of our discipline in the age of GenAI.
+
+== A Conference Between Tradition and Transformation
+
+Peter Hruschka opened the conference with his keynote – without any mention of GenAI. A deliberate contrast to what would follow. Stefan Toth laid the foundation with his talk for my own presentation about the future of software architecture and development with GenAI.
+
+== The Forgotten Foundation: Peter Naur's Mental Model
+
+When I asked who was familiar with the name Peter Naur, only about 3 hands went up in the room. One of them was Avraham Poupko – more on that in a moment. This was a surprising moment because Naur's concept of the "mental model" from his essay "Programming as Theory Building" (1985) is more fundamental than ever.
+
+Naur argued that a program is not its source code, but rather a shared mental construct that lives in the minds of the people who work on it. The code is merely a lossy representation of this theory. *In an era where LLMs can generate code, this distinction becomes critical: Who builds and maintains the mental model when AI writes the code?*
+
+=== Semantic Anchors: The Bridge Between Humans and Machines
+
+My second passion topic is semantic anchors for prompt optimization. When we work with LLMs, we need precise ways to communicate our mental model. Semantic anchors create this connection – they are the interface between human understanding and machine generation.
+
+== #TODO: Replace Human Coding With AI?
+
+Avraham Poupko later delivered a fascinating deepening of the topic. In his talk "#TODO: Replace Human Coding With AI," he presented his insights in an unprecedented chain of reasoning. His conclusions picked up on Naur's concepts and carried them forward into the era of AI-assisted development.
+
+The central question: If LLMs can write code, what makes humans essential in the development process? The answer lies precisely in Naur's theory: building, understanding, and maintaining the mental model – something that LLMs fundamentally cannot accomplish.
+
+== The Stochastic Parrot: Understanding Limitations
+
+Vaughn Vernon brought us back down to earth with his talk about the "stochastic parrot." He emphasized the mathematics behind the models and explained from the LLMs' functioning what they do well and what they do poorly.
+
+*The term "stochastic parrot"* comes from the critique that LLMs probabilistically link words without truly understanding their meaning. For us architects, this means:
+
+* ✅ LLMs are excellent at pattern recognition and code generation
+* ❌ LLMs don't understand the "why" behind architectural decisions
+* ✅ They can create and search documentation
+* ❌ They cannot build genuine theory in Naur's sense
+
+Vaughn's mathematically grounded perspective helped us understand the limitations and develop realistic expectations.
+
+== The Fish Bowl: Human Intelligence vs. Artificial Intelligence
+
+In the evening, the discussion deepened in the Fish Bowl "Software Architecture – Is It About Human Intelligence or Artificial Intelligence?" with Vaughn Vernon, Cheryl Hung, Avraham Poupko, Eberhard Wolff, and participants from the audience.
+
+The debate crystallized: *It's not "or" but "and" – but with clear role distribution.* Human intelligence is irreplaceable in building the mental model, making architectural decisions under uncertainty, and understanding business contexts. AI becomes a powerful tool, an accelerator, but not a replacement.
+
+== arc42 in Education: A Conversation with Claudine Allen
+
+A particular highlight was the talk by Claudine Allen from Jamaica. She reported how she teaches her students to use AI as a research and brainstorming tool for architecture work. She casually mentioned using arc42 in her work with students.
+
+I was able to deepen this topic in the subsequent interview with her, which you can follow up on at https://software-architektur.tv/[software-architektur.tv]. Claudine's approach impressively shows how the next generation of architects learns to use AI as a collaborative design partner – without forgetting the fundamental principles of good architecture work.
+
+*Her students learn:*
+
+. To use LLMs for research and exploration
+. To critically question the results
+. To build the mental model themselves
+. To document in a structured way with arc42
+
+== My Core Theses
+
+After this intensive conference, the following theses crystallize for me:
+
+=== 1. The Mental Model Remains Central
+
+Naur's concept is more important than ever. While LLMs generate code, we humans must build and maintain the mental model. This is the non-delegable core competency of the software architect.
+
+=== 2. Semantic Anchors as Key Technology
+
+The way we communicate with LLMs determines the quality of the results. Semantic anchors – precise, context-rich prompts – are the bridge between our mental model and AI support.
+
+=== 3. Understand, Don't Just Generate
+
+The stochastic parrot can reproduce impressive patterns, but it doesn't understand. We need to know the limitations and work accordingly. LLMs are tools, not thinking partners.
+
+=== 4. Education Must Adapt
+
+Claudine's work shows the way: we must teach the next generation to use AI effectively without losing the ability to think independently.
+
+== The Future of Software Architecture
+
+We stand at a fascinating turning point. GenAI and LLMs will fundamentally change the way we develop software. But they don't make the role of the architect obsolete – on the contrary.
+
+*The architect of the future:*
+
+* Uses LLMs as powerful tools
+* Builds and maintains the mental model of the system
+* Makes decisions based on context not accessible to AI
+* Understands the limitations of the technology
+* Communicates effectively with both machines and humans
+
+The Software Architecture Gathering 2024 showed: We need both the philosophical depth of a Peter Naur and the practical understanding of AI limitations. The synthesis of these perspectives will shape the software architecture of the future.
+
+'''
+
+*Further Resources:*
+
+* Peter Naur: "Programming as Theory Building" (1985)
+* My interview with Claudine Allen at https://software-architektur.tv/[software-architektur.tv]
+* arc42 Template: https://arc42.org/[arc42.org]
+
+What do you think? How do you integrate LLMs into your architecture work without losing sight of the mental model?
+
+[.text-center]
+#SoftwareArchitecture #GenAI #LLM #arc42 #iSAQB #SAG2024 #PeterNaur #AI #MachineLearning #SoftwareDevelopment
