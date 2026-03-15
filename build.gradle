@@ -13,7 +13,7 @@ jbake {
     configuration['asciidoctor.option.requires'] = 'asciidoctor-diagram'
     configuration['asciidoctor.attributes'] = [
             'source-highlighter=prettify',
-            'imagesDir=/images',
+            'imagesdir=images',
             "imagesoutDir=${buildDir}/jbake/images"
     ]
 }
