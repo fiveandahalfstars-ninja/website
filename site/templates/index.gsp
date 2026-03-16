@@ -35,7 +35,7 @@
 								  out << '</div>'
 						  %>
 						  <div class="hidden-xs hidden-sm col-md-2" style="padding: 15px 15px 0 15px">
-							  <img src="/images/profiles/${post.author}.jpg" alt="${post.author}">
+							  <img src="images/profiles/${post.author}.jpg" alt="${post.author}">
 						  </div>
 					  </div>
 				  </div>

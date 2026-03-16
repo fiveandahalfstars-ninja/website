@@ -45,7 +45,7 @@ Here is a snippet from our `postpreview.gsp` template:
 
 [source,html]
 ----
-<img src="/images/profiles/${post.author}.jpg" alt="${post.author}">
+<img src="images/profiles/${post.author}.jpg" alt="${post.author}">
 ----
 
 == jBake Data-Model
