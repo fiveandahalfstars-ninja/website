@@ -12,7 +12,7 @@
 :toc: macro
 :icons: font
 
-ifndef::imagesdir[:imagesdir: ../images]
+ifndef::imagesdir[:imagesdir: ../../images]
 
 :uri-cover-art: https://www.pexels.com/de-de/foto/armaturenbrett-des-auf-dem-flugplatz-geparkten-flugzeugs-5262805
 :uri-kurt-kemple-guide-to-metrics-and-reporting: https://theworst.dev/developer-advocates-guide-to-metrics-and-reporting
