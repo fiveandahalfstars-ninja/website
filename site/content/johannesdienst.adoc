@@ -20,7 +20,7 @@ ifndef::imagesdir[:imagesdir: ./images/]
 [.text-center]
 [.col-md-2]
 --
-image::profiles/jdienst.jpg[]
+<img alt="jdienst" src="images/profiles/jdienst.jpg">
 
 ++++
         <a href="mailto:info@johannesdienst.net"><i class="svg-icon email"></i></a>

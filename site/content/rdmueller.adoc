@@ -20,7 +20,7 @@ ifndef::imagesdir[:imagesdir: ./images/]
 [.text-center]
 [.col-md-2]
 --
-image::profiles/rdmueller.jpg[]
+<img alt="rdmueller" src="images/profiles/rdmueller.jpg">
 
 ++++
         <a href="mailto:ralf.d.mueller@gmail.com"><i class="svg-icon email"></i></a>
